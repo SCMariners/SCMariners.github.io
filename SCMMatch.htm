@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+
+    <script type="text/javascript" src="scmsponsors.js"></script>
+    <script type="text/javascript" src="SCMMatch.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="SCMStylenew.css">
+    <style>
+        *
+        {
+            box-sizing: border-box;
+        }
+        
+        *, *:before, *:after
+        {
+            box-sizing: inherit;
+        }
+        
+        body
+        {
+            font-family: Arial;
+            background: #FFFFFF;
+        }
+    </style>
+
+</head>
+<body>
+
+
+    
+   
+    <div class="scm-page-row-container">
+        <div class="scm-page-col-twoquarter-container">
+            
+            <div class="scm-news-container">
+                <div class="scm-news-txt-container">
+                    <p id="MatchDiv" class="scm-bloc-txt-container" align="center" style="font-size: large">
+                        DIVISION
+                    </p>
+                </div>
+                <h5 style="text-align:center" id="MatchDate">
+                    DATE</h5>
+                    <h5 style="text-align:center" id="MatchSalle" >
+                    SALLE</h5>
+                <div class="scm-news-img-txt-container">
+                    <div align="center"  >
+                        <table >
+                        <tr>
+                        <td id="MatchEqHome" style="width:40%" align="center">HOME</td>
+                        <td style="width:20%"></td>
+                        <td id="MatchEqAway" style="width:40%" align="center">AWAY</td>
+                        </tr>
+                        <tr>
+                        <td style="width:40%" align="left">
+                        <img id="MatchEqHomeLogo" class="scm-news-img-responsive" src="smiley.gif"></td>
+                        <td style="width:20%" align="center"><h3 id="MatchScore" >NULL</h3></td>
+                        <td style="width:40%" align="right">
+                        <img id="MatchEqAwayLogo" class="scm-news-img-responsive" src="smiley.gif"></td>
+                        </tr></table>
+                        
+                         <script> 
+							 var x = location.search;
+							 //alert(x.replace("?id=",""));
+                             setMatchData(x.replace("?id=",""));
+                        </script>
+                        
+
+                    </div>
+
+
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+ 
+    
+
+</body>
+</html>

@@ -1,0 +1,681 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8"> 
+
+<title>Occupations Willegems</title>
+
+<link href="SCMStyle.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="prototype.js"></script>
+<script type="text/javascript" src="effects.js"></script>
+
+<script type="text/javascript" src="scmwill.js"></script>
+<script type="text/javascript" src="locwill.js"></script>
+
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>  
+
+
+<script type="text/javascript">
+
+    var calTeams = [];
+    var calWillegems = [];
+    var CalendFiltered = true;
+
+    $(document).ready(
+
+  function () {
+
+      var temp = "";
+      var semNbr = 1;
+      var newline = true;
+      var lastday;
+      var curdate;
+      var matchdayint = 0;
+      var matchmonthint = 0;
+      var lastpart = 0;
+      var firstpart = 0;
+      var Mdate = 0;
+      var matcheq1 = "";
+      var matcheq2 = "";
+      var matchdata = "";
+      var matchday = "";
+      var matchmonth = "";
+      var typematch = "";
+      var startdate;
+      var matchyear = "";
+      var startlocdateday = 0;
+      var startlocdatemonth = 0;
+      var startlocdateyear = 0;
+      var treatloc = 1;
+      var testweek = 0;
+      var CurWeek = 0;
+
+      setWillCalendar(calWillLU, 2100);
+      setWillCalendar(calWillLU, 2200);
+      setWillCalendar(calWillME, 2000); 
+	  setWillCalendar(calWillME, 2200);
+      setWillCalendar(calWillVE, 2100);
+      setWillCalendar(calWillSA, 1900);
+      setWillCalendar(calWillSA, 2000);
+      setWillCalendar(calWillSA, 2100);
+      setWillCalendar(calWillSA, 2200);
+
+      calWillegems.sort(function (a, b) { return a - b });
+
+      temp = "<table width='80%'><tr><td class='subnewsheader'>Occupations salle Willegems</td></tr></table>";
+      temp = temp + "<br><table width='80%'  class='tbbordered'>";
+      temp = temp + "<tr><td align='center' width='5%' valign='top'>Semaine<br><div id='semview' onclick='ShowCalendar(this)'>Voir tout</div></td>";
+      temp = temp + "<td align='center' width='12,5%' valign='top'>Lundi<br>21H00</td>";
+      temp = temp + "<td align='center' width='12,5%' valign='top'>Lundi<br>22H00</td>";
+      temp = temp + "<td align='center' width='12,5%' valign='top'>Mercredi<br>20H00</td>";
+	  temp = temp + "<td align='center' width='12,5%' valign='top'>Mercredi<br>22H00</td>";
+      temp = temp + "<td align='center' width='12,5%' valign='top'>Vendredi<br>21H00</td>";
+      temp = temp + "<td align='center' width='12,5%' valign='top'>Samedi<br>19H00</td>";
+      temp = temp + "<td align='center' width='12,5%' valign='top'>Samedi<br>20H00</td>";
+      temp = temp + "<td align='center' width='12,5%' valign='top'>Samedi<br>21H00</td>";
+      temp = temp + "<td align='center' width='12,5%' valign='top'>Samedi<br>22H00</td></tr>";
+
+      curdate = new Date();
+
+      startdate = StartLocDate.toString();
+      startlocdateday = parseInt(startdate.toString().substr(0, 2));
+      startlocdatemonth = parseInt(startdate.toString().substr(3, 2));
+      startlocdateyear = parseInt(startdate.toString().substr(6, 4));
+
+
+
+
+
+      for (i = 0; i < calWillegems.length; i++) {
+
+          Mdate = calWillegems[i].toString();
+          matchday = calWillegems[i].toString().substr(6, 2);
+          matchmonth = calWillegems[i].toString().substr(4, 2);
+          matchyear = calWillegems[i].toString().substr(0, 4);
+          matchhour = calWillegems[i].toString().substr(8, 2);
+          matchmin = calWillegems[i].toString().substr(10, 2);
+
+          if (matchday == "08") {
+              matchdayint = 8;
+          } else {
+              if (matchday == "09") {
+                  matchdayint = 9;
+              } else {
+                  matchdayint = parseInt(matchday);
+              }
+          }
+
+          if (matchmonth == "08") {
+              matchmonthint = 8;
+          } else {
+              if (matchmonth == "09") {
+                  matchmonthint = 9;
+              } else {
+                  matchmonthint = parseInt(matchmonth);
+              }
+          }
+
+          var d = new Date(parseInt(matchyear), matchmonthint - 1, matchdayint, parseInt(matchhour), parseInt(matchmin), 0, 0);
+
+          testweek = GetWeekNo(d);
+
+          if (testweek != CurWeek) {
+              newline = true;
+              CurWeek = testweek;
+          }
+
+          if (newline) {
+
+              lastday = new Date(parseInt(matchyear), matchmonthint - 1, matchdayint, parseInt(matchhour), parseInt(matchmin), 0, 0);
+
+              var lastdaynbr = lastday.getDay();
+              var testnewdate = 7 - lastdaynbr;
+
+              //lastday.setDate(lastday.getDate() + 6);
+              lastday.setDate(lastday.getDate() + (testnewdate));
+
+              if (d.getDay() != 1) {
+                  testnewdate = new Date(parseInt(matchyear), matchmonthint - 1, matchdayint, parseInt(matchhour), parseInt(matchmin), 0, 0);
+                  lastdaynbr = testnewdate.getDay() - 1;
+                  testnewdate.setDate(testnewdate.getDate() - lastdaynbr);
+              } else {
+                  testnewdate = d;
+              }
+
+              temp = temp + "<tr";
+              if (d < curdate) {
+                  if (curdate > lastday) {
+                      temp = temp + " class='condvis' >";
+                  } else {
+                      temp = temp + ">";
+                  }
+              } else {
+                  temp = temp + ">";
+              }
+
+              temp = temp + "<td align='center' valign='top'>" + pad(testnewdate.getDate()) + "/" + pad(testnewdate.getMonth() + 1) + "<br>- " + pad(lastday.getDate()) + "/" + pad(lastday.getMonth() + 1) + "</td>";
+              newline = false;
+
+              //temp = temp + "<td align='center' valign='top'>" + pad(testdate.getDate()) + "/" + pad(testdate.getMonth() + 1) + "<br>- " + pad(lastday.getDate()) + "/" + pad(lastday.getMonth() + 1) + "</td>";
+              newline = false;
+
+          }
+
+          switch (d.getDay()) {
+              case 1:
+                  // "Lundi 2100 - 2200";
+                  temp = temp + "<td id='" + calWillegems[i] + "'  align='center' valign='top' class='will'>" + matchday + "/" + matchmonth + "<br>Libre</td>";
+                  treatloc = treatloc + 1;
+                  break;
+
+              case 3:
+
+                  // "Mercredi 2000";
+
+                  if (treatloc == 3) {
+                      temp = temp + "<td id='" + calWillegems[i] + "'  align='center' valign='top' class='will'>" + matchday + "/" + matchmonth + "<br>Libre</td>";
+
+                  } else {
+                      for (iloc = treatloc; iloc < 3; iloc++) {
+
+                          temp = temp + "<td></td>";
+                          treatloc = treatloc + 1;
+                      }
+                      temp = temp + "<td id='" + calWillegems[i] + "'  align='center' valign='top' class='will'>" + matchday + "/" + matchmonth + "<br>Libre</td>";
+
+                  }
+                  treatloc = treatloc + 1;
+
+                  break;
+
+              case 5:
+
+                  // "Vendredi 2100";
+
+                  if (treatloc == 4) {
+                      temp = temp + "<td id='" + calWillegems[i] + "'  align='center' valign='top' class='will'>" + matchday + "/" + matchmonth + "<br>Libre</td>";
+
+                  } else {
+                      for (iloc = treatloc; iloc < 4; iloc++) {
+
+                          temp = temp + "<td></td>";
+                          treatloc = treatloc + 1;
+                      }
+                      temp = temp + "<td id='" + calWillegems[i] + "'  align='center' valign='top' class='will'>" + matchday + "/" + matchmonth + "<br>Libre</td>";
+
+                  }
+                  treatloc = treatloc + 1;
+
+                  break;
+              case 6:
+                  // "Samedi 1900 - 2000 - 2100 - 2200";
+                  if (treatloc > 6) {
+                      temp = temp + "<td id='" + calWillegems[i] + "'  align='center' valign='top' class='will'>" + matchday + "/" + matchmonth + "<br>Libre</td>";
+
+                  } else {
+
+                      for (iloc = treatloc; iloc < 5; iloc++) {
+
+                          temp = temp + "<td></td>";
+                          treatloc = treatloc + 1;
+
+                      }
+                      temp = temp + "<td id='" + calWillegems[i] + "'  align='center' valign='top' class='will'>" + matchday + "/" + matchmonth + "<br>Libre</td>";
+
+                  }
+                  treatloc = treatloc + 1;
+                  break;
+
+          }
+
+          //temp = temp + "<td id='" + calWillegems[i] + "'  align='center' valign='top' class='will'>" + matchday + "/" + matchmonth + "<br>Libre</td>";
+
+
+          try {
+
+
+              Mdate = calWillegems[i + 1].toString();
+              matchday = calWillegems[i + 1].toString().substr(6, 2);
+              matchmonth = calWillegems[i + 1].toString().substr(4, 2);
+              matchyear = calWillegems[i + 1].toString().substr(0, 4);
+              matchhour = calWillegems[i + 1].toString().substr(8, 2);
+              matchmin = calWillegems[i + 1].toString().substr(10, 2);
+
+              if (matchday == "08") {
+                  matchdayint = 8;
+              } else {
+                  if (matchday == "09") {
+                      matchdayint = 9;
+                  } else {
+                      matchdayint = parseInt(matchday);
+                  }
+              }
+
+              if (matchmonth == "08") {
+                  matchmonthint = 8;
+              } else {
+                  if (matchmonth == "09") {
+                      matchmonthint = 9;
+                  } else {
+                      matchmonthint = parseInt(matchmonth);
+                  }
+              }
+
+              var newd = new Date(parseInt(matchyear), matchmonthint - 1, matchdayint, parseInt(matchhour), parseInt(matchmin), 0, 0);
+              testweek = GetWeekNo(newd);
+
+              if (testweek != CurWeek) {
+                  newline = true;
+                  CurWeek = testweek;
+                  for (iloc = treatloc; iloc < 9; iloc++) {
+
+                      temp = temp + "<td></td>";
+
+                  }
+
+                  temp = temp + "</tr>";
+                  semNbr = semNbr + 1;
+                  newline = true;
+                  treatloc = 1;
+              }
+
+
+
+
+          }
+          catch (err) {
+
+              for (iloc = treatloc; iloc < 9; iloc++) {
+
+                  temp = temp + "<td></td>";
+
+              }
+
+              temp = temp + "</tr>";
+              semNbr = semNbr + 1;
+              newline = true;
+              treatloc = 1;
+
+
+          }
+
+
+
+
+      }
+
+
+      temp = temp + "</table>";
+      $('<div class="items"></div>').html(temp).appendTo('#Div_Tab');
+
+      $('.will').each(function () {
+
+          $(this).css('color', 'green');
+
+      });
+
+      $('#semview').css('color', 'blue');
+
+	        for (i = 0; i < CentreFerme.length; i++) {
+
+          Mdate = CentreFerme[i];
+          matchday = Mdate.toString().substr(6, 2);
+          matchmonth = Mdate.toString().substr(4, 2);
+
+          typematch = "Fermé ";
+          $('#' + Mdate).text("");
+          $('#' + Mdate).css('color', 'red');
+
+          $('<div class="items"></div>').html(matchday + '/' + matchmonth + '<br>' + typematch).appendTo('#' + Mdate);
+
+      }
+	  
+      for (i = 0; i < calreservation.length; i++) {
+
+          Mdate = calreservation[i];
+          matchday = Mdate.toString().substr(6, 2);
+          matchmonth = Mdate.toString().substr(4, 2);
+
+          typematch = "Réservé ";
+          $('#' + Mdate).text("");
+          $('#' + Mdate).css('color', 'orange');
+
+          $('<div class="items"></div>').html(matchday + '/' + matchmonth + '<br>' + typematch).appendTo('#' + Mdate);
+
+      }
+
+      for (i = 1; i < calendSCM.length; i++) {
+
+          Mdate = calendSCM[i];
+          matchday = Mdate.toString().substr(6, 2);
+          matchmonth = Mdate.toString().substr(4, 2);
+
+          if (typeof champLFFS[Mdate] === 'undefined') {
+              if (typeof coupeLFFS[Mdate] === 'undefined') {
+                  matchdata = "";
+              }
+              else {
+                  matchdata = coupeLFFS[Mdate];
+                  typematch = "Coupe ";
+                  lastpart = matchdata.lastIndexOf(" - ");
+
+                  matcheq1 = matchdata.substr(0, lastpart);
+                  matcheq2 = matchdata.substr(lastpart + 3, 15);
+              }
+          }
+          else {
+              matchdata = champLFFS[Mdate];
+              typematch = "Champ ";
+              lastpart = matchdata.lastIndexOf(" - ");
+
+              matcheq1 = matchdata.substr(0, lastpart);
+              matcheq2 = matchdata.substr(lastpart + 3, 15);
+          }
+
+          if (matchdata != "") {
+              $('#' + Mdate).text("");
+
+              if (typematch == "Coupe ") {
+                  $('#' + Mdate).css('color', 'red');
+
+              } else {
+                  $('#' + Mdate).css('color', 'blue');
+
+              }
+
+
+
+              $('<div class="items"></div>').html(matchday + '/' + matchmonth + '<br>' + typematch + GetTeam(matcheq1, matcheq2)).appendTo('#' + Mdate);
+          }
+
+      }
+
+
+
+
+      $('.will').each(function () {
+
+          var tmpMail = "";
+          matchdata = $(this).text();
+          tmpMail = $(this).attr('id');
+          lastpart = matchdata.lastIndexOf("Libre");
+          if (lastpart != -1) {
+
+              $('<div class="items"></div>').html('<a href="' + SetDemande(tmpMail) + '">Demande</a>').appendTo($(this));
+
+          }
+
+      });
+
+      $('.condvis').each(function () {
+
+          $(this).hide();
+
+      });
+
+
+  }
+ );
+
+
+ $(window).load(function () {
+
+
+ });
+
+ function SetDemande(locid) {
+
+     var tmpMsg = "";
+     var lastpart = 0;
+
+     var res = "";
+
+     var matchday = "";
+     var matchmonth = "";
+     var matchHour = "";
+     var matchMin = "";
+
+     tmpMsg = "mailto:";
+
+     res = scmMain.replace("##1##", "@");
+     res = res.replace(/##.##/g, "."); 
+
+     tmpMsg = tmpMsg + res;
+     tmpMsg = tmpMsg + "?subject=Demande de réservation pour le ";
+
+     matchday = locid.toString().substr(6, 2);
+     matchmonth = locid.toString().substr(4, 2);
+     matchHour = locid.toString().substr(8, 2);
+     matchMin = locid.toString().substr(10, 2);
+
+     tmpMsg = tmpMsg + matchday + "/" + matchmonth + " à " + matchHour + "H" + matchMin ;
+
+     res = scmCopy1.replace("##1##", "@");
+     res = res.replace(/##.##/g, "."); 
+     tmpMsg = tmpMsg + "&cc=" + res;
+     res = scmCopy2.replace("##1##", "@");
+     res = res.replace(/##.##/g, ".");
+     tmpMsg = tmpMsg + ";" + res;
+     res = scmCopy3.replace("##1##", "@");
+     res = res.replace(/##.##/g, ".");
+     tmpMsg = tmpMsg + ";" + res;
+     res = scmCopy4.replace("##1##", "@");
+     res = res.replace(/##.##/g, ".");
+     tmpMsg = tmpMsg + ";" + res;
+     res = scmCopy5.replace("##1##", "@");
+     res = res.replace(/##.##/g, ".");
+     tmpMsg = tmpMsg + ";" + res;
+     res = scmCopy6.replace("##1##", "@");
+     res = res.replace(/##.##/g, ".");
+     tmpMsg = tmpMsg + ";" + res;
+     res = scmCopy7.replace("##1##", "@");
+     res = res.replace(/##.##/g, ".");
+     tmpMsg = tmpMsg + ";" + res;
+     res = scmCopy8.replace("##1##", "@");
+     res = res.replace(/##.##/g, ".");
+     tmpMsg = tmpMsg + ";" + res;
+     res = scmCopy9.replace("##1##", "@");
+     res = res.replace(/##.##/g, ".");
+     tmpMsg = tmpMsg + ";" + res;
+     res = scmCopy10.replace("##1##", "@");
+     res = res.replace(/##.##/g, ".");
+     tmpMsg = tmpMsg + ";" + res;
+     res = scmCopy11.replace("##1##", "@");
+     res = res.replace(/##.##/g, ".");
+     tmpMsg = tmpMsg + ";" + res;
+
+     //&body=I thought you might find this information interesting: '
+
+     return tmpMsg;
+ }
+
+ function GetWeekNo(dt) {
+     var tdt = new Date(dt.valueOf());
+     var dayn = (dt.getDay() + 6) % 7;
+     tdt.setDate(tdt.getDate() - dayn + 3);
+     var firstThursday = tdt.valueOf();
+     tdt.setMonth(0, 1);
+     if (tdt.getDay() !== 4) {
+         tdt.setMonth(0, 1 + ((4 - tdt.getDay()) + 7) % 7);
+     }
+     return 1 + Math.ceil((firstThursday - tdt) / 604800000);
+ };
+
+ function setWillCalendar(locTab,ptime) {
+     var lastpart = 0;
+     var firstpart = 0;
+     var Mdate = "";
+     var curtab = [];
+     var matchDay = 0;
+     var matchMonth = 0;
+
+     for (monthloc = 1; monthloc < 13; monthloc++) {
+
+         try {
+             curtab = locTab[monthloc];
+             for (i = 0; i < curtab.length; i++) {
+
+                 lastpart = curtab[i].lastIndexOf("/");
+                 firstpart = curtab[i].indexOf("/");
+
+                 if (curtab[i].substring(0, firstpart) == "08") {
+                     matchDay = 8;
+                 } else {
+                 if (curtab[i].substring(0, firstpart) == "09") {
+                     matchDay = 9;
+                 } else {
+                     matchDay = parseInt(curtab[i].substring(0, firstpart));
+                 } 
+                 }
+
+                 if (curtab[i].substr(lastpart - 2, 2) == "08") {
+                     matchMonth = 8;
+                 } else {
+                 if (curtab[i].substr(lastpart - 2, 2) == "09") {
+                     matchMonth = 9;
+                 } else {
+                     matchMonth = parseInt(curtab[i].substr(lastpart - 2, 2));
+                 }
+                 }
+
+                 
+
+
+//                 Mdate = (parseInt(curtab[i].substr(lastpart + 1, 4)) * 100000000) + (parseInt(curtab[i].substr(lastpart - 2, 2)) * 1000000) + (parseInt(curtab[i].substring(0, firstpart)) * 10000) + ptime;
+             Mdate = (parseInt(curtab[i].substr(lastpart + 1, 4)) * 100000000) + (matchMonth * 1000000) + (matchDay * 10000) + ptime;
+
+                 calWillegems.push(Mdate);
+                 
+             }
+         }
+         catch (err) {
+             curtab = [];
+         }
+         
+
+     }
+
+
+ }
+
+
+ function pad(n) {
+     return (n < 10) ? ("0" + n) : n;
+ }
+
+ function IsTeam(EqHome, EqAway) {
+
+     if (EqHome.substring(0, 8) == "MARINERS" || EqAway.substring(0, 8) == "MARINERS") {
+
+         return true;
+
+     } else {
+         return false;
+     }
+ }
+
+ function ShowCalendar(element) {
+
+     if (CalendFiltered) {
+         $('.condvis').each(function () {
+
+             $(this).show();
+
+         });
+         $('#semview').text("Voir moins");
+         CalendFiltered = false;
+
+     } else {
+         $('.condvis').each(function () {
+
+             $(this).hide();
+
+         });
+         $('#semview').text("Voir tout");
+         CalendFiltered = true;
+     }
+
+//     $('#semview').click("ShowCalendar(this)");
+   
+ }
+
+ function GetTeam(EqHome, EqAway) {
+
+
+     var result = "";
+     if (EqHome == scmEq1Name || EqAway == scmEq1Name) {
+
+         result = "Eq. 1";
+
+     }
+     if (EqHome == scmEq2Name || EqAway == scmEq2Name) {
+
+         result = "Eq. 2";
+
+     }
+     if (EqHome == scmEq3Name || EqAway == scmEq3Name) {
+
+         result = "Eq. 3";
+
+     }
+     if (EqHome == scmEq4Name || EqAway == scmEq4Name) {
+
+         result = "Eq. 4";
+
+     }
+     if (EqHome == scmEq5Name || EqAway == scmEq5Name) {
+
+         result = "Eq. 5";
+
+     }
+     if (EqHome == scmEq6Name || EqAway == scmEq6Name) {
+
+         result = "Eq. 6";
+
+     }
+     if (EqHome == scmEq7Name || EqAway == scmEq7Name) {
+
+         result = "Eq. 7";
+
+     }
+     if (EqHome == scmEq8Name || EqAway == scmEq8Name) {
+
+         result = "Eq. 8";
+
+     }   
+	 if (EqHome == scmEq9Name || EqAway == scmEq9Name) {
+
+         result = "Eq. 9";
+
+     }   
+     if (EqHome == scmEqV1Name || EqAway == scmEqV1Name) {
+
+         result = "Eq. V1";
+
+     }
+     if (EqHome == scmEqV2Name || EqAway == scmEqV2Name) {
+
+         result = "Eq. V2";
+
+     }
+     if (EqHome == scmEqDAName || EqAway == scmEqDAName) {
+
+         result = "Eq. DA";
+
+     }
+     return result;
+ }
+
+ 
+
+
+
+</SCRIPT>
+ 
+<META name="GENERATOR" content="MSHTML 11.00.9600.18739"></HEAD> 
+<BODY>
+<DIV id="Div_Tab"></DIV><BR></BODY></html>
