@@ -18,9 +18,9 @@ var scmEq5Name = "MARINERS AUDERGHEM 5";
 var scmEq6Name = "MARINERS AUDERGHEM 6";
 var scmEq7Name = "MARINERS AUDERGHEM 7";
 var scmEq8Name = "MARINERS AUDERGHEM 8";
-var scmEqV1Name = "MARINERS AUDERGHEM 1";
-var scmEqV2Name = "MARINERS AUDERGHEM 2";
-var scmEqDAName = "MARINERS AUDERGHEM";
+var scmEqV1Name = "MARINERS AUDERGHEM V1";
+var scmEqV2Name = "MARINERS AUDERGHEM V2";
+var scmEqDAName = "MARINERS AUDERGHEM D";
 
 var scmMain = "sc##.##mariners##1##skynet##.##be";
 var scmCopy1 = "delvennemichael##1##gmail##.##com";
