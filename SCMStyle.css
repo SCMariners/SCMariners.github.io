@@ -1,0 +1,502 @@
+﻿/* Eléments principaux de la page */
+
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+
+
+/* Corps */
+
+#mydivcenter{
+position: relative;
+margin-top: 150px;       /* margins are negative and they're half of dimensions above */
+margin-left: 250px;
+display: inline-block;	
+}
+
+Headerblock
+{
+    display: inline-block;	
+    position: relative;	
+    box-shadow: 0px 2px 5px #1c1a19;	
+    border: 1px solid #CCCCCC;	
+    border-radius: 5px;	
+    text-decoration: none;		
+	vertical-align: top;
+	text-align: justify;
+	width: 900px;
+	padding: 1px;
+	color: white;
+	font-size: 0.9em;
+}
+
+.scmborderred
+{	
+    display: inline-block;	
+    position: relative;	
+    box-shadow: 0px 2px 5px #1c1a19;	
+    border: 1px solid #FF0000;	
+    border-radius: 5px;	
+    text-decoration: none;		
+}	
+
+.scmMenusborderred
+{	
+    display: inline-block;	
+    position: relative;	
+    box-shadow: 0px 2px 5px #1c1a19;	
+    border: 1px solid #336699;	
+    border-radius: 5px;	
+    text-decoration: none;		
+}	
+
+.scmSeriesborderred
+{	
+    display: inline-block;	
+    position: relative;	
+    box-shadow: 0px 2px 5px #1c1a19;	
+    border: 1px solid #FFFFCC;	
+    border-radius: 5px;	
+    text-decoration: none;
+	width: 180px;		
+}	
+
+.newsheader, .newsbody, .newssponsors, .welcomesite, .badnewsheader, .badnewsbody 	, .subnewsheader, .subnewsbody	, .tablecyan , .infomaj, .SalleHeader
+{	
+    display: inline-block;	
+    position: relative;	
+    box-shadow: 0px 2px 5px #1c1a19;	
+    border: 1px solid #CCCCCC;	
+    border-radius: 5px;	
+    text-decoration: none;		
+}	
+
+.newsheader	
+{	
+    background-color: #CC0000;	
+    border: 1px solid #333333;	
+	font-weight: bold;
+	font: 1.4em "Trebuchet MS", sans-serif; 
+    color: white;		
+
+    padding: 3px 8px 0px 8px;		
+}	
+/* 	
+    text-align: center;	
+    font-size: 1.0em;		
+	width: 97%;
+*/
+
+.newstitle
+{
+	border-bottom: solid 1px red;
+	font-weight: bold;
+	font: 1.1em "Trebuchet MS", sans-serif; 
+    text-align: left;		
+    color: red;		
+}
+/*
+	width: 97%;
+*/
+.newstitle:before {
+content: url(ballbullet.jpg);
+display: block;
+float: left;
+margin-right: 5px;
+}
+/*
+nav_next.gif
+*/
+.newsbody	
+{	
+    background-color: #E7F1F1;
+	width: 97%;
+    color: black;		
+    text-align: left;		
+    padding: 3px 8px 0px 8px;	
+    font: 1.2em "Trebuchet MS", sans-serif; 
+
+}	
+
+.newssponsors	
+{	
+    background-color: #fff;
+	width: 97%;
+    color: black;		
+    text-align: left;		
+    padding: 3px 8px 0px 8px;	
+    font: 1.2em "Trebuchet MS", sans-serif; 
+
+}	
+
+/*
+	width: 95%;
+    font-size: 1.2em;	
+	#CCCCCC	
+	#EFEFEF
+*/
+
+.SalleHeader	
+{	
+	width: 95%;
+    background-color: #CCFFCC;	
+    border: 1px solid #333333;	
+    font-size: 1.0em;		
+	font-weight: bold;
+    color: black;		
+    text-align: left;		
+    padding: 3px 8px 0px 8px;		
+}	
+
+
+
+.subnewsheader	
+{	
+	width: 95%;
+    background-color: #990000;	
+    border: 1px solid #333333;	
+    font-size: 1.0em;		
+	font-weight: bold;
+    color: white;		
+    text-align: left;		
+    padding: 3px 8px 0px 8px;		
+}	
+
+.subnewsbody	
+{	
+
+	width: 95%;
+    background-color: #CCCCCC;
+    border: 1px solid #333333;	
+    font-size: 1.0em;		
+    color: black;		
+    text-align: left;		
+    padding: 3px 8px 0px 8px;		
+
+}	
+/*
+padding: 2px 7px 0px 7px;	
+*/
+
+.infomaj
+{	
+
+    background-color: #FFFF66;	
+    border: 1px solid #333333;	
+    font-size: 0.8em;		
+	font-weight: bold;
+    color: black;		
+    text-align: right;		
+    padding: 3px 8px 0px 8px;		
+}
+
+.tablecyan	
+{	
+	width: 95%;
+    background-color: #D3E1E2;
+    padding: 3px 8px 0px 8px;	
+}	
+
+
+
+.badnewsheader	
+{	
+	width: 95%;
+    background-color: #333333;	
+    font-size: 1.0em;		
+	font-weight: bold;
+    color: white;		
+    text-align: left;		
+    padding: 3px 8px 0px 8px;		
+}	
+
+.badnewsbody	
+{	
+	width: 95%;
+    background-color: #CCCCCC;
+    font-size: 1.2em;		
+    color: white;		
+    text-align: left;		
+    padding: 3px 8px 0px 8px;	
+}	
+
+.welcomesite	
+{	
+
+    background-color: #FFFFCC;	
+    font-size: 0.9em;	
+    text-align: center;	
+    color: blue;		
+    padding: 3px 8px 0px 8px;		
+}	
+
+.newsfontbody, .newsfonttitle, .badnewsfont
+{
+    vertical-align: top;
+    text-align: justify;	
+}
+
+.badnewsfont
+{
+    font-size: 0.7em;
+    color: black;
+}
+
+.newsfonttitle
+{
+    font-size: 0.7em;
+    color: red;
+}
+
+.newsfontbody
+{
+    font-size: 0.6em;
+    color: black;
+}
+
+/* Correctifs pour les vieilles versions d'Internet Explorer */
+
+/* Pour activer un positionnement type inline-block sur les vieilles versions d'IE */
+
+.old_ie Headerblock, .old_ie .newsheader, .old_ie .welcomesite,  .old_ie .newsfontbody, .old_ie .newsfonttitle, .old_ie .newsbody , .old_ie .newssponsors, .old_ie .scmborderred , .old_ie .scmMenusborderred, .old_ie .scmSeriesborderred , .old_ie .subnewsheader, .old_ie .subnewsbody, .old_ie .subnewsfonttitle, .old_ie .tablecyan, .old_ie .infomaj	, .old_ie .SalleHeader
+{
+    display: inline;
+    zoom: 1;
+}
+
+#progressbar
+{
+	width:630px;
+	padding:1px;
+	background-color:white;
+	height:9px;
+}
+#indicator
+{
+	width:0px;
+	background-color:red;
+	height:9px;
+	margin:0;
+}
+
+.navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: #A7CDD6;
+  color: #336699;
+  width: 160px;
+  font: 1em "Trebuchet MS", sans-serif; 
+}
+
+/*
+background: #fff
+*/
+
+.navigation a, .navigation span {
+  display: inline-block;
+  padding: 4px 10px;
+  color: #336699;
+  text-decoration: none;  
+  background: #A7CDD6  left bottom no-repeat;  
+}
+
+/*
+background: fff
+*/
+
+.navigation a:hover, .navigation a:focus, .navigation a:active {
+  text-decoration: underline;
+}
+
+.navigation .subMenu {
+  font-size: .9em;
+  background: #A7CDD6  ;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #666;
+}
+
+/*  
+background: #336699
+*/
+.navigation .subSMenu {
+  font-size: .8em;
+/*
+  background: #ccc url(subMenu.png) 0 0 repeat-x;
+*/
+  background: #A7CDD6  ;
+
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #666;
+}
+
+/*
+  background: #336699  ;
+  */
+  
+.navigation ul.subMenu a {
+  background: none;
+  padding: 3px 20px;
+}
+
+.navigation ul.subSMenu a {
+  background: none;
+  padding: 3px 40px;
+}
+
+.seriesprov {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: #FFFFFF;
+  color: #FFFFFF;
+  font: 1em "Trebuchet MS", sans-serif; 
+}
+
+.seriesprov a, .seriesprov span {
+  display: inline-block;
+  color: #0000FF;
+  text-decoration: none;  
+  background: #FFFFFF ;  
+}
+/*
+#fff
+#3399FF
+  padding: 4px 10px;
+  background: #FF0000  left bottom no-repeat;  
+  #FF0000
+*/
+
+.seriesprov a:hover, .seriesprov a:focus, .seriesprov a:active {
+  text-decoration: underline;
+}
+
+
+.seriesprov .subMenu {
+  font-size: .9em;
+  margin: 0;
+  padding: 0;
+  width: 0px;
+
+}
+/*
+  background: #336699  ;
+
+  border-bottom: 1px solid #666;
+
+*/
+
+.seriesprov .subSMenu {
+  font-size: .9em;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #666;
+}
+
+/*
+  background: #ccc url(subMenu.png) 0 0 repeat-x;
+  background: #336699  ;
+*/
+
+
+.seriesprov ul.subMenu a {
+  background: none;
+  padding: 2px 5px;
+  color: red;
+}
+/*
+  padding: 3px 20px;
+*/
+
+.seriesprov ul.subSMenu a {
+  background: none;
+
+}
+
+.seriesprov dl, .seriesprov dt, .seriesprov dd, .seriesprov ul, .seriesprov li {
+	margin: 0; 
+	padding: 0; 
+	list-style-type: none; 
+}
+
+/*
+    color: #FF0000;
+  padding: 3px 40px;
+
+*/
+
+/*
+#navlist { 
+	list-style-image: url(../image/ballbullet.jpg); 
+} 
+*/
+
+#navlist
+{
+margin-left: 0;
+padding-left: 0;
+list-style: none;
+}
+
+/*
+#navlist li
+{
+padding-left: 10px;
+background-image: url(../image/ballbullet.jpg);
+background-repeat: no-repeat;
+background-position: 0 .5em;
+}
+*/
+
+#navlist li#docinfo
+{
+padding-left: 20px;
+background-image: url(information2.jpg);
+background-repeat: no-repeat;
+
+background-position: 0 .2em;	
+
+}
+
+#navlist li#formulaire
+{
+padding-left: 20px;
+background-image: url(formulaire.jpg);
+background-repeat: no-repeat;
+/*
+background-position: 0 .2em;		
+*/
+}
+
+table.tbbordered {
+	border-width: thin;
+	border-spacing: 0px;
+	border-style: inset;
+	border-color: blue;
+	border-collapse: collapse;
+	background-color: white;
+}
+table.tbbordered th {
+	border-width: 1px;
+	padding: 1px;
+	border-style: inset;
+	border-color: gray;
+	background-color: white;
+	-moz-border-radius: ;
+}
+table.tbbordered td {
+	border-width: 1px;
+	padding: 1px;
+	border-style: inset;
+	border-color: gray;
+	background-color: white;
+	-moz-border-radius: ;
+}
+
+
+
+
