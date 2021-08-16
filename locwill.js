@@ -31,9 +31,9 @@ var scmCopy5 = "bu-yle##1##hotmaill##.##com";
 var scmCopy6 = "baysalexandre##1##hotmail##.##com";
 var scmCopy7 = "lecleregregory##1##hotmail##.##com";
 var scmCopy8 = "loretteced##1##hotmail##.##com";
-var scmCopy10 = "davide##.##scarsi##1##skynet##.##be";
-var scmCopy11 = "essidhakim##1##yahoo##.##fr";
-var scmCopy12 = "linejavaux##1##hotmail##.##fr";
+var scmCopy9 = "davide##.##scarsi##1##skynet##.##be";
+var scmCopy10 = "essidhakim##1##yahoo##.##fr";
+var scmCopy11 = "linejavaux##1##hotmail##.##fr";
 
 var calWillLU = [];
 var calWillME = [];
