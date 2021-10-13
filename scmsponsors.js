@@ -663,8 +663,20 @@ var scmTeamsNbr = 0;
 
 // A METTRE A JOUR !!!!!!!
 
+// 2021-2022
+// ********* 
+
+scmTeamsNbr = scmTeamsNbr + 1;
+var scm2122Eq8 = scmTeamsNbr;
+scmTeams[scm2122Eq8] = { Saison: "2021-2022", Name: "Mariners 8", Event: "Saison 2021-2022"
+, src: "https://lh3.googleusercontent.com/pw/AM-JKLVy6YFjZEWBUyEuFD2MaALj-453tzNEjS87PxXvYb_X_vcg9zOO34XV6ieppuANmJG1O6vfW4t4Ubh8Lvv92tWzV_889Qt3r35KFs8j381vDgCtLuAkKZ0wFSc7ZxUjSzMvcyO-s-GyPY-kmAQ6w_5d=w879-h647-no?authuser=0", width: 400, target: "_blank",
+    texte: "5ème Provinciale B",
+    desch: "",
+    descb: ""
+};
+
 // 2020-2021
-// *********
+// ********* 
 
 scmTeamsNbr = scmTeamsNbr + 1;
 var scm2021Eq9 = scmTeamsNbr;
