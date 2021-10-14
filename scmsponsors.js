@@ -7,7 +7,7 @@ var lastnews = [];
 
 // ******************
 // * Headers Images *
-// ******************s
+// ******************s 
 
 var scmEq1Header = "https://lh3.googleusercontent.com/r2l5tvnINFu1LjrSo-Bf0WdssHMCtJlgnbFYFFwkaUkl1JBmJCUoPp1HDAb5PUc7jOv36z0qwQNWPRQyGGucgGtH9hqrFKyKCYReTL6BwNVVPtP7TPvAhfQAvtgy6fpfStJTA8GBD4qT0QtM3AAHfDgdNW3FE4OeMk8let8DfvOYNQyZC63nrPFBEC43rWwXefiu6LcjNopFmbcUMD8QZ-mvSQe-FKubDmx82K4UxbcdPEnmU9cxmqGRIeNs2paEp6A_no5vdV4P9WQkSc3hJWS1bXICSBFskyOj0QxUEMPx30qbcEmEoK6np-Z2pHEonCqtioZX8Mp3GXHtT6Gwk3wqo4-eB-e5DivDKYE_xAwK5HGRsOLRD8X0JwIctjyFVPF95Nuv3CMheVJKxloL3LxnbzGt0mYVPus1ZdjRPhmvT_APtLccdw5M6tOTwka-An23MyBHtN0rld2nd71i2oqVKMYT-BjP6hIDWN3UMHuXKETJYPbxOzZQEjjlHgB5idX1yJ5TkIILfFJXerv2ObbxkecebkWVXLFX-lLTtJsQ8l4hlY8aaFGUrT8sYRXkCzM-M24Ju2MytFfTSOQc0Pb8MbAB6K_gimw51PNvGkAet7mIkS5xGEc3WkUbWP2WlMk4e17LYeOyAbYqV15c6Y47SCya3SXM6-rYQp9y_QM4rU51mkTKvfTRiYr-yZXmlpkA3PmcY9jvQRrv3Zn9Bz8=w1015-h375-no?authuser=0";
 var scmEq1Link = "https://lh3.googleusercontent.com/95XyBZy59JeHI7W4fckV7WEBfO2YwOmMdAj8V-O0-rX954p-LzkPqdtEw8PYtTSu6KIwRMMR9xYlnRztRkebHO7IT10Z3aHeDT5iYyhjBoMMYBLPOUxh1Z-p7aGui7ROC2so2dSjnd81vqcBl_Ut9hsjpc0uh9K-IEBakdH0aUY0rt_TjEhpQ-_0AAFP7OLXXbGndhEDKWYV6dlZgxJX-TnLMSFhwDwliUJGwKEOPwmBwBPrAlZ7mFcA1iRID6DCu4-U82j1mAFLA6mIH0WU9WWs74m6WNM94SKY1ro6qAJIbxjH4LN6gIy6foWUZyhOOUatNLyyOpkhwgh0YYLcnwbRsU-VGjydI6vSZEzA8A-t_IZSEtWNj8K9M9kIpnArnJxwiw5xqpEmiP2JoyUIGRfOuDqYFtmQqiqlNe1CZb18rkCUnmMFA4StwJjaeqejVwqrePo-5WcFtus1uv8V3IMOMC-AJ8ZwLjV4_SZG__l5RS1ns2sLS79Oijb4COpfbY98OKzgcSE5s3zrQC1xSXU8kFuIJRoA33qqhVKhn7CgfHNyZEE1MUVjWamE40v9cEhVeu8JZVRB0ZJkLprxEPf5EQaRiqLz81QAca2l7_-FkZxX2Wuilc86FdJPxdbXAJnOiuPzjRhi3rp8vVeDkVnVKATvl1u4n0L9cpIxH3nFQt9C34-D-X65AhlbCRsZcx5Mj2OTJrQlVB7NEgDdpOA=w236-h142-no?authuser=0";
@@ -671,8 +671,8 @@ var scm2122Eq8 = scmTeamsNbr;
 scmTeams[scm2122Eq8] = { Saison: "2021-2022", Name: "Mariners 8", Event: "Saison 2021-2022"
 , src: "https://lh3.googleusercontent.com/pw/AM-JKLVy6YFjZEWBUyEuFD2MaALj-453tzNEjS87PxXvYb_X_vcg9zOO34XV6ieppuANmJG1O6vfW4t4Ubh8Lvv92tWzV_889Qt3r35KFs8j381vDgCtLuAkKZ0wFSc7ZxUjSzMvcyO-s-GyPY-kmAQ6w_5d=w879-h647-no?authuser=0", width: 400, target: "_blank",
     texte: "5ème Provinciale B",
-    desch: "",
-    descb: ""
+    desch: "DE BECKER Severine - VAN LOO Gregory - MERKACHI Abdelmajid - LORETTE Cédric - MERKACHI Mehdi",
+    descb: "AMELAH Abdel Karim - NOLET Anthony - NOLET Mikael - MERKACHI Mustapha - DRINE Mehdi - manque MERKACHI Mohammed"
 };
 
 // 2020-2021

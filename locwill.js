@@ -8,7 +8,7 @@ var divEq7 = "4I";
 var divEq8 = "5B";
 var divEqV1 = "V1";
 var divEqV2 = "V3B";
-var divEqDa = "D2";
+var divEqDa = "D2"; 
  
 var scmEq1Name = "MARINERS AUDERGHEM 1";
 var scmEq2Name = "MARINERS AUDERGHEM 2";
@@ -99,6 +99,7 @@ calreservation.push(202109182100);
 calreservation.push(202109182200);
 calreservation.push(202109292000);
 calreservation.push(202110042100);
+calreservation.push(202110162100);
 calreservation.push(202111102000);
 
 
