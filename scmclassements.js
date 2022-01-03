@@ -294,12 +294,6 @@ ScmClass[Class8687S] = tmpClass;
 tmpClass = [];
 
 nbrScmClass = nbrScmClass + 1;
-var Class8687J = nbrScmClass;
-tmpClass[0] = [0, '1986-1987 : Juniors',0,0,0,0,0,0,0,0];
-ScmClass[Class8687J] = tmpClass;
-tmpClass = [];
-
-nbrScmClass = nbrScmClass + 1;
 var Class87883B = nbrScmClass;
 tmpClass[0] = [0, '1987-1988 : 3eme Provinciale B',0,0,0,0,0,0,0,0];
 tmpClass[1] = [1, 'WINNING BOITSFORT', 26,21,1,4,189,60, 129,46];
@@ -340,8 +334,22 @@ ScmClass[Class8788SB] = tmpClass;
 tmpClass = [];
 
 nbrScmClass = nbrScmClass + 1;
+var Class8788S = nbrScmClass;
+tmpClass[0] = [0, '1987-1988 : Scolaires',0,0,0,0,0,0,0,0];
+tmpClass[1] = [1, 'RENARDS 24/25 A', 12,11,0,1,78,14, 64,23];
+tmpClass[2] = [2, 'CSC GANSHOREN', 9,6,2,1,38,22, 16,13];
+tmpClass[3] = [3, 'INTER SELECT', 10,6,4,0,35,38, -3,12];
+tmpClass[4] = [4, 'RENARDS 24/25 B', 11,5,6,0,36,34, 2,10];
+tmpClass[5] = [5, 'ASM ETTERBEEK', 9,4,5,0,37,26, 11,8];
+tmpClass[6] = [6, 'CARREFOURS BXL', 10,2,8,0,27,41, -14,4];
+tmpClass[7] = [7, 'COSMOS MOUSTY', 11,1,10,0,35,60, -25,2];
+tmpClass[8] = [8, 'SC MARINERS', 0,0,0,0,0,0, 0,0];
+ScmClass[Class8788S] = tmpClass;
+tmpClass = [];
+
+nbrScmClass = nbrScmClass + 1;
 var Class8788J = nbrScmClass;
-tmpClass[0] = [0, '1987-1988 : JUNIORS',0,0,0,0,0,0,0,0];
+tmpClass[0] = [0, '1987-1988 : Juniors',0,0,0,0,0,0,0,0];
 tmpClass[1] = [1, 'RENARDS 24/25', 12,11,0,1,89,39, 50,23];
 tmpClass[2] = [2, 'CSC GANSHOREN', 12,8,3,1,79,49, 30,17];
 tmpClass[3] = [3, 'SC MARINERS', 12,6,5,1,79,81, -2,13];
@@ -1392,7 +1400,7 @@ tmpClass[7] = [7, 'EMERGENCY TEAM', 20,8,8,4,88,93, -5,20];
 tmpClass[8] = [8, 'SIX-PACK UTD BX', 20,5,12,3,82,110, -28,13];
 tmpClass[9] = [9, 'SC MARINERS AUD e', 20,5,13,2,78,108, -30,12];
 tmpClass[10] = [10, 'CHARLIE BROWN c', 20,2,17,1,72,161, -89,5];
-tmpClass[11] = [11, '360° KRAAINEM', 20,2,18,0,50,124, -74,4];
+tmpClass[11] = [11, '360 KRAAINEM', 20,2,18,0,50,124, -74,4];
 tmpClass[12] = [12, 'SC UCCLE', 0,0,0,0,0,0, 0,0];
 ScmClass[Class06075L] = tmpClass;
 tmpClass = [];
