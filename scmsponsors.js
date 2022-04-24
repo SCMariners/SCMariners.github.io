@@ -82,14 +82,8 @@ Chal16Spons.pop();
 Chal17Spons.pop();
 Chal18Spons.pop();
 Chal19Spons.pop();
+ 
 
-nbrSpons = nbrSpons + 1;
-var spLuxLimo = nbrSpons;
-scmSpons[spLuxLimo] = { Name: "LuxLimo", src: "https://lh3.googleusercontent.com/emrVdlVeuTL_xNEXt45M0aIe_N5BPr8JOj-QcK2ZTahi7qXwJ0lCNUduR3QKgwooJkGFyK7lOaKnCA7-QECTzx83wSQok3FC1XMLd8EzaQ5qOsBv9Cwoe9uRJTTQZ64OZsjo1IX8dRaFU5OMAjcBvIzO6YOWVO0kPvzUwmL3ZniKczrJsmzI5Z-YHEZc9oKxOJUxykxBqW2CyVz2xjMGSZwZ1O9vKgvlLvgJb_8RwmrMjNIl4PW5aNvQF7UThcIacMTUAQhzMaXvggmge7CImVTGzo1D0Uyyxfb6qbOHuyUmpsQ0kn3gc6_21wBobA9Kf0oY6uhnqpBiCttuONJ_UeVabxOEP-c2Onh5MYd4kBYSPGdtya7B4GmXpCcleXIj3qIQZv7tBNf8iuwVS-2Pkjad-9jAesUpLEu9oorwjI-XjkMXH5uBbUWQ03LvKV7u7CTmRHbtCKGjIYgcIpixJuyS-poGonmoUKFQ8HRBy3pG2D3ZjvrZc7gMQsMP-WnmbSIXgfgEXnC88nY2S7Y3j92VK6e1P8DugISMTJTBNv7vLFpzvqNxwunNXFrB00wpW5tyhBEwRrZd7_1fq7lEEN92FoGzOb80nK_y0Q2ql7eLzT-H2hj2PSdfZV5lQhxDoqpM1Q-GkOzR_AbMDP5A_OfXkEBkVnjFhUjzbvykEXAiLt31gbp3YKbocGCZ4fi7jZYERU7_MTTzNU_FK4DS2U230LysWtbkdcxvszoJS4C4fl8=w901-h598-no"
-, width: 150, fbname: "", fb: "https://www.facebook.com/luxlimobelgium/", webname: "luxlimo.be", href: "http://www.luxlimo.be/", target: "_blank", texte: "LuxLimo Chauffeur Service", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
-};
-Chal18Spons.push(spLuxLimo);
-Chal19Spons.push(spLuxLimo);
 
 nbrSpons = nbrSpons + 1;
 var spCafeLisbonne = nbrSpons;
