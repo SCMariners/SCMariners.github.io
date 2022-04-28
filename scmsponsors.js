@@ -83,16 +83,6 @@ Chal17Spons.pop();
 Chal18Spons.pop();
 Chal19Spons.pop();
  
-
-
-nbrSpons = nbrSpons + 1;
-var spCafeLisbonne = nbrSpons;
-scmSpons[spCafeLisbonne] = { Name: "Cafe Lisbonne", src: "https://lh3.googleusercontent.com/x05BZDoS8Vdv17IlOeiFA0o9YkeRtNxgz28V_UqlYVmqtukl2zAb9fxe8vFLmuHKzQjlCj30CG2V8WJre0gkZrfvEE9ovTQEp4uWUAWQ6xKI3wpU5jf8no_A91RqeQxeQcqY72xwvqx0BALNP3L7Rb6jq9veDyEFknOdXyOgrQiRNCYND8y_uddUAFHyvFDxsHhZBpoBfJwkNxYhK-38lfkB_B9D_9TQolk7vaoSG54mbToA-5bM9pMnokTmvDnBeOiZzbml29DmDBMnnCwqO1w65CiPY0EFFBwBgMCGsXEtXBulE4Mb8Y4tQPyqR_x1V0krbJ2PyX8Vt_0Refq_jaTC9I65-i8wo2y93hPnST_kR_ITh1fWjrRfvdub_-_OOJoBc56d4U3VVv7_QgjIZKn4Qq3E9YgTmuxvoIe_MONoql0FDWnwuNYq627RX3hDj5lAiufvyLCr-LkzQVwricE5DJtkh_uxdUQXFiGWO827Vd4WYWr3CZlosCNSDtObp-RY77aa7D8LZHJQQmyAa0Df-elJKs6Vb8vfZozRLtdQBunUs4_dd4HPUoKL9xdlg223Ve0muSM5ofugYs_loZvmheQ2t6CtmaeSmQI=w178-h144-no"
-, width: 150, fbname: "", fb: "https://www.facebook.com/groups/633374760479323/", webname: "", href: "", target: "_blank", texte: "Cafe Lisbonne", infoAdr: "1050, Chee de Wavre 1160 Auderghem", infoTel: "02 8544917", infoMail: "", infodesc: ""
-};
-Chal18Spons.push(spCafeLisbonne);
-Chal19Spons.push(spCafeLisbonne);
-
 nbrSpons = nbrSpons + 1;
 var spAuderghem = nbrSpons;
 scmSpons[spAuderghem] = { Name: "Auderghem", src: "https://lh3.googleusercontent.com/dmTpYMMqJj96IddVNPgblIzlkVxSthzSV3Fdnrmz-khbluL3eha4zu9zV1gfQ-r9hX8s3ou1E_cIEiqkmrzKcB4o3bjFsYfqx1h4toQMHG8d5IesjyAQJSRjifq3zVDipogsMTS-crUFCqz1MJcQCr2Uzi0MTsFJoPG-rJSQtuEZaD2-ZyWHF6Q2PlSoHYtKhgj7PRiuouwDyTgTBB7ddSxCnLsX6O8uScKUtdw_kdK-WrtEuvSWFCs_r0B8KUwW1gvKw54U_KoE313BwV910SyTIeqtyo4HrUbQguTh4iHvzjtfZLMEPhh0aJvLyPmG-b4P1mVPg6-XbNLW8kiBJay-T890ZgXOq8z-jrN2fhzmpTZablll5a4_iWY4zcV8xkAH53kVA38DJgWSY4pXHImlA6tcr0h09B77Ll0Ai9PnZnpu2Tw537v5sVf9wkKvYeJb-vPoKsg1elcsFYwlcEuymaaapgOJPMSsBHfFTfUhO7F8VdIRL48UEvbAScJpwT8I0PibhHWv7QECNS__wqMJ7KR_9MzabTH7RNkV3YLHPs4wl6HyvH5cJmAaMjCrVBjl0DDdMlnNZ02MDUM-zew7jpcErVcWUnAj7VRdIXb_UPS6Iy89sul-vPzc5tc42FBaVFR-toF3np_aBS61zl0bSfBgNhFfGQBri4KSSQ4LwLK0Ebhi7SvPZ1Gb9TMuQd3mUWhGAPQHTytfDNhwhF5CTFemysUxe8AD1Num9TfFD6E=w550-h730-no"
@@ -123,156 +113,17 @@ Chal18Spons.push(spFunRadio);
 Chal19Spons.push(spFunRadio);
 
 nbrSpons = nbrSpons + 1;
-var spOostens = nbrSpons;
-scmSpons[spOostens] = { Name: "PM Oostens Assur", src: "https://lh3.googleusercontent.com/TXfnc01ZrmOEBpMtZyu3N-i2yZoh5XnJ2N9r-Nnqujpsb0AIPjcsrim5dUoeDTUik8DaFHMRcSMS9oXaF6WMqnuT8FutHZfbFFAH-XBm1rFxXOusqBWiKdcGeMwEo0wYA2ESMkzhk2laJcoYgaXnLBIjb0UNZb1zLSd1e699K_1qAEVWATtCTWfebLiY1XO2bD05h6nKCtVWv1J7BLPOe1Oz2rbrhY9iFl6u6MN50Zsjr_3VCWd6V7NPT6wsuIDGi4Kp6f4ABnmNvLiuoOk-3qlSZAQhNUuQBWzDgRp2cv0m5dKPlPHqRGjtT-NB-SohZYRUsqTKjxGQtgbJI7SN3tUl3R_6rsx-kWgqAUr08wO6dA3FhoucgXwDsgkuv5gYjNxa7SR-K33d-0AB21_kpu7kwBZYyKZrii7y3QSHb0SAthkJo48vRTcHr0QV-_8-gjoy6NLLLps3d1fvF1fYz3sVGMNY-KVueY068Kft2iKiN2dOFz9hv0AhKdj-5fN59Y0nZQ3g8Be6Cb7Rl3gihVymKAivGRI-NFpGDmpDxKYS-9sDx7QP9S_CyIDP0Jfea0ztJoQdZ6tdX2aO-hdQOoc1ooZt6yaEuaYOodq-qGhmEFB7PnfGJimA0zKxkJehUKsF5vdfWTvNiQxRW506JzWXHHvHP_kRmkCcFWu3kA4j03ATbKM5iSGdcnoKbHvXw-bULFcv-Udu-mnSRaZUhZb2ibUzIpgONhfE9tP5g7EyiZE=w232-h90-no"
-, width: 150, fbname: "", fb: "https://www.facebook.com/PMOostensAssurances/", webname: "pmoostensassur.be", href: "http://www.pmoostensassur.be", target: "_blank", texte: "www.pmoostensassur.be", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
-};
-
-nbrSpons = nbrSpons + 1;
-var spPepiniere = nbrSpons;
-scmSpons[spPepiniere] = { Name: "Pepiniere de Boitsfort", src: "https://lh3.googleusercontent.com/jPD7hg9RVHOHEpOnt7y9JQoVEVEG-o2KsERHGmZej_dFJmSLe6sB9TO6lwP2WwrZfKaGcCXU2govF3yX1O0vrR7ss9pfqUiqjCEroIf7RIxWmDGgXzZZmVs38hETY3SW0JPQOuIdcOTQh_dm_aMIhs2bYtNfooxYHvL9jxy0UMc9oWG20HIHFkZJHv1r6eyoP2UptXiET6x_KQ-xxmTox9HeJgKYXb0gE5dYdHm4pBwDVdX-AU4xnYDAnsJTNdTYDW7SRjfv4wT9m2CUL_P4DmGk0KWNj2V2GXYaoZ4_wKa4fqxnVcyUVj_OhKXW0Veq66V-AwZsNKrGNq8ClA_qcrkqdRACkvIJJ5-SMc12WKaPfLdBgF2672Ye4hAPrVjuUW6NOUb_m0UEfs1tc9DOPstkk2DWjeIjmPRJFhkllu1OZ2CuOlCAQntpP9PjjKHwvNwthBuxjFykfqiXZlNHHgT8IsSm7Q4S3KSblSSG388dNk5UQD0F1HmP-aKw41qz9_dFsf9d2jn8LnikhbRuSxTNs6GZOjtZuJa8z40A4BMNuTdFwVbTR9AoyBSY_9oLRcLEi9Y9lwOIhyL4Oo4WJRjj9CsLfcU=w1003-h167-no"
-, width: 220, fbname: "", fb: "https://www.facebook.com/Pepinieredeboitsfort/", webname: "pepiniere.be", href: "http://www.pepiniere.be", target: "_blank", texte: "www.pepiniere.be", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
-};
-Chal16Spons.push(spPepiniere);
-Chal17Spons.push(spPepiniere);
-Chal18Spons.push(spPepiniere);
-Chal19Spons.push(spPepiniere);
-
-nbrSpons = nbrSpons + 1;
-var spPrestige = nbrSpons;
-scmSpons[spPrestige] = { Name: "Taverne Le Prestige", src: "https://lh3.googleusercontent.com/ybaRlf7LMfCL2V9fvCcbU2yexarCmbfNpOHUo-zWlWTHWAgW8Y7wdyfRSd5OCKo9ghvV8EIDZNT7CWxdGRnmbPJWpe_rZ50HUrR-7i_oWCIspo589-r8aBPUgnwfxc4fnGwoqvYfgQPP44zNAUNvqXUkz_aTGi89ajzTM8SI8YSj8xanel6XTpeKrF9m88p7v5nn9eB5YqRCkIU2irehg4LZ7rJLt-Kje648h3NRwMiV3oc-LfH5-uo_JbQ5f34lOqE7fXHlDeShXENetLl5YRsl0eb9MVvodAgzjDKgl8B6l_nUl7rZlC4mVvGy2XvGrcxpSKz3bcFvpUn5LjmBOis7W0H9X5HxzPUNo7-gmmvCC6BY3teYrveciZqiSIjSPSRwSKTCRwYs5-2eWUxYoRqDURmVOlp3mm4ftpc_xVN2U-jCyAovkKFe5qRBkCs24hoBWWOGQWapA28XpeXy7gm5xawtabw74WlgBbXgL3_3xY6Y6n5ucDSoIAP_M7Ii0C7k0A_Hp7J5fmVzUc9XfXwe7gVi5iKcg744RzF1luRObIsbhh9i6b1wzVqmCjxu5J1MwCGYCLZsOkNjSvJC8WaGmabxJ4NgQGurzqUXjLICftOBo14RmwAl3-mfeSKa9vIc-ek1B6Vw4-t32Am7zqIL2NWsjqCxmDewkpDUsFD-yWf4h409opBgjA96pqWMiUBM3QWFI7iyN-maPfc8VA3Ls7EmGd1X9NEg4es1UwKd7DU=w901-h517-no"
-, width: 190, fbname: "", fb: "https://www.facebook.com/Le-Prestige-1382095941911177/", webname: "", href: "", target: "_blank", texte: "Le Prestige", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
-};
-Chal18Spons.push(spPrestige);
-Chal19Spons.push(spPrestige);
-
-nbrSpons = nbrSpons + 1;
-var spNextMove = nbrSpons;
-scmSpons[spNextMove] = { Name: "NextMove", src: "https://lh3.googleusercontent.com/Aeq1p8x6RCJaed9bdcJ3y0A9e8AVQv26pAZwqT2kwOZnB6vOlDjIDMyfVmXXx1hNJlQjLq59BhKIJJ57Xc-uKgZZ0LIu4Or7jzP6rUDbYqkw_DaX7f3ML8lz5kraniJCz0ThUfrCks95PuwaTPs8Q854417bD203oBrQlhjbxovD40YO97eKJoedbz-VDL6JSG_rqxxzwbB6KBw4QPzH0jmzEp5Fhb6dE2XdBQdzfjNLGE6EkFAtihln17yyTIdFI6llrooPs7FTYy2BN-ef3FXA1diXj4ytVTA7LN5XhEdMF6wud0NuI5l9Bu1hUzW-C7NXJYtrOhnYrKR7hmQ8ZmGj_pBM7WJ8Un_3M4TEEw2gDv4TatpmuOe6CyaY1vRWVkO4FmdAgOJlUGqoC6jF0wuoSNIqX8JjA0mYPaiRKDG2XPwbkV-MmUW48netHAEBGK7KZKIRbMUygxf_5MnGoYIZ1_f8AnnK8W8PKLjo27OuHI3aAjZ4O149znNyDT6Pcp7nSwiwIUwWwZFI9FnIJV8nUL1YH7X7aTV-9-YZHOhBoRBecxcbzm8NQAVZbXhsC16--7NC7vfhVpfqJHMmiTlUYaWAVZA=w500-h172-no"
-, width: 150, fbname: "", fb: "", webname: "nextmove.be", href: "http://www.nextmove.be", target: "_blank", texte: "www.nextmove.be", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
-};
-Chal16Spons.push(spNextMove);
-Chal17Spons.push(spNextMove);
-Chal18Spons.push(spNextMove);
-Chal19Spons.push(spNextMove);
-
-nbrSpons = nbrSpons + 1;
-var spThema = nbrSpons;
-scmSpons[spThema] = { Name: "Architecture Thema", src: "https://lh3.googleusercontent.com/HbkVHUjH2Z0OP2GZzuBthQ8585U8LqOkSQWT-RpqITvo2LwugVSCoOqa-4ZxrpsNiRfEGkVGMY-RSJIud4yi6PgIe6bUhUUtDPmqgMNA7C51S1__iIGkz_0wpJkeu1T3b3FQ5J3OKcVsBezjhGT0ePpgx44sxIxmovNC1v8bmj6W18mQcpygTLN1p9NV3o4UiktQ2CMEg2lqZ3PYg9eJ0ey4wEo4S-jFzgAwLcMiTAaLdgtSGajG3JARYL8pk0d9Z5jkQwe-IPT2ztPDfSp29QMs9pxIEexdVpqDIywkIfqL8-sbt1GAgSjv3BP-2-6-bN-jHc_-LP8fjsd4F6Og9UEBpOTkmaMw9tDejNg7oRTDvgWiA2CN4dav6xr6G2Vxl2nR6ZwSzPcgX_40XyGkOOfE3sFch1mazMaH_W_rN_ZQuhpaP3ZyxJAs5XNjyQXa_LaQH5Yled_-Pvelh5DGjh2xq_17VNjZ_YEJURv_-Kp46jPv8_2sjELSYA0A6WjmQab8evDYbPFVrs-PUTFI76dZa_RwmnqbWIh45frCIL04WAdmAOW02j3JJL_gOiMO1whI-d01GwPYhAphRn_-7jxUCICy1u8=w567-h381-no"
-, width: 150, fbname: "", fb: "https://www.facebook.com/pages/Thema-Architecture-sprl/144519205601293?fref=ts", webname: "architecture-thema.net", href: "http://www.architecture-thema.net", target: "_blank", texte: "www.architecture-thema.net", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
-};
-Chal16Spons.push(spThema);
-Chal17Spons.push(spThema);
-Chal18Spons.push(spThema);
-Chal19Spons.push(spThema);
-
-nbrSpons = nbrSpons + 1;
-var spDestiny = nbrSpons;
-scmSpons[spDestiny] = { Name: "Destiny", src: "https://lh3.googleusercontent.com/dQ5dB_3TPNzsGdmx16_zbZ8OycrKfnkHeZfx2kG2qCi-QleE_6zI8Ryv64zaOgN2jLRKePMLPIwiQx2jMXQwLIrnfVmUUP04HAjWkQcjOtTuFZbswOIHJGAZlNMui4JHgduKhDZfU3eF1WrLMyliWroBpwJ4FEX25_1axSmVC85SDIdE3Uchf-1qkO3pgGtZh3cmlqyYXk5R_Nv-zSmicKjhRAsRS11iLtXPWUqtpDwRpLeTYx3q60GWN7mXnd83vRL8WWRKwoVf83nrT62-YNTbdZ-GFGwy0O6FArdINZiYabP-TYw65yBuDzr6GrGtFORnHetMinVli56w7hYWtvxOqamGr3qenITBf5XT_1mpas8VZUJyChficUDIiC91jjACunpbHdZ8iVWDmOK58qdkSvcmFO31boSbkktZTyStcAkzB6sfxNhyeQEFOVzqMmusx4z-zC7nud7Zzwl1hfaExw2UsibRodzOqmWA8I8mRMAUFNSUuS8rI0_Wl-Mzx28V6oHui7eVNnh3oyzbTbdPdhlWFog7iXzGezMdJlj8AkevriogR1BwB3tHG_4zQh7Pv7otD1v3mC46S5mh0W4todODGjE=w640-h216-no"
-, width: 150, fbname: "", fb: "https://www.facebook.com/destinynv/", webname: "destiny.be", href: "http://www.destiny.be", target: "_blank", texte: "www.destiny.be", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
-};
-Chal16Spons.push(spDestiny);
-Chal17Spons.push(spDestiny);
-Chal18Spons.push(spDestiny);
-Chal19Spons.push(spDestiny);
-
-nbrSpons = nbrSpons + 1;
-var spLongchamp = nbrSpons;
-scmSpons[spLongchamp] = { Name: "Taverne Longchamp", src: "https://lh3.googleusercontent.com/zIvZT2BFi3E9i45ZlROoMCIp-9Qu4Dzhg4YpxyccH5lMhqAHZh2O8aWtZ5PltvLjJhZOGTYE1uzXROkk_LgTeQm20rA4Q8rbdeKea30wuY9CZwhUvNythop1BlZ41IZHj6B5RPfsLzkRxX4pT3TRxUo45ZvNKt4pHYRZPP37k93bRTJBnjztYqsKCli6LmP1ekOqinrG6ag0cDyG1AAnh0Gevr0wklMQUAGyA619uw-_8faiwdAYMvjE_uhRKW24USwcInUcXG_qzVyM5hcUzARS7v5MGuZz-QI0dCTtmrP1hcUrAUtHkUsdbjtrMS7h4x3blZqtWFkmjoIzMS4LSOyAAkcxJh8yRuItSpz3_mfW5KTVr1gMHAnTeIVIbz3BALy-HswWaw5qAy6QgOGpgFAhhEOjyBwLeEw7V5PqYH-G4AgGj5NUgbh7y-QuWRsq_A3Mllobau_Owd_pCgzjJFGSQ__6gCW4LnGXwY4tFHXkszNFe2g8CERuSXG3d38wr0aQ210NUZGOf-WYw8X4RKMz_ImY5UJLYEyC9gMkfz1qjcsaHrb7Y-IURyo-Llx1Gr3uLNqWJLJ7v1QX41gRJL-hst9hH5mmNx-6zzDfleLKWdwMXt5Hgny0zP5thSFpC5sLAgLFNmn4Tl403dTFwD935PFpQMyPYolh7Nxm6ho5q2M-q2IhwWO6QgPzPug-UKVHoKOGJlOfPevsLGgodYibZAsK5ur5kfq2hU57lZr7N-I=w901-h421-no"
-, width: 150, fbname: "", fb: "https://www.facebook.com/pages/Taverne-Longchamp/116047109100970", webname: "", href: "", target: "_blank", texte: "", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
-};
-Chal18Spons.push(spLongchamp);
-Chal19Spons.push(spLongchamp);
-
-
-nbrSpons = nbrSpons + 1;
-var spArrosoir = nbrSpons;
-scmSpons[spArrosoir] = { Name: "Brasserie l'Arrosoir ", src: "https://lh3.googleusercontent.com/usgtsbvt4WWgoD-mHAOZokKIsOn4C-U_mFHNCeB46Nwb4KdW26A-sxsr1Zjhs2xfSQT4cRXEAwdKX31P3Ibn3LAS7p8Z7sH4h7Oj3SZuKvwnM8qXv2R8UttZCMh9ksW-hLh5y9gyEzAafeE2N-x-03e8hBz8oSjpd0HZ7ppyqnxbklCPD0K2qW6fnwKyaG_IuwsTDKzW8LzzNFallPj8-Rz8PoTirpq7tiFRN9DbG-QVSpDZA-5PPIw-EEEUHyHnXmOmXfjYIFoWTcuheqgxnWtzQAUGSs3mWI6wIXkQQ5Xx4PGafptBVUCiOt-mg9jkJftS_IdGeTFlSC0Imq-Pn2t51HHy_bDdRZp1ZT0YoQYpLyEH4KOOO5_KWXjXA7mlsMQX3zKqbx0qr0iUbzt2ZjEgiWgsatquwEgH_oGZ-Qat7S3LtlXmp3c-fDZSzikVWDmW1gn5BuKKnCqKRSaFy7VHdpBnIvq27TveBA79JU_HnaEGKAczPd7G0kdUHhZMjGrJvQh6oeYnPcZuRthoXiKcaTpR2ocjxAJTXAB0dluZNSNaA4h64zRPtR8gOi0QysFr9FJRambGhLJDoAVu1kYgWF5KWig=w416-h53-no"
-, width: 150, fbname: "", fb: "https://www.facebook.com/Arrosoirauderghem", webname: "arrosoirauderghem.be", href: "http://www.arrosoirauderghem.be/", target: "_blank", texte: "www.arrosoirauderghem.be", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
-};
-Chal16Spons.push(spArrosoir);
-Chal17Spons.push(spArrosoir);
-Chal18Spons.push(spArrosoir);
-Chal19Spons.push(spArrosoir);
-
-nbrSpons = nbrSpons + 1;
 var spQuick = nbrSpons;
 scmSpons[spQuick] = { Name: "Quick Kraainem", src: "https://lh3.googleusercontent.com/qt3W3-fQ2ynpklERpdoby-kpPFB2n0NEqCgWyATdHQ0wFyVaGZNqsyeHXpg6N3VmvIFQKfaTQ-aYrzqqnKddkdB5KHpSoRvLgMs_723XkWjcqGhSiYhZAjDEzp1-7oDxBE2ub8mIQ8iIvbuO9-ru6zoE5ybxWTRkSivlcFHmjMFyxcwO8FSDwWkXWciqDHzROVAsmxcHvwGlWrPkj21yt0AlSNMcd93HeQAYXuvchUSCFjPFB6UzbYz310X4ICuL9F5sgUShoKTmEDAKuKdPXYy3yIlrAHp_CU_PK_EWEoWDC6g44OrolQYk7Zj0sBTduVGdyqy6B7L7GV9bCmk4Tvh8eeCRJDvpE26WL90RchqLLuzgRwOpVCuqgLPxa1a2Oyore39LRsvLZD1CbRn9SGNEaGhojW8F_l6RjJ2Wn3abjCgrezbWGf7pA6pSQi8FoaIcenC9LPbHpFAMqRcIfP2yTtRBFQxethjqZnVcZBODfrjLboIuokGOUiOYgdhRHY1zfYFiInDdEaYq_F43BEyt89Vdq907xfRuVFJv4kaKplkjcd22WUH7-YM1luheoWfJ7R1Gi6XqW-sLh1sILvpUsLQFDfI=w999-h252-no"
 , width: 220, fbname: "", fb: "", webname: "quick.be", href: "https://www.quick.be/fr/restaurant/kraainem", target: "_blank", texte: "Quick Kraainem", infoAdr: "Avenue de Kraainem 50, 1200 Bruxelles", infoTel: "02/772.74.59", infoMail: "", infodesc: "Hamburger Restaurant"
 };
 
 nbrSpons = nbrSpons + 1;
-var spColorProperties = nbrSpons;
-scmSpons[spColorProperties] = { Name: "Color Properties", src: "https://lh3.googleusercontent.com/X_bhesBaNzbEYJIbJ8k63mVghaLYfTci7Oicd5ht4eihcpUyXeH2F2rzRG4p4c05rYWtzawniK-jEmkc0WN1W4-gTsADTQXuOjp8sixgmu4V2wLye6CPbGr6u3-fQE87hzkb9VAoXD7aLVIxQQVc9KFwrY5tmwGuQQus-h-x052Izpcf1biHrElGfrrMgymP4-rebYrcLYq5SAQ3PYLL4APRyIZbIHRCSAqh7hC9eBM5oXc-gXLzt8hVVgYDg8GEgbn8_AApSMVcg-y-Y_kbDcS0RPLi305PxL5AQFoem6dHhT0FQWL0Tq3CHJbA8OkQ5unROE5Bbu5YVhmRhWyJ-sOVjLAR0dXpmpy3Bn8Ge9OfmBNWGc9rNz1FGTlJs04DfK94v97LbJpQNZ_nhy65buTeVbcmybBUOTfzY4yA6aaeas4FS928cWm1bN-RO7kKgolWN4zK1QORJiJFEn-rW9L-Y1L2HivJQkJaIW2YDQashj8nqchgP3NeiP6nL6bRiEVI9R_T4aaQViBuove2zErqpki1ncd7Gc3wkYwHjY-d5lASdYBMjjqiO7MHmNP6kGk5dF2ccA2dccK58J8t9tU5BSooUMopz7_nY01O0k7ziShW_kW3PpewqSkQa0Ss3WNw9aQVOxzuMByis-ZvVfAVcf4BgvCUnphwJ8wSVAlPOt9GIbPjIgs6dh69SoKIldchDrb3Uf9ZzGuWY57NkuFTmQ87BgNV06NNqqkySSJLps4=w901-h602-no"
-, width: 150, fbname: "", fb: "", webname: "colorproperties.be", href: "http://www.colorproperties.be/", target: "_blank", texte: "www.colorproperties.be", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
-};
-Chal16Spons.push(spColorProperties);
-Chal17Spons.push(spColorProperties);
-Chal18Spons.push(spColorProperties);
-Chal19Spons.push(spColorProperties);
-
-nbrSpons = nbrSpons + 1;
-var spSirre = nbrSpons;
-scmSpons[spSirre] = { Name: "Sirre", src: "https://lh3.googleusercontent.com/bcNEvF0nuxSxZKAL07ejn26W4AXFilLIyMM_LtWgIT815FOwvrQaLOGxv-jGvgKgVBlDPVyv9pl9JAsYiuah3Kop30X1Cq5i42etLOddKEhySUsEW0fLXxPi-VU2hxj-Cdbh949-7rkU9vjdU9U1iM8k5U2oa2vGkIF3jiNN_iC1gwMehBEdHvUxhh1SBKbLd7cxvYfj2iE7rzfhr3O2t40icBB-Q5bSKdWt8iqf91yVfe2G610lxwcWoqsxdBPS4UVtj_zT5RAZnUCQPv71YkZfkFE29n9D-lKAjlMc0EEZSHzAYMWvP7Vyh1-511cpqNR1sYB_Bp_98gjDDkjBqEptkUNGDxsm3GzVeY_kvCL67kCUP2WwcJjRUAhGzAZ5gshD5dcq6Bz9SGEB5_uoOiQGPsKGTSMyCu3xv1Bjpdb86D6Id52RlsoQl-nDL5rdLh5qOLnLWnVQ24DIEiGZDfGSuvaXDQ0gdNiguRrsaFN0E9-8iHuN3BmdMzgymHQNHtdxfIxA3YZYjN3zg6Ixni613bumIEQVVu6AbjQjQuj-7as07_lw4Jw2HK-y5gRd4uFGX6T6hOJsJnIluJNAPrxO5OXe5Es=w309-h168-no"
-, width: 150, fbname: "", fb: "https://www.facebook.com/patisseriesirre/", webname: "sirre.be", href: "http://www.sirre.be", target: "_blank", texte: "www.sirre.be", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
-};
-Chal16Spons.push(spSirre);
-Chal17Spons.push(spSirre);
-Chal18Spons.push(spSirre);
-Chal19Spons.push(spSirre);
-
-nbrSpons = nbrSpons + 1;
-var spBelsport = nbrSpons;
-scmSpons[spBelsport] = { Name: "Belsport", src: "https://lh3.googleusercontent.com/TL5SM_TTkJNX56UMs_hFKiVAFPx4MBx5wR7RPr-T3xjs5JN0wnpef0bpDusHOpwmvFDVj8Mr1QIKhBkXurW43ahS7DKwxifCIfXzQE0LN7uAJvF5Ni_GaowoFREFy1TXuvYk0NMmr7tfpvnwIQhNkCDNGtm-jZCOqwYR32EN9pR7boMfJK0QvdNzVYEHL4mRoT6_5sf3jf63TsXN3tJk6Nt-8l9EsvASU8GNU_dF5p_LxEtMnKovxx2SxpLfCyxNkRQrWMYWt-dyy5_OqD6U42ejH3YC9T2r-bzSOPw_2cIg9M0kVOA2lm5Q2FRoh3OucRqffKCu4MtqI7kxOlbwIkfTfjgaxpuM_1JJwrS5wSKRJBCnxbCUZOtJgetxKxTpOqyaPd8P3cuOizBEQLqwRFHeUN9da1euR17JbMQTH86iT4SqnGf7dS5-ZUpb54woRW67M8oRrX5jMOBYsP3BRj2j9dS9q8SuUdNXfEMmtt8bqDiTrUpoOpTqlo-IsWzgvrAV_SuRChTbkVshwVG7TlNn3hIh41MmRLh3sJFfWELUbZ03k7ocL6IigKKg3Mt2ewkqETpwkCaxqjVG6_sNLYfjxA_WpgoS25udhi_ySJUbYcDi8-0JhvreiRsFLm8XMvM-1wAfjNMW1gKEFnlVGsKdMsDgB12q76U5cK6wrVGv6eTCfRIHcfzZxubxYbOPIZD10eg81hxjgq7vRn9VHhbnWgMK0eEu7qkQlykGHzbSZj8=w514-h135-no"
-, width: 220, fbname: "", fb: "https://www.facebook.com/Belsportshop/", webname: "belsport.be", href: "http://www.belsport.be", target: "_blank", texte: "www.belsport.be", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
-};
-Chal16Spons.push(spBelsport);
-Chal17Spons.push(spBelsport);
-Chal18Spons.push(spBelsport);
-Chal19Spons.push(spBelsport);
-
-nbrSpons = nbrSpons + 1;
-var spAshfield = nbrSpons;
-scmSpons[spAshfield] = { Name: "Ashfield", src: "https://lh3.googleusercontent.com/d7GkmJnkiPD_gSYBgQsPAoN6CDv4hfd3bamOIvnbAfCIy8ESDz3vqbzjgBeMKF15V9FZ7sRIqKGS1FshXuV_0P3toIooxBw8O2r6KAQVC55K9Ne0APVef-DgQgJEbOhYwuLYCSBVFLBanfvZYwZnYPeHp_hAQBwOlDEIBb2YI3hOWdaMtGlAg8CEojFcOUyfdTXFNxK4PMFjloR0WYUCvxGb8RcmnIc_WenYL7Uy2PAOn5z1bA1RmbzO7aDadec2t4ZaK5Jzy2I2SaGDptm9f_yWghOMgNIwQgOPadUpcn7f2ivk5Cp27BSvBKVoyD8IgiNPpC-V3EH7KvsQVCaWZDmhqyUNH63U8oLQxfwREWzOr9nvdZiExulHNLOj6b8RTHFw45ANuq0IfU9lR5FDqFuahtCNtDErFnmtyKZ66NAXJ4cgaTgjV8eJPdFiq3mrvlZQUSZqRH_vso1PX47pJGPwQFgndWJYJ54fdT2X4KNti3JkSE4r6W-1S-_8XqdPuwCxEpwSyDqPi3v0wrfY3ul8GAA03NPv1h_M3D9BF4hkVT7ZNPJokjfvxYY90xJ2jFhGMZxOqcuXI8SwSXEMavd47RQUJBN4g3788SvKCIXlYrIb0cqE9mfK=w982-h356-no"
-, width: 150, fbname: "", fb: "https://www.facebook.com/Ashfield-Commercial-Medical-Services-Belgium-379835762027473/", webname: "ashfieldhealthcare.com", href: "https://www.ashfieldhealthcare.com/fr/nos-bureaux/belgium/", target: "_blank", texte: "www.ashfieldhealthcare.com", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
-};
-Chal17Spons.push(spAshfield);
-Chal18Spons.push(spAshfield);
-Chal19Spons.push(spAshfield);
-
-nbrSpons = nbrSpons + 1;
-var spGaufresMania = nbrSpons;
-scmSpons[spGaufresMania] = { Name: "Gaufres-Mania", src: "https://lh3.googleusercontent.com/aVdw3-hjPDjb2xawMgDOY5BiuFo9Js2Bs6FwK3nlflE6RpWdJlCSeQHJf3hXGTWyjNv3YYEcEXAjs87h3nPCqKCrLPVBzMn6me1eayGmqR9ekz5NnSMwNXCJsHfI2SJ1ORzNuHvbOsJRY-hC3It6xZVdB8sppiuqesjJ_6UA1-qT1vvGAEdH3cWNn4inzRBRzPg7Y3_dHC7BCmpn9sDb4ytoE7MKWjpsrhEtNj_j6lT0BxBiJR_oYaPo-UOkRGVT6ZWsVGFfV1dXQnzABcu5ANcltXGNEbSGyvxoxn4jLnO097Dj8aKO9nJQGXGc_XqWKN23FH0eSygdj3_7zuZw_dLtrEU_tp5fPB1em2OdrULxpVcoUkGliw-yy3sKJmawe-R17bzAOyz0ofs9q8coX0Gv5L1U_UwsRXh8N0TfE7HIEEVORRE8DlE-PdXbxuTA_4bLtXyybDcSO7Zd71pdeA8lgO_3A0AKea3DAl845Y8acmH7kaCftxvJ4XPszY6PbK35x7e_XTukgX9hWDlONFHTmgQwNo1g5E_se7G3mWx8frv7KnxpKn85olk5iSMMhyZ4QQ3II2NFl7n6a4bUUZTgSirrGBVaLjRl9900kbKbEfjGe9zY=s425-no"
-, width: 150, fbname: "", fb: "https://www.facebook.com/gaufresmania2015/", webname: "gaufres-mania.be", href: "http://www.gaufres-mania.be/", target: "_blank", texte: "www.gaufres-mania.be", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
-};
-Chal17Spons.push(spGaufresMania);
-Chal18Spons.push(spGaufresMania);
-Chal19Spons.push(spGaufresMania);
-
-nbrSpons = nbrSpons + 1;
-var spMTwice = nbrSpons;
-scmSpons[spMTwice] = { Name: "M Twice", src: "https://lh3.googleusercontent.com/ky7_UvuOp8VUJ4ZgxKYLEmUSkIf4iRYOfS6cXNxT9OaS5c32SKEduQ9Q1gaFdX01EDxHpUOIfOjx05JRQoVGHGcXhFGoBz_TX54GB_YzOb_CNU2P-nvZ0vvBe9fgSC4T-zHDb4EdcEa5kqAb5zzRFlZLOq1TjMqtyZaDRUBEIz1ysg8K5SvrEYIogXKTHly_bRT69qACeYimQlbLDmxQ6cXuhhYa6vFzrbLBVoIenDojZFRIu7qxOYniRu3WoHZBgRbRWB4z7kysuOKCwoKpN4DLK0YbbBcC6oarCYAyysR0FpTar0OPyLIkOJZSBGgRpT60qGLyL3-I8-_apPY27DQ9-wDeDIStA3A8wHcw2GtgGK8x3IZqsmMmgrYeztzWF_wUS7zHuQa1pLRUo5taIcCLKtPOl6E_nE9yoWP8TKbM0Yr_iz3wmOtO9QiI_y8hwp_lyAfNdMvaE8EKudbGiLXwEa3yGGuOeiVz-nnCWkrZ8-GPQoiPIon00EDc1x7y0JbugCdKK5BQp8x3op7hxqqV3MQbRjMaJccQuOcHlPJeVtruJ13_9DRfLk-NjHKLnf00kax4N7Xg99bvmffucReDX2tk7wg=w959-h462-no"
-, width: 150, fbname: "", fb: "", webname: "", href: "", target: "", texte: "M Twice SPRL", infoAdr: "Rue des Salanganes 32, 1428 Lillois", infoTel: "0471/12.80.22", infoMail: "massimo.melone@hotmail.com", infodesc: "Conseils de Gestion"
-};
-Chal16Spons.push(spMTwice);
-Chal17Spons.push(spMTwice);
-Chal18Spons.push(spMTwice);
-Chal19Spons.push(spMTwice);
-
-nbrSpons = nbrSpons + 1;
-var spDemuynck = nbrSpons;
-scmSpons[spDemuynck] = { Name: "Trophee Demuynck", src: "https://lh3.googleusercontent.com/CYfHWlhAsC8FYSMOwPMYWyC8_tHUGDNZhH-NMGJqUhn3t3iORFxvXSf_OcBVGAA3k9QvSH4g9t1F2kgy1Miik0YmlSL7zuWKwAh7mev6XBVnmlNuV_BVdI7aPXsKkbhM5zfxh0sIaq2es1E6l5gnXw9ZXhwps8rw_S1VVHa7azrYq0s1sM3tqE8O7Zt83iFjGQfg9nnTx7mu-HQdj0vhTkaZZz9uHzw1RvwmYGFLhdCdBe85xJ89-WgXiZksO-yhb--05x4VYOOkR-VJuij3CjU1JPFiMNSe5zX7VukFnCpLMWl7eoOyNmdyz0E9KuGzhY7eJP1kINI11iscu69QJDkQZzoRQpYIKg68JoMd70hJ1_801fnxa_saeYUA4Ve6bS9ZGR5l7ABJ71I0i3W-ziaPznDw2sQrqbHQHOhkXnyprYJr7OuiHfAj0yr11E-I-Ak1jE4J9fOSngn9e8j21c4edBmo3zS70S8UJTaZDsu0ksJ-fIv_nV0fwJ_COoEa9KgAP1HTSAZTdHXxv7Bs_krUc8VmQSR7d4W_alE_cqxDgza9xXjtJOTt0ykj4xSnBMehRYCrNmiH4gWcXbB2bqB8u5Poivc=w473-h158-no"
-, width: 220, fbname: "", fb: "", webname: "trophee-demuynck.be", href: "http://www.trophee-demuynck.be", target: "_blank", texte: "www.trophee-demuynck.be", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
-};
-Chal16Spons.push(spDemuynck);
-Chal17Spons.push(spDemuynck);
-Chal18Spons.push(spDemuynck);
-Chal19Spons.push(spDemuynck);
-
-nbrSpons = nbrSpons + 1;
 var spHDE = nbrSpons;
 scmSpons[spHDE] = { Name: "Happy Dolphins Encounters", src: "https://lh3.googleusercontent.com/WuDxioAkIR-ZYg9moUt2s3XPmbW3MmVLWa9jJ-WywfqASl2zlNJ5z9lmVWllOigWTn9GgOOHeAQOeyPoUUdhmKAm67maAUeRJWwqkgvM28-09cYNwgtZzJ6LQ0bFuon9doJqj-Zt_6IoZ7ZPkq0xR9_FC6pTgRXh6LK6QRzm74nvRSlbDLSzBn0NPGQxG59CgAxwSPq2k7WiAjWCWxXWN2dT3qBfTC13tZtcvjJGUZPhtqYAXHzlA_Ir6LXkMjqYi5I9YSdWk_Vh2zqdV9vmxNjmnHJYeeqIeCTPguvARvfbGZL8HuvSWf3mYzV59ekkH8Bje_uSGqlW1r0EHgFkY312R2s-nU-Wlt3lKNqoUmAommG51ZchXFP70zVyJw2keWHRDCLpDY9j7lQ_9rmY1MaPnQrD1vOrBkE3QL2ocPLD3xfWtM_o-mwFWK7sRuflGStUPHOKXA9KR8fdRVlUvCtU-dFvsrWNYYqJrBBBXsJNbFw6nlnRrOLe4IIBhCciLJmXvYu2-S_LjYu2D1JA9VyoAvkkWK2gezfcU4c4LQaFjk44A0GT9sdCsZ4sO34DFOx3QnY9wfHk_SynopGH_77vsYswweeaDhC8jSIDG68Y7qsYaK1zUFZWJHnTLUY29PjvF-rseWD-i-dWhY16ERmiE0c0QsQHBHExR0oxidAiHu2p-23wXPosO1hOLBRJiJGJz3wb0Hr5JOuPT4cZDvIY4TVwM6v9HcIobbqRNbedQMU=w901-h539-no", width: 150, fbname: "", fb: "https://www.facebook.com/Happy-Dolphins-Encounters-asbl-HDE-567818926574993/", webname: "", href: "", target: "_blank", texte: "https://www.facebook.com/Happy-Dolphins-Encounters-asbl-HDE-567818926574993/", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
 };
+
+
 
 nbrSpons = nbrSpons + 1;
 var spSoaveHotel = nbrSpons;
@@ -282,7 +133,7 @@ scmSpons[spSoaveHotel] = { Name: "Best Western Soave Hotel", src: "https://lh3.g
 
 nbrSpons = nbrSpons + 1;
 var spJohnBarleycorn = nbrSpons;
-scmSpons[spJohnBarleycorn] = { Name: "John Barleycorn Pub", src: "https://lh3.googleusercontent.com/4MxmkB5iyZYk8bA2Mw0OJKHPJ10R7EBHQzV8irDcDTeGBbcI7M8e_Q2xx7iOE-vmDMG6ebxlBxJ3EOnJyb-vvleblko-A9c3f_vL7PdFTHTto4Aj5q_C1G6M3qmdsLiupnDoHLJofUBDFyqpuGs0PJTMvAsHEDno7fhrS1BzXEDVR7tOG12mFaJEEqz8qB96e_tnPAVJYzrIzBZEhKo9kz6nkvJZpLLjaxeoMWBXPVZFyEwNYkCoIunp24v6HxHIGQfDDFwK5nz6I9ZidMgt0-lqLpOPo_3cE9CKPtL0rE_m-ld1mFOEelh6ZvSkf0GgJSPo7Gp3Al21FZUod3K53Vtwty1rHy1VBUvUz6X_k19PQaMkxQ2dDlfKVYt6Qm_8xwc50CEeXPH36l_24Gb1g5UGBQMeU3JR5SOZfj-hP_XXB4gG-4wVVf1J2gWLsg8LlczwFzhKziyWh7Vz15SdsZUTyhFuOqG4U7w8-hEWpy-OvfgNiF34izMOD_glCo-0bqnGGwtnekb_Z5pkqmSNJk0gx4yzYgAFE8lkHGT3c-3-UYY1rr76gH2p2wODsDbfKl7UIReGl9j4h00bZLT4tRWWKKmp7kY=w764-h663-no"
+scmSpons[spJohnBarleycorn] = { Name: "John Barleycorn Pub", src: "https://lh3.googleusercontent.com/pw/AM-JKLVXO3OXg9WyseOVK0uEAkPKZezHdy3fg5dj4KPrpjMWZwPTC1QR9JxkkOl2fle4ZkMBbc42JjQRfsX5l4GDcS8sXy9e7-F7ooW9EdCCq0ZP3HAOIacoortcai5p4g_Mw1l4HAfC6_IVSsQCzzh2zo6s=w654-h407-no?authuser=0"
 , width: 150, fbname: "", fb: "https://www.facebook.com/johnbarleycornpub", webname: "", href: "", target: "_blank", texte: "John Barleycorn Pub", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
 };
 
@@ -293,9 +144,9 @@ scmSpons[spIFabris] = { Name: "I Fabris", src: "https://lh3.googleusercontent.co
 };
 
 nbrSpons = nbrSpons + 1;
-var spJackTheRipper = nbrSpons;
-scmSpons[spJackTheRipper] = { Name: "Jack The Ripper", src: "https://lh3.googleusercontent.com/ErP84nCpgb7LHxARZnBxsHMn-WJZUdLsvwhIsU2SPR0uI1ZxEVNHAnJp1fJvALppXLzE3IcHUdMltgNHdbE0eDtQmJ34Hgu-vrxNfTO19IK5Xm7h3FG9fYd_QAUnhjKVlJpP36f7Lz94Q98L87xzKAtLRTR_fkEYQpyz8toqLXxe9FY3RlRx4UBxv8b6JJqmkzfDFcx1dmbPcLLEZx_V9pkZcdmE2wMsqjUtQEcOqBjdCniLQkSjfvmYX7wSHFZ7kkIhN_x4GiR2G8k2QmN4ojM-JJWSeaqGf3HbRtwdGb0_dU3odYUrQs2m8Rcvwk0Wswrn1XKtPzAea46K0HOkSEH05q0B-dHOkXFuoRChwf0VOt7jZtZPD7QpjCpuT5x9ZKVsfzs-dXhPVNY2YN22I3bkn-8GUfa0U6QzJ3krPDm1I9ZI1gNs4uEgcCy6prPqLPUoLD0DtrOAK14l3L5I6elHuiEumOaN1ECgp9_jHr50oC3uBe6OkATIqIOALQnJ2yLUREX3SRI_32YK7Ih1DmUEJhOpBR0IRr0iN-X8ir46stJjupZ92v51f-iNvw78WCNF4F1VR486-76X1lWFvf_fdQ241DThs3b2iwu88tS80M0qUq71vpp2lt4jSXOFOyRcYWnIKwVTC0AvUggGVZOP8ASnwQY-MwQxCTErwbwrs9qOR-dYGg3h_OVm_EiiBaXia4iggx76dvMr_IGtp1G4WVlFrlBJOxfFt-1bx-PwOiU=s730-no"
-, width: 150, fbname: "", fb: "https://www.facebook.com/jacktheripperpub/", webname: "jacktheripper.it", href: "http://www.jacktheripper.it", target: "_blank", texte: "www.jacktheripper.it", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
+var spAllaMeridiana = nbrSpons;
+scmSpons[spAllaMeridiana] = { Name: "Pizzeria Alla Meridiana", src: "https://lh3.googleusercontent.com/pw/AM-JKLUWMNS3Rx1PZEah9jMa3bQIguZ_5jzK8nhrBgKLhTpi4GkfJ2et46TDlodXm5zsFuQI7sWI2n5M-r_CcGy9l9gKYuWM4tQVQ4PXS0NJk1uFcJApRLmnmVIH9Qi77BJprqUAZjcnUtCkwPDtpOoXr1y2=w543-h593-no?authuser=0"
+, width: 150, fbname: "", fb: "https://www.facebook.com/Pizzeria-Alla-Meridiana-100912899086792/?ref=py_c", webname: "", href: "", target: "_blank", texte: "", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
 };
 
 nbrSpons = nbrSpons + 1;
@@ -318,138 +169,225 @@ scmSpons[spZonin] = { Name: "Zonin", src: "https://lh3.googleusercontent.com/kr1
 
 nbrSpons = nbrSpons + 1;
 var spAntonello = nbrSpons;
-scmSpons[spAntonello] = { Name: "Impianti Elettrici Antonello", src: "https://lh3.googleusercontent.com/ShlOrMeAF58-YMrOwIpgmeN7v8rnC5cwDs01WuH16-gSv6V5pihBSC5bmXoMNc7_B1kPerUJkJe_8Df2yDxrB6Yh60l7yJUWaTNADk0i7UpmzNYfo3nYoDPJSOAtrLVCl4S1fMqVK-DpZjr7uG0vpM-XVN-ppOfH3KFN00-VqMAPE4bnNv8DH-4BbqqqjGXG7Xq3Z_4M_bHWHkQhAAjkCqKMdnyN7bR0QsS1GlHj7YK3VToGm94EVa6v4SP4RHnMAsVU5ptOwm73_BYbVLHjoWHUsOLoQdjxSLra-FmLdep_4f4JBKFEMvbBl5rje_w7mp1rHyyVyabaRMAmvwpin8k6kuk1jwWXtxM1RVYFFdaY2Aw0IcLc62hEjO-TxN5Za1BlgXFv0NooDWYz9Mex9kRZruugyjvCrQWtYe84lf1gfpn7lCY4Grz_FfUzSSrKto4nL41gDdgZcKP1OMwGsdHgx2_IAr194wQDG_-osa80VHIAue5s0V18OwqIywDwt4xTr_jObds4mpioOCtBhsvhpMhTvAeIRaUkcUigQxpiFWDN0sUnhzI2EHep1rLRp3xXSprTBfCbkF3oZmVvhduMQTftduM=w402-h186-no"
+scmSpons[spAntonello] = { Name: "Impianti Elettrici Antonello", src: "https://lh3.googleusercontent.com/pw/AM-JKLUu1NXjvXzBteVQa8V43Ry7wynB4H-CS6iFDVNQzwqxvFKPFAbgn3SsRPR3m3sObRu5VnebntRa0JczlN3wNqihAdDFxm4iGT_WL6Bm26d03FIemvjBOH4wGo5w_23fDJiQvYW8F4PM5Wro47Rk00ep=w1014-h418-no?authuser=0"
 , width: 150, fbname: "", fb: "", webname: "", href: "", target: "", texte: "IMPIANTI ELETTRICI ANTONELLO di ANTONELLO SIMONE & C. snc", infoAdr: " Via Borgolecco 31, 36053 Gambellara (VI) Italia", infoTel: "+39/444 444 042", infoMail: "", infodesc: "Installations Electriques"
 };
 
 nbrSpons = nbrSpons + 1;
 var spSoare = nbrSpons;
-scmSpons[spSoare] = { Name: "Soare Renovation", src: "https://lh3.googleusercontent.com/HoBJoS_pZ4qcCCAHu_GfTbrQBYT-8jPJ8hSpMndcRS1WBi2U3efVdfzfHTDe3yKVBS2w8Ql7P7E8hKLm8Hb5MOcGjzZbFfkn0sHzjZXC0kLZSub0bNsFpTJEKJU0jDGBOTYyIn4_sWoP5nNvgKe63lmQ3cLqKbhP9XE--ibvNzXi-wCz_KgUIYu9L3pZtVuidp-q2xOFY8joS3efnO5INdBUVfB-EXo-Vu7K5OuOtyWUPgBEOeX-GxLCh-EAtKQILmyJXNTUp9Oh87MJmXBMEpWe3iGzw60ppGCf03JWikwSoFCBquMfnfJ9xDEyQB71jbbqHwBkoL5yNrAGk4lsExDBmAdVVmhIJhE5NbTpxeAG37zLE7mM1Jm4QKCTKbzdG1oEhG45lUWIzIc-kF_g4DCfmsWeTGaGlSQI_A96OirseuAn5SFGnGoAcWqq-vDqnYmiXgCgbSGaFrmLDpq0OpfnqEHXbPWen2Sa9QieLHN5OqaSb3_4Yq6BqM2UQC79Ea0flWw33cWe1ONP0qUn7i3MZKOceTthVwl700QRHOF1q7vrsMiMBok2BuKqr3jjgfA04GGDqi3Yk3brNrfh1mwTETb-kdxq6mKTAxFcOh2FInitXbA77c03sF5sNvSUCrkZRgYuMHA8gy4oTgAPp0w7AjBtl6I=w322-h273-no"
-, width: 150, fbname: "", fb: "", webname: "soarerenovation.be", href: "https://www.soarerenovation.be/", target: "_blank", texte: "SOARE RENOVATION", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "
+scmSpons[spSoare] = { Name: "Soare Construct", src: "https://lh3.googleusercontent.com/pw/AM-JKLWkWxcWbBID3EYFCJ1-_5I2GXZJ9YvWqkc71hWA0_eZFuxTElo-sV1QejemMJAv6EjlqZKngX0-0xNH0iYXHjmWYhLrgT3AEQBXbFR1ugI5MHm1UnSm89WRsu4ZTj2Fbp0ZLN08XBdZe_upO0QW0_54=w260-h240-no?authuser=0"
+, width: 150, fbname: "", fb: "", webname: "soarerenovation.be", href: "https://www.soarerenovation.be/", target: "_blank", texte: "SOARE CONSTRUCT", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "
 };
 Chal19Spons.push(spSoare);
 
-nbrSpons = nbrSpons + 1;
-var spGailly = nbrSpons;
-scmSpons[spGailly] = { Name: "Gailly sprl", src: "https://lh3.googleusercontent.com/Gucqcv2Pigejx0GCeKtravIylxjoC5wX9en5BA1CBt8EK3pxnudlrttk8xCIu7uojPcryrvS6BzqpDc9Gz8_EHHBUVcHgRpZ-doN1BctFygu6ZOV3fXajqkP8fjl6s9tLlIFM4ivmBiKta8FDEE9D86MNt970_hNu_3Jgk1erOwBhRD_lk_IOKtbK9FQgJjaIsyk4Vd5R2-8YqX-cCGFQPWWA1ENh59EBnkj-d5Q1T91M3I0qng7H5p7wEGSEp5_QTcnfFZ9H-k_8QJrjjLOiih0ZWpuaOagiFX_st_2-o1SYDuCTWTVDduIv0KzCDNbi_2n0DVPzRfwXn1zmr_GPMZWpKc9u3piKkU-61aYWIdoJ9XB78AZqGzoVtH7_64TbN8NW7WNkEZ3Rn07OX-TPDN_CyMoHgwR9oKXv-5ngpHTJ-qbVAaXpOPingZmFCowhrxuaA_lhqLhauTN-EuaKt4FwN0Z5QwmoH7gP-ZYwTROx0OESU8I6FPNCFlnNufDiayG_vu8znvQw1MqOu2TaTi5B_NmawpveWJ0U8CVroyPgAU20Fe1e1wq2AZ1ld_aEYq9v52iQNWnrQ1LlbapPDGNZ8avJDHf-d0q8EmeWxnbV7uKSeSFttgmWxPw0jJMzND19Fu7S_YcPbo1y3tvqoIUaYPHy34=w421-h179-no"
-, width: 150, fbname: "", fb: "https://www.facebook.com/GaillyChauffageSanitaire/", webname: "sa-gailly.com", href: "https://www.sa-gailly.com/", target: "_blank", texte: "GAILLY SPRL TRAVAUX ET MAINTENANCE", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "
-};
-Chal19Spons.push(spGailly);
-
-nbrSpons = nbrSpons + 1;
-var spVigo = nbrSpons;
-scmSpons[spVigo] = { Name: "Vigo", src: "https://lh3.googleusercontent.com/RsGVH3WAV3mwT_jsnkx_Hp3OQJlmMDvUfo2SZJoa78F4jwp5zXiVsvBawsJic87uCRxDPo0iQHJ8Fmi3RTBx5P_TDTbZu6R9BtQQOKqadtFL6s0uzF6y7xKCLUSkx3Xn4gGXZejjcmd-QtwF_3qgVWhXmZbjdGOHmwLb1kKwHGK_w8AlRvEOzp-ZGecjmQR-e5E6R5h8W4GEeAOyvClCBaTH5P1fLuOlqrx0w2n5ffRTIdAo05BM8vABkiX5u-GFEVKcvjiPXKHlp5x9Sgg60pop08qXS4NUbRQ_Fjpdpbhs-vlHxctstlO3Porv0EzWb35Put1zvCG8MEKtvbeu6J1jmcSQ1dkhC_LXsW2dZO7Rw2ibvH9YtUIYG_7SlNLN3Cy__RqajKmw8EYO9wGjEgN-lY5PxNuuGrj9v4TFR2Q9841pYqwG-am1Q8q7JkDxIxbDUplpW4ACb4uyOW3U15HpiB6vQgPqaZWjGvSZk_8X1MItwHTkw2T1IIdYODfByojAWgNO-P1DTUtn8e-fdmVMFvecNvIc11s_K_CShbGi_IZwvs_87cnHHGrYYmNmKzEn0p4VZbiQCINPVlKyonLqK_HI7u43Y6JoEUdUzlztApeiOSY0owcPARTdMtbzJlfG207_lpj1Xb-AK0Ck_mhjwKYEBJi-gCBKbe0gLr09NsEZzagE3VFzySRLuKil0QGzJfnVwjfPXDNFqkh4E2NO9TSdAu9L1ph569rmSL7flMk=w901-h339-no"
-, width: 150, fbname: "", fb: "https://www.facebook.com/vigobelgium", webname: "vigogroup.eu", href: "https://www.vigogroup.eu/fr-BE/", target: "_blank", texte: "VIGO", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "
-};
-
-nbrSpons = nbrSpons + 1;
-var spTorres = nbrSpons;
-scmSpons[spTorres] = { Name: "Torres", src: "https://lh3.googleusercontent.com/NcY_owQP3lKJkUazOvxoSjF8xhAQcJ9EJm6tJ8hgc-iqZgBFifdp7AqHVVrq13S3Ad1fsRNUGTUjxoQfNuQ32qzb6B1UiPiu6eFHyJoHBQ2MVr40MrRpWU3aRVvuTt2sDhhbIOdzyKcKnP1Yjqz3mvdA7Ntb2hktYDGiS-HnnXutjTCq_5rweXiyAVxoQuSrqtMErXiYFAM3U_A27gWZ1m_RxONcLu68iY1iQrA5OUxbohZtH1UA3FJR_Qn5wBTShsDA9wvpHlLJ5zs1LigIpHX5oQNWxOZtT8tRsyQtWNPQ64q6rgR-OOgQ0x8XRxoken_DWpUuu7duG41HDpmsvShpmAWrFvDiFZ4pCrE6Bo6qZ3sLZLZ1qLJ_roSUSXdtmceKF9b84_NBP13t3n371yNFdpSpBjPYD_vNOxaoCAnY8bFIG-Pc9FFNrxbBr3UB-8gI2VW0WZDTg3pyBMcfLS0clkWGO0XBxRVdMKcbSSjvberjMCVWQDCZDydKLA8CbLEiYWHqnXKl3srPoiQRSQnoHf5qJk2KpB_B5bfAVDqB5fszT42J3flNvI_n-xHHLMvp2QwFEdIROeI6bW4mnF8fKpwgJmhIC_rD0wIbKzjLjFX2We2eC8y2O7wdqU_x7lSNBvL_h-bratlYv7fG24GZFRN_hQk=w649-h305-no"
-, width: 150, fbname: "", fb: "https://www.facebook.com/elagueur/", webname: "thierrytorres.be", href: "http://www.thierrytorres.be/", target: "_blank", texte: "TORRES", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "
-};
-Chal18Spons.push(spTorres);
-Chal19Spons.push(spTorres);
-
-nbrSpons = nbrSpons + 1;
-var spLeBienvenu = nbrSpons;
-scmSpons[spLeBienvenu] = { Name: "Cafe Le Bienvenu", src: "https://lh3.googleusercontent.com/j_ntdkgmkaJpUktLjpEJhlOdWa-TF9S-I0Al4rVuZg-aMzEotJNwYqEM5M_75P8pCpRZUyIMNbXMpR8YKf-kAzCixenNh3T4PXrdeOP3eQpZICinovh4SMQDXHVcRyoSX7eEpAVpkMhEBOubvXlB-gOpqVTnpJ6CIS0cDqp6Lp2ZehD5jh8EWlBJZrRfPW4mX2f98yjALKDXmlcsc3jwgkppPhwyD4_jYMD3W4r7ht-D_-1spZ4Q5s2z8ZEsVgf0uV13dWmQ0Q9jBKgiTg2NSKQ6XFj11pbMQwAVt3zX0ToH3e-50U2waxPUs2qDA8H_tdELql0_Rjpy6QZLWK7A5eQXEgbEMvHebAUVgg_ZSHjGWW_cc8LE6S30kxPls0TYd6A7Z-A56s3d41nA143WvLB6ZZYmoB_RA-lKLlgdEBtkOyCTXL3L7rzcDifLm37MYJqfmPVGuMQWGJK51rItocKl8aamJBqhPuU-cInQW55jcjFt8EtHv0GE_8a26gXhgKONeaXC2_RPJaNGZTjxZ74-ofTo3L7CLyV4NiR2ZUr4mubEQVoML-FbTEeus0WUpb_mHEe1WvO_VRWa7ZIdFFAKcmYP92G8rKrOxfFw7Chj_M38eJVzKcY7sdgzyWR6hUYdiw5gz0kEE87NTDuW3VNTiqFsj4E=w163-h26-no"
-, width: 150, fbname: "", fb: "https://www.facebook.com/groups/366866140060450/", webname: "", href: "", target: "", texte: "LE BIENVENU", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "
-};
-Chal19Spons.push(spLeBienvenu);
-
-nbrSpons = nbrSpons + 1;
-var spVincentBis = nbrSpons;
-scmSpons[spVincentBis] = { Name: "Vincent Bis", src: "https://lh3.googleusercontent.com/H7lHDoH-OFIJf7rpACpv8cH7Vq9lgupYrPGCGxlbShOwfnlOs7xynMC1wC84yTrgoVVFzb9zUr9fCwQiYU6Y_LhMuPryKdSeuhtFtndumtT3LHyMFn94H9IVGM0vcxvbhOZsOSEXAf7fNrcQmP-43c_rQtEsgdRPsU_1uz0d27eeSq49_S21lyTY_YoM5zRYf-VQxdtuEarb0SkCepCjt_coT4Ek_n3ET9B0Nnh9-rxXjeOUrg_WGTHtUf0E0Xw5uAKLs4BFbhiRU_EZHuzoOplEtyt9SuowaAo4MwpAgcVuBHcPUW6r9vXsCl58q2b2o_uywIzlWN0NiuHuIhyNfD1eOqCG_Zmwp-7ODWeLoPOwrcKU5H4dfTnPSKjXDk5yzETnNRIvvDnn_DZ79hYVN2x01udDUTqPwx6qSF1nMkxHL3_9UTgPZQfKp33t04a3SNpPj4b6qJhaOIYOVNaKKyC_qTUrf4GI_2-VqR6Veea_upmeNxc6uduoHcM0Ux4rPANKzBofBUPnqjflvlS4dl50YM0oUh-NBSXQz7kqT0MJbSzWXG79mcREAATDqN1xVvGpD2V3HMWj9Cjsy2iTrjHT4f-VP8zMxD9dZHsDAe4pvFNmlNvXpUpmnqnTyPAM2-CDyM7zshDwRUk0AzKmaJzHspSQgM4=w281-h69-no"
-, width: 150, fbname: "", fb: "https://www.facebook.com/Vincent-bis-VB-1619713384979933/", webname: "", href: "", target: "", texte: "VINCENT BIS", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "
-};
-Chal19Spons.push(spVincentBis);
-
-nbrSpons = nbrSpons + 1;
-var spVanvolsum = nbrSpons;
-scmSpons[spVanvolsum] = { Name: "Vanvolsum Marc", src: "https://lh3.googleusercontent.com/TEBnZh2jBvgDLaEWy2VenWSW6xXjiBQNJSgy-7I1M4eI4SpCHiedgnEyINfc8MPnHPpcxHTRqzz9rEv1-g7yge4vGub6rqiQYqV6H1gnehmw5EzAyNQhcPSn48x_YwUIFHPd23g0tPnRn6v66iP-SsF0Da-Ss3Geu3noF6j_DLQ_nqJBN9l5gKhw0ZLL001UJMBw_rG-AaQ2DTSQIi96RbJavRsMhzoul0hF_h7QCl6jPi7xYt7MiTH-vSYQnuEjwjrKtwZLXewyLfUgkvLkLHH_HxMpq_Mih4Ob2Qg2GR1XwmQEcEo9vTIRz15nvWAFGzDG4SzVL5MfrhWFxpqsva_icUFzj-CH975Ufy9WVcIkh-5d4A9eZ_Cz6433RXirvrZpxcSs9bqLjnCQUcAKO5gw2x3GObkZ1TexsjqRouNTzCKybsj_UEziqy61WTK_4QfCGuUkdS4500Uy4j2yOPCEGhpBkPADxXjtXrnb16Iu-XAvk5yNqGDtID6UZvtAKq-xLAMOQ0yy-RO9S8d58sBlps95y8kCwOzDh2zjrX4Mae3mlT3fZHLnEYsdIiydwRyCMeKOFoijrdkFiHEsws4_1uHhmD4uAADlSmsE03LCaUHzPswSS-jFdTBLH4y3SHBIX9xUH5JeVfYzt3YmbZGlHLjjYmvVprBnd2MYLPyswNhJ5LbN505lG9JXoUOirpxrmNgVQ4XSVJ373ycs5wxciIuvIA5p-xuroKDKyF2YziM=w422-h230-no"
-, width: 150, fbname: "", fb: "", webname: "", href: "", target: "", texte: "VANVOLSUM MARC", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "
-};
-Chal19Spons.push(spVanvolsum);
-
-nbrSpons = nbrSpons + 1;
-var spChezBen = nbrSpons;
-scmSpons[spChezBen] = { Name: "Chez Ben", src: "https://lh3.googleusercontent.com/Qlqm6rr_dv4vie88dFFmFK2cgA3bxM557nt-j0f5OF5YYeNZHMIOo5SpZG0_ycl8fRyX2HPbhXaFiGQvUh6sgNs5tLIC4Og3thrZ3RsLGjfySxwxgX06JrYXXq2DDBGy1plhoqFaP5HpxZgoukLQmV6EVgaUDVnwP3sGSX5VCB1YZ82gVjicKUvTUeDotQW2zNbGTo99EAYfSHgjNKq8hkConmztnLXMuHRkTAZ44TuDrqvukE3_9clMBQVh9TCoTUWo7Ce9k00Pk_-p24_vBnJFk_QSXKyK7EUakCMl_13w43TVt_VdIM-KaYmP3VgQoZ90oHBTjH5Zppu45d9Be-PQ1IhF-CK6OX7Bk4mgSi80zGpxabMoiaeg6YSbLUZldYZ-qlISDyPkTNSAjgLouJwpWM8lx0HPfv960AfVlIaLLoGbj56PTmPsjryuG4MNKQ-_qEplGY9dT-v1o3ti4Xm1IgAgQP9QSSInFVVgqsDNjccxyb-pMLBG_vbxHGId7MQv_iTWr8kyQKRPsmskkaDCtZVqwq2uWA7XLuJki7dxiaUDWQsHq_Rgkp14G5s-K_GRDYg4Z3ysrHqCcHZ9lT8j3e8CyNapXbsUMQ9qDXKDy6Z-UoQEkabMXas1UHJ5bS7gZatUFVz9ky2LVf35ERDNSO-p4C5O2PHiIzAq13mij3i7ONE2St3Eby8kH4gZbYC2xlNstUE9gcNO6_6wCnI5Q_60yhmDyC4HRvIjA2h9PG8=w519-h156-no"
-, width: 150, fbname: "", fb: "", webname: "", href: "", target: "", texte: "CHEZ BEN", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "
-};
-Chal19Spons.push(spChezBen);
-
-nbrSpons = nbrSpons + 1;
-var spStandingHouse = nbrSpons;
-scmSpons[spStandingHouse] = { Name: "Standing House", src: "https://lh3.googleusercontent.com/UUSjqw14iknoSs8q3QnajfmUpHA3IYgFNmh5ssvlnYV-B6SS4y5srKmEPJp0TD3P2pTnGxRQmW0kGoXkPtCajguZjtGZzUs9eRNQ5wygc4cJO285wjNB4hWmSUr1gob2wyM70Q1_NPpdrLtM-wLOVGkIha5Ma7Mv0rF8oDTRM2-ngqwz8fU9swFaSt-Bdgr4C1GWm1C5V1JyBdoqLG3rvz9WaaNsIenIwydUk8S7kQitz1UjzWpK3_3zzYRIunPHS9VVWr3yq33NzGFXhtbOgHk69ln5PZxWj77pv1Mms_oEsWCEP8l2uX4r1xIB0S6tZr5Nqx8Co3a0C5LAAK3hjlNb0YPjoL2CRLroQ_1BN2cM87cKJkSAst31OzcdffZLC1dD2Y9RXJSXqyJIZDyzZblubP-F3wrGWwRs-D6gYtIhoiWbrM_k61UQ7QsvcVKsYTbYAJXyu1xlVJIaFTC0JBzm5ZqxR-OIhM71p1ogaDxwfD8gKZer2XD6_IfUl0TsxDRg0zXLOhTC3SwnMNG1qe55K59cn-LvELQLHZhxDLHi6B-d_T9g3cwCcxtn-lrNUgCrhv-5CLmM5oBXEIRKHGMn09VEPy_TIWULyyHEh69wc8NA7mbTW4ebcbPkbzdya3-TXQxQHassG9L7zxezz4WH4F_kwI38tlWMLpKdrjIekIyHWSR2hdRpA2xMk_OtMOQT5Z6VWVQZz5_w9SniRXXIKd-aBFNqGPOHnDydyQQ-WYo=w901-h596-no"
-, width: 150, fbname: "", fb: "", webname: "standinghouse.be", href: "http://www.standinghouse.be/", target: "_blank", texte: "STANDING HOUSE", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "
-};
-Chal17Spons.push(spStandingHouse);
-Chal19Spons.push(spStandingHouse);
 
 nbrSpons = nbrSpons + 1;
 var spLeasyServices = nbrSpons;
-scmSpons[spLeasyServices] = { Name: "Leasy Services", src: "https://lh3.googleusercontent.com/0TNnbdiYZikWPBnHwxyt0xXiHQERvnQEmh_G0dIAU4J51pQKX-ruGwQn5FNf6uzDCedjTDdADyyOm2PdrrMvWA-9TWR3jw6T8yJ4nswgCSFKGEeic5DBey0wd5qEQptWMuRisLUyZe99cR0ffJrX_51r1-JL8N683bWqoJuUVD7Wi-p1RTenv3yJucWcU7o25UzhhwOO-FW4oTAs1pDL5vz02qO1bBdZmzsWNh2weJxYoreo59l0yvUsCv-QeJKi7DfGe8hO413XZlG265wguKKpWv6It5xWAhXcDWWrpSIo-v1vLtEa-6ezmcClG2vdg9iAGaVLaP_m0YERIUPfsRTMbPPbBlceqtbvgbSacOlq8b51JErEujTdcZrH1GHMsunlrQz1TicJdRpif2AiUKG8bSCUbj0fS85KRYtNNpE_oJbyNPIVhLd1YmfgtJNI49L31joh9tGzrYE_vF7D5-wo8GRotaMjJrl22606BU63b23vspgAny3j9d-kCqa4p7Cw3giQb2Ftid--JDbj_Dczv8K2EnB1MMdq4oEZpmmxc6A0xI1ryr9-sVjpmV_BJiaCnRfXBUXGEcs1g2Ja4R32Bg0P2OvHfXGAGPuZDAvorE2vx63WrXWa9q_f860g7lP_eRKtDQMa0FPEhRz17b0aifHsJio=w498-h365-no"
+scmSpons[spLeasyServices] = { Name: "Leasy Services", src: "https://lh3.googleusercontent.com/pw/AM-JKLXVkOdJIjnNV7OHGnGFsKHQeh5xyuzJWUL08NLYJ8v0ufsWSecC-dpQKuRazemyOtTP8tcpVy5jJOpQVGOzAMRC-KFpyV53Z2dtVLADzqtdX5GXTkPB-U79uJKNMkOBGDxcIUzg0tga2ukArhVkwVOI=w851-h821-no?authuser=0"
 , width: 150, fbname: "", fb: "https://www.facebook.com/leasyservices/", webname: "leasyservices.com", href: "https://www.leasyservices.com/", target: "_blank", texte: "LEASY SERVICES", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "
 };
 Chal19Spons.push(spLeasyServices);
-
-nbrSpons = nbrSpons + 1;
-var spTomTrieker = nbrSpons;
-scmSpons[spTomTrieker] = { Name: "Tom Trieker", src: "https://lh3.googleusercontent.com/AN5hHTIb0uoRACK3nhpb4w_DSdROPf1rEvULNTrnnO979dy4pSI2_aUK62Ed7qmkwPaEDGUnb9hflc5H8g6n5wf17yPgQsFA_90pONaK3tH66QxPWNh7k5LESmRuJN7Lz9Q76TdXMgQSJrPBC80IHb1MWLZfLVQ13DTAlDfGUvfJDR5EGcuWhlKxFIFyamNW277EPmCMQHxM3YMDu7aax6IdABoJGV9ejxrvceQ09mQyEIx4mnU--QmyqdRYdfUQXQkDSrBKgOf3S48s2xQgdzdsZSLk4ijm995ntzD-PFxWkAgNJVtiGZSiNi_ui2rWFKxAFCotQhJaTp8pb8vmiUV9HMB2XQVPxlCDYT_wF7HDjk1uyDJub6MlbSPFE0bbzg2v4v1knvehNhJPuwK9Dygv_et_0_sZv20NvZzBMC4WEaHL8euWqxHti9Vtay20-qCgNTfxmlFjghKHQ0P76fTEhdvDIETV6-eKOvaGEfqhe0ReKj8EtaN_IS3dq-XHJIVN7CP1YT3uvPEyFlGDWmhp__L2f-kmrpkjLO5KG8WOcSdCfZWqficyjToMUmczSCdwc4EbCG7Rsl4h5pHC7dlelW6csgKJ8oz4E1bbuDrEh-SWZjirK3In3i8_PPzgNPF0La34BzyDtCPvW4YoW3ZEqH6mHvKgldQDiCOmMmuaYDCZPsmbKDqWrDRXC8vFrviaA0AXC3zCmCLD_OrPStkJo3P3sTTGLvFTKlmOHLp1lfQ=w901-h155-no"
-, width: 150, fbname: "", fb: "https://www.facebook.com/Tomtrieker/", webname: "tomtrieker.be", href: "https://www.tomtrieker.be/", target: "_blank", texte: "TOM TRIEKER", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "
-};
-Chal19Spons.push(spTomTrieker);
-
-nbrSpons = nbrSpons + 1;
-var spARCarrelage = nbrSpons;
-scmSpons[spARCarrelage] = { Name: "AR Carrelage", src: "https://lh3.googleusercontent.com/hpNDjZ9tw6MLue7dllJ26Yu1mUVzCpFqNYYcrILHcHLX3Bp8kSw518yHBoTaxUfuoKzJfPQzQXFdMJUulDqo-UswX9F9uE1rYMe6xQ6WD7rppg6IlqwpSH0T8J6--sImAvsxwaPOMCDGBk5pXOP5PfbeMJyPl7J21DSIcIhmQdYCDw3-HhdPKFaciWN_DiuISiilgG3UpCqewXJw7Uf8xX4PCdam5RRB641epdUyvf_N2eIjh_QQpp-Qi-QGLd24EJLlx6WtqWhCGrU5NUEaOBoEXBdl7RjNQ7kneS9GQ26uqkV39JUijjof0tO1dpl_1DRWWtIsdnjCIeK6xw9l8ZULbISv34wNzbQC1xNXQkgkSbseOqnU5vJXLajuDPs16JmmTMbv50WgUBanCDDPprtJUJTZ5N4hVmSK5cmI4X3GgYH5OFlQmlrhiIUfFrusA5EVgnfkxS0NRkiorCk0bncoscjbf89uZ9G5P_wz3CUTFcThA6XM1Ru13V2oj392k1m5FGOlGwzbYv_Fl1CLyFLaNZTLLKfcT1X2ebbfCo5vop_wdgRx_jLZAUkYkLWB3R6zmKKLp_0HoDCD4sMzr5oJ51zvgGbyOd-8ihnng6BOIeGXA9w-rS9gnFiiCIMR1SWsVjKclqLm6l9tFbr-cEJ5HHHhJygucJYygOUudjbJCi9amsQwSQ8OACiiJxYqqaHrWcos-nQI8z5WYoD18VlS6RfiC9nQB3DUB9PCyYSD4Fg=s730-no"
-, width: 150, fbname: "", fb: "https://www.facebook.com/ArnouldChristophecarrelage/", webname: "", href: "", target: "", texte: "AR CARRELAGE", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "
-};
-Chal19Spons.push(spARCarrelage);
-
-nbrSpons = nbrSpons + 1;
-var spCharcot = nbrSpons;
-scmSpons[spCharcot] = { Name: "Charcot", src: "https://lh3.googleusercontent.com/uQbCHF8jh4g3rRpMkNqwM6VUG36jW58EmIl4hBL8mw-juX1ni_sM6sVbSClz0o782YA_iOpVE7odNVpqmryNeIcRJsD4PufoIFWVeR3lVqgFJ34-wU3W2-jt_vioEnSWv8cLferq2WZZZFwbDNuwkmMZrqoEleAPP9lE8-xUfHzfuZrd9dHxTfudA217edoGTadn6t2nSu4DDYFs3inFVnaWqvNnHIi7cMB7vW9EwHmYWIEACDp7DvEuu3KZ6NSF30ScEwCTgpfg4hkw8eYaBhmfgIi8RJhwYi8gIAP7_cwv0_oBPZaZm99WneBSTw7D3eCbbrYYueNz3j2aQv4giWXi-eVfAL4sRkEs3LBGMpH-ELIYpVBlaxbf8bJjzOyOUIUZXZDjumG4u-I20cPTtJmzsJvnm6QwFvPnUNKecXQoA7-h-Iwn_jZekyD0q4CxI2nByzfbyACPrnZWjQRsr7LDNtlo-0MDd1D6ewpM6ZAYtu_ewj7iyKgHqR8FKecTryZIqcstX2qgggkmlPRIAFM_H3bvj01okzmBXci9J81i61kTAXnhMNIWlXoRmSNXoG4TdnmFJF7JkD6PMDiVFfWN47rkrz136DRWG65kFofnQJRLFF7UNL8C2tQjS03hxXw8lCEUSmUfPQC_4AYS7EiatAUFpFg=w707-h576-no"
-, width: 150, fbname: "", fb: "", webname: "garagecharcot.be", href: "http://www.garagecharcot.be/", target: "_blank", texte: "CHARCOT", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "
-};
-Chal19Spons.push(spCharcot);
-
-nbrSpons = nbrSpons + 1;
-var sp3Fontaines = nbrSpons;
-scmSpons[sp3Fontaines] = { Name: "Auberge des 3 Fontaines", src: "https://lh3.googleusercontent.com/ZJUcTvK-vc1KpRAV_Cl5HWHDMmfI2XWbRgxgXibhoJM4QKOSKbVktWIrUIb3HARNJgSeOkTlvGQCFb3RCoQ62MVtrFtuVWDLGDzxt7985W6eFgAHoDUtWq9V0vV1Cdhm2luncIlbKpxE02sInLSkgBrqI5ZNGFQVjRCqg5UobwuI1ysWCHuyWLr0vtHJo68OZaJopVyfYjJA7KrdqJho-aKLwbqgwsSAfCSpag4UVsag6m4PmgfCt0-w31zHwVm_KbljF1Q9Qud73K37b5wXj_u6UzpbFlMSK0fC19B09k3gxOQrmhaN7KvxMNwMLpIOA624LtdDRRXVkF1oCmhcu6myVFd9lKTFHbKgRsYc-s8btlvsO4eMy8abpLZBoXHbyU8SrblKCBmlVqpNOS4Pejjj2AtBU-Yh1R5A-rWVgeqSoEZ9bWt_uR9GbtMys_xrldxAsL1olBLboopUp3Gy8DzF6nRlX20KlX6jIU9BicRckXRCbjOxv7gCMp02u5cX7rdDrpL_GUgEn-7cMZg1DI6WMLND9jImPGxdOUUS24polmZcPAm2s5sCHD5R-ofGcTIVIak4uRGziRR4wrMaJuTrWecFmiV12Ej69NgqWhlJq5fvIasRyjk-TvKNaNBdxv0wkKlFdVJBBzYa1knl1XedY9EQgn4=w240-h80-no"
-, width: 150, fbname: "", fb: "https://www.facebook.com/auberge3fontaines/", webname: "auberge3fontaines.be", href: "https://www.auberge3fontaines.be/fr/", target: "_blank", texte: "AUBERGE DES 3 FONTAINES", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "
-};
-Chal19Spons.push(sp3Fontaines);
-
-nbrSpons = nbrSpons + 1;
-var spDesMainsAuxPieds = nbrSpons;
-scmSpons[spDesMainsAuxPieds] = { Name: "Des Mains Aux Pieds", src: "https://lh3.googleusercontent.com/B61xcejulzeRR3vEbHptIgESQFiVkyxwurmi9oLGAUJof_5uDICLJPnHnu3-SQYbTv1kpKv5hhBBBrewpqKyNxTaSX4N5DOZIvPOxrHhFHkz64heER68ohpiMWu_53gtdFn82XSvJR0XJoENI4UGYqied6jX-B_gCYgsB7kjiGauBzvQzQQGq5BqTTDhjymE23QwKDO3NlH39Ivyey9VkPP8mXTTaLsOZ8TSKlALWbACLHASDjNW9P4mr40hJrTXAKzw36QrNmx1oR462c7jB6vp_Ohh5bBSTGkb-zqsq3AXwG1eHl195ohITcf9GMyUQvAJfiAsNI_AO9R3UrprNcga4VR8IaPCzttg5MA_0wBxYUuyz25L8ecPHU-l7RDCljFjPEHpz4KQlS4Xtbx1aPU6b42C3nHzsnXMUU1olzeXkx_87ZGmbHTDA20156qX9ukWlM-j2o4T78il98cfVQNQbH7WHRWbsHMxDL9Pzbziv7GCieGgroTdjDb9ztQ7QKioc9Kfvrq0iXdQABZtibmmb3GTiHGoyFeioONXOBukmVHirGP1vOZF4KBYq2OTZ0eacyFJd_4LNQyGERfrbE48G2zj2DRHYKxhJ0vM6vuQcEI1i9wT3Uqf5PTl6s-8hLxMnlabjaN4IRx3zDKkQoIMgbSgRwj8_muovhxWiauqu-WYWMcgoYCu4Cjapg7SDSMvnpkOGqBleEOCcPQVbJQn0L3RkFqpFMXXvzhEyxC-5Es=w828-h315-no"
-, width: 150, fbname: "", fb: "https://www.facebook.com/desmainsauxpieds/", webname: "", href: "", target: "", texte: "DES MAINS AUX PIEDS", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "
-};
-Chal19Spons.push(spDesMainsAuxPieds);
-
-
-// *****************
-// * Par sympathie *
-// *****************
-
-nbrSpons = nbrSpons + 1;
-var spScarsiDeco = nbrSpons;
-scmSpons[spScarsiDeco] = { Name: "Scarsi Deco Sprl", src: "https://lh3.googleusercontent.com/4e3T5ZUwo_xdRv_5OS7UASlMScQzBEvePJWlRHwKB8hV5BI8ubOjuWz6Lbk9cinI2u3czduIrqqGNSQSBhNodnkJI-45mc36EYxet7ozlCh9CvlMsaVn5kFP3mbah3d9RgXMiox90zzIaYd0ln1UdnD99jqhbgZKojasqfPcmB3vC7ssrPKO6C3Uba5AYtCBN9WK5H7T9DY7njwHjdkYggiCmbUJu_Q73EtCnDE0SExdZEuD8OdMNASzdyEM4a8O94YMDbmqovNTT-XC3eyK2Ep5xElNLAsGLi0yjH_Y9N8P5LD2jro-EXFRz3sgH3hnLwNlneNz9z22J1MoizkBhNGe37sdPtV8iNSYDMVtDdUFrEzuENkfmxV1PObAVfSa9ysIownsluwK1AbM3eM65elW_mHPt-cWOATJ1Pl1YOr3lSiuKf3PF0lA82oy1rqotpuMFER10S6vxenqYGvxorX3gXJ7NckNRMbx-P3eWNO_3Av2MJ0HINld7YewzoLwmlB4uS4NuWbWCdpuA6c95h64CeWTuFkefqw4x86Avx-0LkPcQwl4nOVwif2GKqFitQOJPoutLgm8FCe3PC4a0dAtz2TYUPg=w748-h657-no"
-, width: 150, fbname: "", fb: "", webname: "", href: "", target: "", texte: "Scarsi Deco Sprl", infoAdr: "Rue Renier Chalon 14, 1050 Bruxelles", infoTel: "02/343.50.28", infoMail: "sergioscarsi@hotmail.com", infodesc: "Peinture et Decoration"
-};
-
-nbrSpons = nbrSpons + 1;
-var spAuxPetitsBouchons = nbrSpons;
-scmSpons[spAuxPetitsBouchons] = { Name: "Aux Petits Bouchons", src: "https://lh3.googleusercontent.com/zv7_Wr8sH6KVuUFYB3FMDMSNh0rfZVqta-4nRn5R_CXs8ENU3qGN-1e5HWkm2fIk3nogHzChJCL6t6whIfvdO94TTTBRnPqvnPEHPqUKUozkUbWUSOAIefrai69c7j-8AwRU4YknQhyknvI_c7fTrzCTYTqyHphW2_gKZz4_sS5VQ2ngBAkv099xjvSdPQ72RlYgS3LuidDTKh2ZRJaYirAsIrP2DQydKF4hzSgr8gBAPkv5kX_OpjVVlyO6KQ5GDj9DpUbDtxGKu8xVAxc7dovsaQ9d7ysfGbRyCgjwEjlBHswXdq8f4Cwk4UobcJFUfCIWu2QiD8m_V59ZnUa7-l_l2QgvfErJWqyVJpkLS0fS0CmW592RgQ6m82E_u581zwKLR7Zy2A2bAEtRis8RK2WOegSjUgbRgEgKRWmH-_TcbGbKiaEwvIzv8ss_wBoGdnm8VDBKhnYAFWlC8tS6ZvNr6iD94PVVwVaK_ytu6dx30g3FRkSPmA735Rfb4_ego4aPU277umfWt6n0M30rMMmXT033U4iKMSfXosGJFlY21D1jUWSluHkTW3x9bT54HIgyk0-1aRabSMClPA8D6rFfQPEhqwSnzt7SaZeoDHNIKV_gCobeTacN=w758-h628-no"
-, width: 150, fbname: "", fb: "https://www.facebook.com/auxpetitsbouchons/", webname: "auxpetitsbouchons.be", href: "http://www.auxpetitsbouchons.be", target: "_blank", texte: "www.auxpetitsbouchons.be", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
-};
 
 
 // *******
 // * OLD *
 // *******
 var nbrOldSpons = nbrSpons;
+
+
+nbrOldSpons = nbrOldSpons + 1;
+var sp3Fontaines = nbrOldSpons;
+scmOldSpons[sp3Fontaines] = { Name: "Auberge des 3 Fontaines", src: "https://lh3.googleusercontent.com/ZJUcTvK-vc1KpRAV_Cl5HWHDMmfI2XWbRgxgXibhoJM4QKOSKbVktWIrUIb3HARNJgSeOkTlvGQCFb3RCoQ62MVtrFtuVWDLGDzxt7985W6eFgAHoDUtWq9V0vV1Cdhm2luncIlbKpxE02sInLSkgBrqI5ZNGFQVjRCqg5UobwuI1ysWCHuyWLr0vtHJo68OZaJopVyfYjJA7KrdqJho-aKLwbqgwsSAfCSpag4UVsag6m4PmgfCt0-w31zHwVm_KbljF1Q9Qud73K37b5wXj_u6UzpbFlMSK0fC19B09k3gxOQrmhaN7KvxMNwMLpIOA624LtdDRRXVkF1oCmhcu6myVFd9lKTFHbKgRsYc-s8btlvsO4eMy8abpLZBoXHbyU8SrblKCBmlVqpNOS4Pejjj2AtBU-Yh1R5A-rWVgeqSoEZ9bWt_uR9GbtMys_xrldxAsL1olBLboopUp3Gy8DzF6nRlX20KlX6jIU9BicRckXRCbjOxv7gCMp02u5cX7rdDrpL_GUgEn-7cMZg1DI6WMLND9jImPGxdOUUS24polmZcPAm2s5sCHD5R-ofGcTIVIak4uRGziRR4wrMaJuTrWecFmiV12Ej69NgqWhlJq5fvIasRyjk-TvKNaNBdxv0wkKlFdVJBBzYa1knl1XedY9EQgn4=w240-h80-no"
+, width: 150, fbname: "", fb: "https://www.facebook.com/auberge3fontaines/", webname: "auberge3fontaines.be", href: "https://www.auberge3fontaines.be/fr/", target: "_blank", texte: "AUBERGE DES 3 FONTAINES", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "
+};
+Chal19Spons.push(sp3Fontaines);
+
+
+nbrOldSpons = nbrOldSpons + 1;
+var spDesMainsAuxPieds = nbrOldSpons;
+scmOldSpons[spDesMainsAuxPieds] = { Name: "Des Mains Aux Pieds", src: "https://lh3.googleusercontent.com/B61xcejulzeRR3vEbHptIgESQFiVkyxwurmi9oLGAUJof_5uDICLJPnHnu3-SQYbTv1kpKv5hhBBBrewpqKyNxTaSX4N5DOZIvPOxrHhFHkz64heER68ohpiMWu_53gtdFn82XSvJR0XJoENI4UGYqied6jX-B_gCYgsB7kjiGauBzvQzQQGq5BqTTDhjymE23QwKDO3NlH39Ivyey9VkPP8mXTTaLsOZ8TSKlALWbACLHASDjNW9P4mr40hJrTXAKzw36QrNmx1oR462c7jB6vp_Ohh5bBSTGkb-zqsq3AXwG1eHl195ohITcf9GMyUQvAJfiAsNI_AO9R3UrprNcga4VR8IaPCzttg5MA_0wBxYUuyz25L8ecPHU-l7RDCljFjPEHpz4KQlS4Xtbx1aPU6b42C3nHzsnXMUU1olzeXkx_87ZGmbHTDA20156qX9ukWlM-j2o4T78il98cfVQNQbH7WHRWbsHMxDL9Pzbziv7GCieGgroTdjDb9ztQ7QKioc9Kfvrq0iXdQABZtibmmb3GTiHGoyFeioONXOBukmVHirGP1vOZF4KBYq2OTZ0eacyFJd_4LNQyGERfrbE48G2zj2DRHYKxhJ0vM6vuQcEI1i9wT3Uqf5PTl6s-8hLxMnlabjaN4IRx3zDKkQoIMgbSgRwj8_muovhxWiauqu-WYWMcgoYCu4Cjapg7SDSMvnpkOGqBleEOCcPQVbJQn0L3RkFqpFMXXvzhEyxC-5Es=w828-h315-no"
+, width: 150, fbname: "", fb: "https://www.facebook.com/desmainsauxpieds/", webname: "", href: "", target: "", texte: "DES MAINS AUX PIEDS", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "
+};
+Chal19Spons.push(spDesMainsAuxPieds);
+
+
+nbrOldSpons = nbrOldSpons + 1;
+var spCharcot = nbrOldSpons;
+scmOldSpons[spCharcot] = { Name: "Charcot", src: "https://lh3.googleusercontent.com/uQbCHF8jh4g3rRpMkNqwM6VUG36jW58EmIl4hBL8mw-juX1ni_sM6sVbSClz0o782YA_iOpVE7odNVpqmryNeIcRJsD4PufoIFWVeR3lVqgFJ34-wU3W2-jt_vioEnSWv8cLferq2WZZZFwbDNuwkmMZrqoEleAPP9lE8-xUfHzfuZrd9dHxTfudA217edoGTadn6t2nSu4DDYFs3inFVnaWqvNnHIi7cMB7vW9EwHmYWIEACDp7DvEuu3KZ6NSF30ScEwCTgpfg4hkw8eYaBhmfgIi8RJhwYi8gIAP7_cwv0_oBPZaZm99WneBSTw7D3eCbbrYYueNz3j2aQv4giWXi-eVfAL4sRkEs3LBGMpH-ELIYpVBlaxbf8bJjzOyOUIUZXZDjumG4u-I20cPTtJmzsJvnm6QwFvPnUNKecXQoA7-h-Iwn_jZekyD0q4CxI2nByzfbyACPrnZWjQRsr7LDNtlo-0MDd1D6ewpM6ZAYtu_ewj7iyKgHqR8FKecTryZIqcstX2qgggkmlPRIAFM_H3bvj01okzmBXci9J81i61kTAXnhMNIWlXoRmSNXoG4TdnmFJF7JkD6PMDiVFfWN47rkrz136DRWG65kFofnQJRLFF7UNL8C2tQjS03hxXw8lCEUSmUfPQC_4AYS7EiatAUFpFg=w707-h576-no"
+, width: 150, fbname: "", fb: "", webname: "garagecharcot.be", href: "http://www.garagecharcot.be/", target: "_blank", texte: "CHARCOT", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "
+};
+Chal19Spons.push(spCharcot);
+
+nbrOldSpons = nbrOldSpons + 1;
+var spARCarrelage = nbrOldSpons;
+scmOldSpons[spARCarrelage] = { Name: "AR Carrelage", src: "https://lh3.googleusercontent.com/hpNDjZ9tw6MLue7dllJ26Yu1mUVzCpFqNYYcrILHcHLX3Bp8kSw518yHBoTaxUfuoKzJfPQzQXFdMJUulDqo-UswX9F9uE1rYMe6xQ6WD7rppg6IlqwpSH0T8J6--sImAvsxwaPOMCDGBk5pXOP5PfbeMJyPl7J21DSIcIhmQdYCDw3-HhdPKFaciWN_DiuISiilgG3UpCqewXJw7Uf8xX4PCdam5RRB641epdUyvf_N2eIjh_QQpp-Qi-QGLd24EJLlx6WtqWhCGrU5NUEaOBoEXBdl7RjNQ7kneS9GQ26uqkV39JUijjof0tO1dpl_1DRWWtIsdnjCIeK6xw9l8ZULbISv34wNzbQC1xNXQkgkSbseOqnU5vJXLajuDPs16JmmTMbv50WgUBanCDDPprtJUJTZ5N4hVmSK5cmI4X3GgYH5OFlQmlrhiIUfFrusA5EVgnfkxS0NRkiorCk0bncoscjbf89uZ9G5P_wz3CUTFcThA6XM1Ru13V2oj392k1m5FGOlGwzbYv_Fl1CLyFLaNZTLLKfcT1X2ebbfCo5vop_wdgRx_jLZAUkYkLWB3R6zmKKLp_0HoDCD4sMzr5oJ51zvgGbyOd-8ihnng6BOIeGXA9w-rS9gnFiiCIMR1SWsVjKclqLm6l9tFbr-cEJ5HHHhJygucJYygOUudjbJCi9amsQwSQ8OACiiJxYqqaHrWcos-nQI8z5WYoD18VlS6RfiC9nQB3DUB9PCyYSD4Fg=s730-no"
+, width: 150, fbname: "", fb: "https://www.facebook.com/ArnouldChristophecarrelage/", webname: "", href: "", target: "", texte: "AR CARRELAGE", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "
+};
+Chal19Spons.push(spARCarrelage);
+
+nbrOldSpons = nbrOldSpons + 1;
+var spTomTrieker = nbrOldSpons;
+scmOldSpons[spTomTrieker] = { Name: "Tom Trieker", src: "https://lh3.googleusercontent.com/AN5hHTIb0uoRACK3nhpb4w_DSdROPf1rEvULNTrnnO979dy4pSI2_aUK62Ed7qmkwPaEDGUnb9hflc5H8g6n5wf17yPgQsFA_90pONaK3tH66QxPWNh7k5LESmRuJN7Lz9Q76TdXMgQSJrPBC80IHb1MWLZfLVQ13DTAlDfGUvfJDR5EGcuWhlKxFIFyamNW277EPmCMQHxM3YMDu7aax6IdABoJGV9ejxrvceQ09mQyEIx4mnU--QmyqdRYdfUQXQkDSrBKgOf3S48s2xQgdzdsZSLk4ijm995ntzD-PFxWkAgNJVtiGZSiNi_ui2rWFKxAFCotQhJaTp8pb8vmiUV9HMB2XQVPxlCDYT_wF7HDjk1uyDJub6MlbSPFE0bbzg2v4v1knvehNhJPuwK9Dygv_et_0_sZv20NvZzBMC4WEaHL8euWqxHti9Vtay20-qCgNTfxmlFjghKHQ0P76fTEhdvDIETV6-eKOvaGEfqhe0ReKj8EtaN_IS3dq-XHJIVN7CP1YT3uvPEyFlGDWmhp__L2f-kmrpkjLO5KG8WOcSdCfZWqficyjToMUmczSCdwc4EbCG7Rsl4h5pHC7dlelW6csgKJ8oz4E1bbuDrEh-SWZjirK3In3i8_PPzgNPF0La34BzyDtCPvW4YoW3ZEqH6mHvKgldQDiCOmMmuaYDCZPsmbKDqWrDRXC8vFrviaA0AXC3zCmCLD_OrPStkJo3P3sTTGLvFTKlmOHLp1lfQ=w901-h155-no"
+, width: 150, fbname: "", fb: "https://www.facebook.com/Tomtrieker/", webname: "tomtrieker.be", href: "https://www.tomtrieker.be/", target: "_blank", texte: "TOM TRIEKER", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "
+};
+Chal19Spons.push(spTomTrieker);
+
+nbrOldSpons = nbrOldSpons + 1;
+var spStandingHouse = nbrOldSpons;
+scmOldSpons[spStandingHouse] = { Name: "Standing House", src: "https://lh3.googleusercontent.com/UUSjqw14iknoSs8q3QnajfmUpHA3IYgFNmh5ssvlnYV-B6SS4y5srKmEPJp0TD3P2pTnGxRQmW0kGoXkPtCajguZjtGZzUs9eRNQ5wygc4cJO285wjNB4hWmSUr1gob2wyM70Q1_NPpdrLtM-wLOVGkIha5Ma7Mv0rF8oDTRM2-ngqwz8fU9swFaSt-Bdgr4C1GWm1C5V1JyBdoqLG3rvz9WaaNsIenIwydUk8S7kQitz1UjzWpK3_3zzYRIunPHS9VVWr3yq33NzGFXhtbOgHk69ln5PZxWj77pv1Mms_oEsWCEP8l2uX4r1xIB0S6tZr5Nqx8Co3a0C5LAAK3hjlNb0YPjoL2CRLroQ_1BN2cM87cKJkSAst31OzcdffZLC1dD2Y9RXJSXqyJIZDyzZblubP-F3wrGWwRs-D6gYtIhoiWbrM_k61UQ7QsvcVKsYTbYAJXyu1xlVJIaFTC0JBzm5ZqxR-OIhM71p1ogaDxwfD8gKZer2XD6_IfUl0TsxDRg0zXLOhTC3SwnMNG1qe55K59cn-LvELQLHZhxDLHi6B-d_T9g3cwCcxtn-lrNUgCrhv-5CLmM5oBXEIRKHGMn09VEPy_TIWULyyHEh69wc8NA7mbTW4ebcbPkbzdya3-TXQxQHassG9L7zxezz4WH4F_kwI38tlWMLpKdrjIekIyHWSR2hdRpA2xMk_OtMOQT5Z6VWVQZz5_w9SniRXXIKd-aBFNqGPOHnDydyQQ-WYo=w901-h596-no"
+, width: 150, fbname: "", fb: "", webname: "standinghouse.be", href: "http://www.standinghouse.be/", target: "_blank", texte: "STANDING HOUSE", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "
+};
+Chal17Spons.push(spStandingHouse);
+Chal19Spons.push(spStandingHouse);
+
+nbrOldSpons = nbrOldSpons + 1;
+var spChezBen = nbrOldSpons;
+scmOldSpons[spChezBen] = { Name: "Chez Ben", src: "https://lh3.googleusercontent.com/Qlqm6rr_dv4vie88dFFmFK2cgA3bxM557nt-j0f5OF5YYeNZHMIOo5SpZG0_ycl8fRyX2HPbhXaFiGQvUh6sgNs5tLIC4Og3thrZ3RsLGjfySxwxgX06JrYXXq2DDBGy1plhoqFaP5HpxZgoukLQmV6EVgaUDVnwP3sGSX5VCB1YZ82gVjicKUvTUeDotQW2zNbGTo99EAYfSHgjNKq8hkConmztnLXMuHRkTAZ44TuDrqvukE3_9clMBQVh9TCoTUWo7Ce9k00Pk_-p24_vBnJFk_QSXKyK7EUakCMl_13w43TVt_VdIM-KaYmP3VgQoZ90oHBTjH5Zppu45d9Be-PQ1IhF-CK6OX7Bk4mgSi80zGpxabMoiaeg6YSbLUZldYZ-qlISDyPkTNSAjgLouJwpWM8lx0HPfv960AfVlIaLLoGbj56PTmPsjryuG4MNKQ-_qEplGY9dT-v1o3ti4Xm1IgAgQP9QSSInFVVgqsDNjccxyb-pMLBG_vbxHGId7MQv_iTWr8kyQKRPsmskkaDCtZVqwq2uWA7XLuJki7dxiaUDWQsHq_Rgkp14G5s-K_GRDYg4Z3ysrHqCcHZ9lT8j3e8CyNapXbsUMQ9qDXKDy6Z-UoQEkabMXas1UHJ5bS7gZatUFVz9ky2LVf35ERDNSO-p4C5O2PHiIzAq13mij3i7ONE2St3Eby8kH4gZbYC2xlNstUE9gcNO6_6wCnI5Q_60yhmDyC4HRvIjA2h9PG8=w519-h156-no"
+, width: 150, fbname: "", fb: "", webname: "", href: "", target: "", texte: "CHEZ BEN", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "
+};
+Chal19Spons.push(spChezBen);
+
+nbrOldSpons = nbrOldSpons + 1;
+var spVanvolsum = nbrOldSpons;
+scmOldSpons[spVanvolsum] = { Name: "Vanvolsum Marc", src: "https://lh3.googleusercontent.com/TEBnZh2jBvgDLaEWy2VenWSW6xXjiBQNJSgy-7I1M4eI4SpCHiedgnEyINfc8MPnHPpcxHTRqzz9rEv1-g7yge4vGub6rqiQYqV6H1gnehmw5EzAyNQhcPSn48x_YwUIFHPd23g0tPnRn6v66iP-SsF0Da-Ss3Geu3noF6j_DLQ_nqJBN9l5gKhw0ZLL001UJMBw_rG-AaQ2DTSQIi96RbJavRsMhzoul0hF_h7QCl6jPi7xYt7MiTH-vSYQnuEjwjrKtwZLXewyLfUgkvLkLHH_HxMpq_Mih4Ob2Qg2GR1XwmQEcEo9vTIRz15nvWAFGzDG4SzVL5MfrhWFxpqsva_icUFzj-CH975Ufy9WVcIkh-5d4A9eZ_Cz6433RXirvrZpxcSs9bqLjnCQUcAKO5gw2x3GObkZ1TexsjqRouNTzCKybsj_UEziqy61WTK_4QfCGuUkdS4500Uy4j2yOPCEGhpBkPADxXjtXrnb16Iu-XAvk5yNqGDtID6UZvtAKq-xLAMOQ0yy-RO9S8d58sBlps95y8kCwOzDh2zjrX4Mae3mlT3fZHLnEYsdIiydwRyCMeKOFoijrdkFiHEsws4_1uHhmD4uAADlSmsE03LCaUHzPswSS-jFdTBLH4y3SHBIX9xUH5JeVfYzt3YmbZGlHLjjYmvVprBnd2MYLPyswNhJ5LbN505lG9JXoUOirpxrmNgVQ4XSVJ373ycs5wxciIuvIA5p-xuroKDKyF2YziM=w422-h230-no"
+, width: 150, fbname: "", fb: "", webname: "", href: "", target: "", texte: "VANVOLSUM MARC", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "
+};
+Chal19Spons.push(spVanvolsum);
+
+nbrOldSpons = nbrOldSpons + 1;
+var spVincentBis = nbrOldSpons;
+scmOldSpons[spVincentBis] = { Name: "Vincent Bis", src: "https://lh3.googleusercontent.com/H7lHDoH-OFIJf7rpACpv8cH7Vq9lgupYrPGCGxlbShOwfnlOs7xynMC1wC84yTrgoVVFzb9zUr9fCwQiYU6Y_LhMuPryKdSeuhtFtndumtT3LHyMFn94H9IVGM0vcxvbhOZsOSEXAf7fNrcQmP-43c_rQtEsgdRPsU_1uz0d27eeSq49_S21lyTY_YoM5zRYf-VQxdtuEarb0SkCepCjt_coT4Ek_n3ET9B0Nnh9-rxXjeOUrg_WGTHtUf0E0Xw5uAKLs4BFbhiRU_EZHuzoOplEtyt9SuowaAo4MwpAgcVuBHcPUW6r9vXsCl58q2b2o_uywIzlWN0NiuHuIhyNfD1eOqCG_Zmwp-7ODWeLoPOwrcKU5H4dfTnPSKjXDk5yzETnNRIvvDnn_DZ79hYVN2x01udDUTqPwx6qSF1nMkxHL3_9UTgPZQfKp33t04a3SNpPj4b6qJhaOIYOVNaKKyC_qTUrf4GI_2-VqR6Veea_upmeNxc6uduoHcM0Ux4rPANKzBofBUPnqjflvlS4dl50YM0oUh-NBSXQz7kqT0MJbSzWXG79mcREAATDqN1xVvGpD2V3HMWj9Cjsy2iTrjHT4f-VP8zMxD9dZHsDAe4pvFNmlNvXpUpmnqnTyPAM2-CDyM7zshDwRUk0AzKmaJzHspSQgM4=w281-h69-no"
+, width: 150, fbname: "", fb: "https://www.facebook.com/Vincent-bis-VB-1619713384979933/", webname: "", href: "", target: "", texte: "VINCENT BIS", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "
+};
+Chal19Spons.push(spVincentBis);
+
+
+nbrOldSpons = nbrOldSpons + 1;
+var spLeBienvenu = nbrOldSpons;
+scmOldSpons[spLeBienvenu] = { Name: "Cafe Le Bienvenu", src: "https://lh3.googleusercontent.com/j_ntdkgmkaJpUktLjpEJhlOdWa-TF9S-I0Al4rVuZg-aMzEotJNwYqEM5M_75P8pCpRZUyIMNbXMpR8YKf-kAzCixenNh3T4PXrdeOP3eQpZICinovh4SMQDXHVcRyoSX7eEpAVpkMhEBOubvXlB-gOpqVTnpJ6CIS0cDqp6Lp2ZehD5jh8EWlBJZrRfPW4mX2f98yjALKDXmlcsc3jwgkppPhwyD4_jYMD3W4r7ht-D_-1spZ4Q5s2z8ZEsVgf0uV13dWmQ0Q9jBKgiTg2NSKQ6XFj11pbMQwAVt3zX0ToH3e-50U2waxPUs2qDA8H_tdELql0_Rjpy6QZLWK7A5eQXEgbEMvHebAUVgg_ZSHjGWW_cc8LE6S30kxPls0TYd6A7Z-A56s3d41nA143WvLB6ZZYmoB_RA-lKLlgdEBtkOyCTXL3L7rzcDifLm37MYJqfmPVGuMQWGJK51rItocKl8aamJBqhPuU-cInQW55jcjFt8EtHv0GE_8a26gXhgKONeaXC2_RPJaNGZTjxZ74-ofTo3L7CLyV4NiR2ZUr4mubEQVoML-FbTEeus0WUpb_mHEe1WvO_VRWa7ZIdFFAKcmYP92G8rKrOxfFw7Chj_M38eJVzKcY7sdgzyWR6hUYdiw5gz0kEE87NTDuW3VNTiqFsj4E=w163-h26-no"
+, width: 150, fbname: "", fb: "https://www.facebook.com/groups/366866140060450/", webname: "", href: "", target: "", texte: "LE BIENVENU", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "
+};
+Chal19Spons.push(spLeBienvenu);
+
+nbrOldSpons = nbrOldSpons + 1;
+var spTorres = nbrOldSpons;
+scmOldSpons[spTorres] = { Name: "Torres", src: "https://lh3.googleusercontent.com/NcY_owQP3lKJkUazOvxoSjF8xhAQcJ9EJm6tJ8hgc-iqZgBFifdp7AqHVVrq13S3Ad1fsRNUGTUjxoQfNuQ32qzb6B1UiPiu6eFHyJoHBQ2MVr40MrRpWU3aRVvuTt2sDhhbIOdzyKcKnP1Yjqz3mvdA7Ntb2hktYDGiS-HnnXutjTCq_5rweXiyAVxoQuSrqtMErXiYFAM3U_A27gWZ1m_RxONcLu68iY1iQrA5OUxbohZtH1UA3FJR_Qn5wBTShsDA9wvpHlLJ5zs1LigIpHX5oQNWxOZtT8tRsyQtWNPQ64q6rgR-OOgQ0x8XRxoken_DWpUuu7duG41HDpmsvShpmAWrFvDiFZ4pCrE6Bo6qZ3sLZLZ1qLJ_roSUSXdtmceKF9b84_NBP13t3n371yNFdpSpBjPYD_vNOxaoCAnY8bFIG-Pc9FFNrxbBr3UB-8gI2VW0WZDTg3pyBMcfLS0clkWGO0XBxRVdMKcbSSjvberjMCVWQDCZDydKLA8CbLEiYWHqnXKl3srPoiQRSQnoHf5qJk2KpB_B5bfAVDqB5fszT42J3flNvI_n-xHHLMvp2QwFEdIROeI6bW4mnF8fKpwgJmhIC_rD0wIbKzjLjFX2We2eC8y2O7wdqU_x7lSNBvL_h-bratlYv7fG24GZFRN_hQk=w649-h305-no"
+, width: 150, fbname: "", fb: "https://www.facebook.com/elagueur/", webname: "thierrytorres.be", href: "http://www.thierrytorres.be/", target: "_blank", texte: "TORRES", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "
+};
+Chal18Spons.push(spTorres);
+Chal19Spons.push(spTorres);
+
+nbrOldSpons = nbrOldSpons + 1;
+var spVigo = nbrOldSpons;
+scmOldSpons[spVigo] = { Name: "Vigo", src: "https://lh3.googleusercontent.com/RsGVH3WAV3mwT_jsnkx_Hp3OQJlmMDvUfo2SZJoa78F4jwp5zXiVsvBawsJic87uCRxDPo0iQHJ8Fmi3RTBx5P_TDTbZu6R9BtQQOKqadtFL6s0uzF6y7xKCLUSkx3Xn4gGXZejjcmd-QtwF_3qgVWhXmZbjdGOHmwLb1kKwHGK_w8AlRvEOzp-ZGecjmQR-e5E6R5h8W4GEeAOyvClCBaTH5P1fLuOlqrx0w2n5ffRTIdAo05BM8vABkiX5u-GFEVKcvjiPXKHlp5x9Sgg60pop08qXS4NUbRQ_Fjpdpbhs-vlHxctstlO3Porv0EzWb35Put1zvCG8MEKtvbeu6J1jmcSQ1dkhC_LXsW2dZO7Rw2ibvH9YtUIYG_7SlNLN3Cy__RqajKmw8EYO9wGjEgN-lY5PxNuuGrj9v4TFR2Q9841pYqwG-am1Q8q7JkDxIxbDUplpW4ACb4uyOW3U15HpiB6vQgPqaZWjGvSZk_8X1MItwHTkw2T1IIdYODfByojAWgNO-P1DTUtn8e-fdmVMFvecNvIc11s_K_CShbGi_IZwvs_87cnHHGrYYmNmKzEn0p4VZbiQCINPVlKyonLqK_HI7u43Y6JoEUdUzlztApeiOSY0owcPARTdMtbzJlfG207_lpj1Xb-AK0Ck_mhjwKYEBJi-gCBKbe0gLr09NsEZzagE3VFzySRLuKil0QGzJfnVwjfPXDNFqkh4E2NO9TSdAu9L1ph569rmSL7flMk=w901-h339-no"
+, width: 150, fbname: "", fb: "https://www.facebook.com/vigobelgium", webname: "vigogroup.eu", href: "https://www.vigogroup.eu/fr-BE/", target: "_blank", texte: "VIGO", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "
+};
+
+nbrOldSpons = nbrOldSpons + 1;
+var spGailly = nbrOldSpons;
+scmOldSpons[spGailly] = { Name: "Gailly sprl", src: "https://lh3.googleusercontent.com/Gucqcv2Pigejx0GCeKtravIylxjoC5wX9en5BA1CBt8EK3pxnudlrttk8xCIu7uojPcryrvS6BzqpDc9Gz8_EHHBUVcHgRpZ-doN1BctFygu6ZOV3fXajqkP8fjl6s9tLlIFM4ivmBiKta8FDEE9D86MNt970_hNu_3Jgk1erOwBhRD_lk_IOKtbK9FQgJjaIsyk4Vd5R2-8YqX-cCGFQPWWA1ENh59EBnkj-d5Q1T91M3I0qng7H5p7wEGSEp5_QTcnfFZ9H-k_8QJrjjLOiih0ZWpuaOagiFX_st_2-o1SYDuCTWTVDduIv0KzCDNbi_2n0DVPzRfwXn1zmr_GPMZWpKc9u3piKkU-61aYWIdoJ9XB78AZqGzoVtH7_64TbN8NW7WNkEZ3Rn07OX-TPDN_CyMoHgwR9oKXv-5ngpHTJ-qbVAaXpOPingZmFCowhrxuaA_lhqLhauTN-EuaKt4FwN0Z5QwmoH7gP-ZYwTROx0OESU8I6FPNCFlnNufDiayG_vu8znvQw1MqOu2TaTi5B_NmawpveWJ0U8CVroyPgAU20Fe1e1wq2AZ1ld_aEYq9v52iQNWnrQ1LlbapPDGNZ8avJDHf-d0q8EmeWxnbV7uKSeSFttgmWxPw0jJMzND19Fu7S_YcPbo1y3tvqoIUaYPHy34=w421-h179-no"
+, width: 150, fbname: "", fb: "https://www.facebook.com/GaillyChauffageSanitaire/", webname: "sa-gailly.com", href: "https://www.sa-gailly.com/", target: "_blank", texte: "GAILLY SPRL TRAVAUX ET MAINTENANCE", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "
+};
+Chal19Spons.push(spGailly);
+
+nbrOldSpons = nbrOldSpons + 1;
+var spDemuynck = nbrOldSpons;
+scmOldSpons[spDemuynck] = { Name: "Trophee Demuynck", src: "https://lh3.googleusercontent.com/CYfHWlhAsC8FYSMOwPMYWyC8_tHUGDNZhH-NMGJqUhn3t3iORFxvXSf_OcBVGAA3k9QvSH4g9t1F2kgy1Miik0YmlSL7zuWKwAh7mev6XBVnmlNuV_BVdI7aPXsKkbhM5zfxh0sIaq2es1E6l5gnXw9ZXhwps8rw_S1VVHa7azrYq0s1sM3tqE8O7Zt83iFjGQfg9nnTx7mu-HQdj0vhTkaZZz9uHzw1RvwmYGFLhdCdBe85xJ89-WgXiZksO-yhb--05x4VYOOkR-VJuij3CjU1JPFiMNSe5zX7VukFnCpLMWl7eoOyNmdyz0E9KuGzhY7eJP1kINI11iscu69QJDkQZzoRQpYIKg68JoMd70hJ1_801fnxa_saeYUA4Ve6bS9ZGR5l7ABJ71I0i3W-ziaPznDw2sQrqbHQHOhkXnyprYJr7OuiHfAj0yr11E-I-Ak1jE4J9fOSngn9e8j21c4edBmo3zS70S8UJTaZDsu0ksJ-fIv_nV0fwJ_COoEa9KgAP1HTSAZTdHXxv7Bs_krUc8VmQSR7d4W_alE_cqxDgza9xXjtJOTt0ykj4xSnBMehRYCrNmiH4gWcXbB2bqB8u5Poivc=w473-h158-no"
+, width: 220, fbname: "", fb: "", webname: "trophee-demuynck.be", href: "http://www.trophee-demuynck.be", target: "_blank", texte: "www.trophee-demuynck.be", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
+};
+Chal16Spons.push(spDemuynck);
+Chal17Spons.push(spDemuynck);
+Chal18Spons.push(spDemuynck);
+Chal19Spons.push(spDemuynck);
+
+nbrOldSpons = nbrOldSpons + 1;
+var spMTwice = nbrOldSpons;
+scmOldSpons[spMTwice] = { Name: "M Twice", src: "https://lh3.googleusercontent.com/ky7_UvuOp8VUJ4ZgxKYLEmUSkIf4iRYOfS6cXNxT9OaS5c32SKEduQ9Q1gaFdX01EDxHpUOIfOjx05JRQoVGHGcXhFGoBz_TX54GB_YzOb_CNU2P-nvZ0vvBe9fgSC4T-zHDb4EdcEa5kqAb5zzRFlZLOq1TjMqtyZaDRUBEIz1ysg8K5SvrEYIogXKTHly_bRT69qACeYimQlbLDmxQ6cXuhhYa6vFzrbLBVoIenDojZFRIu7qxOYniRu3WoHZBgRbRWB4z7kysuOKCwoKpN4DLK0YbbBcC6oarCYAyysR0FpTar0OPyLIkOJZSBGgRpT60qGLyL3-I8-_apPY27DQ9-wDeDIStA3A8wHcw2GtgGK8x3IZqsmMmgrYeztzWF_wUS7zHuQa1pLRUo5taIcCLKtPOl6E_nE9yoWP8TKbM0Yr_iz3wmOtO9QiI_y8hwp_lyAfNdMvaE8EKudbGiLXwEa3yGGuOeiVz-nnCWkrZ8-GPQoiPIon00EDc1x7y0JbugCdKK5BQp8x3op7hxqqV3MQbRjMaJccQuOcHlPJeVtruJ13_9DRfLk-NjHKLnf00kax4N7Xg99bvmffucReDX2tk7wg=w959-h462-no"
+, width: 150, fbname: "", fb: "", webname: "", href: "", target: "", texte: "M Twice SPRL", infoAdr: "Rue des Salanganes 32, 1428 Lillois", infoTel: "0471/12.80.22", infoMail: "massimo.melone@hotmail.com", infodesc: "Conseils de Gestion"
+};
+Chal16Spons.push(spMTwice);
+Chal17Spons.push(spMTwice);
+Chal18Spons.push(spMTwice);
+Chal19Spons.push(spMTwice);
+
+
+nbrOldSpons = nbrOldSpons + 1;
+var spGaufresMania = nbrOldSpons;
+scmOldSpons[spGaufresMania] = { Name: "Gaufres-Mania", src: "https://lh3.googleusercontent.com/aVdw3-hjPDjb2xawMgDOY5BiuFo9Js2Bs6FwK3nlflE6RpWdJlCSeQHJf3hXGTWyjNv3YYEcEXAjs87h3nPCqKCrLPVBzMn6me1eayGmqR9ekz5NnSMwNXCJsHfI2SJ1ORzNuHvbOsJRY-hC3It6xZVdB8sppiuqesjJ_6UA1-qT1vvGAEdH3cWNn4inzRBRzPg7Y3_dHC7BCmpn9sDb4ytoE7MKWjpsrhEtNj_j6lT0BxBiJR_oYaPo-UOkRGVT6ZWsVGFfV1dXQnzABcu5ANcltXGNEbSGyvxoxn4jLnO097Dj8aKO9nJQGXGc_XqWKN23FH0eSygdj3_7zuZw_dLtrEU_tp5fPB1em2OdrULxpVcoUkGliw-yy3sKJmawe-R17bzAOyz0ofs9q8coX0Gv5L1U_UwsRXh8N0TfE7HIEEVORRE8DlE-PdXbxuTA_4bLtXyybDcSO7Zd71pdeA8lgO_3A0AKea3DAl845Y8acmH7kaCftxvJ4XPszY6PbK35x7e_XTukgX9hWDlONFHTmgQwNo1g5E_se7G3mWx8frv7KnxpKn85olk5iSMMhyZ4QQ3II2NFl7n6a4bUUZTgSirrGBVaLjRl9900kbKbEfjGe9zY=s425-no"
+, width: 150, fbname: "", fb: "https://www.facebook.com/gaufresmania2015/", webname: "gaufres-mania.be", href: "http://www.gaufres-mania.be/", target: "_blank", texte: "www.gaufres-mania.be", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
+};
+Chal17Spons.push(spGaufresMania);
+Chal18Spons.push(spGaufresMania);
+Chal19Spons.push(spGaufresMania);
+
+nbrOldSpons = nbrOldSpons + 1;
+var spAshfield = nbrOldSpons;
+scmOldSpons[spAshfield] = { Name: "Ashfield", src: "https://lh3.googleusercontent.com/d7GkmJnkiPD_gSYBgQsPAoN6CDv4hfd3bamOIvnbAfCIy8ESDz3vqbzjgBeMKF15V9FZ7sRIqKGS1FshXuV_0P3toIooxBw8O2r6KAQVC55K9Ne0APVef-DgQgJEbOhYwuLYCSBVFLBanfvZYwZnYPeHp_hAQBwOlDEIBb2YI3hOWdaMtGlAg8CEojFcOUyfdTXFNxK4PMFjloR0WYUCvxGb8RcmnIc_WenYL7Uy2PAOn5z1bA1RmbzO7aDadec2t4ZaK5Jzy2I2SaGDptm9f_yWghOMgNIwQgOPadUpcn7f2ivk5Cp27BSvBKVoyD8IgiNPpC-V3EH7KvsQVCaWZDmhqyUNH63U8oLQxfwREWzOr9nvdZiExulHNLOj6b8RTHFw45ANuq0IfU9lR5FDqFuahtCNtDErFnmtyKZ66NAXJ4cgaTgjV8eJPdFiq3mrvlZQUSZqRH_vso1PX47pJGPwQFgndWJYJ54fdT2X4KNti3JkSE4r6W-1S-_8XqdPuwCxEpwSyDqPi3v0wrfY3ul8GAA03NPv1h_M3D9BF4hkVT7ZNPJokjfvxYY90xJ2jFhGMZxOqcuXI8SwSXEMavd47RQUJBN4g3788SvKCIXlYrIb0cqE9mfK=w982-h356-no"
+, width: 150, fbname: "", fb: "https://www.facebook.com/Ashfield-Commercial-Medical-Services-Belgium-379835762027473/", webname: "ashfieldhealthcare.com", href: "https://www.ashfieldhealthcare.com/fr/nos-bureaux/belgium/", target: "_blank", texte: "www.ashfieldhealthcare.com", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
+};
+Chal17Spons.push(spAshfield);
+Chal18Spons.push(spAshfield);
+Chal19Spons.push(spAshfield);
+
+nbrOldSpons = nbrOldSpons + 1;
+var spColorProperties = nbrOldSpons;
+scmOldSpons[spColorProperties] = { Name: "Color Properties", src: "https://lh3.googleusercontent.com/X_bhesBaNzbEYJIbJ8k63mVghaLYfTci7Oicd5ht4eihcpUyXeH2F2rzRG4p4c05rYWtzawniK-jEmkc0WN1W4-gTsADTQXuOjp8sixgmu4V2wLye6CPbGr6u3-fQE87hzkb9VAoXD7aLVIxQQVc9KFwrY5tmwGuQQus-h-x052Izpcf1biHrElGfrrMgymP4-rebYrcLYq5SAQ3PYLL4APRyIZbIHRCSAqh7hC9eBM5oXc-gXLzt8hVVgYDg8GEgbn8_AApSMVcg-y-Y_kbDcS0RPLi305PxL5AQFoem6dHhT0FQWL0Tq3CHJbA8OkQ5unROE5Bbu5YVhmRhWyJ-sOVjLAR0dXpmpy3Bn8Ge9OfmBNWGc9rNz1FGTlJs04DfK94v97LbJpQNZ_nhy65buTeVbcmybBUOTfzY4yA6aaeas4FS928cWm1bN-RO7kKgolWN4zK1QORJiJFEn-rW9L-Y1L2HivJQkJaIW2YDQashj8nqchgP3NeiP6nL6bRiEVI9R_T4aaQViBuove2zErqpki1ncd7Gc3wkYwHjY-d5lASdYBMjjqiO7MHmNP6kGk5dF2ccA2dccK58J8t9tU5BSooUMopz7_nY01O0k7ziShW_kW3PpewqSkQa0Ss3WNw9aQVOxzuMByis-ZvVfAVcf4BgvCUnphwJ8wSVAlPOt9GIbPjIgs6dh69SoKIldchDrb3Uf9ZzGuWY57NkuFTmQ87BgNV06NNqqkySSJLps4=w901-h602-no"
+, width: 150, fbname: "", fb: "", webname: "colorproperties.be", href: "http://www.colorproperties.be/", target: "_blank", texte: "www.colorproperties.be", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
+};
+Chal16Spons.push(spColorProperties);
+Chal17Spons.push(spColorProperties);
+Chal18Spons.push(spColorProperties);
+Chal19Spons.push(spColorProperties);
+
+
+
+nbrOldSpons = nbrOldSpons + 1;
+var spBelsport = nbrOldSpons;
+scmOldSpons[spBelsport] = { Name: "Belsport", src: "https://lh3.googleusercontent.com/TL5SM_TTkJNX56UMs_hFKiVAFPx4MBx5wR7RPr-T3xjs5JN0wnpef0bpDusHOpwmvFDVj8Mr1QIKhBkXurW43ahS7DKwxifCIfXzQE0LN7uAJvF5Ni_GaowoFREFy1TXuvYk0NMmr7tfpvnwIQhNkCDNGtm-jZCOqwYR32EN9pR7boMfJK0QvdNzVYEHL4mRoT6_5sf3jf63TsXN3tJk6Nt-8l9EsvASU8GNU_dF5p_LxEtMnKovxx2SxpLfCyxNkRQrWMYWt-dyy5_OqD6U42ejH3YC9T2r-bzSOPw_2cIg9M0kVOA2lm5Q2FRoh3OucRqffKCu4MtqI7kxOlbwIkfTfjgaxpuM_1JJwrS5wSKRJBCnxbCUZOtJgetxKxTpOqyaPd8P3cuOizBEQLqwRFHeUN9da1euR17JbMQTH86iT4SqnGf7dS5-ZUpb54woRW67M8oRrX5jMOBYsP3BRj2j9dS9q8SuUdNXfEMmtt8bqDiTrUpoOpTqlo-IsWzgvrAV_SuRChTbkVshwVG7TlNn3hIh41MmRLh3sJFfWELUbZ03k7ocL6IigKKg3Mt2ewkqETpwkCaxqjVG6_sNLYfjxA_WpgoS25udhi_ySJUbYcDi8-0JhvreiRsFLm8XMvM-1wAfjNMW1gKEFnlVGsKdMsDgB12q76U5cK6wrVGv6eTCfRIHcfzZxubxYbOPIZD10eg81hxjgq7vRn9VHhbnWgMK0eEu7qkQlykGHzbSZj8=w514-h135-no"
+, width: 220, fbname: "", fb: "https://www.facebook.com/Belsportshop/", webname: "belsport.be", href: "http://www.belsport.be", target: "_blank", texte: "www.belsport.be", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
+};
+Chal16Spons.push(spBelsport);
+Chal17Spons.push(spBelsport);
+Chal18Spons.push(spBelsport);
+Chal19Spons.push(spBelsport);
+
+nbrOldSpons = nbrOldSpons + 1;
+var spSirre = nbrOldSpons;
+scmOldSpons[spSirre] = { Name: "Sirre", src: "https://lh3.googleusercontent.com/bcNEvF0nuxSxZKAL07ejn26W4AXFilLIyMM_LtWgIT815FOwvrQaLOGxv-jGvgKgVBlDPVyv9pl9JAsYiuah3Kop30X1Cq5i42etLOddKEhySUsEW0fLXxPi-VU2hxj-Cdbh949-7rkU9vjdU9U1iM8k5U2oa2vGkIF3jiNN_iC1gwMehBEdHvUxhh1SBKbLd7cxvYfj2iE7rzfhr3O2t40icBB-Q5bSKdWt8iqf91yVfe2G610lxwcWoqsxdBPS4UVtj_zT5RAZnUCQPv71YkZfkFE29n9D-lKAjlMc0EEZSHzAYMWvP7Vyh1-511cpqNR1sYB_Bp_98gjDDkjBqEptkUNGDxsm3GzVeY_kvCL67kCUP2WwcJjRUAhGzAZ5gshD5dcq6Bz9SGEB5_uoOiQGPsKGTSMyCu3xv1Bjpdb86D6Id52RlsoQl-nDL5rdLh5qOLnLWnVQ24DIEiGZDfGSuvaXDQ0gdNiguRrsaFN0E9-8iHuN3BmdMzgymHQNHtdxfIxA3YZYjN3zg6Ixni613bumIEQVVu6AbjQjQuj-7as07_lw4Jw2HK-y5gRd4uFGX6T6hOJsJnIluJNAPrxO5OXe5Es=w309-h168-no"
+, width: 150, fbname: "", fb: "https://www.facebook.com/patisseriesirre/", webname: "sirre.be", href: "http://www.sirre.be", target: "_blank", texte: "www.sirre.be", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
+};
+Chal16Spons.push(spSirre);
+Chal17Spons.push(spSirre);
+Chal18Spons.push(spSirre);
+Chal19Spons.push(spSirre);
+
+nbrOldSpons = nbrOldSpons + 1;
+var spArrosoir = nbrOldSpons;
+scmOldSpons[spArrosoir] = { Name: "Brasserie l'Arrosoir ", src: "https://lh3.googleusercontent.com/usgtsbvt4WWgoD-mHAOZokKIsOn4C-U_mFHNCeB46Nwb4KdW26A-sxsr1Zjhs2xfSQT4cRXEAwdKX31P3Ibn3LAS7p8Z7sH4h7Oj3SZuKvwnM8qXv2R8UttZCMh9ksW-hLh5y9gyEzAafeE2N-x-03e8hBz8oSjpd0HZ7ppyqnxbklCPD0K2qW6fnwKyaG_IuwsTDKzW8LzzNFallPj8-Rz8PoTirpq7tiFRN9DbG-QVSpDZA-5PPIw-EEEUHyHnXmOmXfjYIFoWTcuheqgxnWtzQAUGSs3mWI6wIXkQQ5Xx4PGafptBVUCiOt-mg9jkJftS_IdGeTFlSC0Imq-Pn2t51HHy_bDdRZp1ZT0YoQYpLyEH4KOOO5_KWXjXA7mlsMQX3zKqbx0qr0iUbzt2ZjEgiWgsatquwEgH_oGZ-Qat7S3LtlXmp3c-fDZSzikVWDmW1gn5BuKKnCqKRSaFy7VHdpBnIvq27TveBA79JU_HnaEGKAczPd7G0kdUHhZMjGrJvQh6oeYnPcZuRthoXiKcaTpR2ocjxAJTXAB0dluZNSNaA4h64zRPtR8gOi0QysFr9FJRambGhLJDoAVu1kYgWF5KWig=w416-h53-no"
+, width: 150, fbname: "", fb: "https://www.facebook.com/Arrosoirauderghem", webname: "arrosoirauderghem.be", href: "http://www.arrosoirauderghem.be/", target: "_blank", texte: "www.arrosoirauderghem.be", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
+};
+Chal16Spons.push(spArrosoir);
+Chal17Spons.push(spArrosoir);
+Chal18Spons.push(spArrosoir);
+Chal19Spons.push(spArrosoir);
+
+nbrOldSpons = nbrOldSpons + 1;
+var spScarsiDeco = nbrOldSpons;
+scmOldSpons[spScarsiDeco] = { Name: "Scarsi Deco Sprl", src: "https://lh3.googleusercontent.com/4e3T5ZUwo_xdRv_5OS7UASlMScQzBEvePJWlRHwKB8hV5BI8ubOjuWz6Lbk9cinI2u3czduIrqqGNSQSBhNodnkJI-45mc36EYxet7ozlCh9CvlMsaVn5kFP3mbah3d9RgXMiox90zzIaYd0ln1UdnD99jqhbgZKojasqfPcmB3vC7ssrPKO6C3Uba5AYtCBN9WK5H7T9DY7njwHjdkYggiCmbUJu_Q73EtCnDE0SExdZEuD8OdMNASzdyEM4a8O94YMDbmqovNTT-XC3eyK2Ep5xElNLAsGLi0yjH_Y9N8P5LD2jro-EXFRz3sgH3hnLwNlneNz9z22J1MoizkBhNGe37sdPtV8iNSYDMVtDdUFrEzuENkfmxV1PObAVfSa9ysIownsluwK1AbM3eM65elW_mHPt-cWOATJ1Pl1YOr3lSiuKf3PF0lA82oy1rqotpuMFER10S6vxenqYGvxorX3gXJ7NckNRMbx-P3eWNO_3Av2MJ0HINld7YewzoLwmlB4uS4NuWbWCdpuA6c95h64CeWTuFkefqw4x86Avx-0LkPcQwl4nOVwif2GKqFitQOJPoutLgm8FCe3PC4a0dAtz2TYUPg=w748-h657-no"
+, width: 150, fbname: "", fb: "", webname: "", href: "", target: "", texte: "Scarsi Deco Sprl", infoAdr: "Rue Renier Chalon 14, 1050 Bruxelles", infoTel: "02/343.50.28", infoMail: "sergioscarsi@hotmail.com", infodesc: "Peinture et Decoration"
+};
+
+nbrOldSpons = nbrOldSpons + 1;
+var spAuxPetitsBouchons = nbrOldSpons;
+scmOldSpons[spAuxPetitsBouchons] = { Name: "Aux Petits Bouchons", src: "https://lh3.googleusercontent.com/zv7_Wr8sH6KVuUFYB3FMDMSNh0rfZVqta-4nRn5R_CXs8ENU3qGN-1e5HWkm2fIk3nogHzChJCL6t6whIfvdO94TTTBRnPqvnPEHPqUKUozkUbWUSOAIefrai69c7j-8AwRU4YknQhyknvI_c7fTrzCTYTqyHphW2_gKZz4_sS5VQ2ngBAkv099xjvSdPQ72RlYgS3LuidDTKh2ZRJaYirAsIrP2DQydKF4hzSgr8gBAPkv5kX_OpjVVlyO6KQ5GDj9DpUbDtxGKu8xVAxc7dovsaQ9d7ysfGbRyCgjwEjlBHswXdq8f4Cwk4UobcJFUfCIWu2QiD8m_V59ZnUa7-l_l2QgvfErJWqyVJpkLS0fS0CmW592RgQ6m82E_u581zwKLR7Zy2A2bAEtRis8RK2WOegSjUgbRgEgKRWmH-_TcbGbKiaEwvIzv8ss_wBoGdnm8VDBKhnYAFWlC8tS6ZvNr6iD94PVVwVaK_ytu6dx30g3FRkSPmA735Rfb4_ego4aPU277umfWt6n0M30rMMmXT033U4iKMSfXosGJFlY21D1jUWSluHkTW3x9bT54HIgyk0-1aRabSMClPA8D6rFfQPEhqwSnzt7SaZeoDHNIKV_gCobeTacN=w758-h628-no"
+, width: 150, fbname: "", fb: "https://www.facebook.com/auxpetitsbouchons/", webname: "auxpetitsbouchons.be", href: "http://www.auxpetitsbouchons.be", target: "_blank", texte: "www.auxpetitsbouchons.be", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
+};
+
+nbrOldSpons = nbrOldSpons + 1;
+var spOostens = nbrOldSpons;
+scmOldSpons[spOostens] = { Name: "PM Oostens Assur", src: "https://lh3.googleusercontent.com/TXfnc01ZrmOEBpMtZyu3N-i2yZoh5XnJ2N9r-Nnqujpsb0AIPjcsrim5dUoeDTUik8DaFHMRcSMS9oXaF6WMqnuT8FutHZfbFFAH-XBm1rFxXOusqBWiKdcGeMwEo0wYA2ESMkzhk2laJcoYgaXnLBIjb0UNZb1zLSd1e699K_1qAEVWATtCTWfebLiY1XO2bD05h6nKCtVWv1J7BLPOe1Oz2rbrhY9iFl6u6MN50Zsjr_3VCWd6V7NPT6wsuIDGi4Kp6f4ABnmNvLiuoOk-3qlSZAQhNUuQBWzDgRp2cv0m5dKPlPHqRGjtT-NB-SohZYRUsqTKjxGQtgbJI7SN3tUl3R_6rsx-kWgqAUr08wO6dA3FhoucgXwDsgkuv5gYjNxa7SR-K33d-0AB21_kpu7kwBZYyKZrii7y3QSHb0SAthkJo48vRTcHr0QV-_8-gjoy6NLLLps3d1fvF1fYz3sVGMNY-KVueY068Kft2iKiN2dOFz9hv0AhKdj-5fN59Y0nZQ3g8Be6Cb7Rl3gihVymKAivGRI-NFpGDmpDxKYS-9sDx7QP9S_CyIDP0Jfea0ztJoQdZ6tdX2aO-hdQOoc1ooZt6yaEuaYOodq-qGhmEFB7PnfGJimA0zKxkJehUKsF5vdfWTvNiQxRW506JzWXHHvHP_kRmkCcFWu3kA4j03ATbKM5iSGdcnoKbHvXw-bULFcv-Udu-mnSRaZUhZb2ibUzIpgONhfE9tP5g7EyiZE=w232-h90-no"
+, width: 150, fbname: "", fb: "https://www.facebook.com/PMOostensAssurances/", webname: "pmoostensassur.be", href: "http://www.pmoostensassur.be", target: "_blank", texte: "www.pmoostensassur.be", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
+};
 
 nbrOldSpons = nbrOldSpons + 1;
 var spBEenHarmonie = nbrOldSpons;
@@ -458,36 +396,70 @@ scmOldSpons[spBEenHarmonie] = { Name: "BE en Harmonie", src: "https://lh3.google
 };
 Chal18Spons.push(spBEenHarmonie);
 
+nbrOldSpons = nbrOldSpons + 1;
+var spCafeLisbonne = nbrOldSpons;
+scmOldSpons[spCafeLisbonne] = { Name: "Cafe Lisbonne", src: "https://lh3.googleusercontent.com/x05BZDoS8Vdv17IlOeiFA0o9YkeRtNxgz28V_UqlYVmqtukl2zAb9fxe8vFLmuHKzQjlCj30CG2V8WJre0gkZrfvEE9ovTQEp4uWUAWQ6xKI3wpU5jf8no_A91RqeQxeQcqY72xwvqx0BALNP3L7Rb6jq9veDyEFknOdXyOgrQiRNCYND8y_uddUAFHyvFDxsHhZBpoBfJwkNxYhK-38lfkB_B9D_9TQolk7vaoSG54mbToA-5bM9pMnokTmvDnBeOiZzbml29DmDBMnnCwqO1w65CiPY0EFFBwBgMCGsXEtXBulE4Mb8Y4tQPyqR_x1V0krbJ2PyX8Vt_0Refq_jaTC9I65-i8wo2y93hPnST_kR_ITh1fWjrRfvdub_-_OOJoBc56d4U3VVv7_QgjIZKn4Qq3E9YgTmuxvoIe_MONoql0FDWnwuNYq627RX3hDj5lAiufvyLCr-LkzQVwricE5DJtkh_uxdUQXFiGWO827Vd4WYWr3CZlosCNSDtObp-RY77aa7D8LZHJQQmyAa0Df-elJKs6Vb8vfZozRLtdQBunUs4_dd4HPUoKL9xdlg223Ve0muSM5ofugYs_loZvmheQ2t6CtmaeSmQI=w178-h144-no"
+, width: 150, fbname: "", fb: "https://www.facebook.com/groups/633374760479323/", webname: "", href: "", target: "_blank", texte: "Cafe Lisbonne", infoAdr: "1050, Chee de Wavre 1160 Auderghem", infoTel: "02 8544917", infoMail: "", infodesc: ""
+};
+Chal18Spons.push(spCafeLisbonne);
+Chal19Spons.push(spCafeLisbonne);
+
+nbrOldSpons = nbrOldSpons + 1
+var spPepiniere = nbrOldSpons;
+scmOldSpons[spPepiniere] = { Name: "Pepiniere de Boitsfort", src: "https://lh3.googleusercontent.com/jPD7hg9RVHOHEpOnt7y9JQoVEVEG-o2KsERHGmZej_dFJmSLe6sB9TO6lwP2WwrZfKaGcCXU2govF3yX1O0vrR7ss9pfqUiqjCEroIf7RIxWmDGgXzZZmVs38hETY3SW0JPQOuIdcOTQh_dm_aMIhs2bYtNfooxYHvL9jxy0UMc9oWG20HIHFkZJHv1r6eyoP2UptXiET6x_KQ-xxmTox9HeJgKYXb0gE5dYdHm4pBwDVdX-AU4xnYDAnsJTNdTYDW7SRjfv4wT9m2CUL_P4DmGk0KWNj2V2GXYaoZ4_wKa4fqxnVcyUVj_OhKXW0Veq66V-AwZsNKrGNq8ClA_qcrkqdRACkvIJJ5-SMc12WKaPfLdBgF2672Ye4hAPrVjuUW6NOUb_m0UEfs1tc9DOPstkk2DWjeIjmPRJFhkllu1OZ2CuOlCAQntpP9PjjKHwvNwthBuxjFykfqiXZlNHHgT8IsSm7Q4S3KSblSSG388dNk5UQD0F1HmP-aKw41qz9_dFsf9d2jn8LnikhbRuSxTNs6GZOjtZuJa8z40A4BMNuTdFwVbTR9AoyBSY_9oLRcLEi9Y9lwOIhyL4Oo4WJRjj9CsLfcU=w1003-h167-no"
+, width: 220, fbname: "", fb: "https://www.facebook.com/Pepinieredeboitsfort/", webname: "pepiniere.be", href: "http://www.pepiniere.be", target: "_blank", texte: "www.pepiniere.be", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
+};
+Chal16Spons.push(spPepiniere);
+Chal17Spons.push(spPepiniere);
+Chal18Spons.push(spPepiniere);
+Chal19Spons.push(spPepiniere);
 
 nbrOldSpons = nbrOldSpons + 1;
-var spNutritism = nbrOldSpons;
-scmOldSpons[spNutritism] = { Name: "Nutritism", src: "https://lh3.googleusercontent.com/L3fsgWfEdj43y_0JFMh9GsECcESyR_Kl3Owc_pklm7N19r7zjOoMlYEGiic7tjuOZCCVMzmH7O6ePnd2FdL3BuGDj6wp8MtQ3w6aB544f4La2RmhxNEC9po_Z6Q4oBDdvIB2c3HKVjrD0MvdUA2pKwwWknGG4ALAm_q5lGyKV4MGqMx9ZoXLVVL7qT7dydFBeXgr68bQYse7JEVGpGbUUkz4RCcCQ3zvEWOGDw5V0JDIe1RjeaipPgHJepfmM1KzX9qwKBvNa7s1EmqYtXiniHsEgETNPTeNv49Gg4qtivUVccKX7RGfPMnDuGhzdqha8EOoRZLZm7PV6EU_lp8S2Na7xBZuYlBPrPOGhkfht8OEWx4UDYhEu2Pi50H911W1jF5vi0Xwy6GwBobpcG47NSflXu7Y0bluDNWtCf7cRiBNC8gfTSVA9N8hUDWIOcEOcpiGK8vauXXD7DkSKZYpZ-zWQxAjzmd8i8eRHT0aZGIuGmFTlCMMrzc0FtYhmIq1K0U70gDZA7fKVtKGY5v_hM9Y-exMd9o4YtuoDCV1RupP4sL6cF_dhd1dyiQb6b74om8lvKNi9hvLoZ5rthJ3HADHurPUnyDn8rsUR0M=w936-h662-no"
-, width: 150, fbname: "", fb: "https://www.facebook.com/nutritismbelgium/", webname: "", href: "", target: "_blank", texte: "Nutritism", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
+var spPrestige = nbrOldSpons;
+scmOldSpons[spPrestige] = { Name: "Taverne Le Prestige", src: "https://lh3.googleusercontent.com/ybaRlf7LMfCL2V9fvCcbU2yexarCmbfNpOHUo-zWlWTHWAgW8Y7wdyfRSd5OCKo9ghvV8EIDZNT7CWxdGRnmbPJWpe_rZ50HUrR-7i_oWCIspo589-r8aBPUgnwfxc4fnGwoqvYfgQPP44zNAUNvqXUkz_aTGi89ajzTM8SI8YSj8xanel6XTpeKrF9m88p7v5nn9eB5YqRCkIU2irehg4LZ7rJLt-Kje648h3NRwMiV3oc-LfH5-uo_JbQ5f34lOqE7fXHlDeShXENetLl5YRsl0eb9MVvodAgzjDKgl8B6l_nUl7rZlC4mVvGy2XvGrcxpSKz3bcFvpUn5LjmBOis7W0H9X5HxzPUNo7-gmmvCC6BY3teYrveciZqiSIjSPSRwSKTCRwYs5-2eWUxYoRqDURmVOlp3mm4ftpc_xVN2U-jCyAovkKFe5qRBkCs24hoBWWOGQWapA28XpeXy7gm5xawtabw74WlgBbXgL3_3xY6Y6n5ucDSoIAP_M7Ii0C7k0A_Hp7J5fmVzUc9XfXwe7gVi5iKcg744RzF1luRObIsbhh9i6b1wzVqmCjxu5J1MwCGYCLZsOkNjSvJC8WaGmabxJ4NgQGurzqUXjLICftOBo14RmwAl3-mfeSKa9vIc-ek1B6Vw4-t32Am7zqIL2NWsjqCxmDewkpDUsFD-yWf4h409opBgjA96pqWMiUBM3QWFI7iyN-maPfc8VA3Ls7EmGd1X9NEg4es1UwKd7DU=w901-h517-no"
+, width: 190, fbname: "", fb: "https://www.facebook.com/Le-Prestige-1382095941911177/", webname: "", href: "", target: "_blank", texte: "Le Prestige", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
 };
-Chal18Spons.push(spNutritism);
+Chal18Spons.push(spPrestige);
+Chal19Spons.push(spPrestige);
+
+nbrOldSpons = nbrOldSpons + 1;
+var spNextMove = nbrOldSpons;
+scmOldSpons[spNextMove] = { Name: "NextMove", src: "https://lh3.googleusercontent.com/Aeq1p8x6RCJaed9bdcJ3y0A9e8AVQv26pAZwqT2kwOZnB6vOlDjIDMyfVmXXx1hNJlQjLq59BhKIJJ57Xc-uKgZZ0LIu4Or7jzP6rUDbYqkw_DaX7f3ML8lz5kraniJCz0ThUfrCks95PuwaTPs8Q854417bD203oBrQlhjbxovD40YO97eKJoedbz-VDL6JSG_rqxxzwbB6KBw4QPzH0jmzEp5Fhb6dE2XdBQdzfjNLGE6EkFAtihln17yyTIdFI6llrooPs7FTYy2BN-ef3FXA1diXj4ytVTA7LN5XhEdMF6wud0NuI5l9Bu1hUzW-C7NXJYtrOhnYrKR7hmQ8ZmGj_pBM7WJ8Un_3M4TEEw2gDv4TatpmuOe6CyaY1vRWVkO4FmdAgOJlUGqoC6jF0wuoSNIqX8JjA0mYPaiRKDG2XPwbkV-MmUW48netHAEBGK7KZKIRbMUygxf_5MnGoYIZ1_f8AnnK8W8PKLjo27OuHI3aAjZ4O149znNyDT6Pcp7nSwiwIUwWwZFI9FnIJV8nUL1YH7X7aTV-9-YZHOhBoRBecxcbzm8NQAVZbXhsC16--7NC7vfhVpfqJHMmiTlUYaWAVZA=w500-h172-no"
+, width: 150, fbname: "", fb: "", webname: "nextmove.be", href: "http://www.nextmove.be", target: "_blank", texte: "www.nextmove.be", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
+};
+Chal16Spons.push(spNextMove);
+Chal17Spons.push(spNextMove);
+Chal18Spons.push(spNextMove);
+Chal19Spons.push(spNextMove);
+
+nbrOldSpons = nbrOldSpons + 1;
+var spThema = nbrOldSpons;
+scmOldSpons[spThema] = { Name: "Architecture Thema", src: "https://lh3.googleusercontent.com/HbkVHUjH2Z0OP2GZzuBthQ8585U8LqOkSQWT-RpqITvo2LwugVSCoOqa-4ZxrpsNiRfEGkVGMY-RSJIud4yi6PgIe6bUhUUtDPmqgMNA7C51S1__iIGkz_0wpJkeu1T3b3FQ5J3OKcVsBezjhGT0ePpgx44sxIxmovNC1v8bmj6W18mQcpygTLN1p9NV3o4UiktQ2CMEg2lqZ3PYg9eJ0ey4wEo4S-jFzgAwLcMiTAaLdgtSGajG3JARYL8pk0d9Z5jkQwe-IPT2ztPDfSp29QMs9pxIEexdVpqDIywkIfqL8-sbt1GAgSjv3BP-2-6-bN-jHc_-LP8fjsd4F6Og9UEBpOTkmaMw9tDejNg7oRTDvgWiA2CN4dav6xr6G2Vxl2nR6ZwSzPcgX_40XyGkOOfE3sFch1mazMaH_W_rN_ZQuhpaP3ZyxJAs5XNjyQXa_LaQH5Yled_-Pvelh5DGjh2xq_17VNjZ_YEJURv_-Kp46jPv8_2sjELSYA0A6WjmQab8evDYbPFVrs-PUTFI76dZa_RwmnqbWIh45frCIL04WAdmAOW02j3JJL_gOiMO1whI-d01GwPYhAphRn_-7jxUCICy1u8=w567-h381-no"
+, width: 150, fbname: "", fb: "https://www.facebook.com/pages/Thema-Architecture-sprl/144519205601293?fref=ts", webname: "architecture-thema.net", href: "http://www.architecture-thema.net", target: "_blank", texte: "www.architecture-thema.net", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
+};
+Chal16Spons.push(spThema);
+Chal17Spons.push(spThema);
+Chal18Spons.push(spThema);
+Chal19Spons.push(spThema);
 
 
 nbrOldSpons = nbrOldSpons + 1;
-var spTevarom = nbrOldSpons;
-scmOldSpons[spTevarom] = { Name: "Tevarom", src: "https://lh3.googleusercontent.com/8PoGXINeqMJzg-XB6VRPlsFeIZDoG4jrzbR1pyVbmrkSczcSio7fha0KcS9b61PpLAjpi8-Oh4D3_PxWsRL8dxixhzrcqcFrqRR0DTNC09U3Sn3YCU1z6VS7xEEB5HCHzhGfWME4AQ-qq5Bdo0JaDcxj1UshWaBKxsT72KhB-5ZaURekB9-TIyoibemmFZd3AJNz4hIApY1B4kvyPafDKM9J5guLdc2sxb1WKqUT9oXkzDccf1tz23W7qGFRqOPvSJ2WSLkCjpz0fUptY0WXFnU4Kyhn4UVXJcXeLPIBmms2K2YglrcOcEw8ifG1CjhkPr0c3wfvNKiBQGIdBxkNh1Ef2bJlCSlTqas4XoQlOCWtXvNyekqWQxIAUGMxfRaA8MIko8NSuVwClMZwrpxEl_M-kpsuE0Ec2vR-XTAEcxA9yGWeGj6EoeFQc7wXaQl1roxWAZnOngh9APQWlYv38RtgOI1QK9FErcgD3GeFp3Pr3cWr2aovF7yi0HZ1KAklYVyNnZKUKyGch8-Z1O_-NzeLcvNLv4C9dGdYqDktV4_x_En_aAhhcxiP0iS7T2EXzL79EVj0AJtbxbaLUIi2cc5x_QbGdqBnu6ovqPw=w400-h160-no"
-, width: 150, fbname: "", fb: "", webname: "tevarom.com", href: "https://www.tevarom.com", target: "_blank", texte: "Tevarom", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
+var spDestiny = nbrOldSpons;
+scmOldSpons[spDestiny] = { Name: "Destiny", src: "https://lh3.googleusercontent.com/dQ5dB_3TPNzsGdmx16_zbZ8OycrKfnkHeZfx2kG2qCi-QleE_6zI8Ryv64zaOgN2jLRKePMLPIwiQx2jMXQwLIrnfVmUUP04HAjWkQcjOtTuFZbswOIHJGAZlNMui4JHgduKhDZfU3eF1WrLMyliWroBpwJ4FEX25_1axSmVC85SDIdE3Uchf-1qkO3pgGtZh3cmlqyYXk5R_Nv-zSmicKjhRAsRS11iLtXPWUqtpDwRpLeTYx3q60GWN7mXnd83vRL8WWRKwoVf83nrT62-YNTbdZ-GFGwy0O6FArdINZiYabP-TYw65yBuDzr6GrGtFORnHetMinVli56w7hYWtvxOqamGr3qenITBf5XT_1mpas8VZUJyChficUDIiC91jjACunpbHdZ8iVWDmOK58qdkSvcmFO31boSbkktZTyStcAkzB6sfxNhyeQEFOVzqMmusx4z-zC7nud7Zzwl1hfaExw2UsibRodzOqmWA8I8mRMAUFNSUuS8rI0_Wl-Mzx28V6oHui7eVNnh3oyzbTbdPdhlWFog7iXzGezMdJlj8AkevriogR1BwB3tHG_4zQh7Pv7otD1v3mC46S5mh0W4todODGjE=w640-h216-no"
+, width: 150, fbname: "", fb: "https://www.facebook.com/destinynv/", webname: "destiny.be", href: "http://www.destiny.be", target: "_blank", texte: "www.destiny.be", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
 };
-Chal18Spons.push(spTevarom);
-
+Chal16Spons.push(spDestiny);
+Chal17Spons.push(spDestiny);
+Chal18Spons.push(spDestiny);
+Chal19Spons.push(spDestiny);
 
 nbrOldSpons = nbrOldSpons + 1;
-var spFoodIngredients = nbrOldSpons;
-scmOldSpons[spFoodIngredients] = { Name: "Food Ingredients Technologies", src: "https://lh3.googleusercontent.com/zFCdy0HkZqMkSUNigjwgOJH5Ub5YbZK7e4hgvsX1cuAAeXfF-1Dq0-her8nZQjgbkyJ6WUhP9MH0S4Ph5egz7Ba2YqaeRmHcrF7B3oNCaVh3k9IgNJJH6z7WVWi59CE3NdUlyyAPHmCBtlJ-QLBtFwAjS5ASTCbNskW4cRyj95_0OdiO7a0zU8vD3_HpxhdLJo-dbFBebqOh02xQH6kZuSufEVU29z1i-nMTlO7urDtygbe0beThJCIPQ9wuwCi1HosGk5ZmlVfpU1iERVyLi-QSLwSWS5WYfJNdVOmASPA9u_SWcZfMQg_LFh3LompHaaXA9f5nlCxvathxvA7QZ7LBf5kAi6JIo9M-4XVgiALLCC2nIBcrLOwwpzvBQg9Ao0vdPTMczS9eDhC8k-G7pMiS4EobUPBm3GbglIDM5dct_gRQJrC7D9HGL7vjD_yRvc345LZYS_1ufuy4EitiQvLGwcW0udp3thglT1qdb7SgxVFiS1vjD6tf85q4FTI7YFXQOfZ3wYPXuCCTqZxPeGYz1jhRt9Z-ehS4JDpXu6bEEjWzURFLf4NoCqQdEqTIj9h-Ia3MEo4ZkNnP7CCbxEv6eUwLZOGVTCrzWAhQFvgixqiijaMHD0ekLylTBrNFzUrtl0swj64ijYqD5ySJ2BedWPD6xSWp=w432-h167-no"
-, width: 150, fbname: "", fb: "https://www.facebook.com/Fit-185258971663626/", webname: "", href: "", target: "_blank", texte: "Food Ingredients Technologies", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
+var spLongchamp = nbrOldSpons;
+scmOldSpons[spLongchamp] = { Name: "Taverne Longchamp", src: "https://lh3.googleusercontent.com/zIvZT2BFi3E9i45ZlROoMCIp-9Qu4Dzhg4YpxyccH5lMhqAHZh2O8aWtZ5PltvLjJhZOGTYE1uzXROkk_LgTeQm20rA4Q8rbdeKea30wuY9CZwhUvNythop1BlZ41IZHj6B5RPfsLzkRxX4pT3TRxUo45ZvNKt4pHYRZPP37k93bRTJBnjztYqsKCli6LmP1ekOqinrG6ag0cDyG1AAnh0Gevr0wklMQUAGyA619uw-_8faiwdAYMvjE_uhRKW24USwcInUcXG_qzVyM5hcUzARS7v5MGuZz-QI0dCTtmrP1hcUrAUtHkUsdbjtrMS7h4x3blZqtWFkmjoIzMS4LSOyAAkcxJh8yRuItSpz3_mfW5KTVr1gMHAnTeIVIbz3BALy-HswWaw5qAy6QgOGpgFAhhEOjyBwLeEw7V5PqYH-G4AgGj5NUgbh7y-QuWRsq_A3Mllobau_Owd_pCgzjJFGSQ__6gCW4LnGXwY4tFHXkszNFe2g8CERuSXG3d38wr0aQ210NUZGOf-WYw8X4RKMz_ImY5UJLYEyC9gMkfz1qjcsaHrb7Y-IURyo-Llx1Gr3uLNqWJLJ7v1QX41gRJL-hst9hH5mmNx-6zzDfleLKWdwMXt5Hgny0zP5thSFpC5sLAgLFNmn4Tl403dTFwD935PFpQMyPYolh7Nxm6ho5q2M-q2IhwWO6QgPzPug-UKVHoKOGJlOfPevsLGgodYibZAsK5ur5kfq2hU57lZr7N-I=w901-h421-no"
+, width: 150, fbname: "", fb: "https://www.facebook.com/pages/Taverne-Longchamp/116047109100970", webname: "", href: "", target: "_blank", texte: "", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
 };
-Chal18Spons.push(spFoodIngredients);
-
-/*
-nbrSpons = nbrSpons + 1;
-var spAngolo = nbrSpons;
-scmSpons[spAngolo] = { Name: "L'Angolo", src: "https://lh3.googleusercontent.com/eA5P4vxZCmSIrILyH5I2OQVZdQB2Uh2H5xA5gvlqkfxulmOpwW8JttthzItYMf3eMHqZ7jDZDkF_A757sSkzScrmh1sx04vevksiuZc1Ejrnfp2Z1A-OUhowsCSGKHJshfPYfEE4BLGvJc3101XDKvcs0rJFBF5-UwxoC5cC1u_cfrK9AkxpIJC2z88gKUTH-GTU4FDuxlB-QnC51iPZ7SyNLus92PQdZ38i43LLB-tPcnVB2WhdZiv3BgwkkuvQsiwkw6iKmHkJVTdMUbYn-Q1Yojs-t7AmmqsjfkNmL7fpF01gPuf-InW7gixONdlotCMS0lgKTREurspU8dGWveZT94S8myf8GGmlFCOD5PNBk0tjP3MsWpkDV1cpqSgr8bel677-om8i8XUdi0MFyc-3dB8ht644OfT6lUABMlKxO2Ll_VqopNIH51ay_45gxJ6mYjVSP4I6q1mCUVPcE0RadYPaTdouJ-kIDnKKomr8J23pvEn73afwnHeShM4ymsBXIvJHGNsZOAFvviZPDfDBNZR9iGRr-vnkG8lk-gTFgsbEh04reZYcuOZA7dtClog5AtOrFABxr1f00zl4IeY9iktm2bvJzn1-2zgSlw=w427-h222-no"
-, width: 150, fbname: "", fb: "https://www.facebook.com/pages/Restaurant-Langolo/253220131363656", webname:"", href: "", target: "_blank", texte: "angolo", infoAdr: "", infoTel: "", infoMail: "", infodesc: "" };
-*/
+Chal18Spons.push(spLongchamp);
+Chal19Spons.push(spLongchamp);
 
 
 nbrOldSpons = nbrOldSpons + 1;
@@ -510,15 +482,6 @@ Chal16Spons.push(spPaveca);
 Chal17Spons.push(spPaveca);
 Chal18Spons.push(spPaveca);
 
-
-nbrOldSpons = nbrOldSpons + 1;
-var spPhonak = nbrOldSpons;
-scmOldSpons[spPhonak] = { Name: "Phonak", src: "https://lh3.googleusercontent.com/6bAd-_BAOVFMoIU8DmxLiLzp4r3oyyH7fH2GHWkRe_-9zqFhpAAP4lQgC59YC8RnNCb2uDtOW7xeie42XyFFIevWTNIf_BTydicQf9F_x7iFUiZHR-jv2prAMhdn7k_x_QVQWw9v_D1NffFYg0Yg0uaVYIIXHxQuejvlILDADT_qZ8Vyi3BUfTjuMH_uBvVMRv2-tn1LHgsPAOICqWNjbHihZK1WsdO56fppz3yuWEYy-6EIN4aX1qjOp1iwOaqR_FOhG37h0AMACWgjQNFWVFHYlZE6dXTDEHoNZdRz-7Mi-RklYvgTEMH9zU9bk-GMITCX0Hn0hu7g5fAMIM-waSjaTfnHoe7JWRTMw1FaJ0AKcZNV_G7lyBJazbggsDowPMVwG3p2tK8UuyIa9-hIPxZuaZl1EX6IysbsBSbu1JD28dFKKVaVxmXtQ1nPHBeGMPR9L0UhhjTBQ7eNvfYTIY1j6yc8z3X4NAIdZM6xHajOcyXAjQjuG3BmtyMRzzW-O5K_Mq6gYYKxkfz1Od_4n16npF1FE4Of6hTdZMIxhaILxVYZovbXDvHUUVj_NIqxRD_4ZF4CK0_QPF3lDoVdw4e0Y2a3NrU=w512-h352-no"
-, width: 150, fbname: "", fb: "", webname: "phonak.com", href: "https://www.phonak.com/be/fr.html", target: "_blank", texte: "www.phonak.com", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
-};
-Chal16Spons.push(spPhonak);
-Chal17Spons.push(spPhonak);
-Chal18Spons.push(spPhonak);
 
 
 nbrOldSpons = nbrOldSpons + 1;
@@ -543,29 +506,6 @@ Chal18Spons.push(spRMIConsult);
 // * A RECHERCHER *
 // ****************
 
-// nbrOldSpons = nbrOldSpons + 1;
-// var spCredeco = nbrOldSpons;
-// scmOldSpons[spCredeco] = { Name: "Credeco", src: ""
-//, width: 150, fbname: "", fb: "", webname: "", href: "", target: "", texte: "Credeco", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
-// };
-// Chal16Spons.push(spCredeco);
-// Chal17Spons.push(spCredeco);
-
-// nbrOldSpons = nbrOldSpons + 1;
-// var spOasis = nbrOldSpons;
-// scmOldSpons[spOasis] = { Name: "Oasis", src: ""
-//, width: 150, fbname: "", fb: "", webname: "", href: "", target: "", texte: "Oasis", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
-// };
-// Chal16Spons.push(spOasis);
-// Chal17Spons.push(spOasis);
-
-// nbrOldSpons = nbrOldSpons + 1;
-// var spSchweppes = nbrOldSpons;
-// scmOldSpons[spSchweppes] = { Name: "Schweppes", src: ""
-//, width: 150, fbname: "", fb: "", webname: "", href: "", target: "", texte: "Schweppes", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
-// };
-// Chal16Spons.push(spSchweppes);
-// Chal17Spons.push(spSchweppes);
 
 // nbrOldSpons = nbrOldSpons + 1;
 // var spCDrone = nbrOldSpons;
@@ -575,71 +515,7 @@ Chal18Spons.push(spRMIConsult);
 // Chal16Spons.push(spCDrone);
 // Chal17Spons.push(spCDrone);
 
-// nbrOldSpons = nbrOldSpons + 1;
-// var spMenuiserieScarsi = nbrOldSpons;
-// scmOldSpons[spMenuiserieScarsi] = { Name: "Menuiserie Scarsi", src: ""
-//, width: 150, fbname: "", fb: "", webname: "", href: "", target: "", texte: "Menuiserie Scarsi", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
-// };
-// Chal16Spons.push(spMenuiserieScarsi);
-// Chal17Spons.push(spMenuiserieScarsi);
 
-// nbrOldSpons = nbrOldSpons + 1;
-// var spFederal = nbrOldSpons;
-// scmOldSpons[spFederal] = { Name: "Federal", src: ""
-//, width: 150, fbname: "", fb: "", webname: "", href: "", target: "", texte: "Federal", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
-// };
-// Chal17Spons.push(spFederal);
-
-
-// nbrOldSpons = nbrOldSpons + 1;
-// var spKhalid = nbrOldSpons;
-// scmOldSpons[spKhalid] = { Name: "La Tradition Khalid", src: ""
-//, width: 150, fbname: "", fb: "", webname: "", href: "", target: "", texte: "La Tradition Khalid", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
-// };
-// Chal16Spons.push(spKhalid);
-
-// nbrOldSpons = nbrOldSpons + 1;
-// var spTsuki = nbrOldSpons;
-// scmOldSpons[spTsuki] = { Name: "Tsuki", src: ""
-//, width: 150, fbname: "", fb: "", webname: "", href: "", target: "", texte: "Tsuki", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
-// };
-// Chal16Spons.push(spTsuki);
-// Chal17Spons.push(spTsuki);
-
-// nbrOldSpons = nbrOldSpons + 1;
-// var spEvoo = nbrOldSpons;
-// scmOldSpons[spEvoo] = { Name: "Evoo", src: ""
-//, width: 150, fbname: "", fb: "", webname: "", href: "", target: "", texte: "Evoo", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
-// };
-// Chal16Spons.push(spEvoo);
-
-// nbrOldSpons = nbrOldSpons + 1;
-// var spLeJardinAsie = nbrOldSpons;
-// scmOldSpons[spLeJardinAsie] = { Name: "Le Jardin d'Asie", src: ""
-//, width: 150, fbname: "", fb: "", webname: "", href: "", target: "", texte: "Le Jardin d'Asie", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
-// };
-// Chal16Spons.push(spLeJardinAsie);
-
-// nbrOldSpons = nbrOldSpons + 1;
-// var spCityFacade = nbrOldSpons;
-// scmOldSpons[spCityFacade] = { Name: "City Facade", src: ""
-//, width: 150, fbname: "", fb: "", webname: "", href: "", target: "", texte: "City Facade", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
-// };
-// Chal16Spons.push(spCityFacade);
-
-// nbrOldSpons = nbrOldSpons + 1;
-// var spGritServices = nbrOldSpons;
-// scmOldSpons[spGritServices] = { Name: "Grit Services", src: ""
-//, width: 150, fbname: "", fb: "", webname: "", href: "", target: "", texte: "Grit Services", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
-// };
-// Chal16Spons.push(spGritServices);
-
-// nbrOldSpons = nbrOldSpons + 1;
-// var spAtelierLegumes = nbrOldSpons;
-// scmOldSpons[spAtelierLegumes] = { Name: "L'Atelier des Legumes", src: ""
-//, width: 150, fbname: "", fb: "", webname: "", href: "", target: "", texte: "L'Atelier des Legumes", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
-// };
-// Chal16Spons.push(spAtelierLegumes);
 
 // **********************************
 // * A GARDER COMME VALEUR INITIALE *
@@ -659,6 +535,15 @@ var scmTeamsNbr = 0;
 
 // 2021-2022
 // ********* 
+
+scmTeamsNbr = scmTeamsNbr + 1; 
+var scm2122EqDA = scmTeamsNbr;
+scmTeams[scm2122EqDA] = { Saison: "2021-2022", Name: "Mariners Dames", Event: "Saison 2021-2022"
+, src: "https://lh3.googleusercontent.com/pw/AM-JKLVmTyW8BSv5W6_c5NbkIBMKl8pcWaomx8GPh5RBNxBTAXVof_MwbJX1pfBnQCaRg3k2WCaWwv2KiJ6AyUu4VEspu_kOma2RKYAuRzcnWEeHTV4pmreaco34b2_u8DJoxPlIEU4Z4gX2PtRnAxe_-nd_=w561-h427-no?authuser=0", width: 400, target: "_blank",
+    texte: "2ème Division",
+    desch: "Shauna Francq, Line Javaux, Marine Dehaen, Catherine Toth, Pauline Uytdenbroek, Caroline Aernout",
+    descb: "Kimberley Jacquemijns, Alessandra Pace, Thalia Bellemans, Céline Dehaen, Kimberly Rouyre"
+};
 
 scmTeamsNbr = scmTeamsNbr + 1; 
 var scm2122Eq8 = scmTeamsNbr;
