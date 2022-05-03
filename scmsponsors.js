@@ -4,7 +4,7 @@ var scmTeams = [];
 var scmTroph = [];
 var fbnews = [];
 var lastnews = [];
-
+ 
 // ******************
 // * Headers Images *
 // ******************s 
@@ -188,6 +188,23 @@ scmSpons[spLeasyServices] = { Name: "Leasy Services", src: "https://lh3.googleus
 };
 Chal19Spons.push(spLeasyServices);
 
+nbrSpons = nbrSpons + 1
+var spPepiniere = nbrSpons;
+scmSpons[spPepiniere] = { Name: "Pepiniere de Boitsfort", src: "https://lh3.googleusercontent.com/jPD7hg9RVHOHEpOnt7y9JQoVEVEG-o2KsERHGmZej_dFJmSLe6sB9TO6lwP2WwrZfKaGcCXU2govF3yX1O0vrR7ss9pfqUiqjCEroIf7RIxWmDGgXzZZmVs38hETY3SW0JPQOuIdcOTQh_dm_aMIhs2bYtNfooxYHvL9jxy0UMc9oWG20HIHFkZJHv1r6eyoP2UptXiET6x_KQ-xxmTox9HeJgKYXb0gE5dYdHm4pBwDVdX-AU4xnYDAnsJTNdTYDW7SRjfv4wT9m2CUL_P4DmGk0KWNj2V2GXYaoZ4_wKa4fqxnVcyUVj_OhKXW0Veq66V-AwZsNKrGNq8ClA_qcrkqdRACkvIJJ5-SMc12WKaPfLdBgF2672Ye4hAPrVjuUW6NOUb_m0UEfs1tc9DOPstkk2DWjeIjmPRJFhkllu1OZ2CuOlCAQntpP9PjjKHwvNwthBuxjFykfqiXZlNHHgT8IsSm7Q4S3KSblSSG388dNk5UQD0F1HmP-aKw41qz9_dFsf9d2jn8LnikhbRuSxTNs6GZOjtZuJa8z40A4BMNuTdFwVbTR9AoyBSY_9oLRcLEi9Y9lwOIhyL4Oo4WJRjj9CsLfcU=w1003-h167-no"
+, width: 220, fbname: "", fb: "https://www.facebook.com/Pepinieredeboitsfort/", webname: "pepiniere.be", href: "http://www.pepiniere.be", target: "_blank", texte: "www.pepiniere.be", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
+};
+Chal16Spons.push(spPepiniere);
+Chal17Spons.push(spPepiniere);
+Chal18Spons.push(spPepiniere);
+Chal19Spons.push(spPepiniere);
+
+nbrSpons = nbrSpons + 1;
+var spARCarrelage = nbrSpons;
+scmSpons[spARCarrelage] = { Name: "AR Carrelage", src: "https://lh3.googleusercontent.com/hpNDjZ9tw6MLue7dllJ26Yu1mUVzCpFqNYYcrILHcHLX3Bp8kSw518yHBoTaxUfuoKzJfPQzQXFdMJUulDqo-UswX9F9uE1rYMe6xQ6WD7rppg6IlqwpSH0T8J6--sImAvsxwaPOMCDGBk5pXOP5PfbeMJyPl7J21DSIcIhmQdYCDw3-HhdPKFaciWN_DiuISiilgG3UpCqewXJw7Uf8xX4PCdam5RRB641epdUyvf_N2eIjh_QQpp-Qi-QGLd24EJLlx6WtqWhCGrU5NUEaOBoEXBdl7RjNQ7kneS9GQ26uqkV39JUijjof0tO1dpl_1DRWWtIsdnjCIeK6xw9l8ZULbISv34wNzbQC1xNXQkgkSbseOqnU5vJXLajuDPs16JmmTMbv50WgUBanCDDPprtJUJTZ5N4hVmSK5cmI4X3GgYH5OFlQmlrhiIUfFrusA5EVgnfkxS0NRkiorCk0bncoscjbf89uZ9G5P_wz3CUTFcThA6XM1Ru13V2oj392k1m5FGOlGwzbYv_Fl1CLyFLaNZTLLKfcT1X2ebbfCo5vop_wdgRx_jLZAUkYkLWB3R6zmKKLp_0HoDCD4sMzr5oJ51zvgGbyOd-8ihnng6BOIeGXA9w-rS9gnFiiCIMR1SWsVjKclqLm6l9tFbr-cEJ5HHHhJygucJYygOUudjbJCi9amsQwSQ8OACiiJxYqqaHrWcos-nQI8z5WYoD18VlS6RfiC9nQB3DUB9PCyYSD4Fg=s730-no"
+, width: 150, fbname: "", fb: "https://www.facebook.com/ArnouldChristophecarrelage/", webname: "", href: "", target: "", texte: "AR CARRELAGE", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "
+};
+Chal19Spons.push(spARCarrelage);
+
 
 // *******
 // * OLD *
@@ -218,12 +235,6 @@ scmOldSpons[spCharcot] = { Name: "Charcot", src: "https://lh3.googleusercontent.
 };
 Chal19Spons.push(spCharcot);
 
-nbrOldSpons = nbrOldSpons + 1;
-var spARCarrelage = nbrOldSpons;
-scmOldSpons[spARCarrelage] = { Name: "AR Carrelage", src: "https://lh3.googleusercontent.com/hpNDjZ9tw6MLue7dllJ26Yu1mUVzCpFqNYYcrILHcHLX3Bp8kSw518yHBoTaxUfuoKzJfPQzQXFdMJUulDqo-UswX9F9uE1rYMe6xQ6WD7rppg6IlqwpSH0T8J6--sImAvsxwaPOMCDGBk5pXOP5PfbeMJyPl7J21DSIcIhmQdYCDw3-HhdPKFaciWN_DiuISiilgG3UpCqewXJw7Uf8xX4PCdam5RRB641epdUyvf_N2eIjh_QQpp-Qi-QGLd24EJLlx6WtqWhCGrU5NUEaOBoEXBdl7RjNQ7kneS9GQ26uqkV39JUijjof0tO1dpl_1DRWWtIsdnjCIeK6xw9l8ZULbISv34wNzbQC1xNXQkgkSbseOqnU5vJXLajuDPs16JmmTMbv50WgUBanCDDPprtJUJTZ5N4hVmSK5cmI4X3GgYH5OFlQmlrhiIUfFrusA5EVgnfkxS0NRkiorCk0bncoscjbf89uZ9G5P_wz3CUTFcThA6XM1Ru13V2oj392k1m5FGOlGwzbYv_Fl1CLyFLaNZTLLKfcT1X2ebbfCo5vop_wdgRx_jLZAUkYkLWB3R6zmKKLp_0HoDCD4sMzr5oJ51zvgGbyOd-8ihnng6BOIeGXA9w-rS9gnFiiCIMR1SWsVjKclqLm6l9tFbr-cEJ5HHHhJygucJYygOUudjbJCi9amsQwSQ8OACiiJxYqqaHrWcos-nQI8z5WYoD18VlS6RfiC9nQB3DUB9PCyYSD4Fg=s730-no"
-, width: 150, fbname: "", fb: "https://www.facebook.com/ArnouldChristophecarrelage/", webname: "", href: "", target: "", texte: "AR CARRELAGE", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "
-};
-Chal19Spons.push(spARCarrelage);
 
 nbrOldSpons = nbrOldSpons + 1;
 var spTomTrieker = nbrOldSpons;
@@ -404,15 +415,7 @@ scmOldSpons[spCafeLisbonne] = { Name: "Cafe Lisbonne", src: "https://lh3.googleu
 Chal18Spons.push(spCafeLisbonne);
 Chal19Spons.push(spCafeLisbonne);
 
-nbrOldSpons = nbrOldSpons + 1
-var spPepiniere = nbrOldSpons;
-scmOldSpons[spPepiniere] = { Name: "Pepiniere de Boitsfort", src: "https://lh3.googleusercontent.com/jPD7hg9RVHOHEpOnt7y9JQoVEVEG-o2KsERHGmZej_dFJmSLe6sB9TO6lwP2WwrZfKaGcCXU2govF3yX1O0vrR7ss9pfqUiqjCEroIf7RIxWmDGgXzZZmVs38hETY3SW0JPQOuIdcOTQh_dm_aMIhs2bYtNfooxYHvL9jxy0UMc9oWG20HIHFkZJHv1r6eyoP2UptXiET6x_KQ-xxmTox9HeJgKYXb0gE5dYdHm4pBwDVdX-AU4xnYDAnsJTNdTYDW7SRjfv4wT9m2CUL_P4DmGk0KWNj2V2GXYaoZ4_wKa4fqxnVcyUVj_OhKXW0Veq66V-AwZsNKrGNq8ClA_qcrkqdRACkvIJJ5-SMc12WKaPfLdBgF2672Ye4hAPrVjuUW6NOUb_m0UEfs1tc9DOPstkk2DWjeIjmPRJFhkllu1OZ2CuOlCAQntpP9PjjKHwvNwthBuxjFykfqiXZlNHHgT8IsSm7Q4S3KSblSSG388dNk5UQD0F1HmP-aKw41qz9_dFsf9d2jn8LnikhbRuSxTNs6GZOjtZuJa8z40A4BMNuTdFwVbTR9AoyBSY_9oLRcLEi9Y9lwOIhyL4Oo4WJRjj9CsLfcU=w1003-h167-no"
-, width: 220, fbname: "", fb: "https://www.facebook.com/Pepinieredeboitsfort/", webname: "pepiniere.be", href: "http://www.pepiniere.be", target: "_blank", texte: "www.pepiniere.be", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
-};
-Chal16Spons.push(spPepiniere);
-Chal17Spons.push(spPepiniere);
-Chal18Spons.push(spPepiniere);
-Chal19Spons.push(spPepiniere);
+
 
 nbrOldSpons = nbrOldSpons + 1;
 var spPrestige = nbrOldSpons;
