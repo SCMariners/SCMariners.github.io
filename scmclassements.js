@@ -3481,8 +3481,6 @@ tmpClass[12] = [12, 'JUVE PORT BXL 1',24,6,16,1,84,117,-33,13];
 tmpClass[13] = [13, 'BXL WOLVES',24,5,12,2,88,147,-59,12];
 ScmClass[Class21222C] = tmpClass;
 tmpClass = [];
- 
-
 
 
 function getScmTot() {
