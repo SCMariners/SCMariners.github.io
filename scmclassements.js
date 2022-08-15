@@ -3466,7 +3466,7 @@ tmpClass = [];
 nbrScmClass = nbrScmClass + 1;
 var Class21222C = nbrScmClass;
 tmpClass[0] = [0, '2021-2022 : 2eme Provinciale C',0,0,0,0,0,0,0,0];
-
+tmpClass[1] = [1, 'HERCULES BXL 1',24,18,3,3,128,73,55,39];
 ScmClass[Class21222C] = tmpClass;
 tmpClass = [];
  
