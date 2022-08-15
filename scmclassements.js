@@ -3467,13 +3467,6 @@ nbrScmClass = nbrScmClass + 1;
 var Class21222C = nbrScmClass;
 tmpClass[0] = [0, '2021-2022 : 2eme Provinciale C',0,0,0,0,0,0,0,0];
 tmpClass[1] = [1, 'HERCULES BXL 1',24,18,3,3,128,73,55,39];
-tmpClass[2] = [2, 'ETM MOLENBEEK 2',24,18,5,0,118,75,43,36];
-tmpClass[3] = [3, 'AS ETTERBEEK 2',24,17,6,1,140,82,58,35];
-tmpClass[4] = [4, 'BELGICA BXL 1',24,14,8,2,108,71,37,30];
-tmpClass[4] = [4, 'KOEKELB UTD 1',24,14,8,2,127,101,26,30];
-tmpClass[6] = [6, 'FUTSAL BRUXELLES 2',24,10,10,2,117,126,-9,22];
-tmpClass[7] = [7, 'FC SOKOL BXL 1',24,9,12,3,92,106,-14,21];
-tmpClass[8] = [8, 'MARINERS AUDERGHEM 1',24,9,12,2,114,140,-26,20];
 
 ScmClass[Class21222C] = tmpClass;
 tmpClass = [];
