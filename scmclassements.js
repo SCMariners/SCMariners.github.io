@@ -3474,11 +3474,7 @@ tmpClass[4] = [4, 'KOEKELB UTD 1',24,14,8,2,127,101,26,30];
 tmpClass[6] = [6, 'FUTSAL BRUXELLES 2',24,10,10,2,117,126,-9,22];
 tmpClass[7] = [7, 'FC SOKOL BXL 1',24,9,12,3,92,106,-14,21];
 tmpClass[8] = [8, 'MARINERS AUDERGHEM 1',24,9,12,2,114,140,-26,20];
-tmpClass[9] = [9, 'PHOENIX EVERE 1',24,8,13,3,99,120,-21,19];
-tmpClass[10] = [10, 'MEDINA FOREST 1',24,6,12,6,114,120,-6,18];
-tmpClass[11] = [11, 'CAMPOMAIOR BXL',24,7,13,1,74,125,-51,15];
-tmpClass[12] = [12, 'JUVE PORT BXL 1',24,6,16,1,84,117,-33,13];
-tmpClass[13] = [13, 'BXL WOLVES',24,5,12,2,88,147,-59,12];
+
 ScmClass[Class21222C] = tmpClass;
 tmpClass = [];
 
