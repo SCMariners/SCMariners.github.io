@@ -3465,8 +3465,8 @@ tmpClass = [];
 
 nbrScmClass = nbrScmClass + 1;
 var Class21222C = nbrScmClass;
-tmpClass[0] = [0, '2021-2022 : 2eme Provinciale C',0,0,0,0,0,0,0,0];
-tmpClass[1] = [1, 'HERCULES BXL 1',24,18,3,3,128,73,55,39];
+tmpClass[0] = [0, '2020-2021 : Dames Division 2 (Arret COVID - 18/10/2020)',0,0,0,0,0,0,0,0];
+tmpClass[1] = [1, 'FC LACUENTA BRUXELLES D',3,3,0,0,31,3,28,6];
 ScmClass[Class21222C] = tmpClass;
 tmpClass = [];
  
