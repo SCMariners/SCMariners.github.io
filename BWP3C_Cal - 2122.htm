@@ -1,0 +1,1742 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<script type="text/javascript" src="scmmenunew.js"></script>
+<link rel="stylesheet" href="SCMStylenew.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+</style>
+
+</head>
+<body>
+<p class="info">Click sur la Division pour voir tout le calendrier</p>
+<p class="info">Click sur une &#233;quipe pour voir son calendrier</p>
+<br>
+<table id="Calendrier" class="scm-clsmt-table">
+<tr>
+  <th class="title" colspan=9 onclick="UnfilterTable()"><div id="SemNbr" style="Display:none;"></div><div id="SemInit" style="Display:block;">3&#232;me Provinciale C</div></th>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">6</td>
+  <td>BWP3C087</td>
+  <td>Ve 03-09 19:00</td>
+  <td>BSAG</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SYNERGY BRUXELLES</td>
+  <td><div class="tc-vert"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPIKILUS BRUXELLES</td>
+  <td>1 - 1</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">7</td>
+  <td>BWP3C062</td>
+  <td>Lu 06-09 22:00</td>
+  <td>UCL2</td>
+  <td><div class="tc-orange"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">DIVERSCITY BRUXELLES</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">RACING EUROPA KRAAINEM 2</td>
+  <td>7 - 3</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">7</td>
+  <td>BWP3C037</td>
+  <td>Ma 07-09 21:00</td>
+  <td>KOEK</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">GALACTICS BRUXELLES</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ARES BRUXELLES 3</td>
+  <td>0 - 10</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">7</td>
+  <td>BWP3C036</td>
+  <td>Me 08-09 21:00</td>
+  <td>JETT</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FC MALIBU JETTE</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CANONNIERS ETTERBEEK 1</td>
+  <td>5 - 1</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">7</td>
+  <td>BWP3C056</td>
+  <td>Ve 10-09 22:00</td>
+  <td>KRAA</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">RACING EUROPA KRAAINEM 2</td>
+  <td><div class="tc-vert"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPIKILUS BRUXELLES</td>
+  <td>4 - 1</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">8</td>
+  <td>BWP3C005</td>
+  <td>Lu 13-09 22:00</td>
+  <td>3TIL</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FUTSAL BOITSFORT 1</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ARES BRUXELLES 3</td>
+  <td>3 - 7</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">8</td>
+  <td>BWP3C001</td>
+  <td>Me 15-09 21:00</td>
+  <td>SOI3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CANONNIERS ETTERBEEK 1</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">RACING EUROPA KRAAINEM 2</td>
+  <td>7 - 8</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">8</td>
+  <td>BWP3C004</td>
+  <td>Ve 17-09 19:00</td>
+  <td>BSAG</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SYNERGY BRUXELLES</td>
+  <td><div class="tc-orange"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">DIVERSCITY BRUXELLES</td>
+  <td>3 - 4</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">8</td>
+  <td>BWP3C006</td>
+  <td>Ve 17-09 19:15</td>
+  <td>ETTE</td>
+  <td><div class="tc-bleuciel"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 3</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FC MALIBU JETTE</td>
+  <td>13 - 4</td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">8</td>
+  <td>BWP3C002</td>
+  <td>Sa 18-09 20:00</td>
+  <td>WIL1</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 3</td>
+  <td><div class="tc-vert"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPIKILUS BRUXELLES</td>
+  <td>6 - 7</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">8</td>
+  <td>BWP3C003</td>
+  <td>Sa 18-09 21:00</td>
+  <td>3TIL</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">JUVE PORT BRUXELLES 2</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">PROXIMA CENTAURI BRUXELLES 3</td>
+  <td>4 - 4</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">9</td>
+  <td>BWP3C008</td>
+  <td>Lu 20-09 20:00</td>
+  <td>CLBE</td>
+  <td><div class="tc-vert"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPIKILUS BRUXELLES</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CANONNIERS ETTERBEEK 1</td>
+  <td>5 - 4</td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">9</td>
+  <td>BWP3C010</td>
+  <td>Lu 20-09 22:00</td>
+  <td>UCL2</td>
+  <td><div class="tc-orange"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">DIVERSCITY BRUXELLES</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 3</td>
+  <td>1 - 4</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">9</td>
+  <td>BWP3C013</td>
+  <td>Ma 21-09 21:00</td>
+  <td>KOEK</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">GALACTICS BRUXELLES</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FUTSAL BOITSFORT 1</td>
+  <td>3 - 7</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">9</td>
+  <td>BWP3C011</td>
+  <td>Me 22-09 20:00</td>
+  <td>MOLE</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ARES BRUXELLES 3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">JUVE PORT BRUXELLES 2</td>
+  <td>10 - 7</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">9</td>
+  <td>BWP3C012</td>
+  <td>Me 22-09 21:00</td>
+  <td>JETT</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FC MALIBU JETTE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SYNERGY BRUXELLES</td>
+  <td>2 - 4</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">9</td>
+  <td>BWP3C009</td>
+  <td>Ve 24-09 19:00</td>
+  <td>EVER</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">PROXIMA CENTAURI BRUXELLES 3</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">RACING EUROPA KRAAINEM 2</td>
+  <td>3 - 5</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">10</td>
+  <td>BWP3C016</td>
+  <td>Lu 27-09 20:00</td>
+  <td>CLBE</td>
+  <td><div class="tc-vert"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPIKILUS BRUXELLES</td>
+  <td><div class="tc-orange"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">DIVERSCITY BRUXELLES</td>
+  <td>4 - 4</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">10</td>
+  <td>BWP3C021</td>
+  <td>Lu 27-09 22:00</td>
+  <td>3TIL</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FUTSAL BOITSFORT 1</td>
+  <td><div class="tc-bleuciel"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 3</td>
+  <td>3 - 4</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">10</td>
+  <td>BWP3C015</td>
+  <td>Me 29-09 21:00</td>
+  <td>SOI3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CANONNIERS ETTERBEEK 1</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">PROXIMA CENTAURI BRUXELLES 3</td>
+  <td>3 - 6</td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">10</td>
+  <td>BWP3C018</td>
+  <td>Sa 02-10 20:00</td>
+  <td>WIL1</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 3</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FC MALIBU JETTE</td>
+  <td>2 - 7</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">10</td>
+  <td>BWP3C019</td>
+  <td>Sa 02-10 21:00</td>
+  <td>3TIL</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">JUVE PORT BRUXELLES 2</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">GALACTICS BRUXELLES</td>
+  <td>3 - 2</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">11</td>
+  <td>BWP3C046</td>
+  <td>Lu 04-10 22:00</td>
+  <td>UCL2</td>
+  <td><div class="tc-orange"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">DIVERSCITY BRUXELLES</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FUTSAL BOITSFORT 1</td>
+  <td>9 - 3</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">11</td>
+  <td>BWP3C025</td>
+  <td>Ma 05-10 21:00</td>
+  <td>KOEK</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">GALACTICS BRUXELLES</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">RACING EUROPA KRAAINEM 2</td>
+  <td>4 - 7</td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">11</td>
+  <td>BWP3C085</td>
+  <td>Me 06-10 21:00</td>
+  <td>SOI3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CANONNIERS ETTERBEEK 1</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 3</td>
+  <td>10 - 1</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">11</td>
+  <td>BWP3C024</td>
+  <td>Me 06-10 21:00</td>
+  <td>JETT</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FC MALIBU JETTE</td>
+  <td><div class="tc-vert"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPIKILUS BRUXELLES</td>
+  <td>4 - 3</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">11</td>
+  <td>BWP3C017</td>
+  <td>Ve 08-10 22:00</td>
+  <td>KRAA</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">RACING EUROPA KRAAINEM 2</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ARES BRUXELLES 3</td>
+  <td>3 - 6</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">12</td>
+  <td>BWP3C028</td>
+  <td>Lu 11-10 22:00</td>
+  <td>3TIL</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FUTSAL BOITSFORT 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SYNERGY BRUXELLES</td>
+  <td>0 - 4</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">12</td>
+  <td>BWP3C023</td>
+  <td>Me 13-10 20:00</td>
+  <td>MOLE</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ARES BRUXELLES 3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">PROXIMA CENTAURI BRUXELLES 3</td>
+  <td>2 - 7</td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">12</td>
+  <td>BWP3C170</td>
+  <td>Ve 15-10 19:00</td>
+  <td>BSAG</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SYNERGY BRUXELLES</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 3</td>
+  <td>2 - 1</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">12</td>
+  <td>BWP3C027</td>
+  <td>Ve 15-10 19:15</td>
+  <td>ETTE</td>
+  <td><div class="tc-bleuciel"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">JUVE PORT BRUXELLES 2</td>
+  <td>2 - 4</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">12</td>
+  <td>BWP3C070</td>
+  <td>Sa 16-10 21:00</td>
+  <td>SCHA</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">PROXIMA CENTAURI BRUXELLES 3</td>
+  <td><div class="tc-orange"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">DIVERSCITY BRUXELLES</td>
+  <td>9 - 0</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">13</td>
+  <td>BWP3C048</td>
+  <td>Lu 18-10 20:00</td>
+  <td>CLBE</td>
+  <td><div class="tc-vert"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPIKILUS BRUXELLES</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">JUVE PORT BRUXELLES 2</td>
+  <td>3 - 6</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">13</td>
+  <td>BWP3C030</td>
+  <td>Lu 18-10 22:00</td>
+  <td>UCL2</td>
+  <td><div class="tc-orange"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">DIVERSCITY BRUXELLES</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FC MALIBU JETTE</td>
+  <td>3 - 5</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">13</td>
+  <td>BWP3C029</td>
+  <td>Me 20-10 21:00</td>
+  <td>SOI3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CANONNIERS ETTERBEEK 1</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ARES BRUXELLES 3</td>
+  <td>5 - 8</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">13</td>
+  <td>BWP3C031</td>
+  <td>Ve 22-10 19:00</td>
+  <td>EVER</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">PROXIMA CENTAURI BRUXELLES 3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">GALACTICS BRUXELLES</td>
+  <td>10 - 2</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">13</td>
+  <td>BWP3C033</td>
+  <td>Ve 22-10 22:00</td>
+  <td>KRAA</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">RACING EUROPA KRAAINEM 2</td>
+  <td><div class="tc-bleuciel"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 3</td>
+  <td>3 - 5</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">14</td>
+  <td>BWP3C040</td>
+  <td>Lu 25-10 22:00</td>
+  <td>3TIL</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FUTSAL BOITSFORT 1</td>
+  <td><div class="tc-vert"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPIKILUS BRUXELLES</td>
+  <td>0 - 3</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">14</td>
+  <td>BWP3C039</td>
+  <td>Ve 29-10 19:15</td>
+  <td>ETTE</td>
+  <td><div class="tc-bleuciel"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">PROXIMA CENTAURI BRUXELLES 3</td>
+  <td>0 - 5</td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">14</td>
+  <td>BWP3C042</td>
+  <td>Sa 30-10 21:00</td>
+  <td>3TIL</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">JUVE PORT BRUXELLES 2</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 3</td>
+  <td>5 - 1</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">15</td>
+  <td>BWP3C045</td>
+  <td>Me 03-11 20:00</td>
+  <td>MOLE</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ARES BRUXELLES 3</td>
+  <td><div class="tc-bleuciel"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 3</td>
+  <td>11 - 5</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">15</td>
+  <td>BWP3C043</td>
+  <td>Me 03-11 21:00</td>
+  <td>SOI3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CANONNIERS ETTERBEEK 1</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">GALACTICS BRUXELLES</td>
+  <td>2 - 4</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">15</td>
+  <td>BWP3C047</td>
+  <td>Ve 05-11 19:00</td>
+  <td>EVER</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">PROXIMA CENTAURI BRUXELLES 3</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SYNERGY BRUXELLES</td>
+  <td>3 - 4</td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">15</td>
+  <td>BWP3C049</td>
+  <td>Ve 05-11 22:00</td>
+  <td>KRAA</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">RACING EUROPA KRAAINEM 2</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 3</td>
+  <td>7 - 5</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">16</td>
+  <td>BWP3C052</td>
+  <td>Lu 08-11 22:00</td>
+  <td>3TIL</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FUTSAL BOITSFORT 1</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FC MALIBU JETTE</td>
+  <td>3 - 6</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">16</td>
+  <td>BWP3C053</td>
+  <td>Ve 12-11 19:00</td>
+  <td>BSAG</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SYNERGY BRUXELLES</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ARES BRUXELLES 3</td>
+  <td>5 - 4</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">16</td>
+  <td>BWP3C051</td>
+  <td>Ve 12-11 19:15</td>
+  <td>ETTE</td>
+  <td><div class="tc-bleuciel"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">GALACTICS BRUXELLES</td>
+  <td>3 - 2</td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">16</td>
+  <td>BWP3C055</td>
+  <td>Sa 13-11 20:00</td>
+  <td>WIL1</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">PROXIMA CENTAURI BRUXELLES 3</td>
+  <td>3 - 5</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">16</td>
+  <td>BWP3C054</td>
+  <td>Sa 13-11 21:00</td>
+  <td>3TIL</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">JUVE PORT BRUXELLES 2</td>
+  <td><div class="tc-orange"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">DIVERSCITY BRUXELLES</td>
+  <td>5 - 6</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">17</td>
+  <td>BWP3C059</td>
+  <td>Ma 16-11 21:00</td>
+  <td>KOEK</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">GALACTICS BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SYNERGY BRUXELLES</td>
+  <td>3 - 7</td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">17</td>
+  <td>BWP3C061</td>
+  <td>Me 17-11 20:00</td>
+  <td>MOLE</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ARES BRUXELLES 3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 3</td>
+  <td>9 - 5</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">17</td>
+  <td>BWP3C057</td>
+  <td>Me 17-11 21:00</td>
+  <td>SOI3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CANONNIERS ETTERBEEK 1</td>
+  <td><div class="tc-bleuciel"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 3</td>
+  <td>4 - 16</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">17</td>
+  <td>BWP3C060</td>
+  <td>Me 17-11 21:00</td>
+  <td>JETT</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FC MALIBU JETTE</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">JUVE PORT BRUXELLES 2</td>
+  <td>7 - 5</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">17</td>
+  <td>BWP3C063</td>
+  <td>Ve 19-11 19:00</td>
+  <td>EVER</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">PROXIMA CENTAURI BRUXELLES 3</td>
+  <td><div class="tc-vert"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPIKILUS BRUXELLES</td>
+  <td>4 - 1</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">18</td>
+  <td>BWP3C069</td>
+  <td>Lu 22-11 20:00</td>
+  <td>CLBE</td>
+  <td><div class="tc-vert"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPIKILUS BRUXELLES</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ARES BRUXELLES 3</td>
+  <td>0 - 5</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">18</td>
+  <td>BWP3C064</td>
+  <td>Lu 22-11 22:00</td>
+  <td>3TIL</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FUTSAL BOITSFORT 1</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CANONNIERS ETTERBEEK 1</td>
+  <td>7 - 4</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">18</td>
+  <td>BWP3C065</td>
+  <td>Ve 26-11 19:00</td>
+  <td>BSAG</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SYNERGY BRUXELLES</td>
+  <td><div class="tc-bleuciel"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 3</td>
+  <td>1 - 1</td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">18</td>
+  <td>BWP3C067</td>
+  <td>Sa 27-11 20:00</td>
+  <td>WIL1</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">GALACTICS BRUXELLES</td>
+  <td>12 - 2</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">18</td>
+  <td>BWP3C086</td>
+  <td>Sa 27-11 21:00</td>
+  <td>3TIL</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">JUVE PORT BRUXELLES 2</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">RACING EUROPA KRAAINEM 2</td>
+  <td>2 - 7</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">19</td>
+  <td>BWP3C075</td>
+  <td>Ma 30-11 21:00</td>
+  <td>KOEK</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">GALACTICS BRUXELLES</td>
+  <td><div class="tc-vert"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPIKILUS BRUXELLES</td>
+  <td>3 - 1</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">19</td>
+  <td>BWP3C077</td>
+  <td>Me 01-12 20:00</td>
+  <td>MOLE</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ARES BRUXELLES 3</td>
+  <td><div class="tc-orange"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">DIVERSCITY BRUXELLES</td>
+  <td>9 - 7</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">19</td>
+  <td>BWP3C071</td>
+  <td>Me 01-12 21:00</td>
+  <td>SOI3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CANONNIERS ETTERBEEK 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SYNERGY BRUXELLES</td>
+  <td>6 - 10</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">19</td>
+  <td>BWP3C076</td>
+  <td>Me 01-12 21:00</td>
+  <td>JETT</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FC MALIBU JETTE</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">PROXIMA CENTAURI BRUXELLES 3</td>
+  <td>3 - 3</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">20</td>
+  <td>BWP3C081</td>
+  <td>Lu 06-12 20:00</td>
+  <td>CLBE</td>
+  <td><div class="tc-vert"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPIKILUS BRUXELLES</td>
+  <td><div class="tc-bleuciel"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 3</td>
+  <td>4 - 5</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">20</td>
+  <td>BWP3C083</td>
+  <td>Lu 06-12 22:00</td>
+  <td>UCL2</td>
+  <td><div class="tc-orange"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">DIVERSCITY BRUXELLES</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">GALACTICS BRUXELLES</td>
+  <td>11 - 3</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">20</td>
+  <td>BWP3C078</td>
+  <td>Sa 11-12 21:00</td>
+  <td>3TIL</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">JUVE PORT BRUXELLES 2</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CANONNIERS ETTERBEEK 1</td>
+  <td>5 - 3</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">21</td>
+  <td>BWP3C091</td>
+  <td>Ma 14-12 21:00</td>
+  <td>KOEK</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">GALACTICS BRUXELLES</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FC MALIBU JETTE</td>
+  <td>1 - 4</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">22</td>
+  <td>BWP3C072</td>
+  <td>Lu 20-12 22:00</td>
+  <td>3TIL</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FUTSAL BOITSFORT 1</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">JUVE PORT BRUXELLES 2</td>
+  <td>4 - 4</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">22</td>
+  <td>BWP3C022</td>
+  <td>Lu 20-12 22:00</td>
+  <td>UCL2</td>
+  <td><div class="tc-orange"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">DIVERSCITY BRUXELLES</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CANONNIERS ETTERBEEK 1</td>
+  <td>6 - 4</td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">23</td>
+  <td>BWP3C079</td>
+  <td>Lu 27-12 21:00</td>
+  <td>WIL1</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 3</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SYNERGY BRUXELLES</td>
+  <td>0 - 5</td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">23</td>
+  <td>BWP3C073</td>
+  <td>Ve 07-01 19:15</td>
+  <td>ETTE</td>
+  <td><div class="tc-bleuciel"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 3</td>
+  <td>4 - 6</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">23</td>
+  <td>BWP3C068</td>
+  <td>Ve 07-01 22:00</td>
+  <td>KRAA</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">RACING EUROPA KRAAINEM 2</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FC MALIBU JETTE</td>
+  <td>3 - 5</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">23</td>
+  <td>BWP3C035</td>
+  <td>Sa 08-01 21:00</td>
+  <td>3TIL</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">JUVE PORT BRUXELLES 2</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SYNERGY BRUXELLES</td>
+  <td>2 - 3</td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">24</td>
+  <td>BWP3C093</td>
+  <td>Lu 10-01 20:00</td>
+  <td>CLBE</td>
+  <td><div class="tc-vert"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPIKILUS BRUXELLES</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 3</td>
+  <td>1 - 0</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">24</td>
+  <td>BWP3C095</td>
+  <td>Lu 10-01 22:00</td>
+  <td>UCL2</td>
+  <td><div class="tc-orange"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">DIVERSCITY BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SYNERGY BRUXELLES</td>
+  <td>2 - 5</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">24</td>
+  <td>BWP3C096</td>
+  <td>Me 12-01 20:00</td>
+  <td>MOLE</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ARES BRUXELLES 3</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FUTSAL BOITSFORT 1</td>
+  <td>0 - 5</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">24</td>
+  <td>BWP3C182</td>
+  <td>Me 12-01 21:00</td>
+  <td>JETT</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FC MALIBU JETTE</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">GALACTICS BRUXELLES</td>
+  <td>6 - 4</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">24</td>
+  <td>BWP3C094</td>
+  <td>Ve 14-01 19:00</td>
+  <td>EVER</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">PROXIMA CENTAURI BRUXELLES 3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">JUVE PORT BRUXELLES 2</td>
+  <td>2 - 2</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">25</td>
+  <td>BWP3C104</td>
+  <td>Lu 17-01 22:00</td>
+  <td>3TIL</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FUTSAL BOITSFORT 1</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">GALACTICS BRUXELLES</td>
+  <td>11 - 0</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">25</td>
+  <td>BWP3C099</td>
+  <td>Me 19-01 21:00</td>
+  <td>SOI3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CANONNIERS ETTERBEEK 1</td>
+  <td><div class="tc-vert"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPIKILUS BRUXELLES</td>
+  <td>6 - 3</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">25</td>
+  <td>BWP3C103</td>
+  <td>Ve 21-01 19:00</td>
+  <td>BSAG</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SYNERGY BRUXELLES</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FC MALIBU JETTE</td>
+  <td>3 - 5</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">25</td>
+  <td>BWP3C148</td>
+  <td>Ve 21-01 19:15</td>
+  <td>ETTE</td>
+  <td><div class="tc-bleuciel"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CANONNIERS ETTERBEEK 1</td>
+  <td>10 - 4</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">25</td>
+  <td>BWP3C100</td>
+  <td>Ve 21-01 22:00</td>
+  <td>KRAA</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">RACING EUROPA KRAAINEM 2</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">PROXIMA CENTAURI BRUXELLES 3</td>
+  <td>5 - 4</td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">25</td>
+  <td>BWP3C101</td>
+  <td>Sa 22-01 20:00</td>
+  <td>WIL1</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 3</td>
+  <td><div class="tc-orange"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">DIVERSCITY BRUXELLES</td>
+  <td>7 - 4</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">26</td>
+  <td>BWP3C107</td>
+  <td>Lu 24-01 22:00</td>
+  <td>UCL2</td>
+  <td><div class="tc-orange"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">DIVERSCITY BRUXELLES</td>
+  <td><div class="tc-vert"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPIKILUS BRUXELLES</td>
+  <td>6 - 2</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">26</td>
+  <td>BWP3C110</td>
+  <td>Ma 25-01 21:00</td>
+  <td>KOEK</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">GALACTICS BRUXELLES</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">JUVE PORT BRUXELLES 2</td>
+  <td>3 - 6</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">26</td>
+  <td>BWP3C108</td>
+  <td>Me 26-01 20:00</td>
+  <td>MOLE</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ARES BRUXELLES 3</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">RACING EUROPA KRAAINEM 2</td>
+  <td>9 - 8</td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">26</td>
+  <td>BWP3C109</td>
+  <td>Me 26-01 21:00</td>
+  <td>JETT</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FC MALIBU JETTE</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 3</td>
+  <td>3 - 1</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">26</td>
+  <td>BWP3C106</td>
+  <td>Ve 28-01 19:00</td>
+  <td>EVER</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">PROXIMA CENTAURI BRUXELLES 3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CANONNIERS ETTERBEEK 1</td>
+  <td>13 - 4</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">27</td>
+  <td>BWP3C115</td>
+  <td>Lu 31-01 20:00</td>
+  <td>CLBE</td>
+  <td><div class="tc-vert"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPIKILUS BRUXELLES</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FC MALIBU JETTE</td>
+  <td>4 - 3</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">27</td>
+  <td>BWP3C171</td>
+  <td>Lu 31-01 22:00</td>
+  <td>3TIL</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FUTSAL BOITSFORT 1</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">RACING EUROPA KRAAINEM 2</td>
+  <td>4 - 2</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">27</td>
+  <td>BWP3C113</td>
+  <td>Me 02-02 21:00</td>
+  <td>SOI3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CANONNIERS ETTERBEEK 1</td>
+  <td><div class="tc-orange"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">DIVERSCITY BRUXELLES</td>
+  <td>8 - 9</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">27</td>
+  <td>BWP3C119</td>
+  <td>Ve 04-02 19:00</td>
+  <td>BSAG</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SYNERGY BRUXELLES</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FUTSAL BOITSFORT 1</td>
+  <td>3 - 3</td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">27</td>
+  <td>BWP3C152</td>
+  <td>Sa 05-02 20:00</td>
+  <td>WIL1</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ARES BRUXELLES 3</td>
+  <td>5 - 9</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">27</td>
+  <td>BWP3C118</td>
+  <td>Sa 05-02 21:00</td>
+  <td>3TIL</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">JUVE PORT BRUXELLES 2</td>
+  <td><div class="tc-bleuciel"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 3</td>
+  <td>1 - 4</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">28</td>
+  <td>BWP3C122</td>
+  <td>Ma 08-02 21:00</td>
+  <td>KOEK</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">GALACTICS BRUXELLES</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">PROXIMA CENTAURI BRUXELLES 3</td>
+  <td>3 - 7</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">28</td>
+  <td>BWP3C121</td>
+  <td>Me 09-02 21:00</td>
+  <td>JETT</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FC MALIBU JETTE</td>
+  <td><div class="tc-orange"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">DIVERSCITY BRUXELLES</td>
+  <td>5 - 4</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">28</td>
+  <td>BWP3C114</td>
+  <td>Ve 11-02 19:00</td>
+  <td>EVER</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">PROXIMA CENTAURI BRUXELLES 3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ARES BRUXELLES 3</td>
+  <td>9 - 4</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">28</td>
+  <td>BWP3C092</td>
+  <td>Ve 11-02 22:00</td>
+  <td>KRAA</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">RACING EUROPA KRAAINEM 2</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CANONNIERS ETTERBEEK 1</td>
+  <td>8 - 7</td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">29</td>
+  <td>BWP3C125</td>
+  <td>Lu 14-02 22:00</td>
+  <td>3TIL</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FUTSAL BOITSFORT 1</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 3</td>
+  <td>4 - 7</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">29</td>
+  <td>BWP3C120</td>
+  <td>Me 16-02 20:00</td>
+  <td>MOLE</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ARES BRUXELLES 3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CANONNIERS ETTERBEEK 1</td>
+  <td>9 - 8</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">29</td>
+  <td>BWP3C126</td>
+  <td>Ve 18-02 19:00</td>
+  <td>BSAG</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SYNERGY BRUXELLES</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">JUVE PORT BRUXELLES 2</td>
+  <td>6 - 3</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">29</td>
+  <td>BWP3C124</td>
+  <td>Ve 18-02 19:15</td>
+  <td>ETTE</td>
+  <td><div class="tc-bleuciel"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 3</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">RACING EUROPA KRAAINEM 2</td>
+  <td>4 - 3</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">30</td>
+  <td>BWP3C131</td>
+  <td>Lu 21-02 20:00</td>
+  <td>CLBE</td>
+  <td><div class="tc-vert"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPIKILUS BRUXELLES</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FUTSAL BOITSFORT 1</td>
+  <td>5 - 3</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">30</td>
+  <td>BWP3C128</td>
+  <td>Me 23-02 20:00</td>
+  <td>MOLE</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ARES BRUXELLES 3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">GALACTICS BRUXELLES</td>
+  <td>4 - 6</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">30</td>
+  <td>BWP3C097</td>
+  <td>Me 23-02 21:00</td>
+  <td>JETT</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FC MALIBU JETTE</td>
+  <td><div class="tc-bleuciel"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 3</td>
+  <td>2 - 3</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">30</td>
+  <td>BWP3C130</td>
+  <td>Ve 25-02 19:00</td>
+  <td>EVER</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">PROXIMA CENTAURI BRUXELLES 3</td>
+  <td><div class="tc-bleuciel"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 3</td>
+  <td>5 - 2</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">30</td>
+  <td>BWP3C132</td>
+  <td>Ve 25-02 22:00</td>
+  <td>KRAA</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">RACING EUROPA KRAAINEM 2</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SYNERGY BRUXELLES</td>
+  <td>1 - 3</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">31</td>
+  <td>BWP3C137</td>
+  <td>Lu 28-02 22:00</td>
+  <td>3TIL</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FUTSAL BOITSFORT 1</td>
+  <td><div class="tc-orange"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">DIVERSCITY BRUXELLES</td>
+  <td>2 - 1</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">31</td>
+  <td>BWP3C138</td>
+  <td>Ve 04-03 19:00</td>
+  <td>BSAG</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SYNERGY BRUXELLES</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">PROXIMA CENTAURI BRUXELLES 3</td>
+  <td>3 - 6</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">31</td>
+  <td>BWP3C136</td>
+  <td>Ve 04-03 19:15</td>
+  <td>ETTE</td>
+  <td><div class="tc-bleuciel"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ARES BRUXELLES 3</td>
+  <td>4 - 3</td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">31</td>
+  <td>BWP3C140</td>
+  <td>Sa 05-03 20:00</td>
+  <td>WIL1</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 3</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">RACING EUROPA KRAAINEM 2</td>
+  <td>7 - 4</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">31</td>
+  <td>BWP3C139</td>
+  <td>Sa 05-03 21:00</td>
+  <td>3TIL</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">JUVE PORT BRUXELLES 2</td>
+  <td><div class="tc-vert"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPIKILUS BRUXELLES</td>
+  <td>2 - 3</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">32</td>
+  <td>BWP3C145</td>
+  <td>Lu 07-03 22:00</td>
+  <td>UCL2</td>
+  <td><div class="tc-orange"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">DIVERSCITY BRUXELLES</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">JUVE PORT BRUXELLES 2</td>
+  <td>5 - 2</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">32</td>
+  <td>BWP3C134</td>
+  <td>Ma 08-03 21:00</td>
+  <td>KOEK</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">GALACTICS BRUXELLES</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CANONNIERS ETTERBEEK 1</td>
+  <td>5 - 7</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">32</td>
+  <td>BWP3C144</td>
+  <td>Me 09-03 20:00</td>
+  <td>MOLE</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ARES BRUXELLES 3</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SYNERGY BRUXELLES</td>
+  <td>3 - 4</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">32</td>
+  <td>BWP3C143</td>
+  <td>Me 09-03 21:00</td>
+  <td>JETT</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FC MALIBU JETTE</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FUTSAL BOITSFORT 1</td>
+  <td>1 - 1</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">32</td>
+  <td>BWP3C116</td>
+  <td>Ve 11-03 22:00</td>
+  <td>KRAA</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">RACING EUROPA KRAAINEM 2</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">GALACTICS BRUXELLES</td>
+  <td>8 - 4</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">33</td>
+  <td>BWP3C147</td>
+  <td>Lu 14-03 20:00</td>
+  <td>CLBE</td>
+  <td><div class="tc-vert"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPIKILUS BRUXELLES</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">RACING EUROPA KRAAINEM 2</td>
+  <td>5 - 8</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">33</td>
+  <td>BWP3C150</td>
+  <td>Ve 18-03 19:00</td>
+  <td>BSAG</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SYNERGY BRUXELLES</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">GALACTICS BRUXELLES</td>
+  <td>5 - 2</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">33</td>
+  <td>BWP3C112</td>
+  <td>Ve 18-03 19:15</td>
+  <td>ETTE</td>
+  <td><div class="tc-bleuciel"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 3</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FUTSAL BOITSFORT 1</td>
+  <td>4 - 2</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">33</td>
+  <td>BWP3C102</td>
+  <td>Sa 19-03 21:00</td>
+  <td>3TIL</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">JUVE PORT BRUXELLES 2</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ARES BRUXELLES 3</td>
+  <td>4 - 9</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">34</td>
+  <td>BWP3C154</td>
+  <td>Lu 21-03 20:00</td>
+  <td>CLBE</td>
+  <td><div class="tc-vert"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPIKILUS BRUXELLES</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">PROXIMA CENTAURI BRUXELLES 3</td>
+  <td>8 - 5</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">34</td>
+  <td>BWP3C168</td>
+  <td>Lu 21-03 22:00</td>
+  <td>UCL2</td>
+  <td><div class="tc-orange"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">DIVERSCITY BRUXELLES</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ARES BRUXELLES 3</td>
+  <td>10 - 11</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">34</td>
+  <td>BWP3C160</td>
+  <td>Me 23-03 20:00</td>
+  <td>MOLE</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ARES BRUXELLES 3</td>
+  <td><div class="tc-vert"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPIKILUS BRUXELLES</td>
+  <td>5 - 7</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">34</td>
+  <td>BWP3C159</td>
+  <td>Me 23-03 21:00</td>
+  <td>JETT</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FC MALIBU JETTE</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">RACING EUROPA KRAAINEM 2</td>
+  <td>9 - 5</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">34</td>
+  <td>BWP3C153</td>
+  <td>Ve 25-03 22:00</td>
+  <td>KRAA</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">RACING EUROPA KRAAINEM 2</td>
+  <td><div class="tc-orange"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">DIVERSCITY BRUXELLES</td>
+  <td>5 - 0</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">35</td>
+  <td>BWP3C155</td>
+  <td>Me 30-03 21:00</td>
+  <td>SOI3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CANONNIERS ETTERBEEK 1</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FUTSAL BOITSFORT 1</td>
+  <td>7 - 4</td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">35</td>
+  <td>BWP3C133</td>
+  <td>Sa 02-04 20:00</td>
+  <td>WIL1</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">JUVE PORT BRUXELLES 2</td>
+  <td>5 - 7</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">36</td>
+  <td>BWP3C161</td>
+  <td>Lu 04-04 22:00</td>
+  <td>UCL2</td>
+  <td><div class="tc-orange"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">DIVERSCITY BRUXELLES</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">PROXIMA CENTAURI BRUXELLES 3</td>
+  <td>3 - 8</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">36</td>
+  <td>BWP3C142</td>
+  <td>Ma 05-04 21:00</td>
+  <td>KOEK</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">GALACTICS BRUXELLES</td>
+  <td><div class="tc-bleuciel"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 3</td>
+  <td>3 - 8</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">36</td>
+  <td>BWP3C127</td>
+  <td>Me 06-04 21:00</td>
+  <td>SOI3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CANONNIERS ETTERBEEK 1</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FC MALIBU JETTE</td>
+  <td>3 - 7</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">36</td>
+  <td>BWP3C179</td>
+  <td>Ve 08-04 19:00</td>
+  <td>EVER</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">PROXIMA CENTAURI BRUXELLES 3</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FUTSAL BOITSFORT 1</td>
+  <td>18 - 4</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">37</td>
+  <td>BWP3C166</td>
+  <td>Lu 11-04 20:00</td>
+  <td>CLBE</td>
+  <td><div class="tc-vert"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPIKILUS BRUXELLES</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">GALACTICS BRUXELLES</td>
+  <td>0 - 0</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">37</td>
+  <td>BWP3C080</td>
+  <td>Lu 11-04 22:00</td>
+  <td>3TIL</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">RACING EUROPA KRAAINEM 2</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FUTSAL BOITSFORT 1</td>
+  <td>4 - 2</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">37</td>
+  <td>BWP3C162</td>
+  <td>Ve 15-04 19:00</td>
+  <td>BSAG</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SYNERGY BRUXELLES</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CANONNIERS ETTERBEEK 1</td>
+  <td>5 - 0</td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">37</td>
+  <td>BWP3C164</td>
+  <td>Sa 16-04 20:00</td>
+  <td>WIL1</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 3</td>
+  <td><div class="tc-bleuciel"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 3</td>
+  <td>7 - 9</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">37</td>
+  <td>BWP3C163</td>
+  <td>Sa 16-04 21:00</td>
+  <td>3TIL</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">JUVE PORT BRUXELLES 2</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FUTSAL BOITSFORT 1</td>
+  <td>2 - 2</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">38</td>
+  <td>BWP3C174</td>
+  <td>Ma 19-04 21:00</td>
+  <td>KOEK</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">GALACTICS BRUXELLES</td>
+  <td><div class="tc-orange"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">DIVERSCITY BRUXELLES</td>
+  <td>7 - 7</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">38</td>
+  <td>BWP3C169</td>
+  <td>Me 20-04 21:00</td>
+  <td>SOI3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CANONNIERS ETTERBEEK 1</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">JUVE PORT BRUXELLES 2</td>
+  <td>7 - 5</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">38</td>
+  <td>BWP3C175</td>
+  <td>Me 20-04 21:00</td>
+  <td>JETT</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FC MALIBU JETTE</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ARES BRUXELLES 3</td>
+  <td>12 - 6</td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">38</td>
+  <td>BWP3C146</td>
+  <td>Je 21-04 22:00</td>
+  <td>CLBE</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">PROXIMA CENTAURI BRUXELLES 3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 3</td>
+  <td>8 - 6</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">38</td>
+  <td>BWP3C041</td>
+  <td>Ve 22-04 21:00</td>
+  <td>CLBE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SYNERGY BRUXELLES</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">RACING EUROPA KRAAINEM 2</td>
+  <td>8 - 10</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">39</td>
+  <td>BWP3C178</td>
+  <td>Lu 25-04 20:00</td>
+  <td>CLBE</td>
+  <td><div class="tc-vert"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPIKILUS BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SYNERGY BRUXELLES</td>
+  <td>3 - 5</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">39</td>
+  <td>BWP3C180</td>
+  <td>Lu 25-04 22:00</td>
+  <td>UCL2</td>
+  <td><div class="tc-orange"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">DIVERSCITY BRUXELLES</td>
+  <td><div class="tc-bleuciel"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 3</td>
+  <td>4 - 9</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">39</td>
+  <td>BWP3C172</td>
+  <td>Ve 29-04 19:15</td>
+  <td>ETTE</td>
+  <td><div class="tc-bleuciel"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 3</td>
+  <td><div class="tc-vert"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPIKILUS BRUXELLES</td>
+  <td>1 - 3</td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">39</td>
+  <td>BWP3C176</td>
+  <td>Sa 30-04 20:00</td>
+  <td>WIL1</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 3</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CANONNIERS ETTERBEEK 1</td>
+  <td>2 - 7</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">39</td>
+  <td>BWP3C151</td>
+  <td>Sa 30-04 21:00</td>
+  <td>3TIL</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">JUVE PORT BRUXELLES 2</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FC MALIBU JETTE</td>
+  <td>11 - 4</td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">40</td>
+  <td>BWP3C158</td>
+  <td>Ma 03-05 21:00</td>
+  <td>KOEK</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">GALACTICS BRUXELLES</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 3</td>
+  <td>2 - 4</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">40</td>
+  <td>BWP3C084</td>
+  <td>Me 04-05 20:00</td>
+  <td>MOLE</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ARES BRUXELLES 3</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FC MALIBU JETTE</td>
+  <td>2 - 8</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">40</td>
+  <td>BWP3C156</td>
+  <td>Ve 06-05 19:15</td>
+  <td>ETTE</td>
+  <td><div class="tc-bleuciel"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 3</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SYNERGY BRUXELLES</td>
+  <td>4 - 4</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">40</td>
+  <td>BWP3C177</td>
+  <td>Ve 06-05 22:00</td>
+  <td>KRAA</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">RACING EUROPA KRAAINEM 2</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">JUVE PORT BRUXELLES 2</td>
+  <td>4 - 5</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">41</td>
+  <td>BWP3C088</td>
+  <td>Lu 09-05 22:00</td>
+  <td>3TIL</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FUTSAL BOITSFORT 1</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">PROXIMA CENTAURI BRUXELLES 3</td>
+  <td>1 - 2</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">41</td>
+  <td>BWP3C089</td>
+  <td>Ve 13-05 19:15</td>
+  <td>ETTE</td>
+  <td><div class="tc-bleuciel"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 3</td>
+  <td><div class="tc-orange"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">DIVERSCITY BRUXELLES</td>
+  <td>1 - 6</td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">41</td>
+  <td>BWP3C034</td>
+  <td>Sa 14-05 20:00</td>
+  <td>WIL1</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 3</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FUTSAL BOITSFORT 1</td>
+  <td>8 - 6</td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">42</td>
+  <td>BWP3C167</td>
+  <td>Me 18-05 21:00</td>
+  <td>JETT</td>
+  <td><div class="tc-rouge"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">PROXIMA CENTAURI BRUXELLES 3</td>
+  <td><div class="tc-jaune"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FC MALIBU JETTE</td>
+  <td> - </td>
+</tr>
+</table>
+</body>
+</html>
