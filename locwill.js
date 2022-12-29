@@ -25,7 +25,7 @@ var scmEqDAName = "MARINERS AUDERGHEM D";
 var scmMain = "sc##.##mariners##1##skynet##.##be";
 var scmCopy1 = "delvennemichael##1##gmail##.##com";
 var scmCopy2 = "samy##.##vdk##1##hotmail##.##com";
-var scmCopy3 = "alantorrescuba##1##gmail##.##com";
+var scmCopy3 = "nolet_274##1##hotmail##.##com";
 var scmCopy4 = "valerio240600##1##hotmail##.##com";
 var scmCopy5 = "bu-yle##1##hotmail##.##com";
 var scmCopy6 = "baysalexandre##1##hotmail##.##com";
@@ -110,5 +110,6 @@ calreservation.push(202211142200);
 calreservation.push(202211252100); 
 calreservation.push(202211282200); 
 calreservation.push(202212072000);  
+calreservation.push(202301042000); 
 calreservation.push(202301062100); 
 
