@@ -588,6 +588,16 @@ scmTeams[scmIta23Eq1b] = { Saison: "2022-2023", Name: "Mariners 1", Event: "Euro
     descb: ""
 };
 
+scmTeamsNbr = scmTeamsNbr + 1;
+var scmIta23Eq2 = scmTeamsNbr;
+scmTeams[scmIta23Eq2] = { Saison: "2022-2023", Name: "Mariners 2", Event: "Eurotorneo 2023"
+, src: "https://lh3.googleusercontent.com/pw/AIL4fc-I-RG_2rf2VJ1UiMoWpP6OCPcVjzA-818SEj_XE4pnxOYCy7AltCfwfU7xOo6ya1MLiyOoZ7e5J4-TnYjW_pMJyXDLcUohpi80qIB9tqjhMx6MzVl858ly0USJ9Zi6uYYJXx0ZdamXU-L64RMKJdjR=w811-h530-s-no?authuser=0", width: 400, target: "_blank",
+    texte: "",
+    desch: "",
+    descb: ""
+};
+
+
 
 
 // 2021-2022
