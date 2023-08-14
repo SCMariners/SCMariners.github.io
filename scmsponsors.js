@@ -575,6 +575,15 @@ scmTeams[scmChal22Eq7] = { Saison: "2021-2022", Name: "Mariners 7", Event: "Chal
     descb: ""
 };
 
+scmTeamsNbr = scmTeamsNbr + 1;
+var scmChal22Vintage = scmTeamsNbr;
+scmTeams[scmChal22Vintage] = { Saison: "2021-2022", Name: "Mariners Vintage", Event: "Challenge Mariners 2022"
+, src: "https://lh3.googleusercontent.com/pw/AIL4fc-tLa6n9gBxCo2yxtEDvxfv1NOEqA6X61M8Auvx9gv25TSnYkxrvwrg4dJwoVEYluNxo2sWZaNqP3iFOXJlu40NZfV6YfoTXuZ_J2MYGZnY8kPGIfenj6nVngZrmgWITwH5w-kD3_Mt-6EVrGpqUmvl=w811-h596-s-no?authuser=0", width: 400, target: "_blank",
+    texte: "",
+    desch: "",
+    descb: ""
+};
+
 
 
 scmTeamsNbr = scmTeamsNbr + 1;
