@@ -683,6 +683,15 @@ scmTeams[scmChal19Eq1] = { Saison: "2018-2019", Name: "Mariners 1", Event: "Chal
     descb: ""
 };
 
+scmTeamsNbr = scmTeamsNbr + 1;
+var scmChal19V1 = scmTeamsNbr;
+scmTeams[scmChal19V1] = { Saison: "2018-2019", Name: "Mariners Veterans 1", Event: "Challenge Mariners 2019"
+, src: "https://lh3.googleusercontent.com/pw/AIL4fc-kHk8zhH4yCthteHlXc7uFSliI3V9SA-dgMvHXjJ0vku1k4Xk824MQ4j5XecmctV0iQwSCgQI_ft4g0JWgd1EytZ2AwI2fBM8U3Qzc33HCwDUbYVdsvvLKLCmhnfI2x2yDmJfuuipMOuzVpC5wA4ye=w811-h559-s-no?authuser=0", width: 400, target: "_blank",
+    texte: "",
+    desch: "",
+    descb: ""
+};
+
 
 
 scmTeamsNbr = scmTeamsNbr + 1;
