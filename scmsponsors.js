@@ -558,6 +558,16 @@ scmTeams[scmIta22] = { Saison: "2021-2022", Name: "Marinieri", Event: "Eurotorne
 };
 
 scmTeamsNbr = scmTeamsNbr + 1;
+var scmIta22c = scmTeamsNbr;
+scmTeams[scmIta22c] = { Saison: "2021-2022", Name: "Marinieri & Amici Di John", Event: "Eurotorneo 2022"
+, src: "https://lh3.googleusercontent.com/pw/AIL4fc_LUoAbU-rx785BZI6U6eptS0r65RCBlFrphZSXPso_x0wGnyQIsCR31dX4pk7FneCVtxZ6IDg9XJt6ew6-7JakwdVjB9PtU-Z5Y7OBHGE3x5pmqMOlPeiqUmmVwNcWjTuIo8dED9t5y3n2ZxQjzTJT=w811-h361-s-no?authuser=0", width: 400, target: "_blank",
+    texte: "",
+    desch: "",
+    descb: ""
+};
+
+
+scmTeamsNbr = scmTeamsNbr + 1;
 var scmIta22b = scmTeamsNbr;
 scmTeams[scmIta22b] = { Saison: "2021-2022", Name: "Marinieri & Amici Di John", Event: "Eurotorneo 2022"
 , src: "https://lh3.googleusercontent.com/pw/AIL4fc-dSCdrE6eCFUfoR_Pk1bdWvXxeB-q-Uw7ZEwbbfJlxpgsVwqyYSh3ECkVFdLCzKUXm_VmNg4WcnTToc5-89L9cp8Eg9lIT7bi8I9HCfNcF5MLNPGibfT6ixRPVkfdA_IvxmZZ7IdvEe0B4R0DSW-_R=w811-h541-s-no?authuser=0", width: 400, target: "_blank",
