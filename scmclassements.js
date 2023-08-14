@@ -1,4 +1,4 @@
-202var ScmClass = [];
+var ScmClass = [];
 var tmpClass = [];
 
 var nbrScmClass = 0;
