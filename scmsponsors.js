@@ -568,6 +568,16 @@ scmTeams[scmIta22Eq2a] = { Saison: "2021-2022", Name: "Mariners 1 & All Black", 
 };
 
 scmTeamsNbr = scmTeamsNbr + 1;
+var scmItaEq2 = scmTeamsNbr;
+scmTeams[scmItaEq2] = { Saison: "2021-2022", Name: "Mariners 2", Event: "Eurotorneo 2022"
+, src: "https://lh3.googleusercontent.com/pw/AIL4fc-ZtOtDAtFuyJg46EP1_lqldDzm4NHZf81bB_Rg8i0j3FmK6X3jc0bgczcpw_lTiHpPyF2YnQ21Tir32pddTfplpVwvSYHABk9U8vIqZphtb29mx7urftcEI_JoenwaKTo7wF_w05P8o7aNVg8wz_3H=w775-h434-s-no?authuser=0", width: 400, target: "_blank",
+    texte: "",
+    desch: "",
+    descb: ""
+};
+
+
+scmTeamsNbr = scmTeamsNbr + 1;
 var scmIta22 = scmTeamsNbr;
 scmTeams[scmIta22] = { Saison: "2021-2022", Name: "Marinieri", Event: "Eurotorneo 2022"
 , src: "https://lh3.googleusercontent.com/pw/AIL4fc8wyuCoGy0S9HVgTy4fp4gETrfQqISFU0pRbhVSD_3gIRne-Ia65y_x7ZIdEnzoUGu2G0cNGG0Ey8xUwYGHIKsYqYe_p-Lar346It3J5LW8enw2Vr4q_pAlP5WOkGpswhEzvkd8f84MDJMJWNIMQHig=w811-h608-s-no?authuser=0", width: 400, target: "_blank",
