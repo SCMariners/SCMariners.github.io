@@ -560,6 +560,16 @@ scmTeams[scm2223V1] = { Saison: "2022-2023", Name: "Mariners V1", Event: "Saison
 };
 
 scmTeamsNbr = scmTeamsNbr + 1;
+var scmIta23c = scmTeamsNbr;
+scmTeams[scmIta23c] = { Saison: "2022-2023", Name: "Marinieri 2023", Event: "Eurotorneo 2023"
+, src: "https://lh3.googleusercontent.com/pw/AIL4fc-zhbBlNVdslFBhlaYPwgVGSsdFNlClasE5Ccf6wvtaJmVBD7t9TsuhlTlCa0VXok5kPAKmNHzJvTsuM5GuDj6-yKEeBjnBE2ZQfh_dlmm0QR64wEJkz3g3lMVlcHWjYGG9HCFqa5zv_s-PzMXLz0vm=w811-h585-s-no?authuser=0", width: 400, target: "_blank",
+    texte: "",
+    desch: "",
+    descb: ""
+};
+
+
+scmTeamsNbr = scmTeamsNbr + 1;
 var scmIta23b = scmTeamsNbr;
 scmTeams[scmIta23b] = { Saison: "2022-2023", Name: "Marinieri 2023", Event: "Eurotorneo 2023"
 , src: "https://lh3.googleusercontent.com/pw/AIL4fc8wRHqij5LQXbOCAPdi0HO_TIuCyWOf2FKRvLYH9jtT3We7_jnDrXcWKMZnXwv0MPiHHmOD-aUQ6vBKj-Oag7eGQe5QBSnRt4PV_z0faGVU7Pte9oQmv5G0P3LpMy6wnHiMutUJ2mVlceMyEzeaWZ2G=w868-h651-s-no?authuser=0", width: 400, target: "_blank",
