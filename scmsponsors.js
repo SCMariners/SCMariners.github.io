@@ -639,6 +639,17 @@ scmTeams[scm1819Eq7] = { Saison: "2018-2019", Name: "Mariners 7", Event: "Saison
 };
 
 scmTeamsNbr = scmTeamsNbr + 1;
+var scmChal19Eq7 = scmTeamsNbr;
+scmTeams[scmChal19Eq7] = { Saison: "2018-2019", Name: "Mariners 7", Event: "Challenge Mariners 2019"
+, src: "https://lh3.googleusercontent.com/pw/AIL4fc-6vP8i6pB7DN5L67BW4BmffCBFKWBCsoTMKduR7Z-J3jarEIz9-FmOF5Gk8SN-OLx-CY-6aLNtohqT6GGu9d618Xd81bli7PbG_gvqBl4Dgc3AksDQ_8KZZ_eopOAL868WitFbv08QxzPJeLzSYfH9=w811-h628-s-no?authuser=0", width: 400, target: "_blank",
+    texte: "",
+    desch: "",
+    descb: ""
+};
+
+
+
+scmTeamsNbr = scmTeamsNbr + 1;
 var scm1819EqV1 = scmTeamsNbr;
 scmTeams[scm1819EqV1] = { Saison: "2018-2019", Name: "Veterans 1", Event: "Saison 2018-2019"
 , src: "https://lh3.googleusercontent.com/cm2TaPNRdp_evPOqDEGV_9u9raleYkqHKTY56TOr8VJ8m-Afcy17I9XuLx7O8ficN4KAE4x1QyRiDvj7xdcnePIO0kDiIy643eoDbwYPq9EJCtxi8guY3Qu3Wml4xw5pkvXl2o5JAWl4mUwxhtiA6lNyplYca5I8JIB4t3ZnLEg09b9mUm_GNFZ_9O9boIfXar-gpX38_lWF7qH3PaXV1u6xiS7g3TxQ6FYtbGxjb8MSVP9tGdFWDabNOghJ8zcQjJW5Sl2Hmq_CeAbMmgn7Zl63Up_fC6VDo72zCogCbriOL35QFEoKtCesFeH_5dOP3azh-NxTT5wkLQIhOUAzAaA8oYQzqSA_SWXTE_OzjZQWYOZPxiqAlQ_QrcjrUaKPLColfAPLTqNMGEiUdDz6_eF5jFT2Nmfo529nmnAgpdtTl_ntrvWKhC2wSqjOuaiKL27oFSyLZ1nRSvt_I8oQYXKt3LvhGwo9AEf0BJJVLimB9UEBpeF5FIYcxF3e1ieoz5Bms38y9h3AtyP7n9n3iwoVk30ufQYlHiabN1sH9VD4QvKUnKlEwTDvIcG4mSnidGFc1UgfH03tBWyCxMYc0mAQ3QF9KllpYJ0IFTjmYWRnYApt5hEMd9TMmnEMW_1vRiCsUR3a7z_mCvyINUv8HpBXHtEdMLoJGVladRuhtE7ftww2hWOh1lGz-Ek3kot5QzZ2d8dUocXUyhiLBn6H8XUf=w901-h676-no", width: 400, target: "_blank",
