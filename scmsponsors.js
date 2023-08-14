@@ -540,6 +540,17 @@ var scmTeamsNbr = 0;
 // ********* 
 
 scmTeamsNbr = scmTeamsNbr + 1;
+var scm2223Eq4 = scmTeamsNbr;
+scmTeams[scm2223Eq4] = { Saison: "2022-2023", Name: "Mariners 4", Event: "Saison 2022-2023"
+, src: "https://lh3.googleusercontent.com/pw/AIL4fc-4gEsLZk5WgFeZsYuvg6OK8VrM0Ub5zxl0Aq7-pw7sSxP6JNM8vjb_N7C_TySoQKYG7xk8TAEpMR12hJtjE9bFF5wREhIkQjL7_B-h3xc23b5XXNC-mgEZAokOth1t7-r2DAzKBHcIlQx-eLAeLZDA=w724-h651-s-no?authuser=0", width: 400, target: "_blank",
+    texte: "",
+    desch: "",
+    descb: ""
+};
+
+
+
+scmTeamsNbr = scmTeamsNbr + 1;
 var scm2223V1 = scmTeamsNbr;
 scmTeams[scm2223V1] = { Saison: "2022-2023", Name: "Mariners V1", Event: "Saison 2022-2023"
 , src: "https://lh3.googleusercontent.com/pw/AIL4fc9f-n8_YCMv5vI0OUoZjsyVkAFRgoBD2jVEtIAM6fHcVLxVqfif-xmpbbPOrRbOdG9imN2CqO4Sm2KszGtuggN04ac7tRxi6dnpvQNljfkYThIz5YepF9jCAMZ0RFwfeI0BD9Imf94UerJMyJyjXfGt=w597-h448-s-no?authuser=0", width: 400, target: "_blank",
