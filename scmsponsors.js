@@ -557,6 +557,14 @@ scmTeams[scmIta22] = { Saison: "2021-2022", Name: "Marinieri", Event: "Eurotorne
     descb: ""
 };
 
+scmTeamsNbr = scmTeamsNbr + 1;
+var scmIta22b = scmTeamsNbr;
+scmTeams[scmIta22b] = { Saison: "2021-2022", Name: "Marinieri & Amici Di John", Event: "Eurotorneo 2022"
+, src: "https://lh3.googleusercontent.com/pw/AIL4fc-dSCdrE6eCFUfoR_Pk1bdWvXxeB-q-Uw7ZEwbbfJlxpgsVwqyYSh3ECkVFdLCzKUXm_VmNg4WcnTToc5-89L9cp8Eg9lIT7bi8I9HCfNcF5MLNPGibfT6ixRPVkfdA_IvxmZZ7IdvEe0B4R0DSW-_R=w811-h541-s-no?authuser=0", width: 400, target: "_blank",
+    texte: "",
+    desch: "",
+    descb: ""
+};
 
 
 scmTeamsNbr = scmTeamsNbr + 1; 
