@@ -539,6 +539,17 @@ var scmTeamsNbr = 0;
 // 2021-2022
 // ********* 
 
+scmTeamsNbr = scmTeamsNbr + 1;
+var scmIta22Eq2a = scmTeamsNbr;
+scmTeams[scmIta22Eq2a] = { Saison: "2021-2022", Name: "Mariners 1 & All Black", Event: "Eurotorneo 2022"
+, src: "https://lh3.googleusercontent.com/pw/AIL4fc9_HHJ1gLnaNciaLvpVfoC928x15xtBQhCqF1P0twwIfHJCnTul15w5tia3z_C2Ss4QWitVqLERHnRHgBAsq-8UbfRjwkxkJ1GVIuzbkHkLf7sRRIesrUcdX3gFA-GejNY2kOnDeB-6gIuDcR4CINwr=w1157-h651-s-no?authuser=0", width: 400, target: "_blank",
+    texte: "",
+    desch: "",
+    descb: ""
+};
+
+
+
 scmTeamsNbr = scmTeamsNbr + 1; 
 var scm2122EqDA = scmTeamsNbr;
 scmTeams[scm2122EqDA] = { Saison: "2021-2022", Name: "Mariners Dames", Event: "Saison 2021-2022"
