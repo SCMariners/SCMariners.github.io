@@ -710,6 +710,15 @@ scmTeams[scmIta19Eq1] = { Saison: "2018-2019", Name: "Mariners 1", Event: "Eurot
     descb: ""
 };
 
+scmTeamsNbr = scmTeamsNbr + 1;
+var scmIta19Eq2a = scmTeamsNbr;
+scmTeams[scmIta19Eq2a] = { Saison: "2018-2019", Name: "Mariners 2", Event: "Eurotorneo 2019"
+, src: "https://lh3.googleusercontent.com/pw/AIL4fc_WCWBvoc8mUUNJJMVKXKRakAY7zul3vjU04j-4x8_JbG9WBC_WiW-Rv-QOYiso_TvTcLxC_rCqSO_bTX7-tZXOKbityCOKO7mPujdfHxFC3U-5CU3B17vnSsrWu5d0_9N60_0R196ciSG4Jto3yx0A=w585-h448-s-no?authuser=0", width: 400, target: "_blank",
+    texte: "",
+    desch: "",
+    descb: ""
+};
+
 
 
 scmTeamsNbr = scmTeamsNbr + 1;
