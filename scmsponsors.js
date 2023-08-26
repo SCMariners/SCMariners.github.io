@@ -106,7 +106,7 @@ scmSpons[spNorthGroup] = { Name: "North Group", src: "https://lh3.googleusercont
 
 nbrSpons = nbrSpons + 1;
 var spColorProperties = nbrSpons;
-scmOldSpons[spColorProperties] = { Name: "Color Properties", src: "https://lh3.googleusercontent.com/pw/AIL4fc9kdWZpuzlRCkZD6VkoDx-k6ij7IS13exGI82DBgSwGrPHJzOe_Ieh7eHFd_0elNZKwzYbMQ9A3Q5Xul07y0TpGLRlxuS0Xn5WHlm1n0VIr9z3mDbSWglHn3-9svxIbGLRMoD0eJtgnYtltfdlCMmsT=w811-h572-s-no?authuser=0", width: 150, fbname: "", fb: "", webname: "colorproperties.be", href: "http://www.colorproperties.be/", target: "_blank", texte: "www.colorproperties.be", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""};
+scmSpons[spColorProperties] = { Name: "Color Properties", src: "https://lh3.googleusercontent.com/pw/AIL4fc9kdWZpuzlRCkZD6VkoDx-k6ij7IS13exGI82DBgSwGrPHJzOe_Ieh7eHFd_0elNZKwzYbMQ9A3Q5Xul07y0TpGLRlxuS0Xn5WHlm1n0VIr9z3mDbSWglHn3-9svxIbGLRMoD0eJtgnYtltfdlCMmsT=w811-h572-s-no?authuser=0", width: 150, fbname: "", fb: "", webname: "colorproperties.be", href: "http://www.colorproperties.be/", target: "_blank", texte: "www.colorproperties.be", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""};
 Chal16Spons.push(spColorProperties);
 Chal17Spons.push(spColorProperties);
 Chal18Spons.push(spColorProperties);
