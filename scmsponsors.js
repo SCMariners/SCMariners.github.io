@@ -156,7 +156,7 @@ scmSpons[spJappe] = { Name: "Jappe", src: "https://lh3.googleusercontent.com/pw/
 
 nbrSpons = nbrSpons + 1;
 var spBBStore = nbrSpons;
-scmSpons[spBBStore] = { Name: "BB Store", src: "https://lh3.googleusercontent.com/pw/AIL4fc-HNqP6y3EbTGmxPsgBlkCXrLyIbEnqh23zK-kpObQaueYAVUvhhk-qxxCkKEAEShgutenCjzsd64PXUUDW-OILzDwpnHsGBn237wGeIipXxXhGVqSai7KW4GpFTwEmoTLR05p1ttI1RgvIgDY9TYWN=w732-h309-s-no?authuser=0", width: 150, fbname: "", fb: "https://www.facebook.com/BBSTOREBxL/?locale=fr_FR", webname: "", href: "", target: "_blank", texte: "", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""};
+scmSpons[spBBStore] = { Name: "BB Store", src: "https://lh3.googleusercontent.com/pw/AIL4fc-y1tWetxCXdy_3voCAkfm4jOTEnMJAwADxOsKZ0uwtlrB23l1Xad1d_XOl3agnKJkQcCMpudPLW26RLfcIvDvU3LS1Kc4RWYZ3f4LJz9ztRz5SyEoZIZGWgvMs9IdtIbVb0-PkcYor6zLtMbYWaVja=w732-h309-s-no?authuser=0", width: 150, fbname: "", fb: "https://www.facebook.com/BBSTOREBxL/?locale=fr_FR", webname: "", href: "", target: "_blank", texte: "", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""};
 
 nbrSpons = nbrSpons + 1;
 var spHDE = nbrSpons;
