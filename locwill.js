@@ -30,8 +30,8 @@ var scmCopy4 = "loretteced##1##hotmail##.##com";
 var scmCopy5 = "bu-yle##1##hotmail##.##com";
 var scmCopy6 = "baysalexandre##1##hotmail##.##com";
 var scmCopy7 = "lecleregregory##1##hotmail##.##com";
-var scmCopy8 = "fation##.##abazi##1##mail.be";
-var scmCopy9 = "davide##.##scarsi##1##skynet##.##be";
+var scmCopy8 = "fation07##1##outlook##.##fr";
+var scmCopy9 = "mathieux111095##1##hotmail##.##com";
 var scmCopy10 = "essidhakim##1##yahoo##.##fr";
 var scmCopy11 = "cece_deh##1##hotmail##.##com";
 
