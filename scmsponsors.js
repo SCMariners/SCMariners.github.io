@@ -536,6 +536,18 @@ var scmTeamsNbr = 0;
 
 // A METTRE A JOUR !!!!!!!
 
+// 2023-2024
+// *********
+
+scmTeamsNbr = scmTeamsNbr + 1;
+var scm2324Eq1 = scmTeamsNbr;
+scmTeams[scm2324Eq1] = { Saison: "2023-2024", Name: "Mariners 1", Event: "Saison 2023-2024"
+, src: "https://lh3.googleusercontent.com/pw/ADCreHcrGNWxCQeTv5B1vGUZVstz8gjxaHKusBbFNjBnVnwCNX52Qpu0EsQ5zbpTgC4a4QtTWfMY_GmlK-BoAVulR4zIBtFKw4tZFN_yQaD5XJdVZKLo9JFl5Fmdjy7_Ai7R4qieSfKF8flduDK8GPnqpey0=w811-h600-s-no?authuser=0", width: 400, target: "_blank",
+    texte: "",
+    desch: "",
+    descb: ""
+};
+
 // 2022-2023
 // ********* 
 
