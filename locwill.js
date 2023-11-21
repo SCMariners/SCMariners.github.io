@@ -136,6 +136,7 @@ calreservation.push(202310141900);
 calreservation.push(202311102100); 
 calreservation.push(202311132100); 
 calreservation.push(202311222200); 
+calreservation.push(202311252200); 
 calreservation.push(202311272100); 
 calreservation.push(202312042100); 
 
