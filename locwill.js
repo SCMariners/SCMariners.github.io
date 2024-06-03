@@ -67,6 +67,7 @@ calWillVE[3] = ["01/03/2024", "15/03/2024", "29/03/2024"];
 calWillVE[4] = ["12/04/2024", "26/04/2024"];
 calWillVE[5] = ["10/05/2024", "24/05/2024"];
 calWillVE[6] = ["07/06/2024", "21/06/2024"];
+CentreFerme.push(202406072100);
 
 calWillSA[9] = ["02/09/2023", "16/09/2023", "30/09/2023"];
 calWillSA[10] = ["14/10/2023", "28/10/2023"];
@@ -160,3 +161,10 @@ calreservation.push(202405272100);
 calreservation.push(202405272100);
 calreservation.push(202405272100);
 calreservation.push(202405272200);
+calreservation.push(202406102100);
+calreservation.push(202406102200);
+calreservation.push(202406172100);
+calreservation.push(202406172200);
+calreservation.push(202406242100);
+calreservation.push(202406242200);
+
