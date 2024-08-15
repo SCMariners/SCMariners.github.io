@@ -39,7 +39,7 @@ var calWillME = [];
 var calWillVE = [];
 var calWillSA = [];
  
-var StartLocDate = "01/08/2025";
+var StartLocDate = "01/08/2024";
 
 var CentreFerme = [];
 
