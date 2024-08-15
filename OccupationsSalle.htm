@@ -484,9 +484,7 @@
      res = scmCopy10.replace("##1##", "@");
      res = res.replace(/##.##/g, ".");
      tmpMsg = tmpMsg + ";" + res;
-     res = scmCopy11.replace("##1##", "@");
-     res = res.replace(/##.##/g, ".");
-     tmpMsg = tmpMsg + ";" + res;
+
 
      //&body=I thought you might find this information interesting: '
 
@@ -632,21 +630,8 @@
          result = "Eq. 5";
 
      }
-     if (EqHome == scmEq6Name || EqAway == scmEq6Name) {
 
-         result = "Eq. 6";
-
-     }
-     if (EqHome == scmEq7Name || EqAway == scmEq7Name) {
-
-         result = "Eq. 7";
-
-     }
-     if (EqHome == scmEq8Name || EqAway == scmEq8Name) {
-
-         result = "Eq. 8";
-
-     }   
+   
 	   
      if (EqHome == scmEqV1Name || EqAway == scmEqV1Name) {
 
@@ -656,6 +641,11 @@
      if (EqHome == scmEqV2Name || EqAway == scmEqV2Name) {
 
          result = "Eq. V2";
+
+     }
+     if (EqHome == scmEqV3Name || EqAway == scmEqV3Name) {
+
+         result = "Eq. V3";
 
      }
      if (EqHome == scmEqDAName || EqAway == scmEqDAName) {
