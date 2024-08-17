@@ -138,12 +138,24 @@ Chal17Spons.push(spPepiniere);
 Chal18Spons.push(spPepiniere);
 Chal19Spons.push(spPepiniere);
 */
+
+nbrSpons = nbrSpons + 1
+var spSirre = nbrSpons;
+scmSpons[spSirre] = { Name: "Patisserie Sirre", src: "https://lh3.googleusercontent.com/pw/AP1GczNAkL6PzGOJyPpd-KzC1Dtu8NvXjhxdrvEr6KgUQDX1shiTbz87ewXTVUL_JpZuWlsXnIQ2Cef4z9xtwY-OAhZ5WrBVw7fALwj90LxdxrYutC6VvxAaptGlvX9Wmvz3WfOU8xQAKlJ-Kip5jQpTQith=w309-h168-s-no-gm?authuser=0", width: 220, fbname: "", fb: "https://www.facebook.com/patisseriesirre", webname: "sirre.be", href: "http://www.sirre.be", target: "_blank", texte: "www.sirre.be", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""};
+
+
 /*
 nbrSpons = nbrSpons + 1;
 var spGailly = nbrSpons;
 scmSpons[spGailly] = { Name: "Gailly sprl", src: "https://lh3.googleusercontent.com/Gucqcv2Pigejx0GCeKtravIylxjoC5wX9en5BA1CBt8EK3pxnudlrttk8xCIu7uojPcryrvS6BzqpDc9Gz8_EHHBUVcHgRpZ-doN1BctFygu6ZOV3fXajqkP8fjl6s9tLlIFM4ivmBiKta8FDEE9D86MNt970_hNu_3Jgk1erOwBhRD_lk_IOKtbK9FQgJjaIsyk4Vd5R2-8YqX-cCGFQPWWA1ENh59EBnkj-d5Q1T91M3I0qng7H5p7wEGSEp5_QTcnfFZ9H-k_8QJrjjLOiih0ZWpuaOagiFX_st_2-o1SYDuCTWTVDduIv0KzCDNbi_2n0DVPzRfwXn1zmr_GPMZWpKc9u3piKkU-61aYWIdoJ9XB78AZqGzoVtH7_64TbN8NW7WNkEZ3Rn07OX-TPDN_CyMoHgwR9oKXv-5ngpHTJ-qbVAaXpOPingZmFCowhrxuaA_lhqLhauTN-EuaKt4FwN0Z5QwmoH7gP-ZYwTROx0OESU8I6FPNCFlnNufDiayG_vu8znvQw1MqOu2TaTi5B_NmawpveWJ0U8CVroyPgAU20Fe1e1wq2AZ1ld_aEYq9v52iQNWnrQ1LlbapPDGNZ8avJDHf-d0q8EmeWxnbV7uKSeSFttgmWxPw0jJMzND19Fu7S_YcPbo1y3tvqoIUaYPHy34=w421-h179-no", width: 150, fbname: "", fb: "https://www.facebook.com/GaillyChauffageSanitaire/", webname: "sa-gailly.com", href: "http://www.sa-gailly.com/", target: "_blank", texte: "GAILLY SPRL TRAVAUX ET MAINTENANCE", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "};
 Chal19Spons.push(spGailly);
 */
+
+nbrSpons = nbrSpons + 1;
+var spSREntreprises = nbrSpons;
+scmSpons[spSREntreprises] = { Name: "S R Entreprises", src: "https://lh3.googleusercontent.com/pw/AP1GczNLz5dm2fyHkBm2eyPmuCAZ438ibkFcxxfmx0oRDMIR6Ont1hoTULhlZHHzx3zqd1YhuDzOl7xEFoni83TvOHbL8QjZQkoIwCA7Q5lq2v2VT8OvJDV2aYTWPsM2jai2qYXj-Ce5GL7d65daqowRm9KW=w538-h524-s-no-gm?authuser=0", width: 150, fbname: "", fb: "", webname: "", href: "", target: "_blank", texte: "", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "};
+
+
 
 nbrSpons = nbrSpons + 1;
 var spARCarrelage = nbrSpons;
@@ -155,6 +167,14 @@ nbrSpons = nbrSpons + 1;
 var spDestoquay = nbrSpons;
 scmSpons[spDestoquay] = { Name: "Destoquay SPRL", src: "https://lh3.googleusercontent.com/pw/AIL4fc9jUHYQSfIRMOUoZSvbrvu_A696r2huEcOleJxU-Zl0LmQsOdPoz6BfqqiTqdGOVIKlizrvoQWlpqeNbDYve-bzav0k1iPmAiBe9OFScar3O9jXMkK3at-TD_iYtkXzp7609YXJH4DE3iNgfau4BpmQ=w811-h506-s-no?authuser=0", width: 150, fbname: "", fb: "", webname: "", href: "", target: "", texte: "", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""};
 */
+
+nbrSpons = nbrSpons + 1;
+var spThema = nbrSpons;
+scmSpons[spThema] = { Name: "Architecture Thema", src: "https://lh3.googleusercontent.com/pw/AP1GczOwHgMwnfl13cWrlYEdY532iMV9TSAX6w2efnNb-cIaik8lT0XQ1F9ipmZmVujRSrlaGAKxRr8GCEVk0c5YQ5TmwN8zUc228SrnN25ZiJw3gJ5P-a8_1aeqOMQ9sdyPP9tcnALEVCjCshMmhjz64TIN=w567-h381-s-no-gm?authuser=0", width: 150, fbname: "", fb: "https://www.facebook.com/themasprl", webname: "architecture-thema.net", href: "http://www.architecture-thema.net", target: "_blank", texte: "", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""};
+
+
+
+
 
 nbrSpons = nbrSpons + 1;
 var spSCR = nbrSpons;
@@ -201,6 +221,11 @@ scmSpons[spMystic] = { Name: "Pizzeria Mystic", src: "https://lh3.googleusercont
 nbrSpons = nbrSpons + 1;
 var spAlPassaggio = nbrSpons;
 scmSpons[spAlPassaggio] = { Name: "Trattoria Al Passeggio", src: "https://lh3.googleusercontent.com/8_JIA-taOIudC3QYruitaLfSE2sh91kroxPTTswJLiUKnvQaerYIZuH4cxsZTM_YGLXRqxdIqZ1Igas1oBEmjgytB7tq2aeH6yWyTmi0wcV9cRYkH_40cjP-vPMxhTuRE4WFxOlEixxTaNLajrTtGs2FGqIpVuew2xkO8tLDJjN1s037HI11bibhQyEE7umkEN_MrDoSpO0F3pNbZc9FeKWdHPyE2KoTCEqCTOhWaIy8QtuxE-3monPESB_W7cf-aL5rM7dmDTuOFGkhMBTltQThX0z2Zy7Fv3xsHibPsgmAj4w9fkEJMwlbdqo37fHWSs59WR_48nkHUJoojumUI5C-cvzdwixd1osUTo-OSKcgbMGoySAQdAM59-o6rNiMcwV_lgiVwV59UHVw73cPBZAYvppfUgY56Nv0tN7ImUP6GPqbvqzixvuGM3WLUMYXcyzqQDyOOoSIoYdcUXnajvygzecPiJid75z-IPNLMN0KiC8-9E9sWSANfvpgfA0LY0Ghn_lVag0gA4z_U78BeWiYUGWncTh09P1Z7OHBhnlItXX2JFrSfcfJWTavCE93XnKNggcQjXs--RG7cCtqwNVm9UaS7YFmf85VhuvKfMlE6ERDEyLepcgB3Y__7VJka-Nv2UhzHHKmLawbtjuuRaGYuoACBnaQhu0ucUTwwLGOkTJSuhjnUb7B4VS47iCl76k1MiSxFVAWTGC49f2iXN3hHB5_hc5GlcGg7qPLXzAnjqs=w167-h70-no", width: 220, fbname: "", fb: "", webname: "", href: "", target: "", texte: "Trattoria Al Passeggio", infoAdr: "Via Cavour 4/a, 36053 Gambellara (VI) Italia", infoTel: "+39/444 444 074", infoMail: "", infodesc: "Restaurant"};
+
+nbrSpons = nbrSpons + 1;
+var spEnotecaDelSoave = nbrSpons;
+scmSpons[spEnotecaDelSoave] = { Name: "Enoteca Del Soave", src: "https://lh3.googleusercontent.com/pw/AP1GczOVd6EgXyVm0EO0WYcA1yUBPcdU-p5u8BvcUDrSaO7l0QMc4RqdjnPpzkYLpSzc4__IPHPxbuZqEDT9bmVvStPJYa_bwwmTQJC39Qsinr6Y_2Jlz3wNhy5nJDHADwzZaHPrpN_J2mdXXZmrAWcCqjZi=w645-h736-s-no-gm?authuser=0", width: 220, fbname: "", fb: "https://www.facebook.com/enotecadelsoave", webname: "enotecadelsoave.it", href: "http://www.enotecadelsoave.it/", target: "_blank", texte: "Enoteca Del Soave", infoAdr: "", infoTel: "", infoMail: "", infodesc: "Restaurant"};
+
 
 
 
