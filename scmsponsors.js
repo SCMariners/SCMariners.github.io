@@ -91,6 +91,7 @@ Chal17Spons.push(spAuderghem);
 Chal18Spons.push(spAuderghem);
 Chal19Spons.push(spAuderghem);
 
+/*
 nbrSpons = nbrSpons + 1;
 var spLeSaintPaul = nbrSpons;
 scmSpons[spLeSaintPaul] = { Name: "Le Saint Paul", src: "https://lh3.googleusercontent.com/HR2cTYnrQI9qeZN-05aWjz8Ay60mUbrnjjlBXHkvpJ49mtlLM_pZcUYhOs9VV6BAhVuVFtp3utGt2ZTrVSja47z46F6pVQ92Tg01GSRaqPCq7uHASPveusz1_ZmGnHR8aC65hpCT6g=s200-no", width: 150, fbname: "", fb: "https://www.facebook.com/RestaurantLeSaintPaul/", webname: "lesaintpaul.be", href: "https://lesaintpaul.be/", target: "_blank", texte: "", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""};
@@ -98,6 +99,13 @@ scmSpons[spLeSaintPaul] = { Name: "Le Saint Paul", src: "https://lh3.googleuserc
 Chal17Spons.push(spLeSaintPaul);
 Chal18Spons.push(spLeSaintPaul);
 Chal19Spons.push(spLeSaintPaul);
+*/
+
+nbrSpons = nbrSpons + 1;
+var spLeMounier = nbrSpons;
+scmSpons[spLeMounier] = { Name: "Le Mounier", src: "https://lh3.googleusercontent.com/pw/AP1GczOeT2x06C74oZRr-7fpAxJpb9dlJMHvTZKd6NBQKG85FRmHmvpYyfUYN6fwkvXGTWFwL6uxJIsNUNNc6LJUNxrZHry4lsOMsoEyFN3XoInBWYJi2BHyp32Tj_QMaH4kEUObddS0t4yXtn89MjGfJ6kz=w677-h560-s-no-gm?authuser=0", width: 150, fbname: "", fb: "https://www.facebook.com/restaurantlemounier", webname: "", href: "", target: "_blank", texte: "", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""};
+
+
 
 nbrSpons = nbrSpons + 1;
 var spNorthGroup = nbrSpons;
@@ -121,7 +129,7 @@ var spSoare = nbrSpons;
 scmSpons[spSoare] = { Name: "Soare Construct", src: "https://lh3.googleusercontent.com/pw/AM-JKLWkWxcWbBID3EYFCJ1-_5I2GXZJ9YvWqkc71hWA0_eZFuxTElo-sV1QejemMJAv6EjlqZKngX0-0xNH0iYXHjmWYhLrgT3AEQBXbFR1ugI5MHm1UnSm89WRsu4ZTj2Fbp0ZLN08XBdZe_upO0QW0_54=w260-h240-no?authuser=0", width: 150, fbname: "", fb: "", webname: "soareconstruct.be", href: "https://soareconstruct.be/", target: "_blank", texte: "SOARE CONSTRUCT", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "};
 Chal19Spons.push(spSoare);
 
-
+/*
 nbrSpons = nbrSpons + 1
 var spPepiniere = nbrSpons;
 scmSpons[spPepiniere] = { Name: "Pepiniere de Boitsfort", src: "https://lh3.googleusercontent.com/jPD7hg9RVHOHEpOnt7y9JQoVEVEG-o2KsERHGmZej_dFJmSLe6sB9TO6lwP2WwrZfKaGcCXU2govF3yX1O0vrR7ss9pfqUiqjCEroIf7RIxWmDGgXzZZmVs38hETY3SW0JPQOuIdcOTQh_dm_aMIhs2bYtNfooxYHvL9jxy0UMc9oWG20HIHFkZJHv1r6eyoP2UptXiET6x_KQ-xxmTox9HeJgKYXb0gE5dYdHm4pBwDVdX-AU4xnYDAnsJTNdTYDW7SRjfv4wT9m2CUL_P4DmGk0KWNj2V2GXYaoZ4_wKa4fqxnVcyUVj_OhKXW0Veq66V-AwZsNKrGNq8ClA_qcrkqdRACkvIJJ5-SMc12WKaPfLdBgF2672Ye4hAPrVjuUW6NOUb_m0UEfs1tc9DOPstkk2DWjeIjmPRJFhkllu1OZ2CuOlCAQntpP9PjjKHwvNwthBuxjFykfqiXZlNHHgT8IsSm7Q4S3KSblSSG388dNk5UQD0F1HmP-aKw41qz9_dFsf9d2jn8LnikhbRuSxTNs6GZOjtZuJa8z40A4BMNuTdFwVbTR9AoyBSY_9oLRcLEi9Y9lwOIhyL4Oo4WJRjj9CsLfcU=w1003-h167-no", width: 220, fbname: "", fb: "https://www.facebook.com/Pepinieredeboitsfort/", webname: "pepiniere.be", href: "http://www.pepiniere.be", target: "_blank", texte: "www.pepiniere.be", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""};
@@ -129,33 +137,39 @@ Chal16Spons.push(spPepiniere);
 Chal17Spons.push(spPepiniere);
 Chal18Spons.push(spPepiniere);
 Chal19Spons.push(spPepiniere);
-
-
+*/
+/*
 nbrSpons = nbrSpons + 1;
 var spGailly = nbrSpons;
 scmSpons[spGailly] = { Name: "Gailly sprl", src: "https://lh3.googleusercontent.com/Gucqcv2Pigejx0GCeKtravIylxjoC5wX9en5BA1CBt8EK3pxnudlrttk8xCIu7uojPcryrvS6BzqpDc9Gz8_EHHBUVcHgRpZ-doN1BctFygu6ZOV3fXajqkP8fjl6s9tLlIFM4ivmBiKta8FDEE9D86MNt970_hNu_3Jgk1erOwBhRD_lk_IOKtbK9FQgJjaIsyk4Vd5R2-8YqX-cCGFQPWWA1ENh59EBnkj-d5Q1T91M3I0qng7H5p7wEGSEp5_QTcnfFZ9H-k_8QJrjjLOiih0ZWpuaOagiFX_st_2-o1SYDuCTWTVDduIv0KzCDNbi_2n0DVPzRfwXn1zmr_GPMZWpKc9u3piKkU-61aYWIdoJ9XB78AZqGzoVtH7_64TbN8NW7WNkEZ3Rn07OX-TPDN_CyMoHgwR9oKXv-5ngpHTJ-qbVAaXpOPingZmFCowhrxuaA_lhqLhauTN-EuaKt4FwN0Z5QwmoH7gP-ZYwTROx0OESU8I6FPNCFlnNufDiayG_vu8znvQw1MqOu2TaTi5B_NmawpveWJ0U8CVroyPgAU20Fe1e1wq2AZ1ld_aEYq9v52iQNWnrQ1LlbapPDGNZ8avJDHf-d0q8EmeWxnbV7uKSeSFttgmWxPw0jJMzND19Fu7S_YcPbo1y3tvqoIUaYPHy34=w421-h179-no", width: 150, fbname: "", fb: "https://www.facebook.com/GaillyChauffageSanitaire/", webname: "sa-gailly.com", href: "http://www.sa-gailly.com/", target: "_blank", texte: "GAILLY SPRL TRAVAUX ET MAINTENANCE", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "};
 Chal19Spons.push(spGailly);
+*/
 
 nbrSpons = nbrSpons + 1;
 var spARCarrelage = nbrSpons;
 scmSpons[spARCarrelage] = { Name: "AR Carrelage", src: "https://lh3.googleusercontent.com/hpNDjZ9tw6MLue7dllJ26Yu1mUVzCpFqNYYcrILHcHLX3Bp8kSw518yHBoTaxUfuoKzJfPQzQXFdMJUulDqo-UswX9F9uE1rYMe6xQ6WD7rppg6IlqwpSH0T8J6--sImAvsxwaPOMCDGBk5pXOP5PfbeMJyPl7J21DSIcIhmQdYCDw3-HhdPKFaciWN_DiuISiilgG3UpCqewXJw7Uf8xX4PCdam5RRB641epdUyvf_N2eIjh_QQpp-Qi-QGLd24EJLlx6WtqWhCGrU5NUEaOBoEXBdl7RjNQ7kneS9GQ26uqkV39JUijjof0tO1dpl_1DRWWtIsdnjCIeK6xw9l8ZULbISv34wNzbQC1xNXQkgkSbseOqnU5vJXLajuDPs16JmmTMbv50WgUBanCDDPprtJUJTZ5N4hVmSK5cmI4X3GgYH5OFlQmlrhiIUfFrusA5EVgnfkxS0NRkiorCk0bncoscjbf89uZ9G5P_wz3CUTFcThA6XM1Ru13V2oj392k1m5FGOlGwzbYv_Fl1CLyFLaNZTLLKfcT1X2ebbfCo5vop_wdgRx_jLZAUkYkLWB3R6zmKKLp_0HoDCD4sMzr5oJ51zvgGbyOd-8ihnng6BOIeGXA9w-rS9gnFiiCIMR1SWsVjKclqLm6l9tFbr-cEJ5HHHhJygucJYygOUudjbJCi9amsQwSQ8OACiiJxYqqaHrWcos-nQI8z5WYoD18VlS6RfiC9nQB3DUB9PCyYSD4Fg=s730-no", width: 150, fbname: "", fb: "https://www.facebook.com/ArnouldChristophecarrelage/", webname: "ar-carrelage.be", href: "https://ar-carrelage.be/", target: "_blank", texte: "AR CARRELAGE", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "};
 Chal19Spons.push(spARCarrelage);
 
+/*
 nbrSpons = nbrSpons + 1;
 var spDestoquay = nbrSpons;
 scmSpons[spDestoquay] = { Name: "Destoquay SPRL", src: "https://lh3.googleusercontent.com/pw/AIL4fc9jUHYQSfIRMOUoZSvbrvu_A696r2huEcOleJxU-Zl0LmQsOdPoz6BfqqiTqdGOVIKlizrvoQWlpqeNbDYve-bzav0k1iPmAiBe9OFScar3O9jXMkK3at-TD_iYtkXzp7609YXJH4DE3iNgfau4BpmQ=w811-h506-s-no?authuser=0", width: 150, fbname: "", fb: "", webname: "", href: "", target: "", texte: "", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""};
+*/
 
 nbrSpons = nbrSpons + 1;
 var spSCR = nbrSpons;
 scmSpons[spSCR] = { Name: "Swimming Club Rixensart", src: "https://lh3.googleusercontent.com/pw/AIL4fc8k8f1e8AWnjXPpuxT_e3YxON1mZkbjKl4CER03ctP9U7vPLQcfUOWxudjJXys4cRFbiilRTdQXqYG4INWQVsJDd0D3r3ofrIviPCfSeEYIwdXVd9lqUEqQsFZqVVHx7ftv5VanD5Heku_71xFp4_Xc=w300-h281-s-no?authuser=0", width: 150, fbname: "", fb: "https://www.facebook.com/SCRixensart", webname: "scrixensart.be", href: "https://www.scrixensart.be", target: "_blank", texte: "www.scrixensart.be/", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""};
 
+/*
 nbrSpons = nbrSpons + 1;
 var spJappe = nbrSpons;
 scmSpons[spJappe] = { Name: "Jappe", src: "https://lh3.googleusercontent.com/pw/AIL4fc_15tliS3_rIgYffcg1mLyz5eyBcXB1YkjvMXxcaYLtjuJ1pCHSS80VYtzfj9QtFzkGdPlgoavhX-k54EhqdI3ZlN_D702XJecWjf6e2uYCDIeH6Vq5bAvqf5A3xgD_N6HErpdBBfEshZ9QhrqKHMfD=w811-h572-s-no?authuser=0", width: 150, fbname: "", fb: "", webname: "", href: "", target: "", texte: "", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""};
-
+*/
+/*
 nbrSpons = nbrSpons + 1;
 var spBBStore = nbrSpons;
 scmSpons[spBBStore] = { Name: "BB Store", src: "https://lh3.googleusercontent.com/pw/AIL4fc-y1tWetxCXdy_3voCAkfm4jOTEnMJAwADxOsKZ0uwtlrB23l1Xad1d_XOl3agnKJkQcCMpudPLW26RLfcIvDvU3LS1Kc4RWYZ3f4LJz9ztRz5SyEoZIZGWgvMs9IdtIbVb0-PkcYor6zLtMbYWaVja=w732-h309-s-no?authuser=0", width: 150, fbname: "", fb: "https://www.facebook.com/BBSTOREBxL/?locale=fr_FR", webname: "Facebook", href: "https://www.facebook.com/BBSTOREBxL/?locale=fr_FR", target: "_blank", texte: "BB Store", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""};
+*/
 
 nbrSpons = nbrSpons + 1;
 var spHDE = nbrSpons;
