@@ -153,7 +153,7 @@ Chal19Spons.push(spGailly);
 
 nbrSpons = nbrSpons + 1;
 var spSREntreprises = nbrSpons;
-scmSpons[spSREntreprises] = { Name: "S R Entreprises", src: "https://lh3.googleusercontent.com/pw/AP1GczNLz5dm2fyHkBm2eyPmuCAZ438ibkFcxxfmx0oRDMIR6Ont1hoTULhlZHHzx3zqd1YhuDzOl7xEFoni83TvOHbL8QjZQkoIwCA7Q5lq2v2VT8OvJDV2aYTWPsM2jai2qYXj-Ce5GL7d65daqowRm9KW=w538-h524-s-no-gm?authuser=0", width: 150, fbname: "", fb: "", webname: "", href: "", target: "_blank", texte: "", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "};
+scmSpons[spSREntreprises] = { Name: "S R Entreprises", src: "https://lh3.googleusercontent.com/pw/AP1GczNLz5dm2fyHkBm2eyPmuCAZ438ibkFcxxfmx0oRDMIR6Ont1hoTULhlZHHzx3zqd1YhuDzOl7xEFoni83TvOHbL8QjZQkoIwCA7Q5lq2v2VT8OvJDV2aYTWPsM2jai2qYXj-Ce5GL7d65daqowRm9KW=w538-h524-s-no-gm?authuser=0", width: 150, fbname: "", fb: "", webname: "", href: "", target: "", texte: "", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "};
 
 
 
@@ -248,15 +248,7 @@ scmOldSpons[spIFabris] = { Name: "I Fabris", src: "https://lh3.googleusercontent
 , width: 150, fbname: "", fb: "https://www.facebook.com/parrucchieri.ifabris/", webname: "ifabris.it", href: "http://www.ifabris.it", target: "_blank", texte: "www.ifabris.it", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
 };
 
-	nbrOldSpons = nbrOldSpons + 1;
-var spSirre = nbrOldSpons;
-scmOldSpons[spSirre] = { Name: "Sirre", src: "https://lh3.googleusercontent.com/bcNEvF0nuxSxZKAL07ejn26W4AXFilLIyMM_LtWgIT815FOwvrQaLOGxv-jGvgKgVBlDPVyv9pl9JAsYiuah3Kop30X1Cq5i42etLOddKEhySUsEW0fLXxPi-VU2hxj-Cdbh949-7rkU9vjdU9U1iM8k5U2oa2vGkIF3jiNN_iC1gwMehBEdHvUxhh1SBKbLd7cxvYfj2iE7rzfhr3O2t40icBB-Q5bSKdWt8iqf91yVfe2G610lxwcWoqsxdBPS4UVtj_zT5RAZnUCQPv71YkZfkFE29n9D-lKAjlMc0EEZSHzAYMWvP7Vyh1-511cpqNR1sYB_Bp_98gjDDkjBqEptkUNGDxsm3GzVeY_kvCL67kCUP2WwcJjRUAhGzAZ5gshD5dcq6Bz9SGEB5_uoOiQGPsKGTSMyCu3xv1Bjpdb86D6Id52RlsoQl-nDL5rdLh5qOLnLWnVQ24DIEiGZDfGSuvaXDQ0gdNiguRrsaFN0E9-8iHuN3BmdMzgymHQNHtdxfIxA3YZYjN3zg6Ixni613bumIEQVVu6AbjQjQuj-7as07_lw4Jw2HK-y5gRd4uFGX6T6hOJsJnIluJNAPrxO5OXe5Es=w309-h168-no"
-, width: 150, fbname: "", fb: "https://www.facebook.com/patisseriesirre/", webname: "sirre.be", href: "http://www.sirre.be", target: "_blank", texte: "www.sirre.be", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
-};
-Chal16Spons.push(spSirre);
-Chal17Spons.push(spSirre);
-Chal18Spons.push(spSirre);
-Chal19Spons.push(spSirre);
+
 
 nbrOldSpons = nbrOldSpons + 1;
 var spLeasyServices = nbrOldSpons;
@@ -473,17 +465,6 @@ Chal16Spons.push(spNextMove);
 Chal17Spons.push(spNextMove);
 Chal18Spons.push(spNextMove);
 Chal19Spons.push(spNextMove);
-
-nbrOldSpons = nbrOldSpons + 1;
-var spThema = nbrOldSpons;
-scmOldSpons[spThema] = { Name: "Architecture Thema", src: "https://lh3.googleusercontent.com/HbkVHUjH2Z0OP2GZzuBthQ8585U8LqOkSQWT-RpqITvo2LwugVSCoOqa-4ZxrpsNiRfEGkVGMY-RSJIud4yi6PgIe6bUhUUtDPmqgMNA7C51S1__iIGkz_0wpJkeu1T3b3FQ5J3OKcVsBezjhGT0ePpgx44sxIxmovNC1v8bmj6W18mQcpygTLN1p9NV3o4UiktQ2CMEg2lqZ3PYg9eJ0ey4wEo4S-jFzgAwLcMiTAaLdgtSGajG3JARYL8pk0d9Z5jkQwe-IPT2ztPDfSp29QMs9pxIEexdVpqDIywkIfqL8-sbt1GAgSjv3BP-2-6-bN-jHc_-LP8fjsd4F6Og9UEBpOTkmaMw9tDejNg7oRTDvgWiA2CN4dav6xr6G2Vxl2nR6ZwSzPcgX_40XyGkOOfE3sFch1mazMaH_W_rN_ZQuhpaP3ZyxJAs5XNjyQXa_LaQH5Yled_-Pvelh5DGjh2xq_17VNjZ_YEJURv_-Kp46jPv8_2sjELSYA0A6WjmQab8evDYbPFVrs-PUTFI76dZa_RwmnqbWIh45frCIL04WAdmAOW02j3JJL_gOiMO1whI-d01GwPYhAphRn_-7jxUCICy1u8=w567-h381-no"
-, width: 150, fbname: "", fb: "https://www.facebook.com/pages/Thema-Architecture-sprl/144519205601293?fref=ts", webname: "architecture-thema.net", href: "http://www.architecture-thema.net", target: "_blank", texte: "www.architecture-thema.net", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""
-};
-Chal16Spons.push(spThema);
-Chal17Spons.push(spThema);
-Chal18Spons.push(spThema);
-Chal19Spons.push(spThema);
-
 
 nbrOldSpons = nbrOldSpons + 1;
 var spDestiny = nbrOldSpons;
