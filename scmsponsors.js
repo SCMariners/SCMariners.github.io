@@ -560,6 +560,100 @@ var scmTeamsNbr = 0;
 // *********
 
 scmTeamsNbr = scmTeamsNbr + 1;
+var scmIta24a = scmTeamsNbr;
+scmTeams[scmIta24a] = { Saison: "2023-2024", Name: "Marinieri 2024", Event: "Eurotorneo 2024"
+, src: "https://lh3.googleusercontent.com/pw/AP1GczOR-vuA9xI79CdVcb4P7v9y3wsS0ouTw2VwVRW5Unvsy4HJeKcp5hkEAl63Kx2Rpu5Hg6i7CP2hVogfy3uU81FrnJE11yZ8UUtTPHAbByJ4B6Trn2Ri7_2cxdArBDe6GYfzEW6QURPe_tEsDNnI5ms3=w1014-h425-s-no-gm?authuser=0", width: 400, target: "_blank",
+    texte: "",
+    desch: "",
+    descb: ""
+};
+
+scmTeamsNbr = scmTeamsNbr + 1;
+var scmIta24b = scmTeamsNbr;
+scmTeams[scmIta24b] = { Saison: "2023-2024", Name: "Marinieri 2024", Event: "Eurotorneo 2024"
+, src: "https://lh3.googleusercontent.com/pw/AP1GczNV_q81prpguMqY18cmvPJqguIQrCKRkQlCcLhEdjTePqLSg3u5csZ6nTYrSwtTEjXy3bpbsaQ5HlcUHj3i8TLi4Xs28fvdEmch0s4NwikQWeeNZm6qSgIP-mYm5OGK01EPnkftjjKyid_i36ZtDde3=w974-h736-s-no-gm?authuser=0", width: 400, target: "_blank",
+    texte: "",
+    desch: "",
+    descb: ""
+};
+
+scmTeamsNbr = scmTeamsNbr + 1;
+var scmIta24c = scmTeamsNbr;
+scmTeams[scmIta24c] = { Saison: "2023-2024", Name: "Marinieri 2024 - Fraternita", Event: "Eurotorneo 2024"
+, src: "https://lh3.googleusercontent.com/pw/AP1GczMhOlpwWpYLVtoWoZ9b8HSmADQRTdmINXX0uMG4pPrCfGkNAV2U6eVOEId22T5h2vGjQa103nT7Z5NAOy9Pn1jod4M_einjrxyvx54LpKE_odNgjeSWfyt6WfUHxeoawY_uGZAL61RXljl99xTf43Is=w1014-h586-s-no-gm?authuser=0", width: 400, target: "_blank",
+    texte: "",
+    desch: "",
+    descb: ""
+};
+
+scmTeamsNbr = scmTeamsNbr + 1;
+var scmIta24d = scmTeamsNbr;
+scmTeams[scmIta24d] = { Saison: "2023-2024", Name: "Marinieri 2024 - Eq1", Event: "Eurotorneo 2024"
+, src: "https://lh3.googleusercontent.com/pw/AP1GczNJX643kq56G6zZ1f66Zo49y680A-VquEFo2LUS9FVTFSxVPof2BpSYckGZj4KaFDIjKnMWPvLtr396jAVPlIGC_8kEZ-o9vtSVnskJx6oabwSq6B4rRLUFoY_Kg0b1Omju163cm1xyiQWeyQe3PPCz=w641-h262-s-no-gm?authuser=0", width: 400, target: "_blank",
+    texte: "",
+    desch: "",
+    descb: ""
+};
+
+scmTeamsNbr = scmTeamsNbr + 1;
+var scmIta24e = scmTeamsNbr;
+scmTeams[scmIta24e] = { Saison: "2023-2024", Name: "Marinieri 2024 - Eq2", Event: "Eurotorneo 2024"
+, src: "https://lh3.googleusercontent.com/pw/AP1GczMz9VB_MNRtr9sXO4odK_eNOt6EDdrdqkoreEtCs2lzKAI6OCoaWPmfvvWFkY1AhiZX1tvwvRq0C53RMC9ANSl2Ls6x0h_j_cq_lUIcsApwFN4c0h6GlYEsPlR0_SnXTXMqZ1U2BP_ICUw3fXH4ElWP=w698-h358-s-no-gm?authuser=0", width: 400, target: "_blank",
+    texte: "",
+    desch: "",
+    descb: ""
+};
+
+scmTeamsNbr = scmTeamsNbr + 1;
+var scmChal24Eq4 = scmTeamsNbr;
+scmTeams[scmChal24Eq4] = { Saison: "2023-2024", Name: "Mariners 4", Event: "Challenge Mariners 2024"
+, src: "https://lh3.googleusercontent.com/pw/AP1GczNy_on_oVLCEw4wDFc_9d2pZereFaYcojj1NppE7z8wTfwoIumwElzk5jXFUDV3cJXPcuDfStDmxClBtgZHBZaHLG6sKFJRh7Q8DptG-d64FMCLWLvZmhbbOu3xM8TpSJIxte3tzCllbZv1jl8sf3xK=w714-h676-s-no-gm?authuser=0", width: 400, target: "_blank",
+    texte: "",
+    desch: "",
+    descb: ""
+};
+
+
+
+scmTeamsNbr = scmTeamsNbr + 1;
+var scmChal24V2 = scmTeamsNbr;
+scmTeams[scmChal24V2] = { Saison: "2023-2024", Name: "Mariners V2", Event: "Challenge Mariners 2024"
+, src: "https://lh3.googleusercontent.com/pw/AP1GczO_uVQ3VjnhJgl292dkjBuPb02_QsRlKITZKaP3k0nrxzAJsYv4kKsbBcVhGpNuxhuDjkLwXVYNhmtUqjWhm9RimszvdTYI-wwNOVCzspYrShuQOvtaho6vUtiwlbQdV2UCkHLIfKQi9nhwO-JJxXZ1=w721-h582-s-no-gm?authuser=0", width: 400, target: "_blank",
+    texte: "",
+    desch: "",
+    descb: ""
+};
+
+scmTeamsNbr = scmTeamsNbr + 1;
+var scm2324Eq1b = scmTeamsNbr;
+scmTeams[scm2324Eq1b] = { Saison: "2023-2024", Name: "Mariners 1 Champions", Event: "Saison 2023-2024"
+, src: "https://lh3.googleusercontent.com/pw/AP1GczOYFPnrWfrF8TlkpBnC0WBZJdh0I2E4mQqhdDE1F29Cdg6_5QMJAjWqg3obPVJWr-WLV4r59O1O6DCjK_tjqQMwT8_I2LV2MBEhnLBCZR-CiAr0W4vbRISqKVWh5uLavUrl21C84Mtqm2plR7lxxkLs=w839-h801-s-no-gm?authuser=0", width: 400, target: "_blank",
+    texte: "",
+    desch: "",
+    descb: ""
+};
+
+scmTeamsNbr = scmTeamsNbr + 1;
+var scm2324Eq1c = scmTeamsNbr;
+scmTeams[scm2324Eq1c] = { Saison: "2023-2024", Name: "Mariners 1 Champions", Event: "Saison 2023-2024"
+, src: "https://lh3.googleusercontent.com/pw/AP1GczOczL7PNS1JeNu5fMNr4cD7chJRV4pv24iSAqLfmtE0-wa3Y_weB5uO4ZyRank_lyLC3mKMKIHvRCW0bbBE0idd7OudF6irEEUnnnSoYgMmr05F_VKslbtexif8Fl7lbygKXQGeOTheLCrQuEfGSdyE=w991-h719-s-no-gm?authuser=0", width: 400, target: "_blank",
+    texte: "",
+    desch: "",
+    descb: ""
+};
+
+scmTeamsNbr = scmTeamsNbr + 1;
+var scm2324Eq4 = scmTeamsNbr;
+scmTeams[scm2324Eq4] = { Saison: "2023-2024", Name: "Mariners 4", Event: "Saison 2023-2024"
+, src: "https://lh3.googleusercontent.com/pw/AP1GczNcSRpEazAZouGnTwoQo4ndGirm9Uh7xE8y4PpEFnlBxSHGp6tOHEg5ky1T_RJxoaUrt990YD4irdyzhHYSlm_AMt9Ngz0NO_gGNzv6jtfI3_81rslTLgIwyiNt7ZW-XMMQlq0zMyTaAvywRMIWXAz9=w623-h684-s-no-gm?authuser=0", width: 400, target: "_blank",
+    texte: "",
+    desch: "",
+    descb: ""
+};
+
+
+
+scmTeamsNbr = scmTeamsNbr + 1;
 var scm2324Eq1 = scmTeamsNbr;
 scmTeams[scm2324Eq1] = { Saison: "2023-2024", Name: "Mariners 1", Event: "Saison 2023-2024"
 , src: "https://lh3.googleusercontent.com/pw/ADCreHcrGNWxCQeTv5B1vGUZVstz8gjxaHKusBbFNjBnVnwCNX52Qpu0EsQ5zbpTgC4a4QtTWfMY_GmlK-BoAVulR4zIBtFKw4tZFN_yQaD5XJdVZKLo9JFl5Fmdjy7_Ai7R4qieSfKF8flduDK8GPnqpey0=w811-h600-s-no?authuser=0", width: 400, target: "_blank",
