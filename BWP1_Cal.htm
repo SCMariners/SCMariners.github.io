@@ -1,0 +1,2028 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<script type="text/javascript" src="scmmenunew.js"></script>
+<link rel="stylesheet" href="SCMStylenew.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+</style>
+
+</head>
+<body>
+<p class="info">Click sur la Division pour voir tout le calendrier</p>
+<p class="info">Click sur une &#233;quipe pour voir son calendrier</p>
+<br>
+<table id="Calendrier" class="scm-clsmt-table">
+<tr>
+  <th class="title" colspan=9 onclick="UnfilterTable()"><div id="SemNbr" style="Display:none;"></div><div id="SemInit" style="Display:block;">1&#232;re Provinciale</div></th>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">8</td>
+  <td>BWP11001</td>
+  <td>Me 04-09 21:00</td>
+  <td>OOST</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FOOT REGARD BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SPORTING LOUVAIN LA NEUVE</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">8</td>
+  <td>BWP11002</td>
+  <td>Je 05-09 22:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">STORM SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FACTFUT ACADEMY GREZ DOICEAU 1</td>
+  <td> - </td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">8</td>
+  <td>BWP11003</td>
+  <td>Ve 06-09 21:15</td>
+  <td>ETTE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 1</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">8</td>
+  <td>BWP11004</td>
+  <td>Sa 07-09 20:00</td>
+  <td>TENE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">BTT FUTSAL BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">AP-S OASIS SAINT-JOSSE 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">8</td>
+  <td>BWP11005</td>
+  <td>Sa 07-09 20:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPOIR SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">MFC SMART-MOBILE SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">8</td>
+  <td>BWP11006</td>
+  <td>Sa 07-09 20:00</td>
+  <td>LAEK</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ID ETOILE MOLENBEEK 1081 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CLUB FOOT JETTE</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">8</td>
+  <td>BWP11007</td>
+  <td>Sa 07-09 21:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">LA CITE DES JEUNES SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CITE MODÈLE BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">9</td>
+  <td>BWP11101</td>
+  <td>Lu 09-09 22:00</td>
+  <td>WIL1</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ID ETOILE MOLENBEEK 1081 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">9</td>
+  <td>BWP11102</td>
+  <td>Ve 13-09 21:00</td>
+  <td>OTTI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SPORTING LOUVAIN LA NEUVE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">LA CITE DES JEUNES SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">9</td>
+  <td>BWP11103</td>
+  <td>Ve 13-09 21:00</td>
+  <td>GREZ</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FACTFUT ACADEMY GREZ DOICEAU 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">9</td>
+  <td>BWP11104</td>
+  <td>Sa 14-09 19:00</td>
+  <td>MOLE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CLUB FOOT JETTE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPOIR SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">9</td>
+  <td>BWP11105</td>
+  <td>Sa 14-09 21:00</td>
+  <td>WEMM</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CITE MODÈLE BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">BTT FUTSAL BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">9</td>
+  <td>BWP11106</td>
+  <td>Sa 14-09 21:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">MFC SMART-MOBILE SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">STORM SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">10</td>
+  <td>BWP11201</td>
+  <td>Me 18-09 21:00</td>
+  <td>OOST</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FOOT REGARD BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CITE MODÈLE BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">10</td>
+  <td>BWP11202</td>
+  <td>Ve 20-09 21:15</td>
+  <td>ETTE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FOOT REGARD BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">10</td>
+  <td>BWP11203</td>
+  <td>Sa 21-09 20:00</td>
+  <td>TENE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">BTT FUTSAL BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SPORTING LOUVAIN LA NEUVE</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">10</td>
+  <td>BWP11204</td>
+  <td>Sa 21-09 20:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPOIR SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">AP-S OASIS SAINT-JOSSE 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">10</td>
+  <td>BWP11205</td>
+  <td>Sa 21-09 20:00</td>
+  <td>LAEK</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ID ETOILE MOLENBEEK 1081 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FACTFUT ACADEMY GREZ DOICEAU 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">10</td>
+  <td>BWP11206</td>
+  <td>Sa 21-09 21:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">LA CITE DES JEUNES SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">STORM SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">11</td>
+  <td>BWP11301</td>
+  <td>Lu 23-09 22:00</td>
+  <td>WIL1</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPOIR SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">11</td>
+  <td>BWP11302</td>
+  <td>Ve 27-09 21:00</td>
+  <td>GREZ</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FACTFUT ACADEMY GREZ DOICEAU 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CLUB FOOT JETTE</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">11</td>
+  <td>BWP11303</td>
+  <td>Sa 28-09 21:00</td>
+  <td>WEMM</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CITE MODÈLE BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">AP-S OASIS SAINT-JOSSE 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">11</td>
+  <td>BWP11304</td>
+  <td>Sa 28-09 21:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">MFC SMART-MOBILE SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">BTT FUTSAL BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">12</td>
+  <td>BWP11401</td>
+  <td>Me 02-10 21:00</td>
+  <td>OOST</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FOOT REGARD BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">STORM SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">12</td>
+  <td>BWP11402</td>
+  <td>Ve 04-10 21:15</td>
+  <td>ETTE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CITE MODÈLE BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">12</td>
+  <td>BWP11403</td>
+  <td>Sa 05-10 20:00</td>
+  <td>TENE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">BTT FUTSAL BRUXELLES</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">12</td>
+  <td>BWP11404</td>
+  <td>Sa 05-10 20:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPOIR SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SPORTING LOUVAIN LA NEUVE</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">12</td>
+  <td>BWP11405</td>
+  <td>Sa 05-10 20:00</td>
+  <td>LAEK</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ID ETOILE MOLENBEEK 1081 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">AP-S OASIS SAINT-JOSSE 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">12</td>
+  <td>BWP11406</td>
+  <td>Sa 05-10 21:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">LA CITE DES JEUNES SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FACTFUT ACADEMY GREZ DOICEAU 1</td>
+  <td> - </td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">13</td>
+  <td>BWP11501</td>
+  <td>Lu 07-10 22:00</td>
+  <td>WIL1</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FACTFUT ACADEMY GREZ DOICEAU 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">13</td>
+  <td>BWP11502</td>
+  <td>Je 10-10 20:00</td>
+  <td>STJO</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">AP-S OASIS SAINT-JOSSE 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SPORTING LOUVAIN LA NEUVE</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">13</td>
+  <td>BWP11503</td>
+  <td>Ve 11-10 21:00</td>
+  <td>GREZ</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FACTFUT ACADEMY GREZ DOICEAU 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPOIR SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">13</td>
+  <td>BWP11504</td>
+  <td>Sa 12-10 19:00</td>
+  <td>MOLE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CLUB FOOT JETTE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FOOT REGARD BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">13</td>
+  <td>BWP11505</td>
+  <td>Sa 12-10 21:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">MFC SMART-MOBILE SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CITE MODÈLE BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">14</td>
+  <td>BWP11601</td>
+  <td>Me 16-10 21:00</td>
+  <td>OOST</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FOOT REGARD BRUXELLES</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">14</td>
+  <td>BWP11602</td>
+  <td>Je 17-10 22:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">STORM SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">AP-S OASIS SAINT-JOSSE 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">14</td>
+  <td>BWP11603</td>
+  <td>Ve 18-10 21:00</td>
+  <td>OTTI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SPORTING LOUVAIN LA NEUVE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CITE MODÈLE BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">14</td>
+  <td>BWP11604</td>
+  <td>Ve 18-10 21:15</td>
+  <td>ETTE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">MFC SMART-MOBILE SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">14</td>
+  <td>BWP11605</td>
+  <td>Sa 19-10 20:00</td>
+  <td>TENE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">BTT FUTSAL BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ID ETOILE MOLENBEEK 1081 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">14</td>
+  <td>BWP11606</td>
+  <td>Sa 19-10 21:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">LA CITE DES JEUNES SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPOIR SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">15</td>
+  <td>BWP11701</td>
+  <td>Lu 21-10 22:00</td>
+  <td>WIL1</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">LA CITE DES JEUNES SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">15</td>
+  <td>BWP11702</td>
+  <td>Je 24-10 20:00</td>
+  <td>STJO</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">AP-S OASIS SAINT-JOSSE 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">15</td>
+  <td>BWP11703</td>
+  <td>Ve 25-10 21:00</td>
+  <td>GREZ</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FACTFUT ACADEMY GREZ DOICEAU 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FOOT REGARD BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">15</td>
+  <td>BWP11704</td>
+  <td>Sa 26-10 19:00</td>
+  <td>MOLE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CLUB FOOT JETTE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">BTT FUTSAL BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">15</td>
+  <td>BWP11705</td>
+  <td>Sa 26-10 21:00</td>
+  <td>WEMM</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CITE MODÈLE BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">STORM SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">15</td>
+  <td>BWP11706</td>
+  <td>Sa 26-10 21:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">MFC SMART-MOBILE SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ID ETOILE MOLENBEEK 1081 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">16</td>
+  <td>BWP11801</td>
+  <td>Me 30-10 21:00</td>
+  <td>OOST</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FOOT REGARD BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">MFC SMART-MOBILE SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">16</td>
+  <td>BWP11802</td>
+  <td>Je 31-10 22:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">STORM SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SPORTING LOUVAIN LA NEUVE</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">16</td>
+  <td>BWP11803</td>
+  <td>Sa 02-11 20:00</td>
+  <td>TENE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">BTT FUTSAL BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">16</td>
+  <td>BWP11804</td>
+  <td>Sa 02-11 20:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPOIR SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CITE MODÈLE BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">16</td>
+  <td>BWP11805</td>
+  <td>Sa 02-11 20:00</td>
+  <td>LAEK</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ID ETOILE MOLENBEEK 1081 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">LA CITE DES JEUNES SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">17</td>
+  <td>BWP11901</td>
+  <td>Lu 04-11 22:00</td>
+  <td>WIL1</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">STORM SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">17</td>
+  <td>BWP11902</td>
+  <td>Me 06-11 21:00</td>
+  <td>OOST</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FOOT REGARD BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPOIR SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">17</td>
+  <td>BWP11903</td>
+  <td>Je 07-11 20:00</td>
+  <td>STJO</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">AP-S OASIS SAINT-JOSSE 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">MFC SMART-MOBILE SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">17</td>
+  <td>BWP11904</td>
+  <td>Sa 09-11 21:00</td>
+  <td>WEMM</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CITE MODÈLE BRUXELLES</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">17</td>
+  <td>BWP11905</td>
+  <td>Sa 09-11 21:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">MFC SMART-MOBILE SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CLUB FOOT JETTE</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">18</td>
+  <td>BWP12001</td>
+  <td>Ve 15-11 21:00</td>
+  <td>OTTI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SPORTING LOUVAIN LA NEUVE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">18</td>
+  <td>BWP12002</td>
+  <td>Ve 15-11 21:00</td>
+  <td>GREZ</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FACTFUT ACADEMY GREZ DOICEAU 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">BTT FUTSAL BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">18</td>
+  <td>BWP12003</td>
+  <td>Sa 16-11 20:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPOIR SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">STORM SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">18</td>
+  <td>BWP12004</td>
+  <td>Sa 16-11 21:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">LA CITE DES JEUNES SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CLUB FOOT JETTE</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">19</td>
+  <td>BWP12101</td>
+  <td>Me 20-11 21:00</td>
+  <td>OOST</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FOOT REGARD BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ID ETOILE MOLENBEEK 1081 1</td>
+  <td> - </td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">19</td>
+  <td>BWP12102</td>
+  <td>Je 21-11 20:00</td>
+  <td>STJO</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">AP-S OASIS SAINT-JOSSE 1</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">19</td>
+  <td>BWP12103</td>
+  <td>Sa 23-11 19:00</td>
+  <td>MOLE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CLUB FOOT JETTE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CITE MODÈLE BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">19</td>
+  <td>BWP12104</td>
+  <td>Sa 23-11 21:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">MFC SMART-MOBILE SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FACTFUT ACADEMY GREZ DOICEAU 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">20</td>
+  <td>BWP12201</td>
+  <td>Je 28-11 22:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">STORM SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ID ETOILE MOLENBEEK 1081 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">20</td>
+  <td>BWP12202</td>
+  <td>Ve 29-11 21:00</td>
+  <td>OTTI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SPORTING LOUVAIN LA NEUVE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CLUB FOOT JETTE</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">20</td>
+  <td>BWP12203</td>
+  <td>Ve 29-11 21:00</td>
+  <td>GREZ</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FACTFUT ACADEMY GREZ DOICEAU 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">AP-S OASIS SAINT-JOSSE 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">20</td>
+  <td>BWP12204</td>
+  <td>Sa 30-11 20:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPOIR SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">20</td>
+  <td>BWP12205</td>
+  <td>Sa 30-11 21:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">LA CITE DES JEUNES SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">BTT FUTSAL BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">21</td>
+  <td>BWP12301</td>
+  <td>Lu 02-12 22:00</td>
+  <td>WIL1</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SPORTING LOUVAIN LA NEUVE</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">21</td>
+  <td>BWP12302</td>
+  <td>Je 05-12 20:00</td>
+  <td>STJO</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">AP-S OASIS SAINT-JOSSE 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FOOT REGARD BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">21</td>
+  <td>BWP12303</td>
+  <td>Sa 07-12 19:00</td>
+  <td>MOLE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CLUB FOOT JETTE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">STORM SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">21</td>
+  <td>BWP12304</td>
+  <td>Sa 07-12 20:00</td>
+  <td>TENE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">BTT FUTSAL BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPOIR SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">21</td>
+  <td>BWP12305</td>
+  <td>Sa 07-12 20:00</td>
+  <td>LAEK</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ID ETOILE MOLENBEEK 1081 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">21</td>
+  <td>BWP12306</td>
+  <td>Sa 07-12 21:00</td>
+  <td>WEMM</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CITE MODÈLE BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FACTFUT ACADEMY GREZ DOICEAU 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">21</td>
+  <td>BWP12307</td>
+  <td>Sa 07-12 21:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">MFC SMART-MOBILE SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">LA CITE DES JEUNES SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">22</td>
+  <td>BWP12401</td>
+  <td>Je 12-12 22:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">STORM SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">BTT FUTSAL BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">22</td>
+  <td>BWP12402</td>
+  <td>Ve 13-12 21:00</td>
+  <td>OTTI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SPORTING LOUVAIN LA NEUVE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FACTFUT ACADEMY GREZ DOICEAU 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">22</td>
+  <td>BWP12403</td>
+  <td>Ve 13-12 21:15</td>
+  <td>ETTE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CLUB FOOT JETTE</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">22</td>
+  <td>BWP12404</td>
+  <td>Sa 14-12 20:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPOIR SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ID ETOILE MOLENBEEK 1081 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">22</td>
+  <td>BWP12405</td>
+  <td>Sa 14-12 21:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">LA CITE DES JEUNES SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">AP-S OASIS SAINT-JOSSE 1</td>
+  <td> - </td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">23</td>
+  <td>BWP12501</td>
+  <td>Lu 16-12 22:00</td>
+  <td>WIL1</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">MFC SMART-MOBILE SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">23</td>
+  <td>BWP12502</td>
+  <td>Me 18-12 21:00</td>
+  <td>OOST</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FOOT REGARD BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">LA CITE DES JEUNES SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">23</td>
+  <td>BWP12503</td>
+  <td>Je 19-12 20:00</td>
+  <td>STJO</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">AP-S OASIS SAINT-JOSSE 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CLUB FOOT JETTE</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">23</td>
+  <td>BWP12504</td>
+  <td>Sa 21-12 20:00</td>
+  <td>TENE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">BTT FUTSAL BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FOOT REGARD BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">23</td>
+  <td>BWP12505</td>
+  <td>Sa 21-12 21:00</td>
+  <td>WEMM</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CITE MODÈLE BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ID ETOILE MOLENBEEK 1081 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">25</td>
+  <td>BWP12701</td>
+  <td>Ve 03-01 21:00</td>
+  <td>GREZ</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FACTFUT ACADEMY GREZ DOICEAU 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CITE MODÈLE BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">25</td>
+  <td>BWP12702</td>
+  <td>Sa 04-01 19:00</td>
+  <td>MOLE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CLUB FOOT JETTE</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">25</td>
+  <td>BWP12703</td>
+  <td>Sa 04-01 20:00</td>
+  <td>TENE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">BTT FUTSAL BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">MFC SMART-MOBILE SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">25</td>
+  <td>BWP12704</td>
+  <td>Sa 04-01 20:00</td>
+  <td>LAEK</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ID ETOILE MOLENBEEK 1081 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SPORTING LOUVAIN LA NEUVE</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">25</td>
+  <td>BWP12705</td>
+  <td>Sa 04-01 21:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">LA CITE DES JEUNES SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 1</td>
+  <td> - </td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">27</td>
+  <td>BWP12801</td>
+  <td>Je 09-01 22:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">STORM SAINT-GILLES</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">27</td>
+  <td>BWP12802</td>
+  <td>Ve 10-01 21:00</td>
+  <td>OTTI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SPORTING LOUVAIN LA NEUVE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FOOT REGARD BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">27</td>
+  <td>BWP12803</td>
+  <td>Ve 10-01 21:15</td>
+  <td>ETTE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">BTT FUTSAL BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">27</td>
+  <td>BWP12804</td>
+  <td>Sa 11-01 21:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">MFC SMART-MOBILE SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPOIR SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">28</td>
+  <td>BWP12901</td>
+  <td>Je 16-01 20:00</td>
+  <td>STJO</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">AP-S OASIS SAINT-JOSSE 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CITE MODÈLE BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">28</td>
+  <td>BWP12902</td>
+  <td>Ve 17-01 21:00</td>
+  <td>GREZ</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FACTFUT ACADEMY GREZ DOICEAU 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">MFC SMART-MOBILE SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">28</td>
+  <td>BWP12903</td>
+  <td>Sa 18-01 20:00</td>
+  <td>TENE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">BTT FUTSAL BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">STORM SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">28</td>
+  <td>BWP12904</td>
+  <td>Sa 18-01 20:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPOIR SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CLUB FOOT JETTE</td>
+  <td> - </td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">28</td>
+  <td>BWP12905</td>
+  <td>Sa 18-01 20:00</td>
+  <td>LAEK</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ID ETOILE MOLENBEEK 1081 1</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">28</td>
+  <td>BWP12906</td>
+  <td>Sa 18-01 21:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">LA CITE DES JEUNES SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SPORTING LOUVAIN LA NEUVE</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">29</td>
+  <td>BWP13001</td>
+  <td>Je 23-01 22:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">STORM SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">LA CITE DES JEUNES SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">29</td>
+  <td>BWP13002</td>
+  <td>Ve 24-01 21:00</td>
+  <td>OTTI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SPORTING LOUVAIN LA NEUVE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">BTT FUTSAL BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">29</td>
+  <td>BWP13003</td>
+  <td>Ve 24-01 21:15</td>
+  <td>ETTE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPOIR SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">29</td>
+  <td>BWP13004</td>
+  <td>Sa 25-01 21:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">MFC SMART-MOBILE SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">AP-S OASIS SAINT-JOSSE 1</td>
+  <td> - </td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">30</td>
+  <td>BWP13101</td>
+  <td>Lu 27-01 22:00</td>
+  <td>WIL1</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">30</td>
+  <td>BWP13102</td>
+  <td>Je 30-01 20:00</td>
+  <td>STJO</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">AP-S OASIS SAINT-JOSSE 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">BTT FUTSAL BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">30</td>
+  <td>BWP13103</td>
+  <td>Ve 31-01 21:00</td>
+  <td>GREZ</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FACTFUT ACADEMY GREZ DOICEAU 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">STORM SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">30</td>
+  <td>BWP13104</td>
+  <td>Sa 01-02 19:00</td>
+  <td>MOLE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CLUB FOOT JETTE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ID ETOILE MOLENBEEK 1081 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">30</td>
+  <td>BWP13105</td>
+  <td>Sa 01-02 20:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPOIR SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FOOT REGARD BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">30</td>
+  <td>BWP13106</td>
+  <td>Sa 01-02 21:00</td>
+  <td>WEMM</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CITE MODÈLE BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">LA CITE DES JEUNES SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">31</td>
+  <td>BWP13201</td>
+  <td>Je 06-02 22:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">STORM SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FOOT REGARD BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">31</td>
+  <td>BWP13202</td>
+  <td>Ve 07-02 21:15</td>
+  <td>ETTE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">LA CITE DES JEUNES SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">31</td>
+  <td>BWP13203</td>
+  <td>Sa 08-02 21:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">MFC SMART-MOBILE SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SPORTING LOUVAIN LA NEUVE</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">32</td>
+  <td>BWP13301</td>
+  <td>Me 12-02 21:00</td>
+  <td>OOST</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FOOT REGARD BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CLUB FOOT JETTE</td>
+  <td> - </td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">32</td>
+  <td>BWP13302</td>
+  <td>Ve 14-02 21:00</td>
+  <td>GREZ</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FACTFUT ACADEMY GREZ DOICEAU 1</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">32</td>
+  <td>BWP13303</td>
+  <td>Sa 15-02 19:00</td>
+  <td>MOLE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CLUB FOOT JETTE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">AP-S OASIS SAINT-JOSSE 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">32</td>
+  <td>BWP13304</td>
+  <td>Sa 15-02 21:00</td>
+  <td>WEMM</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CITE MODÈLE BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPOIR SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">32</td>
+  <td>BWP13305</td>
+  <td>Sa 15-02 21:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">LA CITE DES JEUNES SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ID ETOILE MOLENBEEK 1081 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">33</td>
+  <td>BWP13401</td>
+  <td>Je 20-02 22:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">STORM SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 1</td>
+  <td> - </td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">33</td>
+  <td>BWP13402</td>
+  <td>Ve 21-02 21:00</td>
+  <td>OTTI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SPORTING LOUVAIN LA NEUVE</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">33</td>
+  <td>BWP13403</td>
+  <td>Sa 22-02 21:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">MFC SMART-MOBILE SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 1</td>
+  <td> - </td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">34</td>
+  <td>BWP13501</td>
+  <td>Lu 24-02 22:00</td>
+  <td>WIL1</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CLUB FOOT JETTE</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">34</td>
+  <td>BWP13502</td>
+  <td>Me 26-02 21:00</td>
+  <td>OOST</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FOOT REGARD BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FACTFUT ACADEMY GREZ DOICEAU 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">34</td>
+  <td>BWP13503</td>
+  <td>Je 27-02 20:00</td>
+  <td>STJO</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">AP-S OASIS SAINT-JOSSE 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPOIR SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">34</td>
+  <td>BWP13504</td>
+  <td>Ve 28-02 21:00</td>
+  <td>OTTI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SPORTING LOUVAIN LA NEUVE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">STORM SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">34</td>
+  <td>BWP13505</td>
+  <td>Sa 01-03 19:00</td>
+  <td>MOLE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CLUB FOOT JETTE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FACTFUT ACADEMY GREZ DOICEAU 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">34</td>
+  <td>BWP13506</td>
+  <td>Sa 01-03 20:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPOIR SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">BTT FUTSAL BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">34</td>
+  <td>BWP13507</td>
+  <td>Sa 01-03 20:00</td>
+  <td>LAEK</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ID ETOILE MOLENBEEK 1081 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FOOT REGARD BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">34</td>
+  <td>BWP13508</td>
+  <td>Sa 01-03 21:00</td>
+  <td>WEMM</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CITE MODÈLE BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">MFC SMART-MOBILE SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">34</td>
+  <td>BWP13509</td>
+  <td>Sa 01-03 21:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">LA CITE DES JEUNES SAINT-GILLES</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">35</td>
+  <td>BWP13601</td>
+  <td>Je 06-03 22:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">STORM SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CITE MODÈLE BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">35</td>
+  <td>BWP13602</td>
+  <td>Ve 07-03 21:00</td>
+  <td>OTTI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SPORTING LOUVAIN LA NEUVE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPOIR SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">35</td>
+  <td>BWP13603</td>
+  <td>Ve 07-03 21:15</td>
+  <td>ETTE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">AP-S OASIS SAINT-JOSSE 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">35</td>
+  <td>BWP13604</td>
+  <td>Sa 08-03 21:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">MFC SMART-MOBILE SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FOOT REGARD BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">36</td>
+  <td>BWP13701</td>
+  <td>Lu 10-03 22:00</td>
+  <td>WIL1</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">BTT FUTSAL BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">36</td>
+  <td>BWP13702</td>
+  <td>Je 13-03 20:00</td>
+  <td>STJO</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">AP-S OASIS SAINT-JOSSE 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ID ETOILE MOLENBEEK 1081 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">36</td>
+  <td>BWP13703</td>
+  <td>Sa 15-03 19:00</td>
+  <td>MOLE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CLUB FOOT JETTE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">MFC SMART-MOBILE SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">36</td>
+  <td>BWP13704</td>
+  <td>Sa 15-03 20:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPOIR SAINT-GILLES</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">36</td>
+  <td>BWP13705</td>
+  <td>Sa 15-03 20:00</td>
+  <td>LAEK</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ID ETOILE MOLENBEEK 1081 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">BTT FUTSAL BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">36</td>
+  <td>BWP13706</td>
+  <td>Sa 15-03 21:00</td>
+  <td>WEMM</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CITE MODÈLE BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">36</td>
+  <td>BWP13707</td>
+  <td>Sa 15-03 21:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">LA CITE DES JEUNES SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FOOT REGARD BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">37</td>
+  <td>BWP13801</td>
+  <td>Je 20-03 22:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">STORM SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPOIR SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">37</td>
+  <td>BWP13802</td>
+  <td>Ve 21-03 21:15</td>
+  <td>ETTE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ID ETOILE MOLENBEEK 1081 1</td>
+  <td> - </td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">37</td>
+  <td>BWP13803</td>
+  <td>Sa 22-03 21:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">MFC SMART-MOBILE SAINT-GILLES</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 1</td>
+  <td> - </td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">38</td>
+  <td>BWP13901</td>
+  <td>Lu 24-03 22:00</td>
+  <td>WIL1</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">AP-S OASIS SAINT-JOSSE 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">38</td>
+  <td>BWP13902</td>
+  <td>Me 26-03 21:00</td>
+  <td>OOST</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FOOT REGARD BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">BTT FUTSAL BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">38</td>
+  <td>BWP13903</td>
+  <td>Je 27-03 20:00</td>
+  <td>STJO</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">AP-S OASIS SAINT-JOSSE 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">LA CITE DES JEUNES SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">38</td>
+  <td>BWP13904</td>
+  <td>Ve 28-03 21:00</td>
+  <td>GREZ</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FACTFUT ACADEMY GREZ DOICEAU 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SPORTING LOUVAIN LA NEUVE</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">38</td>
+  <td>BWP13905</td>
+  <td>Sa 29-03 20:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPOIR SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">LA CITE DES JEUNES SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">38</td>
+  <td>BWP13906</td>
+  <td>Sa 29-03 20:00</td>
+  <td>LAEK</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ID ETOILE MOLENBEEK 1081 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">STORM SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">38</td>
+  <td>BWP13907</td>
+  <td>Sa 29-03 21:00</td>
+  <td>WEMM</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CITE MODÈLE BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CLUB FOOT JETTE</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">39</td>
+  <td>BWP14001</td>
+  <td>Je 03-04 22:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">STORM SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">MFC SMART-MOBILE SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">39</td>
+  <td>BWP14002</td>
+  <td>Ve 04-04 21:00</td>
+  <td>OTTI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SPORTING LOUVAIN LA NEUVE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ID ETOILE MOLENBEEK 1081 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">39</td>
+  <td>BWP14003</td>
+  <td>Ve 04-04 21:15</td>
+  <td>ETTE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FACTFUT ACADEMY GREZ DOICEAU 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">39</td>
+  <td>BWP14004</td>
+  <td>Sa 05-04 20:00</td>
+  <td>TENE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">BTT FUTSAL BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CITE MODÈLE BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">40</td>
+  <td>BWP14101</td>
+  <td>Lu 07-04 22:00</td>
+  <td>WIL1</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CITE MODÈLE BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">40</td>
+  <td>BWP14102</td>
+  <td>Je 10-04 20:00</td>
+  <td>STJO</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">AP-S OASIS SAINT-JOSSE 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FACTFUT ACADEMY GREZ DOICEAU 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">40</td>
+  <td>BWP14103</td>
+  <td>Sa 12-04 19:00</td>
+  <td>MOLE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CLUB FOOT JETTE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SPORTING LOUVAIN LA NEUVE</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">40</td>
+  <td>BWP14104</td>
+  <td>Sa 12-04 20:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPOIR SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FACTFUT ACADEMY GREZ DOICEAU 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">40</td>
+  <td>BWP14105</td>
+  <td>Sa 12-04 21:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">LA CITE DES JEUNES SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">MFC SMART-MOBILE SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">41</td>
+  <td>BWP14201</td>
+  <td>Me 16-04 21:00</td>
+  <td>OOST</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FOOT REGARD BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">AP-S OASIS SAINT-JOSSE 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">41</td>
+  <td>BWP14202</td>
+  <td>Je 17-04 22:00</td>
+  <td>STGI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">STORM SAINT-GILLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CLUB FOOT JETTE</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">41</td>
+  <td>BWP14203</td>
+  <td>Ve 18-04 21:15</td>
+  <td>ETTE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SPORTING LOUVAIN LA NEUVE</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">41</td>
+  <td>BWP14204</td>
+  <td>Sa 19-04 20:00</td>
+  <td>TENE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">BTT FUTSAL BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">LA CITE DES JEUNES SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">41</td>
+  <td>BWP14205</td>
+  <td>Sa 19-04 20:00</td>
+  <td>LAEK</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ID ETOILE MOLENBEEK 1081 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ESPOIR SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">42</td>
+  <td>BWP14301</td>
+  <td>Je 24-04 20:00</td>
+  <td>STJO</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">AP-S OASIS SAINT-JOSSE 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">STORM SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">42</td>
+  <td>BWP14302</td>
+  <td>Ve 25-04 21:00</td>
+  <td>GREZ</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FACTFUT ACADEMY GREZ DOICEAU 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">LA CITE DES JEUNES SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">42</td>
+  <td>BWP14303</td>
+  <td>Sa 26-04 19:00</td>
+  <td>MOLE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CLUB FOOT JETTE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">42</td>
+  <td>BWP14304</td>
+  <td>Sa 26-04 21:00</td>
+  <td>WEMM</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CITE MODÈLE BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FOOT REGARD BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">43</td>
+  <td>BWP14401</td>
+  <td>Me 30-04 21:00</td>
+  <td>OOST</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FOOT REGARD BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">43</td>
+  <td>BWP14402</td>
+  <td>Ve 02-05 21:00</td>
+  <td>OTTI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SPORTING LOUVAIN LA NEUVE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">AP-S OASIS SAINT-JOSSE 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">43</td>
+  <td>BWP14403</td>
+  <td>Sa 03-05 20:00</td>
+  <td>TENE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">BTT FUTSAL BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FACTFUT ACADEMY GREZ DOICEAU 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">43</td>
+  <td>BWP14404</td>
+  <td>Sa 03-05 20:00</td>
+  <td>LAEK</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ID ETOILE MOLENBEEK 1081 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">MFC SMART-MOBILE SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr>
+  <td onclick="FilterTeam(this, colSem, colSem)">44</td>
+  <td>BWP14501</td>
+  <td>Lu 05-05 22:00</td>
+  <td>WIL1</td>
+  <td><div class="tc-bleu"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td class="blue" onclick="FilterTeam(this, colHome, colAway)">MARINERS AUDERGHEM 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FOOT REGARD BRUXELLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">44</td>
+  <td>BWP14502</td>
+  <td>Ve 09-05 21:00</td>
+  <td>GREZ</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">FACTFUT ACADEMY GREZ DOICEAU 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ID ETOILE MOLENBEEK 1081 1</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">44</td>
+  <td>BWP14503</td>
+  <td>Sa 10-05 19:00</td>
+  <td>MOLE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CLUB FOOT JETTE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">LA CITE DES JEUNES SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">44</td>
+  <td>BWP14504</td>
+  <td>Sa 10-05 21:00</td>
+  <td>WEMM</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CITE MODÈLE BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SPORTING LOUVAIN LA NEUVE</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">45</td>
+  <td>BWP14601</td>
+  <td>Ve 16-05 21:00</td>
+  <td>OTTI</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">SPORTING LOUVAIN LA NEUVE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">MFC SMART-MOBILE SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">45</td>
+  <td>BWP14602</td>
+  <td>Ve 16-05 21:15</td>
+  <td>ETTE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ASM ETTERBEEK 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">STORM SAINT-GILLES</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">45</td>
+  <td>BWP14603</td>
+  <td>Sa 17-05 20:00</td>
+  <td>TENE</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">BTT FUTSAL BRUXELLES</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CLUB FOOT JETTE</td>
+  <td> - </td>
+</tr>
+<tr style="display:none">
+  <td onclick="FilterTeam(this, colSem, colSem)">45</td>
+  <td>BWP14604</td>
+  <td>Sa 17-05 20:00</td>
+  <td>LAEK</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">ID ETOILE MOLENBEEK 1081 1</td>
+  <td><div class="tc-blanc"><i class="fa fa-shield fa-fw"></i></div></td>
+  <td onclick="FilterTeam(this, colHome, colAway)">CITE MODÈLE BRUXELLES</td>
+  <td> - </td>
+</tr>
+</table>
+</body>
+</html>
