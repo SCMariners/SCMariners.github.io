@@ -175,6 +175,9 @@ var spThema = nbrSpons;
 scmSpons[spThema] = { Name: "Architecture Thema", src: "https://lh3.googleusercontent.com/pw/AP1GczOwHgMwnfl13cWrlYEdY532iMV9TSAX6w2efnNb-cIaik8lT0XQ1F9ipmZmVujRSrlaGAKxRr8GCEVk0c5YQ5TmwN8zUc228SrnN25ZiJw3gJ5P-a8_1aeqOMQ9sdyPP9tcnALEVCjCshMmhjz64TIN=w567-h381-s-no-gm?authuser=0", width: 150, fbname: "", fb: "https://www.facebook.com/themasprl", webname: "architecture-thema.net", href: "http://www.architecture-thema.net", target: "_blank", texte: "", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""};
 
 
+nbrSpons = nbrSpons + 1;
+var spMonPlanning = nbrSpons;
+scmSpons[spMonPlanning] = { Name: "Mon Planning", src: "https://lh3.googleusercontent.com/pw/AP1GczOgRGIf3kfkQWvlc6jgHFhK_dQ8tj7T9ubGrfXYQf8x9KvF9PFmJIWmcmfFTWyRChKlOm_LIUDFsbCQdR8gyPZVQriImLv1auanly0K_k1iXTi5KDjCv8EIqf2QmVg-iiapXjlZ-9dXdrDdqLeIjA8S=w1014-h477-s-no-gm?authuser=0", width: 150, fbname: "", fb: "https://www.facebook.com/monplanning", webname: "monplanning.be", href: "https://www.monplanning.be/", target: "_blank", texte: "", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""};
 
 
 
@@ -192,6 +195,10 @@ nbrSpons = nbrSpons + 1;
 var spBBStore = nbrSpons;
 scmSpons[spBBStore] = { Name: "BB Store", src: "https://lh3.googleusercontent.com/pw/AIL4fc-y1tWetxCXdy_3voCAkfm4jOTEnMJAwADxOsKZ0uwtlrB23l1Xad1d_XOl3agnKJkQcCMpudPLW26RLfcIvDvU3LS1Kc4RWYZ3f4LJz9ztRz5SyEoZIZGWgvMs9IdtIbVb0-PkcYor6zLtMbYWaVja=w732-h309-s-no?authuser=0", width: 150, fbname: "", fb: "https://www.facebook.com/BBSTOREBxL/?locale=fr_FR", webname: "Facebook", href: "https://www.facebook.com/BBSTOREBxL/?locale=fr_FR", target: "_blank", texte: "BB Store", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""};
 */
+
+
+
+
 
 nbrSpons = nbrSpons + 1;
 var spHDE = nbrSpons;
