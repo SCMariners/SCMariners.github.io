@@ -179,7 +179,10 @@ nbrSpons = nbrSpons + 1;
 var spMonPlanning = nbrSpons;
 scmSpons[spMonPlanning] = { Name: "Mon Planning", src: "https://lh3.googleusercontent.com/pw/AP1GczOgRGIf3kfkQWvlc6jgHFhK_dQ8tj7T9ubGrfXYQf8x9KvF9PFmJIWmcmfFTWyRChKlOm_LIUDFsbCQdR8gyPZVQriImLv1auanly0K_k1iXTi5KDjCv8EIqf2QmVg-iiapXjlZ-9dXdrDdqLeIjA8S=w1014-h477-s-no-gm?authuser=0", width: 150, fbname: "", fb: "https://www.facebook.com/monplanning", webname: "monplanning.be", href: "https://www.monplanning.be/", target: "_blank", texte: "", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""};
 
-
+nbrSpons = nbrSpons + 1;
+var spMenchIndustry = nbrSpons;
+scmSpons[spMenchIndustry] = { Name: "Mench Industry", src: "https://lh3.googleusercontent.com/pw/AP1GczOCdtAq4I7ith_IjC5P-o7Jr8wQ1KoEDTb6qRXrqj-ctnCjTYBbluH3T6DMYCzkYHDAltze8yVbdYml5-h45ZLnD-6zPpePAMEKO4XBugBq-pPSeS8Rvgu_7XAMRvtisBUtF7vb_FatqH9W0NwDU3Fu=w675-h180-s-no-gm?authuser=0", width: 150, fbname: "", fb: "", webname: "mench.be", href: "https://mench.be/", target: "_blank", texte: "", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""};
+ 
 
 nbrSpons = nbrSpons + 1;
 var spSCR = nbrSpons;
