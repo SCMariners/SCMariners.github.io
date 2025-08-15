@@ -4087,6 +4087,26 @@ tmpClass[10] = [10, 'ELITE FUTSAL BRUXELLES', 0,0,0,0,0,0, 0,0];
 ScmClass[Class2324D2] = tmpClass;
 tmpClass = [];
 
+nbrScmClass = nbrScmClass + 1;
+var Class2425P1 = nbrScmClass;
+tmpClass[0] = [0, '2024-2025 : 1ere Provinciale',0,0,0,0,0,0,0,0]
+tmpClass[1] = [1, 'AP-S OASIS SAINT-JOSSE 1', 26,18,4,4,152,108, 44,40];
+tmpClass[2] = [2, 'CITE MODELE BRUXELLES', 26,15,6,5,163,118, 45,35];
+tmpClass[3] = [3, 'STORM SAINT-GILLES', 26,14,6,6,140,98, 42,34];
+tmpClass[4] = [4, 'ID ETOILE MOLENBEEK 1081 1', 26,11,9,6,111,104, 7,28];
+tmpClass[5] = [5, 'FACTFUT ACADEMY GREZ DOICEAU 1', 26,10,11,5,102,88, 14,25];
+tmpClass[6] = [6, 'MARINERS AUDERGHEM 1', 26,11,12,3,163,141, 22,25];
+tmpClass[7] = [7, 'ESPOIR SAINT-GILLES', 26,12,11,3,140,132, 8,27];
+tmpClass[8] = [8, 'LA CITE DES JEUNES SAINT-GILLES', 26,10,13,3,125,153, -28,23];
+tmpClass[9] = [9, 'BTT FUTSAL BRUXELLES', 26,10,11,5,115,126, -11,25];
+tmpClass[10] = [10, 'MFC SMART-MOBILE SAINT-GILLES', 26,10,14,2,142,159, -17,22];
+tmpClass[11] = [11, 'FOOT REGARD BRUXELLES', 26,9,13,4,123,147, -24,22];
+tmpClass[12] = [12, 'ASM ETTERBEEK 1', 26,8,12,6,123,147, -24,22];
+tmpClass[13] = [13, 'SPORTING LOUVAIN LA NEUVE', 26,10,15,1,131,149, -18,21];
+tmpClass[14] = [14, 'CLUB FOOT JETTE', 26,3,16,7,95,152, -57,13];
+ScmClass[Class2425P1] = tmpClass;
+tmpClass = [];
+
 
 function getScmTot() {
     
