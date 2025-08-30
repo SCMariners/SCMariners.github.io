@@ -141,10 +141,11 @@ Chal18Spons.push(spPepiniere);
 Chal19Spons.push(spPepiniere);
 */
 
+/*
 nbrSpons = nbrSpons + 1
 var spSirre = nbrSpons;
 scmSpons[spSirre] = { Name: "Patisserie Sirre", src: "https://lh3.googleusercontent.com/pw/AP1GczNAkL6PzGOJyPpd-KzC1Dtu8NvXjhxdrvEr6KgUQDX1shiTbz87ewXTVUL_JpZuWlsXnIQ2Cef4z9xtwY-OAhZ5WrBVw7fALwj90LxdxrYutC6VvxAaptGlvX9Wmvz3WfOU8xQAKlJ-Kip5jQpTQith=w309-h168-s-no-gm?authuser=0", width: 220, fbname: "", fb: "https://www.facebook.com/patisseriesirre", webname: "sirre.be", href: "http://www.sirre.be", target: "_blank", texte: "www.sirre.be", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""};
-
+*/
 
 /*
 nbrSpons = nbrSpons + 1;
@@ -153,10 +154,11 @@ scmSpons[spGailly] = { Name: "Gailly sprl", src: "https://lh3.googleusercontent.
 Chal19Spons.push(spGailly);
 */
 
+/*
 nbrSpons = nbrSpons + 1;
 var spSREntreprises = nbrSpons;
 scmSpons[spSREntreprises] = { Name: "S R Entreprises", src: "https://lh3.googleusercontent.com/pw/AP1GczNLz5dm2fyHkBm2eyPmuCAZ438ibkFcxxfmx0oRDMIR6Ont1hoTULhlZHHzx3zqd1YhuDzOl7xEFoni83TvOHbL8QjZQkoIwCA7Q5lq2v2VT8OvJDV2aYTWPsM2jai2qYXj-Ce5GL7d65daqowRm9KW=w538-h524-s-no-gm?authuser=0", width: 150, fbname: "", fb: "", webname: "", href: "", target: "", texte: "", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "};
-
+*/
 
 
 nbrSpons = nbrSpons + 1;
@@ -170,10 +172,11 @@ var spDestoquay = nbrSpons;
 scmSpons[spDestoquay] = { Name: "Destoquay SPRL", src: "https://lh3.googleusercontent.com/pw/AIL4fc9jUHYQSfIRMOUoZSvbrvu_A696r2huEcOleJxU-Zl0LmQsOdPoz6BfqqiTqdGOVIKlizrvoQWlpqeNbDYve-bzav0k1iPmAiBe9OFScar3O9jXMkK3at-TD_iYtkXzp7609YXJH4DE3iNgfau4BpmQ=w811-h506-s-no?authuser=0", width: 150, fbname: "", fb: "", webname: "", href: "", target: "", texte: "", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""};
 */
 
+/*
 nbrSpons = nbrSpons + 1;
 var spThema = nbrSpons;
 scmSpons[spThema] = { Name: "Architecture Thema", src: "https://lh3.googleusercontent.com/pw/AP1GczOwHgMwnfl13cWrlYEdY532iMV9TSAX6w2efnNb-cIaik8lT0XQ1F9ipmZmVujRSrlaGAKxRr8GCEVk0c5YQ5TmwN8zUc228SrnN25ZiJw3gJ5P-a8_1aeqOMQ9sdyPP9tcnALEVCjCshMmhjz64TIN=w567-h381-s-no-gm?authuser=0", width: 150, fbname: "", fb: "https://www.facebook.com/themasprl", webname: "architecture-thema.net", href: "http://www.architecture-thema.net", target: "_blank", texte: "", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""};
-
+*/
 
 nbrSpons = nbrSpons + 1;
 var spMonPlanning = nbrSpons;
