@@ -30,7 +30,7 @@ var scmCopy6 = "bu-yle##1##hotmail##.##com";
 var scmCopy7 = "xav77##1##msn##.##com";
 var scmCopy8 = "essidhakim##1##yahoo##.##fr";
 var scmCopy9 = "soareclaudiu##1##hotmail##.##com";
-var scmCopy10 = "cece_deh##1##hotmail##.##com";
+var scmCopy10 = "davide##.##scarsi##1##skynet##.##be";
 
 
 
@@ -153,6 +153,7 @@ calreservation.push(202512152100);
 
 calreservation.push(202601022100); 
 calreservation.push(202601052100); 
+calreservation.push(202601102000); 
 calreservation.push(202601122100);
 calreservation.push(202601192100); 
 calreservation.push(202601262100);
