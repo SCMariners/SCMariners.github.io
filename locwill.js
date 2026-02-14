@@ -54,7 +54,7 @@ CentreFerme.push(202512222200);
 CentreFerme.push(202512292100);
 CentreFerme.push(202512292200);
 calWillLU[1] = ["05/01/2026", "12/01/2026", "19/01/2026", "26/01/2026"];
-calWillLU[2] = ["02/02/2026", "09/02/2026", "16/02/2026", "23/02/2026"];
+calWillLU[2] = ["02/02/2026", "09/02/2026", "23/02/2026"];
 calWillLU[3] = ["02/03/2026", "09/03/2026", "16/03/2026", "23/03/2026", "30/03/2026"];
 calWillLU[4] = ["06/04/2026", "13/04/2026", "20/04/2026", "27/04/2026"];
 CentreFerme.push(202604062100);
@@ -160,7 +160,6 @@ calreservation.push(202601262100);
 
 calreservation.push(202602022100); 
 calreservation.push(202602092100);
-calreservation.push(202602162100); 
 calreservation.push(202602232100); 
 
 calreservation.push(202603022100); 
