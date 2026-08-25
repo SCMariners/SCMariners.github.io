@@ -9,32 +9,40 @@ var lastnews = [];
 // * Headers Images *
 // ******************
 
-var scmEq1Header = "https://lh3.googleusercontent.com/pw/AP1GczPYXdDOnbwDkuPt0AJkq9ZwSUYZ2MmCJ4bxpFV8Jh2SFbjU6FLwcLzrb1a99MlZ6eoydVNqEOVt8l3mqAi1j_qdgn-_gbcR7sWqcO6y7jYwA5p5xUBmbbudfXC0Pmr9RArGtxCKkCNkWrUkLnhOHUpB=w487-h175-s-no-gm?authuser=0";
-var scmEq1Link = "https://lh3.googleusercontent.com/pw/AP1GczPqS7UyXTaArWvYSdYTHp-kcEZoVUcKzWDWT-eiEjDVsPkARS0XNMVt5CXWLyyGm6PIe5MTyn5YIuN7Ff5iRS7E2s-aeoj2lLC83TKoaHxDIA-WWXmDonJuNwjF50VBuyLhMrs5bHOqEqPfhVOFsNx8=w300-h184-s-no-gm?authuser=0";
+var scmEq1Header = "https://lh3.googleusercontent.com/pw/AP1GczO-nHPC4l0wgpwpZlOkK0NTuZOu5sBavHwprIhrTtkJCQcLVcJFRzBqGm3s-Pl_vIR7gLZktXj6bQuzuXsRNDiq6jtbJa3ciDXQiq7WY2UCLr09QqfvWvIlTgNwR_rFln-DtYM6Hob4F3EySrMvnPoc=w1014-h379-s-no-gm?authuser=0";
+var scmEq1Link = "https://lh3.googleusercontent.com/pw/AP1GczNKJI8k3NM08b0YazY8AFVCWs_C-ZqbLASDZyWf_bQypFuFOnCfu6SlLMNp3DB2dADv7xCzGwXiEomH34iC12O2Gx5LRf1hrVpuMccNmrg993mvIhpvWKcWUmwnwmQhZNseMs4TAKbEis2Iq7by31OZ=w322-h195-s-no-gm?authuser=0";
 
-var scmEq2Header = "https://lh3.googleusercontent.com/pw/AIL4fc_7g-mpjSxntcJE0DtZ-Zm_JpbZdl7tLvNq-kHMVf409MQh4oiyQv3iAs45MzoNKyLJsfwt41ltiMQ1MUC3yClZ9EmiXSFiYTjJtqDRa6DozASNwUWnBlKzpU8cu1Ti8bNUk2KIUQ7Fqc6Z3xqn1TPo=w487-h180-s-no";
-var scmEq2Link = "https://lh3.googleusercontent.com/pw/AIL4fc8PthQlYDDTwuMWb0dK2yONWbFGyJFHmyIpGKYShh08sh9tTTZ5NZKz3I5YRsJM2mp8S8ON5mFXNGjXxjbq_W11UsoaGin2GpXG0rsdYQZ8fuPxV-z2wS_4lLSDaFQy8kslWNXC44Or7CvLRPHHDLih=w398-h189-s-no";
+var scmEq2Header = "https://lh3.googleusercontent.com/pw/AP1GczMWYU3pciIenEU-FAbEXpMzSmSNCOJcoF40Gj8UqxQfR7xpwRnPZvcNJUmTq_jLTnY-D6fNRPl3dSyjpBTv8rRJzTEe9BtHSDdyPvsKvrqOmCc0CpOhBIXvJimuEUkWfIsufGQP4Cew8nbaV9uA5uTJ=w1014-h378-s-no-gm?authuser=0";
+var scmEq2Link = "https://lh3.googleusercontent.com/pw/AP1GczMa4BsdCc8qZBq0iBeh9HVYasvq_wjEvSkWSEXtOR9I_JhXhl-pJXF-Lgfo7YBYLVUPdZiCUfE_CKOXGaaXE0DOIuUTFjQqCkeeQq4H-5F-PgmBpYVA4PlyujQqPB67ISTYxalOh-zBfETPbp-w_PIc=w319-h195-s-no-gm?authuser=0";
 
-var scmEq3Header = "https://lh3.googleusercontent.com/OksZGepuVXdG2Kyz4YPFv_Je8GKLOOR5BzCL30pwbG1NaDGQuIvrxsdZ0gOhYYOTADspajJgULQnBwI8AI8hX51ru_Iw-jXmhFeIOu67k5-phZOwnAQu6lHffgdTWu_KZk3rJ_tKBHTefBV2G9RrkHAd2KsAr1GDgmZvzbSoXcd4imCD64l73mi0Bcym_U8rUFAB784nShXAzhvwsdDMoJvYx9Bi5jb1kpkL_9kjIJulG-RTUT9AzaGOmmLx00CS7oJ3l9LVM66yH2j-fSNlEfXP_C8J9EMWJuBxogRqGIda4MRuSur3xT3PlJnJlh3zBpsjXFS-fURp-I4vD4f26UbdSQr0VcMEnDHOh-bAeMcJHPUakH_uZ7K330ooTKJC0gRzbue_q0AbCESOmL9WteYkI-j4BNjM-R9X59SyBD--huM7AYLwiCY6etRc7qR9qRhvIpjbTIowZkLSnqHNejKoZBilB-Tyj3DC0Gs-wMHmqauDNCLaEFPApPi2ZjaYL_f5-5YajC5amXFs1lSSYB74yho9rtzcq-JB7P9L08WL7YDiYCyimnIpP0YiGTTCawJ5VcC3jLdthQ6RyAch17Zouuxf_SkX8MELr15M3Cgs-UexY-jyNM23LyudE6L7VuZmSSXZS5bIx_YldprROI6Na1OO8FI4YSucJ5nifbRjpnYgZ87UN5Wqoks6X0h7l7UjO3qYyZCp28gl2OJdTSs=w1015-h373-no?authuser=0";
-var scmEq3Link = "https://lh3.googleusercontent.com/1qoMlgZWeIIVaXbGrj_We8y2IaCYIEWx8ZpmZErwkRVW1s9A2A8dn-ViZ4njz85Pw1Tf2XLNLjO16pY2M_DwLO3d8i_pOvJJypLe-v0WJYgD0TkRZvi4-WRAQgh2CEaoxDQdHLPiXROt9HxtlRC8l3iowttf-TZ1sgkVUONBPqFcVdg-iZFk7-yDRKSVxDW5Ym8VeT0oZAgG1MAVyLtWi7p34WrUoREjmKD0S0Q1Un0LjnCorPy_6UN7wzz5Acbc-eY_aVq7lls0bU-dlh-xv48asuzxi6kxBzTXKtVvACIAYEFMvI6wgJgeo73Be5cf0VOMXc1D49ptxgLzJzUHGbgnHN4ked0MfIA7xE-BaSVeS1dcn075NU3Kk42vbMn_7UMZ4P_yiZB2uzI5LkpWxCI1J4uvL-GDx4UypsL-TxWw4G0EJtWnVIL-UymtSISR8jvD7uQWEAKzUGe_8tGb5NR9RZPpvK0606HDa8_3zhIcGaopavEB8HRh41PaS6a_8moHsuZE_taGUtrjhPwkpk9IaCQCCC6lkrgtnXB1hV-BNizIbeUz7GUBLvcXt8GFlKy0gnoqvaKKCxVmsdFn365sZyzVwKDFO-EKNNPeLEnTViwGQCOr9qlSY-79srOFDVbFb9hJkqlak5ZpIU1ifZOiGINjxPL31yjyowWDIa9kaT4zpqatnAyf0kOU_YAWUw8em9sy1jAzwcUONFuCPKQ=w302-h190-no?authuser=0";
+var scmEq3Header = "https://lh3.googleusercontent.com/pw/AP1GczNcjMiFU1VsjiEL_ci1OCO4uLcfWIkGyyxaLaAWXTskJSmT3Cu7q2hc80T1dsOq_9x1W5fLjZ-m8LDmW7ryxpZ4R4Na_eHTdkXBIdtxWWNjLeSJLJEweMWhEYz5oq29MejoVLIUdkF5DVGlz-fk7vVC=w1014-h383-s-no-gm?authuser=0";
+var scmEq3Link = "https://lh3.googleusercontent.com/pw/AP1GczO1odVFkc1vwSUzV_feEuToeea5dN0Nh5U8Tsd3OvQrexrLzCLQkbIYhaML4xaYoVMTvXxwmXePe5adUQK0e7iK36meGbuXK55zfYjbOZBHXBgKMf6rWpKrS_OaPWYPyfwV_OKNqCUsQ4i69S_e_wsW=w315-h195-s-no-gm?authuser=0";
 
-var scmEq4Header = "https://lh3.googleusercontent.com/pw/AIL4fc87icIOkPF7iX30LsbP4VbV-_Q68gb5Masfa-otaxdp09bp6sIfRnvCQHy4HmyGWcLjsWLphYVu5r_72FH9bTrONhdKMDzhaO2Fl6yfuxZjQFbs_l8BWv14m5hihUaucYAN0iJ-d6z1dK6rEEd6Vttl=w487-h193-s-no";
-var scmEq4Link = "https://lh3.googleusercontent.com/pw/AIL4fc9chXZTH90i-BZwcw-Gm8wwiHFxucPWNiX2MXYBtZf-xZomcm2YC32wUQB97RbZ54qpl8Ab-RdntJ8Gu9cfiTrvFU3_xbZ_cMRnDs4TdBiof6Wzd2-FU6LVN_dHxHefaJf2zzq5sOBfbSOju7LiXz_o=w299-h203-s-no";
+var scmEq4Header = "https://lh3.googleusercontent.com/pw/AP1GczNwZ7QVgVsTaXl6JSR2dOVNbNxGLJPdfUYwSSzIR_QtmomLe12HpA10w0FPDnT2k7Uap8P2zFVQ4JfkCfqM0LkA2Ke-WiFIgOUZjbi7K-I7H4C4b2BoQd-NngssmRxtX64cDWRPZ2ZFp1SX7w7vMG_W=w1014-h379-s-no-gm?authuser=0";
+var scmEq4Link = "https://lh3.googleusercontent.com/pw/AP1GczPFuZJ9QQEcCR8jwK3klOo_HiqVhM74joA8glzR_XkM2d4BRs21rDYEAKpX_sjE1XC9xyLgti83PkbtnQomYCwbWlYh6GQfvfh-bhdPsQXF2jqbXzDfDwbSp_3D8iTv8SMwPrufO-D2DKbkE-OUdsGa=w317-h195-s-no-gm?authuser=0";
 
 
-var scmEq5Header = "https://lh3.googleusercontent.com/iTnT49mHEc5o-RnKIIWFbJNFeaWCnGH1z03DdcnrFNMaEcPc5ltjcAGMCjINXY5ivtGo1yVYUFkiD2JIYU6coCQ_Jflq6nCURGUZKNIte9yU6iUw3ed9Veytkk4oAQ9Ac1o8txDl5bWCbKwvUs_DeNCBEaRarfvlmgiVlnKvCOg9H0lHr1knYhnW_XFfwCEoTeIZhra4dOhyxkHFz83LPOLfljtI7i1NCw5ZRrV5iU4nyPMgKvke9CFQL_ZR24rlTWn_2qI91DnCl0ehbPyvs-7BVTevwQwgZC5UgK6h47rppCmIzCBl7jtNmc93x5Zm1A0MCm6pEcSAEfym-laPMs2yEDdOy1QxaxoE4xilH-RI4_U0I2KLWdqJspwjDntuwQg4WeTn4TDeMa3q6EdzyOJ_yMIjWJxz_SHmf177PXd8xiapdrfSiCkHQKrS9oaBg978PwW3f99kEYwsnsfVamzMDAqO-vLg8oDGERX0695mSH2EU7yYguBzhglrC1DnIl1_fWZyZJ3qHvkjip6rSH_Z_hNpVMFxIviOsKpa_Evy9kKBgh-M9vZUKhefZVmE4E-cTWvnbfUIwxGGUWWWvCe5JomgiLl7uaPHI_wFpf11akwSIJ_NcfqRDEf3hB-KyuNCo19p06C4Zgqb3B3H9IB5SxtCnyRS59h49G441qOgnBVr4Y2xbQelJNuhVDD3nvj-wutnPo4KkPLrt5myUvo=w1015-h351-no?authuser=0";
-var scmEq5Link = "https://lh3.googleusercontent.com/H57hr1PtO3b5_AyO77E-iz42eR-JcrFomo8qjoPESyA5pnYAJ9rnQDYKAr5d_2a9MV7ZMfFvxkfUG36s7zdwwCQbLHyFVe2C3fLCEiEP0NIPrg_-DB8JmFmUKha6bb7wWt1BRgfMspyugvfwvXFBcTFeXGVWisf1Hn98RQTUhVZCZmBYBh8M6Se3C4QKuoAV6hKVPIAt8Ni5-R590mwDuE4DR3iMgMiLXEwg5vUV-QlIBUolbthNGQA65WmC787fjIQuiqM--ck3UmUj-Mfa9Du6_VLLPUknouxywzi9enTH3NWrY-kDWpC9LznYDaQ2foc6ZL_1kOYzOG9xylB9VnQua3tjSUZhGWMHEJmVOLA_0HuOC9qrtlj1gGsngRj49ZH40xBieGDUFU0ciz-GExnfte2YvQFFN0in4gC84qdlsYA0cDZSIRCg2uq6Ptt1oVYK5aa_gwersbRuA2EKBZ8YR4S0tSnlZdctwaJvc2owsiMvBltN0AfrC3tS7bYSnQj5GS8eg4PNcyMP34jRWTWZxgKePKilJ4ae165bpllvqf6WAtOJLRQbBcjEERiKZHxRpotGiAyk_Zn-MqT6pkcknsman1aczPEiLaxUn6TgmQq7Y4GLPzNTxzzPWiwtpypREMT93EU5YJzPvxz3selou0SJyALm1TOueHvF3VovGVofUWgLt3vOkLTP9tWvzQ4COLhZkWNTauQhVon-rxE=w314-h190-no?authuser=0";
+var scmEq5Header = "https://lh3.googleusercontent.com/pw/AP1GczMifY58XMW5g9Vew8mZ-4DcYnWhc_a-XtGsxFvvKZxPjccxH1XAn_7PGLL1DG78TCadGesTlZIvMbuRFEQmp_S0CNzZcvNShbieGNZp4yEd-u6EtB_jLBZYrYSl7OyWtMirXRFRxuviHVSre0PoGApQ=w1014-h380-s-no-gm?authuser=0";
+var scmEq5Link = "https://lh3.googleusercontent.com/pw/AP1GczPbP4H_vSKlErgK1T5JOgt6dd0NT7axkUfkJYEiDI1SbGtFcEVeIWERgMeNvocdbHfNjVulLldH6PIXRGDwm0hj6tRPEcnHFIDs2odU1YJIf_zY_xEhyVUvJoFb0VvAiqJpNgOT0AtHPDFz2JTSCUBF=w318-h195-s-no-gm?authuser=0";
+
+var scmEq6Header = "https://lh3.googleusercontent.com/pw/AP1GczPniikwkEAv80fvplPVZ2bKgJVw_m51_EjTCsAheSdlcoMbR6UDQhP2FZsMVImfeSsCZYyV9rcwgJVKdkPcevOR6_eMYcjNeIVtt121hv4sgy5tRXUZ7BzZgc20pfYoSg4J0DuXlTbKlqqe1c7y48iQ=w1014-h387-s-no-gm?authuser=0";
+var scmEq6Link = "https://lh3.googleusercontent.com/pw/AP1GczPAIvd5JlAA996XNQ_Z0ArvlJHbhFMFKOzJ3N4v8zOeTusAbJhnY8i23uxlBgDR59VY-zq0GGadZaMu3-MXpS3m70wIxMgSNuk7IgatyzX1k_KqCcbs6Bt6j_g_8LXwZ6G3kGri2Z031lGxjOwJL2ga=w316-h195-s-no-gm?authuser=0";
+
+var scmEq7Header = "https://lh3.googleusercontent.com/pw/AP1GczMT8GoKPOXt-8Rt80zk_HoHFUqX4LvGfFZFmvjcoGo3_ADy8O8tREfjOoB4l-qvX0TOi4d-45wCH91eGbvYJ9cQUnN6s2KKIFFchjqY-9IzWPW2zlErsGUGWNPmT6a73cQ_LLFQjqvMMPlv4cNDeygI=w1014-h379-s-no-gm?authuser=0";
+var scmEq7Link = "https://lh3.googleusercontent.com/pw/AP1GczMdIqZHY906oFDLr25sZgdjpymyq1PkN3KJupOv1mvYt4rMim-R_3xYp3Lm0Odm4Z_6zfmoOpQKnspN1T1C3g2EMRyF1IgZQiGoiFPxKkOFypWvEqVY9JDvLxrAb8A3nrLWrK3YB5RI_Ffwlk2NL0Jd=w316-h195-s-no-gm?authuser=0";
+
 
 var scmEqDAHeader = "https://lh3.googleusercontent.com/8lDaclKmZLvdENgvMUl9AMxdW17eZwgQGNYvKK_T05Yg2UhsjjuxNOc8shKI7lvFMIkRildAX0BKRxVdV5Hv9WkGBZO7fNRT9IjtGMu8sl9m5kcB5g3L5sEP_hLxWQpPtts8vAQD1hW3-247y0-r6n7JrD3XdLc2PpfnmuP8cmOK1a_1DigbFtlosd7R4dmB2BqDIVHVrPuozHWuMzUzrlZAeSJ8qOo7_5LbIsWLJHgrWUCXjcjANmlBBSuHnK3lFbnpekqBzcxWsRUZjxhcZDjn8IFFvRTtlau9ixLPVmWB2SM4m1nMXKKSulMp1QPpA5wAX1yP6dtXjqQqbJX_HxEfj_CkCJh7pQaU-zYnHLqOsSKC_Iv5CpTmAc9qeFAsJM5ij0wVfHDYWPiwHJg9SvASRBJx6WXbOdBQL9KHxBJkLWxOjyo4nbTEHj8jiaUOgrxqs3EZne8jePLKWvFWOhSqhJ91E7IvvTP106wcDd5F1yUPUN3QNDT1ak2_-P5dYrrbwnQ1qeh87CszzM5Yw24GzQYvYELiqfYso5TpEQbWRN3j5l_h19JtZ-cRs9-ygpC2v_q2gsl5wkLkS_kSqL2zswHUan1gNHDs2gg_vicfywM87O3gu0qvy98t5PMf2uvX0e_2nt4XpogyIo6N21DOFyNJI8l2_to1KmQbqx3F43UED0Uxjp-ZPNzIiZFURCKLvONBabuMld_AkEm2Rwk=w1015-h351-no?authuser=0";
 var scmEqDALink = "https://lh3.googleusercontent.com/0fClOHa1lwEJ8LgbrnZ9da4gBOBTAqayssOfvZPhhu04E9J5pNo4zYaa2lyYnonfLshPQHIaFV1E023OLyTdInOjdhZ9fuPLxZNwZAQjPeHaOn6CqqFXdmny6zoGctm3FoQmIMzx9u8o1upTnX9CPF8idjQO-X9DuWclxO3iEHG0XGvDYyNVWlVh0zpCMxPt_hp1DnGVMY45vGpQld-iDnhU_s2YYD1xQnY0r17BGm4ZRWehyj7osPloFgLroO0yTI7N3Dsoi7rzwKVSJ1SZ4a3f-ZgChpOOz6BOxP-Zy0pdOac0ggIVvxdiRWs5hx_SnlCEhp-53HJRYlTzIyndEWBJ4TreLz4jTpGzip12qLvdLXw-GSinQd25CEWiVWpi2YEKG3z6ZjrQ9tfetk3U7OmEnVlFG0Nvd8jyXt-rYckDLPFidfx_a0qL3qdKbv7xQqalZRVBbezMfKhGnZ5HAeE-LR0YkP6mfKtLN3YYQNTT18AdaMS3lUBvcnkFRMEGssTCWmisQo6chnXb_lsad2lRf51r4ktgeafnBKEIJLloRyos8MuXnbJ4avJNdlPD0zCF9vikX5Wbgx2kVBIa5UY60XqNWVITzlHhmEzOBjtmS05LrZcVaZvpi0AF3_TYvi9tk-WtAQX99L_qpwxEJNiJTH9UfDwNua7M7WyNMuBObQQiXj9NjEL4RXSscMHuR_T06U3MKCAh1bJbWPiM1Tc=w242-h143-no?authuser=0";
-var scmEqV1Header = "https://lh3.googleusercontent.com/pw/AIL4fc-_v4BTsV8QvsZMoG-AzNHwa9XTJ_gfh6nJVf4xONHpvWv6I2CC_Dm2Rqq0pm_ifVIPRL3u9MUh6Xkir4DXM-BbbZ6vtbe05Lm2XVmWmjT-SwqKgp7iviWCN5wKJsl8vw8U33P78IE9i1oo7352f4cQ=w451-h169-s-no?authuser=0&fbclid=IwAR0DPxxKke3JlVakSFjhIE_k8wQikjD8zpFwedRj7NVQU7qmY8w0sf_hBok";
-var scmEqV1Link = "https://lh3.googleusercontent.com/pw/AIL4fc-NIg743Tiqb9d6_VWfRhEbdQMPSMDMY6Ghzf7XkQRAliX0LticuTYLsV40Uotd0PhLXsrllT3hmEREb4wRCBCmKlgSUWBLiU03fsBOhp9zA6hReGHdtKsZX95mdfbjcjP8hgEYW-b7CoSPpmjf3S0j=w302-h192-s-no";
 
-var scmEqV2Header = "https://lh3.googleusercontent.com/Ruvxz-c3owqxieY5KGS27Vuk3LqyyE8k-dz9LEPPCvAzyycSx9mJZx-BBmGo6x-UiKxq5Gok0C79_X1s-xku9pPxkNrxnIMNsApdfmr8Z1_bxWgDKZDpXvUQqrBi_Zufx_cSH_zjhYt0eHfiB_ypur1yUzcKeMK6bOfJzYUxRZQlm54ZRQ0_iuq9kwDoHFxlIqocNWfOb9OB4jOMRSMheUCBVnY-ko41ir1dAiA2sT9Wb9UyNGO5TA5HGHpWJxyPU1NpI4MGvJ73Tp5TKkx6UCxS8mR5pe0xygXdjc8Fb-F0rRyj7TcZF2rZ8B5OjlqFhmfSPftGY2ynGp1bkIwqQ82BT1d1EpiceHjjp7SnNI-M-R1FlbR3i9uBmtYEqODEfh2XPHUpgvPerm5xfEZnEs88QXZgnxbSZe5nN8B1GAUwrOwmYwI4heRPzTHXthgP1lbfFyFWo-7yG-H_Ulj7Jo6p5DKXGB29gEC35Qg577lXCtgwS4qvYr5DfbGsgj0OFz9Zm0-UF6fH5oxWigxPyZ4GyjjqbT_wWqT_cPYLsJ2ueN2Fnbz4o-qVRokw5KPxAQk7iebYAnB0CvhgTkkGxZtSk_rBf8e_kXdwunri9j_ixC_d760AcHEN2yP6HNsTIVTAi_IeT5UHp6LvXORRaMH0OVMvVzbp4-ysPwRrSvnmQz9dJjTpQTovRjol_hwBM0h4WksiJ4O2r0ks7UQI8Jw=w1015-h373-no?authuser=0";
-var scmEqV2Link = "https://lh3.googleusercontent.com/xbD0wBL1hzlVVFTrfHxSs9Nk79wBUwtauRTjrS4sVesYtYg-9pe3b5QRSK9cY2-n_7cg4SzkabhBAita2pLDh3gi4jd7CnpA2JcH6EAIbSnHpzqlQ1lmHA40hfvHRJDJC6R4qFHImYKGi0Urr3JsSHo6ibyy4lA1hD3t3Ls5byUzwaSkIO6QJLkG98v8DS4o2PVspPYNwKuZBjEi-jjWMZSaoECnlK2F1mZXvewosPYfqIJPBCocc6MD2j_vGaK6ESMP5GkisfQgFwSsAZQts5LlMFF29b_kNEUnswylLhRuA4hCNkqiAil-1Exs9WYcnxviDbI3uLCOgbCY4mNtOot2ZIaN1eY9Cw3j7GubisGxVWbhsLwkDww1Ti6PPwsg3811bRYaicLsi6zrI1W5ASjOCQpVfUG8Aw-GG0V0zyhY9KeB_JOtJ8vRnxkb7UGcDOzPoIN2Zkyv5fCoLCP185kEAk-Et0EhEOL23cPZwBOYKBO2Nwws_SwJe3MQWweuQ6AosWm2jxbP8Mt-AeDCE5fk1fpOyuzTfVZM64UHqoykxAmrw4t8TC3u8PGzZDWVBzxVZ6zzySARpMlLDrULGGsg9FNvoFkB6KpZihA93NLuudEObNOU4iwIcDYQEnN664QFCRrUTzsbZzHTgbtptDgrB7AV_03xtfayruPd8gW7bn3c3-v2Op_xnw6bE6h9GgIeeomkS36sXbmiWtaoDdk=w307-h190-no?authuser=0";
+var scmEqV1Header = "https://lh3.googleusercontent.com/pw/AP1GczMKnWEQ5B6X2E3NqvUfUEAdB-Ffe8hGHCUa97wVmy3N0lvxrusEyt6cG3u-oY4i7J3EpBtAfGG4k69H28RmfiQghuLXRYN8z9u1cG8dtTdoqpfqDvVbjz9vwL4476611JdrXENAOWrlr5AJiihwVYnt=w1014-h381-s-no-gm?authuser=0";
+var scmEqV1Link = "https://lh3.googleusercontent.com/pw/AP1GczPn25d8K978VOrCETJNKoF-XTduHwkp68YRwfJcF-_9jAAe_AK5LdN8lvhxtbQxeO41a4nuNuojeX2VgwFQwoYNrKLTfqnRFrBExU0viqZ61shzzUgUdd0DIoHFtpMj3mbLlVbfLB5SBfzBJylEcrCe=w316-h195-s-no-gm?authuser=0";
 
-var scmEqV3Header = "https://lh3.googleusercontent.com/pw/AP1GczOpy4DJbrbTwd4cyEKJUeweOpkXziAzTLbdZaw1VOSg8LYp65lARpZv-hamgBDVemqmgT3KR1VVHqtcTV0rnKphnuJvkDticLRl5_TcBetu68fH8XbfskFoBt6KPdhYZmpUOmf_AF0hrVpgDTlc4N1E=w1014-h390-s-no-gm?authuser=0";
-var scmEqV3Link = "https://lh3.googleusercontent.com/pw/AP1GczNLtmZ_hVg9dGGKs36d4_aBb7BoVSjzxqlKkLbiEljfUoB_b1mfHFFpHccO8ImwAsHmeobr-q7RPWZZ3R8WsNV_vDNQ9wyv3LRWFWGYYNaEdT3-md3Cts-GpW9zEj3Wb50AkgOo1acJq4Mo5EkSKOsI=w466-h297-s-no-gm?authuser=0";
+var scmEqV2Header = "https://lh3.googleusercontent.com/pw/AP1GczNI9v4UcEcove5RhqgkA4uXaxEL2aCOpLESmITv956I4-3NuxTEiHAd9SBgYX19JkVV5ZJzE2aBo1ccHJhL3bJFQpOsLpc9vJKzyNolR9yoX69sMvDgDkwj46PVBgUBpc3vacrlTVKtLgJSvLl-VYK9=w1014-h384-s-no-gm?authuser=0";
+var scmEqV2Link = "https://lh3.googleusercontent.com/pw/AP1GczP7cN5hXdUXFnjFC6emyGOrDaCQKy0-ePcMwenC9QXrdk8ZyAmAy6Lcpj5IAQv-vfsyLp41jvaWoVG6j3EQa-H4j1OYGQkoz_I5_mPkBYCmiyBYFLBAmv68oEyoznRBUVc3AFJiBt25ymAp6_Zdswz9=w318-h195-s-no-gm?authuser=0";
+
+var scmEqV3Header = "https://lh3.googleusercontent.com/pw/AP1GczObcGzvGTRiP8AMCWN8DPMLexvzqVssQ-WXges0XVBQfuEJVeJt9wsMM8Ya2iVjzr_SJVMcOYCQ2d7PnLTeDTIevwDl4CB2yYuRd5tQ0brZgqGtZ5cbnoDhuICiafW2ZrV5ohjpk4VsCEGhoEmTBR7l=w1014-h380-s-no-gm?authuser=0";
+var scmEqV3Link = "https://lh3.googleusercontent.com/pw/AP1GczMDLwPdyxlugGrwmpthjI3KPYqGHYiCV9lH5cyJjbfDTkh-v-532O55yg4YGfLugwotGgoz9m4u_zF0Iv4-HXMbnsvOgxu5DqCSpzydOyqJ006G3fPwbzuhmguGIwSOJ02lbd6QbRXPUUcTf_5rHHVi=w317-h195-s-no-gm?authuser=0";
 
 
 // ********
@@ -141,11 +149,11 @@ Chal18Spons.push(spPepiniere);
 Chal19Spons.push(spPepiniere);
 */
 
-/*
+
 nbrSpons = nbrSpons + 1
 var spSirre = nbrSpons;
 scmSpons[spSirre] = { Name: "Patisserie Sirre", src: "https://lh3.googleusercontent.com/pw/AP1GczNAkL6PzGOJyPpd-KzC1Dtu8NvXjhxdrvEr6KgUQDX1shiTbz87ewXTVUL_JpZuWlsXnIQ2Cef4z9xtwY-OAhZ5WrBVw7fALwj90LxdxrYutC6VvxAaptGlvX9Wmvz3WfOU8xQAKlJ-Kip5jQpTQith=w309-h168-s-no-gm?authuser=0", width: 220, fbname: "", fb: "https://www.facebook.com/patisseriesirre", webname: "sirre.be", href: "http://www.sirre.be", target: "_blank", texte: "www.sirre.be", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""};
-*/
+
 
 /*
 nbrSpons = nbrSpons + 1;
@@ -154,11 +162,11 @@ scmSpons[spGailly] = { Name: "Gailly sprl", src: "https://lh3.googleusercontent.
 Chal19Spons.push(spGailly);
 */
 
-/*
+
 nbrSpons = nbrSpons + 1;
 var spSREntreprises = nbrSpons;
 scmSpons[spSREntreprises] = { Name: "S R Entreprises", src: "https://lh3.googleusercontent.com/pw/AP1GczNLz5dm2fyHkBm2eyPmuCAZ438ibkFcxxfmx0oRDMIR6Ont1hoTULhlZHHzx3zqd1YhuDzOl7xEFoni83TvOHbL8QjZQkoIwCA7Q5lq2v2VT8OvJDV2aYTWPsM2jai2qYXj-Ce5GL7d65daqowRm9KW=w538-h524-s-no-gm?authuser=0", width: 150, fbname: "", fb: "", webname: "", href: "", target: "", texte: "", infoAdr: " ", infoTel: " ", infoMail: "", infodesc: " "};
-*/
+
 
 
 nbrSpons = nbrSpons + 1;
@@ -177,25 +185,26 @@ nbrSpons = nbrSpons + 1;
 var spThema = nbrSpons;
 scmSpons[spThema] = { Name: "Architecture Thema", src: "https://lh3.googleusercontent.com/pw/AP1GczOwHgMwnfl13cWrlYEdY532iMV9TSAX6w2efnNb-cIaik8lT0XQ1F9ipmZmVujRSrlaGAKxRr8GCEVk0c5YQ5TmwN8zUc228SrnN25ZiJw3gJ5P-a8_1aeqOMQ9sdyPP9tcnALEVCjCshMmhjz64TIN=w567-h381-s-no-gm?authuser=0", width: 150, fbname: "", fb: "https://www.facebook.com/themasprl", webname: "architecture-thema.net", href: "http://www.architecture-thema.net", target: "_blank", texte: "", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""};
 */
-
+/*
 nbrSpons = nbrSpons + 1;
 var spMonPlanning = nbrSpons;
 scmSpons[spMonPlanning] = { Name: "Mon Planning", src: "https://lh3.googleusercontent.com/pw/AP1GczOgRGIf3kfkQWvlc6jgHFhK_dQ8tj7T9ubGrfXYQf8x9KvF9PFmJIWmcmfFTWyRChKlOm_LIUDFsbCQdR8gyPZVQriImLv1auanly0K_k1iXTi5KDjCv8EIqf2QmVg-iiapXjlZ-9dXdrDdqLeIjA8S=w1014-h477-s-no-gm?authuser=0", width: 150, fbname: "", fb: "https://www.facebook.com/monplanning", webname: "monplanning.be", href: "https://www.monplanning.be/", target: "_blank", texte: "", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""};
-
+*/
+/*
 nbrSpons = nbrSpons + 1;
 var spMenchIndustry = nbrSpons;
 scmSpons[spMenchIndustry] = { Name: "Mench Industry", src: "https://lh3.googleusercontent.com/pw/AP1GczOCdtAq4I7ith_IjC5P-o7Jr8wQ1KoEDTb6qRXrqj-ctnCjTYBbluH3T6DMYCzkYHDAltze8yVbdYml5-h45ZLnD-6zPpePAMEKO4XBugBq-pPSeS8Rvgu_7XAMRvtisBUtF7vb_FatqH9W0NwDU3Fu=w675-h180-s-no-gm?authuser=0", width: 150, fbname: "", fb: "", webname: "mench.be", href: "https://mench.be/", target: "_blank", texte: "", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""};
- 
+ */
 
 nbrSpons = nbrSpons + 1;
 var spSCR = nbrSpons;
 scmSpons[spSCR] = { Name: "Swimming Club Rixensart", src: "https://lh3.googleusercontent.com/pw/AIL4fc8k8f1e8AWnjXPpuxT_e3YxON1mZkbjKl4CER03ctP9U7vPLQcfUOWxudjJXys4cRFbiilRTdQXqYG4INWQVsJDd0D3r3ofrIviPCfSeEYIwdXVd9lqUEqQsFZqVVHx7ftv5VanD5Heku_71xFp4_Xc=w300-h281-s-no?authuser=0", width: 150, fbname: "", fb: "https://www.facebook.com/SCRixensart", webname: "scrixensart.be", href: "https://www.scrixensart.be", target: "_blank", texte: "www.scrixensart.be/", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""};
 
-/*
+
 nbrSpons = nbrSpons + 1;
 var spJappe = nbrSpons;
 scmSpons[spJappe] = { Name: "Jappe", src: "https://lh3.googleusercontent.com/pw/AIL4fc_15tliS3_rIgYffcg1mLyz5eyBcXB1YkjvMXxcaYLtjuJ1pCHSS80VYtzfj9QtFzkGdPlgoavhX-k54EhqdI3ZlN_D702XJecWjf6e2uYCDIeH6Vq5bAvqf5A3xgD_N6HErpdBBfEshZ9QhrqKHMfD=w811-h572-s-no?authuser=0", width: 150, fbname: "", fb: "", webname: "", href: "", target: "", texte: "", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""};
-*/
+
 /*
 nbrSpons = nbrSpons + 1;
 var spBBStore = nbrSpons;
@@ -237,9 +246,11 @@ nbrSpons = nbrSpons + 1;
 var spAlPassaggio = nbrSpons;
 scmSpons[spAlPassaggio] = { Name: "Trattoria Al Passeggio", src: "https://lh3.googleusercontent.com/8_JIA-taOIudC3QYruitaLfSE2sh91kroxPTTswJLiUKnvQaerYIZuH4cxsZTM_YGLXRqxdIqZ1Igas1oBEmjgytB7tq2aeH6yWyTmi0wcV9cRYkH_40cjP-vPMxhTuRE4WFxOlEixxTaNLajrTtGs2FGqIpVuew2xkO8tLDJjN1s037HI11bibhQyEE7umkEN_MrDoSpO0F3pNbZc9FeKWdHPyE2KoTCEqCTOhWaIy8QtuxE-3monPESB_W7cf-aL5rM7dmDTuOFGkhMBTltQThX0z2Zy7Fv3xsHibPsgmAj4w9fkEJMwlbdqo37fHWSs59WR_48nkHUJoojumUI5C-cvzdwixd1osUTo-OSKcgbMGoySAQdAM59-o6rNiMcwV_lgiVwV59UHVw73cPBZAYvppfUgY56Nv0tN7ImUP6GPqbvqzixvuGM3WLUMYXcyzqQDyOOoSIoYdcUXnajvygzecPiJid75z-IPNLMN0KiC8-9E9sWSANfvpgfA0LY0Ghn_lVag0gA4z_U78BeWiYUGWncTh09P1Z7OHBhnlItXX2JFrSfcfJWTavCE93XnKNggcQjXs--RG7cCtqwNVm9UaS7YFmf85VhuvKfMlE6ERDEyLepcgB3Y__7VJka-Nv2UhzHHKmLawbtjuuRaGYuoACBnaQhu0ucUTwwLGOkTJSuhjnUb7B4VS47iCl76k1MiSxFVAWTGC49f2iXN3hHB5_hc5GlcGg7qPLXzAnjqs=w167-h70-no", width: 220, fbname: "", fb: "", webname: "", href: "", target: "", texte: "Trattoria Al Passeggio", infoAdr: "Via Cavour 4/a, 36053 Gambellara (VI) Italia", infoTel: "+39/444 444 074", infoMail: "", infodesc: "Restaurant"};
 
+/*
 nbrSpons = nbrSpons + 1;
 var spEnotecaDelSoave = nbrSpons;
 scmSpons[spEnotecaDelSoave] = { Name: "Enoteca Del Soave", src: "https://lh3.googleusercontent.com/pw/AP1GczOVd6EgXyVm0EO0WYcA1yUBPcdU-p5u8BvcUDrSaO7l0QMc4RqdjnPpzkYLpSzc4__IPHPxbuZqEDT9bmVvStPJYa_bwwmTQJC39Qsinr6Y_2Jlz3wNhy5nJDHADwzZaHPrpN_J2mdXXZmrAWcCqjZi=w645-h736-s-no-gm?authuser=0", width: 220, fbname: "", fb: "https://www.facebook.com/enotecadelsoave", webname: "enotecadelsoave.it", href: "http://www.enotecadelsoave.it/", target: "_blank", texte: "Enoteca Del Soave", infoAdr: "", infoTel: "", infoMail: "", infodesc: "Restaurant"};
+*/
 
 
 
@@ -570,6 +581,104 @@ scmSpons[0] = { Name: "Mariners", src: "https://lh3.googleusercontent.com/-6I4Xr
 var scmTeamsNbr = 0;
 
 // A METTRE A JOUR !!!!!!!
+
+// 2025-2026
+// *********
+
+scmTeamsNbr = scmTeamsNbr + 1;
+var scmIta26a = scmTeamsNbr;
+scmTeams[scmIta26a] = { Saison: "2025-2026", Name: "Marinieri 2026", Event: "Eurotorneo 2026"
+, src: "https://lh3.googleusercontent.com/pw/AP1GczOdQx8pq8dg7jYLn4O8ZjXVOb0aU4TuSjp05DhB9Ewoyoy6WcvRyY-TETPWvsL5o_Y1_z-JSKkojPq4Ti8CvSMgRiJOlSsXBBiTWDODRfsSAhLy0TuOy7ygBFufXPxjhg1fvAnc2F1QFIT0Gl04SLmi=w1014-h644-s-no-gm?authuser=0", width: 400, target: "_blank",
+    texte: "",
+    desch: "",
+    descb: ""
+};
+
+scmTeamsNbr = scmTeamsNbr + 1;
+var scmIta26b = scmTeamsNbr;
+scmTeams[scmIta26b] = { Saison: "2025-2026", Name: "Marinieri 2026", Event: "Eurotorneo 2026"
+, src: "https://lh3.googleusercontent.com/pw/AP1GczMlDD0X7Q7zc21Lq_qi8OHun0dDweI81JiXfYBwhOGDjCcKaDSP70P2ZgoM1NP-MwCwjgv_n3pnYGCxTIluZsKglfIxk0HArxygAKaPkA3OBqcJcvm2EIm7p_NdBvoGWFyUrVPgeXPX0tc6aYGxOKl9=w1014-h628-s-no-gm?authuser=0", width: 400, target: "_blank",
+    texte: "",
+    desch: "",
+    descb: ""
+};
+
+
+scmTeamsNbr = scmTeamsNbr + 1;
+var scmIta26c = scmTeamsNbr;
+scmTeams[scmIta26c] = { Saison: "2025-2026", Name: "Marinieri 2026", Event: "Eurotorneo 2026"
+, src: "https://lh3.googleusercontent.com/pw/AP1GczOp5x9xSykf0Sp-1eGsempt62bZ0y6GHnXp5IincHFYtC9kLXn-aXAyX1PC3A7MOMDkwhxy_GjdOh_w-Un6z_hjUUT3ksCwgwEvema95dVsF7Ofi6GqRrVYHgEVKManZAAiDH3fzkdR8yyCgBa_Xskk=w1014-h583-s-no-gm?authuser=0", width: 400, target: "_blank",
+    texte: "",
+    desch: "",
+    descb: ""
+};
+
+
+
+// 2024-2025
+// *********
+
+scmTeamsNbr = scmTeamsNbr + 1;
+var scmIta25f = scmTeamsNbr;
+scmTeams[scmIta25f] = { Saison: "2024-2025", Name: "Marinieri 2025", Event: "Eurotorneo 2025"
+, src: "https://lh3.googleusercontent.com/pw/AP1GczNEglNgLvb57qQXJwuwdlNKEU1RU8K1pN8VS2DE58l-GWRLiY13vIiYz2wfZ6R8-F7oGfEAugzd3Uv-qVKcmrxKlzyiA2SRiIODoE9NEXltrLG-pQlPbHCNfmtciyCon8302oVmLMOWbj04EU6xvdpD=w1014-h516-s-no-gm?authuser=0", width: 400, target: "_blank",
+    texte: "",
+    desch: "",
+    descb: ""
+};
+
+
+
+scmTeamsNbr = scmTeamsNbr + 1;
+var scmIta25e = scmTeamsNbr;
+scmTeams[scmIta25e] = { Saison: "2024-2025", Name: "Marinieri 2025", Event: "Eurotorneo 2025"
+, src: "https://lh3.googleusercontent.com/pw/AP1GczNoymS-JrwiYFh02dyPDAz7B9cbc1LrQu20tYpACAYy9LBbSoi-uZ89O_ni-7Wr3XtXpG57fyB_8DzFL_Vr9VJJXFkGU5nz-s6QQtxvJ2qR5IBJ21odnX5BFkORIOyNA1K_XxPzcA7zUKniyybbvYDg=w1014-h484-s-no-gm?authuser=0", width: 400, target: "_blank",
+    texte: "",
+    desch: "",
+    descb: ""
+};
+
+
+scmTeamsNbr = scmTeamsNbr + 1;
+var scmIta25d = scmTeamsNbr;
+scmTeams[scmIta25d] = { Saison: "2024-2025", Name: "Marinieri 2025", Event: "Eurotorneo 2025"
+, src: "https://lh3.googleusercontent.com/pw/AP1GczOuRtvqKn2HFt3qcgnWMFiw1fNag5gN9ktxE65kLOIVm9Ibk_OS4ky92vbB7NQlENOVxG491Gj46HgNSsE0W3vssor6pTUSKIB7lvltIA_LdfhgDegIOXpTFrU4VVcaRJ5x8oko7L4ZvjBAa_Q7kYNx=w1014-h676-s-no-gm?authuser=0", width: 400, target: "_blank",
+    texte: "",
+    desch: "",
+    descb: ""
+};
+
+scmTeamsNbr = scmTeamsNbr + 1;
+var scmIta25c = scmTeamsNbr;
+scmTeams[scmIta25c] = { Saison: "2024-2025", Name: "Marinieri 2025 - Eq 2", Event: "Eurotorneo 2025"
+, src: "https://lh3.googleusercontent.com/pw/AP1GczNOppRQc8BWW_eBnlGLNcx17AfOi-X44ZE0KwnF0jqDwZTkW_wXwYPrktUPfMVoOwRAD8e2BPVi0UGA16gisQ7xrMdgCsspacthk7RNzXm5Sq4_62LpTwKMzf-2uKvwMmpEwoP0q7GXY_5uKwFfPQr1=w1014-h631-s-no-gm?authuser=0", width: 400, target: "_blank",
+    texte: "",
+    desch: "",
+    descb: ""
+};
+
+
+
+scmTeamsNbr = scmTeamsNbr + 1;
+var scmIta25b = scmTeamsNbr;
+scmTeams[scmIta25b] = { Saison: "2024-2025", Name: "Marinieri 2025 - Eq 1", Event: "Eurotorneo 2025"
+, src: "https://lh3.googleusercontent.com/pw/AP1GczNfl19zOZjJJ3boXS35NMUE4oKAs_xeMb8WHUMPDN4UGvM-7gi2xZnlaENideuNbbZCLMqnXWABLbsnl4dnTUZMPceFWHLVIKCYehuW3u7CUVqYo1htna1fAB90eELkbIS7ENbReS5erFDBR4OqYsG7=w1014-h732-s-no-gm?authuser=0", width: 400, target: "_blank",
+    texte: "",
+    desch: "",
+    descb: ""
+};
+
+
+
+scmTeamsNbr = scmTeamsNbr + 1;
+var scmIta25a = scmTeamsNbr;
+scmTeams[scmIta25a] = { Saison: "2024-2025", Name: "Marinieri 2025", Event: "Eurotorneo 2025"
+, src: "https://lh3.googleusercontent.com/pw/AP1GczP_laJPc4lYEopqFDFkxVFNDteYnVm5JxNYFPXh7jiq54G0TvHZPkwUEmDkK3gfIqpqPTwPlC9VJZcIH0XE6w_o1xrry1hZ07eIu05O-3qWti3EUs5ZjjZlLpkeU-GceQVk46WdUMJ3BtNNTX4sbZ5k=w1014-h529-s-no-gm?authuser=0", width: 400, target: "_blank",
+    texte: "",
+    desch: "",
+    descb: ""
+};
+
 
 // 2023-2024
 // *********
