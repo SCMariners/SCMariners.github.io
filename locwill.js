@@ -23,7 +23,7 @@ var scmEqV2Name = "MARINERS AUDERGHEM V2";
 var scmEqV3Name = "MARINERS AUDERGHEM V3";
 var scmEqDAName = "MARINERS AUDERGHEM D";
 
-var scmMain = "sc##.##mariners##1##gmail##.##com";
+var scmMain = "scmarinersaud##1##gmail##.##com";
 var scmCopy1 = "david##.##seguis##1##outlook##.##be";
 var scmCopy2 = "fation07##1##outlook##.##fr";
 var scmCopy3 = "loretteced##1##hotmail##.##com";
