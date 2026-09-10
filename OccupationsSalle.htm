@@ -53,6 +53,7 @@
       var treatloc = 1;
       var testweek = 0;
       var CurWeek = 0;
+	  var ReservationEq = "";
 
       setWillCalendar(calWillLU, 2100);
       setWillCalendar(calWillLU, 2200);
@@ -333,6 +334,7 @@
       for (i = 0; i < calreservation.length; i++) {
 
           Mdate = calreservation[i];
+		  ReservationEq = calreservationEQ[i];
           matchday = Mdate.toString().substr(6, 2);
           matchmonth = Mdate.toString().substr(4, 2);
 
@@ -340,7 +342,7 @@
           $('#' + Mdate).text("");
           $('#' + Mdate).css('color', 'orange');
 
-          $('<div class="items"></div>').html(matchday + '/' + matchmonth + '<br>' + typematch).appendTo('#' + Mdate);
+          $('<div class="items"></div>').html(matchday + '/' + matchmonth + '<br>' + typematch + '<br>' + ReservationEq ).appendTo('#' + Mdate);
 
       }
 

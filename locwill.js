@@ -112,139 +112,171 @@ calWillSA[6] = ["12/06/2027","26/06/2027"];
 
 
 var calreservation = [];
+var calreservationEQ = [];
 
 calreservation.push(202608032100);
+calreservationEQ.push("Mariners");
 calreservation.push(202608102100);
+calreservationEQ.push("Mariners");
 calreservation.push(202608172100);
+calreservationEQ.push("Mariners");
 calreservation.push(202608242100);
+calreservationEQ.push("Mariners");
 calreservation.push(202608312100);
+calreservationEQ.push("Mariners");
 
 calreservation.push(202608032200);
+calreservationEQ.push("Mariners");
 calreservation.push(202608102200);
+calreservationEQ.push("Mariners");
 calreservation.push(202608172200);
+calreservationEQ.push("Mariners");
 calreservation.push(202608242200);
+calreservationEQ.push("Mariners");
 calreservation.push(202608312200);
+calreservationEQ.push("Mariners");
 
 calreservation.push(202608052000);
+calreservationEQ.push("Mariners");
 calreservation.push(202608192000);
+calreservationEQ.push("Mariners");
 
 calreservation.push(202608052200);
+calreservationEQ.push("Mariners");
 calreservation.push(202608192200);
+calreservationEQ.push("Mariners");
 
 calreservation.push(202608142100);
+calreservationEQ.push("Mariners");
 calreservation.push(202608282100);
+calreservationEQ.push("Mariners");
 
 calreservation.push(202609072100);
+calreservationEQ.push("Vets");
 calreservation.push(202609142100);
+calreservationEQ.push("Vets");
 calreservation.push(202609212100);
-calreservation.push(202609282100);
+calreservationEQ.push("Vets");
 
 calreservation.push(202609072200);
+calreservationEQ.push("Mariners");
 calreservation.push(202609142200);
-calreservation.push(202609212200);
-calreservation.push(202609282200);
+calreservationEQ.push("Vets");
 
 calreservation.push(202610052100);
-calreservation.push(202610122100);
+calreservationEQ.push("Vets");
+
 calreservation.push(202610192100);
+calreservationEQ.push("Vets");
 calreservation.push(202610262100);
+calreservationEQ.push("Vets");
 
 calreservation.push(202610052200);
-calreservation.push(202610122200);
+calreservationEQ.push("Eq5 Coupe");
 calreservation.push(202610142200);
+calreservationEQ.push("Eq6 Coupe");
 calreservation.push(202610192200);
+calreservationEQ.push("Vets");
 calreservation.push(202610262200);
+calreservationEQ.push("Vets");
 
 calreservation.push(202611022100);
-calreservation.push(202611092100);
+calreservationEQ.push("Vets");
 calreservation.push(202611141900);
+calreservationEQ.push("Eq6");
 calreservation.push(202611142200);
+calreservationEQ.push("Eq7");
 calreservation.push(202611162100);
-calreservation.push(202611232100);
+calreservationEQ.push("Vets");
 calreservation.push(202611281900);
+calreservationEQ.push("Eq6");
 calreservation.push(202611282200);
+calreservationEQ.push("Eq7");
 calreservation.push(202611302100);
+calreservationEQ.push("Vets");
 
 calreservation.push(202611022200);
-calreservation.push(202611092200);
-calreservation.push(202611162200);
-calreservation.push(202611232200);
-calreservation.push(202611302200);
+calreservationEQ.push("Vets");
 
 calreservation.push(202612072100);
+calreservationEQ.push("Vets");
 calreservation.push(202612142100);
-calreservation.push(202612212100);
+calreservationEQ.push("Vets");
 
 calreservation.push(202612072200);
-calreservation.push(202612142200);
-calreservation.push(202612212200);
+calreservationEQ.push("Vets");
 
-calreservation.push(202701042100);
 calreservation.push(202701112100);
-calreservation.push(202701182100);
+calreservationEQ.push("Vets");
 calreservation.push(202701252100);
+calreservationEQ.push("Vets");
 
-calreservation.push(202701042200);
 calreservation.push(202701112200);
-calreservation.push(202701182200);
-calreservation.push(202701252200);
+calreservationEQ.push("Vets");
 
 calreservation.push(202701232200);
+calreservationEQ.push("Eq 7");
 
 
 calreservation.push(202702012100);
+calreservationEQ.push("Vets");
 calreservation.push(202702082100);
+calreservationEQ.push("Vets");
 calreservation.push(202702152100);
+calreservationEQ.push("Vets");
 calreservation.push(202702222100);
+calreservationEQ.push("Vets");
 
 calreservation.push(202702012200);
-calreservation.push(202702082200);
-calreservation.push(202702152200);
-calreservation.push(202702222200);
+calreservationEQ.push("Vets");
 
 calreservation.push(202702202200);
+calreservationEQ.push("Eq 7");
 
-calreservation.push(202703012100);
 calreservation.push(202703082100);
-calreservation.push(202703152100);
+calreservationEQ.push("Vets");
 calreservation.push(202703222100);
-
-calreservation.push(202703012200);
-calreservation.push(202703082200);
-calreservation.push(202703152200);
-calreservation.push(202703222200);
+calreservationEQ.push("Vets");
 
 calreservation.push(202704052100);
-calreservation.push(202704122100);
+calreservationEQ.push("Vets");
 calreservation.push(202704192100);
-calreservation.push(202704262100);
-
-calreservation.push(202704052200);
-calreservation.push(202704122200);
-calreservation.push(202704192200);
-calreservation.push(202704262200);
+calreservationEQ.push("Vets");
 
 calreservation.push(202705032100);
-calreservation.push(202705102100);
+calreservationEQ.push("Vets");
 calreservation.push(202705242100);
+calreservationEQ.push("Vets");
 calreservation.push(202705312100);
+calreservationEQ.push("Vets");
 
-calreservation.push(202705032200);
-calreservation.push(202705102200);
 calreservation.push(202705242200);
+calreservationEQ.push("Vets");
 calreservation.push(202705312200);
+calreservationEQ.push("Vets");
 
 calreservation.push(202705292200);
+calreservationEQ.push("Eq 7");
 
 calreservation.push(202706072100);
+calreservationEQ.push("Vets");
 calreservation.push(202706142100);
+calreservationEQ.push("Vets");
 calreservation.push(202706212100);
+calreservationEQ.push("Vets");
 calreservation.push(202706282100);
+calreservationEQ.push("Vets");
 
 calreservation.push(202706072200);
+calreservationEQ.push("Vets");
 calreservation.push(202706142200);
+calreservationEQ.push("Vets");
 calreservation.push(202706212200);
+calreservationEQ.push("Vets");
 calreservation.push(202706282200);
+calreservationEQ.push("Vets");
 
 calreservation.push(202706122200);
+calreservationEQ.push("Eq 7");
 calreservation.push(202706262200);
+calreservationEQ.push("Eq 7");
