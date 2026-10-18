@@ -47,7 +47,7 @@ var CentreFerme = [];
 
 calWillLU[8] = ["03/08/2026","10/08/2026","17/08/2026","24/08/2026","31/08/2026"];
 calWillLU[9] = ["07/09/2026","14/09/2026","21/09/2026","28/09/2026"];
-calWillLU[10] = ["05/10/2026","12/10/2026","19/10/2026","26/10/2026"];
+calWillLU[10] = ["05/10/2026","12/10/2026","26/10/2026"];
 calWillLU[11] = ["02/11/2026","09/11/2026","16/11/2026","23/11/2026","30/11/2026"];
 /*CentreFerme.push(202511112100);*/
 calWillLU[12] = ["07/12/2026","14/12/2026","21/12/2026","28/12/2026"];
@@ -166,8 +166,6 @@ calreservationEQ.push("Vets");
 calreservation.push(202610052100);
 calreservationEQ.push("Vets");
 
-calreservation.push(202610192100);
-calreservationEQ.push("Vets");
 calreservation.push(202610262100);
 calreservationEQ.push("Vets");
 
@@ -175,8 +173,6 @@ calreservation.push(202610052200);
 calreservationEQ.push("Eq5 Coupe");
 calreservation.push(202610142200);
 calreservationEQ.push("Eq6 Coupe");
-calreservation.push(202610192200);
-calreservationEQ.push("Vets");
 calreservation.push(202610262200);
 calreservationEQ.push("Vets");
 
