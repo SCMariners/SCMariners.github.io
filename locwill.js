@@ -183,6 +183,8 @@ calreservationEQ.push("Eq6");
 calreservation.push(202611142200);
 calreservationEQ.push("Eq7");
 calreservation.push(202611162100);
+calreservationEQ.push("Eq2");
+calreservation.push(202611252000);
 calreservationEQ.push("Vets");
 calreservation.push(202611281900);
 calreservationEQ.push("Eq6");
