@@ -116,6 +116,10 @@ var spLeMounier = nbrSpons;
 scmSpons[spLeMounier] = { Name: "Le Mounier", src: "https://lh3.googleusercontent.com/pw/AP1GczOeT2x06C74oZRr-7fpAxJpb9dlJMHvTZKd6NBQKG85FRmHmvpYyfUYN6fwkvXGTWFwL6uxJIsNUNNc6LJUNxrZHry4lsOMsoEyFN3XoInBWYJi2BHyp32Tj_QMaH4kEUObddS0t4yXtn89MjGfJ6kz=w677-h560-s-no-gm?authuser=0", width: 150, fbname: "", fb: "https://www.facebook.com/restaurantlemounier", webname: "", href: "", target: "_blank", texte: "", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""};
 
 
+nbrSpons = nbrSpons + 1;
+var spStarCasino = nbrSpons;
+scmSpons[spStarCasino] = { Name: "Starcasino", src: "https://lh3.googleusercontent.com/pw/AP1GczPgMq56hwOtKhIXuakSZGpl6RkXIAyEj-qmgTpJQGvWnk_ENtdlLbWTDSth0bl3AOyC2sJCUubr6XYNtllmD2_v3rq7SZbD48nAltfRJFcKbSIbHmx77eyus4EMlTcuIZzEJ49DpFhL7jKgk-5wU1de=w512-h512-s-no-gm?authuser=0", width: 150, fbname: "", fb: "", webname: "starcasino.be/", href: "https://www.starcasino.be/", target: "_blank", texte: "www.starcasino.be", infoAdr: "", infoTel: "", infoMail: "", infodesc: ""};
+
 
 nbrSpons = nbrSpons + 1;
 var spNorthGroup = nbrSpons;
